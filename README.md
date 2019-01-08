@@ -1,3 +1,3 @@
-git clone repo
-npm install
+git clone repo  
+npm install  
 npm start

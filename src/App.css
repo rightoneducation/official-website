@@ -1,0 +1,496 @@
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  height: 180px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+header {
+  display: flex;
+}
+
+.logo-branding {
+  margin: auto;
+  width: 780px;
+  padding: auto;
+}
+
+.about-landing {
+  width: 400px;
+}
+
+.about-blurb {
+  width: 300px;
+  margin-top: 10px;
+}
+
+.product-image {
+  width: 520px;
+}
+
+/* .nav-group{
+
+} */
+
+.login {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border: 0.5px white solid;
+  border-radius: 5px;
+}
+
+.nav-options {
+  text-align: center;
+  /* width: 70px; */
+  padding: 3px;
+  margin: 8px;
+  border-bottom: 0.5px solid red;
+}
+
+.nav-options:hover {
+  border-bottom: 0.5px solid rgb(255, 255, 255);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+p {
+  font-size: 0.85em;
+  line-height: 1.4;
+  font-weight: 300;
+}
+
+.list-description {
+  font-size: 1em;
+  line-height: 1.4;
+  font-weight: 300;
+}
+
+h1 {
+  font-size:2em;
+}
+
+h2, h3 {
+  margin-bottom: 15px;
+}
+
+.h2-light {
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-weight: 300;
+  line-height: 1.3;
+}
+
+h6 {
+  text-align: center;
+}
+
+section {
+  padding: 60px;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+
+.section-intro {
+  /* width: 400px; */
+  margin: 10px 0;
+}
+
+/* Home page Styling Sections */
+.about {
+  background-color : rgb(50, 40, 89);
+  background-image: url(./images/math-patterns-bk.svg);
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.landing {
+  background-color: rgb(50, 40, 89);
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.problem {
+  margin: auto;
+  width: 90%;
+  flex-direction: row-reverse;
+}
+
+.product-features {
+  justify-content: space-evenly;
+  background-color:  rgb(50, 40, 89);
+  background-size: cover;
+  color: white;
+}
+
+.product-msg {
+  margin: 20px 50px; 
+  font-size: 1.3em;
+}
+
+.problem-card {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ position: relative;
+ width: 80%;
+ height: 220px;
+ padding: 20px;
+ margin: 0px auto 0px -30px;
+ box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.35);
+ background-color: white;
+}
+
+.feature-title {
+  width: 220px;
+  margin-bottom: 10px;
+  font-size: 0.9em;
+}
+
+.feature-description {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.profile-photo {
+  margin: 10px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid rgb(202, 45, 104);
+}
+
+.profile-photo-advisors {
+  margin: 10px 5px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 5px solid rgb(202, 45, 104);
+}
+
+.feature-images {
+  margin: 10px auto;
+  width: 200px;
+  height: 200px;
+  /* border: 1px solid white; */
+}
+
+
+/* About Us page */
+.card-wrapper{
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  width: 85%;
+  margin: 30px auto;
+  padding: 30px 50px;
+  box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.35);
+  background: white;
+}
+
+.card-wrapper-normal{
+  /* border: 1px dashed lightgray; */
+  width: 75%;
+  margin: auto;
+}
+
+.patterned-background {
+  background-image: url(./images/math-patterns-bk.svg);
+}
+
+.about-icons {
+  width: 20px;
+  margin-right: 5px;
+}
+
+.mission-card {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  width: 80%;
+  height: 220px;
+  padding: 20px;
+  margin: 0px -30px 0px auto;
+  box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.35);
+  background-color: rgb(186, 44, 108);
+}
+
+.mission-image {
+  margin: auto;
+}
+
+.mission-section {
+  margin: auto;
+  width: 90%;
+}
+
+.why-righton-wrapper {
+  /* border: 1px dashed lightgray; */
+  margin: 18px 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.why-righton-list {
+  color: rgb(57, 64, 143);
+  line-height: 1.3;
+  /* border: 1px dashed lightgray; */
+  margin: 20px;
+  width: 70%;
+}
+
+.list-image {
+  /* margin: auto; */
+  width: 25%;
+}
+
+.single-profile {
+  display: flex;
+  flex-flow: row wrap;
+  /* justify-content: center; */
+  align-items: center;
+  width: 300px;
+}
+
+
+.advisor {
+  background-color: rgb(120, 43, 122);
+  background-image: url(./images/math-patterns-bk.svg);
+  background-blend-mode: overlay;
+  background-size: cover;
+  color: white;
+}
+
+/* Common flex wrapper */
+
+.col-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.one-col-box {
+  width: 60%;
+}
+
+.three-col-info-box {
+  /* border: 1px solid black; */
+  width: 215px;
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.feature-box {
+  width: 235px;
+}
+
+.three-col-title {
+  font-size: 0.9em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.job-title {
+  /* border-top: 1px solid rgb(138, 17, 138); */
+  border-bottom: 1px solid rgb(138, 17, 138);
+  width: 170px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-style: italic;
+  color: rgb(120, 43, 122)
+}
+
+img {
+  background-position: center;
+  margin: auto;
+}
+
+
+footer {
+  background-color:  rgb(50, 40, 89);
+  text-align: left;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 70px;
+}
+
+.footer-logo {
+  margin: 10px;
+  width: 200px;
+}
+
+.footer-msg {
+  margin: 10px;
+}
+
+.copyright-msg {
+  margin: 15px 0;
+  font-size: 1em;
+  color: lightslategray;
+}
+
+.email-us:hover {
+  text-decoration: underline;
+}
+
+button {
+  font-size: 14px;
+  border-radius: 8px;
+  border:1px solid white;
+}
+
+.sign-up {
+  color: white;
+  margin: 10px 0;
+  padding: 0 10px;
+  height: 50px;
+  background-color: rgb(89, 0, 131);
+}
+
+/* Mobile */
+@media screen and (max-width: 1200px) {
+
+  .mission-card {
+    height: auto;
+  }
+
+  .problem-card {
+    height: auto;
+  }
+
+  .product-features {
+    flex-flow: row wrap;
+  }
+
+  .product-msg {
+    margin: 10px;
+  }
+  .problem-description {
+    font-size: 1em;
+  }
+  .one-col-box {
+    width: 100%;
+  }
+  .about {
+    padding: 20px;
+  }
+  section {
+    padding: 10px;
+  }
+  .card-wrapper,
+  .card-wrapper-normal,
+  .mission-card {
+    width: 95%;
+    padding: 20px;
+  }
+  h3 {
+    font-size: 1em;
+    line-height: 1.5;
+  }
+
+  .mobile-landing {
+    font-size: 0.8em;
+  }
+
+  .list-image, .why-righton-list, .why-righton-wrapper {
+    width: 100%;
+    margin: 10px 0px;  
+  }
+
+  .why-righton-list {
+    margin-top: -35px;
+    padding: 10px;
+    box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.35);
+    background: white;
+  }
+
+  p {
+    font-size: 0.85em;
+    line-height: 1.4;
+  }
+
+  .list-description {
+    font-size: 0.85em;
+  }
+
+  .footer {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 10px
+  }
+
+  .footer-msg {
+    font-size: 0.95em;
+  }
+
+  .copyright-msg {
+    font-size: 0.75em;
+    color: lightslategray;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .mission-section {
+    flex-flow: row wrap;
+    flex-direction: column-reverse;
+  }
+
+  .mission-card {
+    margin: -20px auto 20px auto;
+    width: 100%;
+    height: auto;
+  }
+
+  .problem {
+    margin: auto;
+    flex-flow: row wrap;
+    flex-direction: column-reverse;
+  }
+
+  .problem-card {
+    margin: -20px auto 20px auto;
+    width: 100%;
+    height: auto;
+  }
+}

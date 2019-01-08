@@ -1,3 +1,5 @@
-git clone repo  
+## Setup
+
+git clone this repo  
 npm install  
 npm start

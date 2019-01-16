@@ -31,29 +31,8 @@ header {
   padding: auto;
 }
 
-.about-landing {
-  width: 400px;
-}
-
-.about-blurb {
-  width: 300px;
-  margin-top: 10px;
-}
-
 .product-image {
-  width: 520px;
-}
-
-/* .nav-group{
-
-} */
-
-.login {
-  display: flex;
-  align-items: center;
-  padding: 5px;
-  border: 0.5px white solid;
-  border-radius: 5px;
+  width: 500px;
 }
 
 .nav-options {
@@ -117,16 +96,6 @@ section {
 .section-intro {
   /* width: 400px; */
   margin: 10px 0;
-}
-
-/* Home page Styling Sections */
-.about {
-  background-color : rgb(50, 40, 89);
-  background-image: url(./images/math-patterns-bk.svg);
-  background-size: cover;
-  color: white;
-  display: flex;
-  justify-content: space-around;
 }
 
 .landing {
@@ -203,8 +172,6 @@ section {
   /* border: 1px solid white; */
 }
 
-
-/* About Us page */
 .card-wrapper{
   flex-flow: row wrap;
   justify-content: flex-start;
@@ -263,9 +230,9 @@ section {
 }
 
 .why-righton-list {
+  /* border: 1px dashed lightgray; */
   color: rgb(57, 64, 143);
   line-height: 1.3;
-  /* border: 1px dashed lightgray; */
   margin: 20px;
   width: 70%;
 }
@@ -302,22 +269,15 @@ section {
   width: 100%;
 }
 
-.one-col-box {
-  width: 60%;
-}
 
-.three-col-info-box {
-  /* border: 1px solid black; */
+.single-col {
+  /* border: 1px dashed lightgray; */
   width: 215px;
   padding: 10px;
   margin: 0 10px;
 }
 
-.feature-box {
-  width: 235px;
-}
-
-.three-col-title {
+.single-col-title {
   font-size: 0.9em;
   margin-bottom: 10px;
   text-align: center;
@@ -371,20 +331,6 @@ footer {
 
 .email-us:hover {
   text-decoration: underline;
-}
-
-button {
-  font-size: 14px;
-  border-radius: 8px;
-  border:1px solid white;
-}
-
-.sign-up {
-  color: white;
-  margin: 10px 0;
-  padding: 0 10px;
-  height: 50px;
-  background-color: rgb(89, 0, 131);
 }
 
 /* Mobile */

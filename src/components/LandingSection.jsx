@@ -1,5 +1,5 @@
 import React from 'react'
-import righton from '../righton.svg'
+import logo from '../righton.svg'
 import iphonemockup from '../images/app-iphone-mockup.png'
 
 import Header from './molecule/Header'
@@ -10,7 +10,7 @@ function LandingSection () {
         <Header />
         <div className="landing-banner">
           <center>
-            <a href='/'><img src={righton} alt="logo" width='90%' /></a> 
+            <a href='/'><img src={logo} alt="logo" width='90%' /></a> 
           </center>
           <div className='product-msg'>
             <h3 className='mobile-landing'>Fun and motivation first – <b><em>RightOn!</em></b> is a math game show app for students to learn from and even win with wrong answers!</h3>

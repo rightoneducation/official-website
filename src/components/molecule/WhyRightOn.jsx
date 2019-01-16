@@ -7,7 +7,6 @@ import circle from '../../images/circle_icon.svg';
 
 function WhyRightOn() {
   return (
-    // Refactoring this
     <div className='card-wrapper-normal'>
       <h2><img src={circle} className='about-icons' width='10%' alt='product feature' />Why <b><em>RightOn!</em></b></h2>
       <h3 className='h3-normal-weight'><b><em>RightOn!</em></b> is a free game show app that makes math more fun for middle and high school students.</h3>

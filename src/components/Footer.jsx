@@ -1,13 +1,11 @@
-import React, { Component } from 'react'
+import React from 'react'
 import righton from '../righton.svg'
-// import envelope from '../images/envelope.svg'
 
 function Footer () {
     return (
       <footer id='footer'>
         <div className='footer'>
-          <p className='copyright-msg'>RightOn Education &copy; 2018 All Rights Reserved
-          </p>
+          <p className='copyright-msg'>RightOn Education &copy; 2018 All Rights Reserved</p>
           <div className='footer-logo'>
             <a href='/'><img src={righton} width='100%' alt='RightOn logo' /></a>
           </div>

@@ -3,14 +3,14 @@ import React, { Component } from 'react';
 import './App.css';
 import './rwdgrid.css';
 
-import LandingSection from './components/LandingSection'
-import ProblemSection from './components/ProblemSection'
-import ProductFeature from './components/ProductFeature'
+import LandingSection from './components/organism/LandingSection'
+import ProblemSection from './components/organism/ProblemSection'
+import ProductFeature from './components/organism/ProductFeature'
 import Mission from './components/molecule/Mission'
 import WhyRightOn from './components/molecule/WhyRightOn'
-import Team from './components/TeamMembers'
+import Team from './components/organism/TeamMembers'
 import Advisors from './components/molecule/Advisors'
-import Footer from './components/Footer'
+import Footer from './components/organism/Footer'
 
 import advisorData from './_localDb/advisors'
 import teamData from './_localDb/devTeam'

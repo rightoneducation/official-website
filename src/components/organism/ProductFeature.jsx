@@ -1,9 +1,9 @@
 import React from 'react'
 
-import xCard from '../images/win_mistake.svg';
-import xIcon from '../images/magenta_straight_X_icon.svg';
-import progressIcon from '../images/progress_icon.svg';
-import giftIcon from '../images/gift.svg';
+import xCard from '../../images/win_mistake.svg';
+import xIcon from '../../images/magenta_straight_X_icon.svg';
+import progressIcon from '../../images/progress_icon.svg';
+import giftIcon from '../../images/gift.svg';
 
 function ProductFeature () {
     return (

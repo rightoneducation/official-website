@@ -6,7 +6,7 @@ import './rwdgrid.css';
 import LandingSection from './components/organism/LandingSection'
 import ProblemSection from './components/organism/ProblemSection'
 import ProductFeature from './components/organism/ProductFeature'
-import Mission from './components/molecule/Mission'
+import OurMission from './components/molecule/OurMission'
 import WhyRightOn from './components/molecule/WhyRightOn'
 import Team from './components/organism/TeamMembers'
 import Advisors from './components/molecule/Advisors'
@@ -22,7 +22,7 @@ class App extends Component {
         <div className="App">
           <div className='container patterned-background'>
             <LandingSection />
-            <Mission />
+            <OurMission />
             <ProblemSection />           
             <WhyRightOn />
             <ProductFeature />

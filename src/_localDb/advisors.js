@@ -24,7 +24,7 @@ module.exports = {
     // {
     //   id: 4,
     //   name: 'Michael Hwa',
-    //   photo: '/images/profile_michael.jpg',
+    //   photo: '../images/profile_michael.jpg',
     //   title: 'Managing Director, Accenture',
     //   profile: 'Michael is a Managing Director at Accenture, focused on the high-tech industry. As a father of two young children, he is passionate about parenting and the importance of education. In his spare time, Michael enjoys building Lego structures with his kids and doing home improvement projects of all kinds.'
     // }

@@ -1,9 +1,9 @@
 import React from 'react'
 
-import diversity from '../../images/diversity-placeholder-image.jpg'
-import unsplash_1 from '../../images/unsplash-1.jpg'
-import unsplash_2 from '../../images/unsplash-2.jpg'
-import circle from '../../images/circle_icon.svg';
+import diversity from 'images/diversity-placeholder-image.jpg'
+import unsplash_1 from 'images/unsplash-1.jpg'
+import unsplash_2 from 'images/unsplash-2.jpg'
+import circle from 'images/circle_icon.svg';
 
 function WhyRightOn() {
   return (

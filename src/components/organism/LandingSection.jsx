@@ -1,6 +1,6 @@
 import React from 'react'
-import logo from '../../righton.svg'
-import iphonemockup from '../../images/app-iphone-mockup.png'
+import logo from 'righton.svg'
+import iphonemockup from 'images/app-iphone-mockup.png'
 
 import Header from '../molecule/Header'
 

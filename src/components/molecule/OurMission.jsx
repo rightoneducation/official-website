@@ -1,7 +1,7 @@
 import React from 'react'
 
-import diversity from '../../images/diversity-placeholder-image.jpg'
-import whitehash from '../../images/hash_W_icon.svg';
+import diversity from 'images/diversity-placeholder-image.jpg'
+import whitehash from 'images/hash_W_icon.svg';
 
 
 function OurMission () {

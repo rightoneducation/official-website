@@ -1,6 +1,6 @@
 import React from 'react'
-import mathHomework from '../../images/math-homework2.jpg'
-import xIcon from '../../images/straight_blue_X_icon.svg';
+import mathHomework from 'images/math-homework2.jpg'
+import xIcon from 'images/straight_blue_X_icon.svg';
 
 function ProblemSection () {
     return (

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import hash from '../../images/hash_icon.svg'
+import hash from 'images/hash_icon.svg'
 
 import Advisor from '../atom/Advisor'
 

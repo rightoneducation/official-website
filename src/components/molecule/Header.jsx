@@ -3,7 +3,6 @@ import React from 'react'
 function Header () {
     return (
       <header className='grid-12'>
-        {/* <div> */}
           <div className='nav-options'>
             <a href='/'><h4>Home</h4></a>
           </div>
@@ -16,10 +15,6 @@ function Header () {
           <div className='nav-options'>
               <a href='#team'><h4>Team</h4></a>
           </div>
-        {/* </div> */}
-        {/* <div className='login'>
-            <a href=''>Teacher Login/Signup</a>
-        </div> */}
       </header>
     )
 }

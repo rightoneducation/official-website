@@ -1,5 +1,5 @@
 import React from 'react'
-import righton from '../righton.svg'
+import righton from 'righton.svg'
 
 function Footer () {
     return (

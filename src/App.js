@@ -8,7 +8,7 @@ import ProblemSection from './components/organism/ProblemSection'
 import ProductFeature from './components/organism/ProductFeature'
 import OurMission from './components/molecule/OurMission'
 import WhyRightOn from './components/molecule/WhyRightOn'
-import Team from './components/organism/TeamMembers'
+import TeamMembers from './components/organism/TeamMembers'
 import Advisors from './components/molecule/Advisors'
 import Footer from './components/organism/Footer'
 
@@ -26,7 +26,7 @@ class App extends Component {
             <ProblemSection />           
             <WhyRightOn />
             <ProductFeature />
-            <Team profiles={teamData} />
+            <TeamMembers profiles={teamData} />
             <Advisors profiles={advisorData} />
           </div>
             <Footer />

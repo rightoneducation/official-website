@@ -1,5 +1,6 @@
 module.exports = {
-  advisors: [{
+  advisors: [
+    {
       id: 1,
       name: 'Ay-Nur Najm',
       photo: '/images/profile_ay-nur.jpg',

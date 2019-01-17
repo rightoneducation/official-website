@@ -189,7 +189,7 @@ section {
 }
 
 .patterned-background {
-  background-image: url(/images/math-patterns-bk.svg);
+  background-image: url(./images/math-patterns-bk.svg);
 }
 
 .about-icons {
@@ -253,7 +253,7 @@ section {
 
 .advisor {
   background-color: rgb(120, 43, 122);
-  background-image: url(/images/math-patterns-bk.svg);
+  background-image: url(./images/math-patterns-bk.svg);
   background-blend-mode: overlay;
   background-size: cover;
   color: white;

@@ -2,7 +2,7 @@ import React from 'react'
 
 import hash from 'images/hash_icon.svg'
 
-import SingleMember from '../atom/TeamMember'
+import SingleMember from '../atom/SingleMember'
 
 function Team (props) {
     return (

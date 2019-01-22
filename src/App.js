@@ -3,14 +3,14 @@ import React, { Component } from 'react';
 import './App.css';
 import './rwdgrid.css';
 
-import LandingSection from 'components/organism/LandingSection'
-import ProblemSection from 'components/organism/ProblemSection'
-import ProductFeatures from 'components/organism/ProductFeatures'
+import ProductFeatures from 'components/molecule/ProductFeatures'
 import OurMission from 'components/molecule/OurMission'
 import WhyRightOn from 'components/molecule/WhyRightOn'
-import TeamMembers from 'components/organism/TeamMembers'
+import TeamMembers from 'components/molecule/TeamMembers'
 import Advisors from 'components/molecule/Advisors'
-import Footer from 'components/organism/Footer'
+import LandingSection from 'components/molecule/LandingSection'
+import ProblemSection from 'components/molecule/ProblemSection'
+import Footer from 'components/molecule/Footer'
 
 import advisorData from '_localDb/advisors'
 import teamData from '_localDb/devTeam'
@@ -25,7 +25,7 @@ class App extends Component {
             <LandingSection />
             <OurMission />
             <ProblemSection />           
-            <WhyRightOn />
+            <WhyRightOn valueprops={featureData.valueprops}/>
             <ProductFeatures features={featureData}/>
             <TeamMembers profiles={teamData} />
             <Advisors profiles={advisorData} />

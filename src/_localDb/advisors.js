@@ -16,17 +16,24 @@ module.exports = {
     },
     {
       id: 3,
+      name: 'Edward Tan',
+      photo: '/images/profile_edward.jpg',
+      title: 'Technology Executive',
+      profile: "Edward is a tech guy with over 20 years of experience building web and mobile apps. Having worked at various tech startups as well as large corporations, Edward strikes a balance between the nimbleness of the former with the structure of the latter. In his spare time, Edward enjoys playing softball, discovering new spicy food restaurants, and spending time with his kids."
+    },
+    {
+      id: 4,
       name: 'Payton Richardson',
       photo: '/images/profile_payton.jpg',
-      title: ' ',
+      title: 'Education Research Analyst',
       profile: "Payton is a mixed-methods research analyst at the Center for Research on Education Outcomes (CREDO) at Stanford University. Through both qualitative and quantitative analysis, he works on K-12 education research to support data-driven policy. Prior to working with CREDO, he worked on education policy advocacy and teacher training in Tennessee's charter and public schools. Payton is passionate about providing equity across the education landscape."
     },
     // {
-    //   id: 4,
+    //   id: 5,
     //   name: 'Michael Hwa',
     //   photo: '../images/profile_michael.jpg',
     //   title: 'Managing Director, Accenture',
     //   profile: 'Michael is a Managing Director at Accenture, focused on the high-tech industry. As a father of two young children, he is passionate about parenting and the importance of education. In his spare time, Michael enjoys building Lego structures with his kids and doing home improvement projects of all kinds.'
-    // }
+    // },
   ]
 }

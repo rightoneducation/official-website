@@ -10,8 +10,8 @@ module.exports = {
         },
         {
           id: 2,
-          name: 'Edward Tan',
-          photo: '/images/profile_edward.jpg',
+          name: 'Andy Li',
+          photo: '/images/profile_andy.jpeg',
           title: 'Tech Lead',
           favoriteShow: 'Who Wants to Be a Millionaire',
           favoriteMistake: 'When going to a shoes-off sushi restaurant, avoid holey socks, especially ones where your big toe might stick out.'

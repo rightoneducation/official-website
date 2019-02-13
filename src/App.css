@@ -162,7 +162,7 @@ section {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  border: 5px solid rgb(202, 45, 104);
+  border: 3px solid rgb(202, 45, 104);
 }
 
 .feature-images {
@@ -175,7 +175,7 @@ section {
 .card-wrapper{
   flex-flow: row wrap;
   justify-content: flex-start;
-  width: 85%;
+  width: 95%;
   margin: 30px auto;
   padding: 30px 50px;
   box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.35);
@@ -247,7 +247,7 @@ section {
   flex-flow: row wrap;
   /* justify-content: center; */
   align-items: center;
-  width: 300px;
+  width: 280px;
 }
 
 

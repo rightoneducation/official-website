@@ -2,19 +2,19 @@ module.exports = {
     devTeam: [
         {
           id: 1,
-          name: 'Daz C Yang',
-          photo: '/images/profile_daz.jpg',
-          title: 'Full-Stack Web Developer',
-          favoriteShow: 'Kasou Taishou',
-          favoriteMistake: 'I love learning new languages, and making mistakes with idioms is a key part of becoming more fluent. I find it funny that, when an alarm clock “goes off,” that means it turns on!'
-        },
-        {
-          id: 2,
           name: 'Andy Li',
           photo: '/images/profile_andy.jpeg',
           title: 'Tech Lead',
           favoriteShow: 'Who Wants to Be a Millionaire',
           favoriteMistake: 'When going to a shoes-off sushi restaurant, avoid holey socks, especially ones where your big toe might stick out.'
+        },
+        {
+          id: 2,
+          name: 'Daz C Yang',
+          photo: '/images/profile_daz.jpg',
+          title: 'Full-Stack Web Developer',
+          favoriteShow: 'Kasou Taishou',
+          favoriteMistake: 'I love learning new languages, and making mistakes with idioms is a key part of becoming more fluent. I find it funny that, when an alarm clock “goes off,” that means it turns on!'
         },
         {
           id: 3,

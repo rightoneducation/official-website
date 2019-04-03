@@ -8,7 +8,7 @@ function Advisors(props) {
   return (
     <div className='card-wrapper advisor'>
       <h2><img src={hash} className='about-icons' alt='product feature' />Advisors</h2>
-      <div className='col-wrapper'>
+      <div className='col-wrapper-advisor'>
       {props.profiles.advisors.map((advisor, key) => {
         return <Advisor key={key} advisor={advisor} />
       })}

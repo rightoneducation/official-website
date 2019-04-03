@@ -242,12 +242,13 @@ section {
   width: 25%;
 }
 
-.single-profile {
+.single-advisor-profile {
+  margin-top: 15px; 
   display: flex;
   flex-flow: row wrap;
   /* justify-content: center; */
   align-items: center;
-  width: 280px;
+  width: 350px;
 }
 
 
@@ -268,8 +269,15 @@ section {
   align-items: flex-start;
   width: 100%;
 }
-
-
+.col-wrapper-advisor {
+   /* border: 1px dashed lightgray; */
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+}
 .single-col {
   /* border: 1px dashed lightgray; */
   width: 215px;

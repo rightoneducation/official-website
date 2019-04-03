@@ -3,7 +3,7 @@ import React from 'react'
 function Advisor (props) {
   const {name, photo, profile,title} = props.advisor
   return (
-      <div className='single-profile'>
+      <div className='single-advisor-profile'>
         <img src={photo} className='profile-photo-advisors' alt='' />
           <div>
             <h3 className='h2-light'>{name}</h3>

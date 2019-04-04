@@ -16,17 +16,17 @@ module.exports = {
     },
     {
       id: 3,
-      name: 'Esmeralda Ortiz',
-      photo: '/images/profile_Esme.jpg',
-      title: 'Youth Development Leader',
-      profile: "A Senior Director at the Boys & Girls Clubs of the Peninsula, Esme leads high school and post-secondary success programs across all BGCP sites. Over the past eight years, she has developed and led partnerships with public high schools to engage more students, helping them achieve both academic and leadership goals. As a first-generation university graduate, Esme seeks to increase the representation and success of first-generation students in higher education."
-    },
-    {
-      id: 4,
       name: 'Edward Tan',
       photo: '/images/profile_edward.jpg',
       title: 'Technology Executive',
       profile: "Edward is a tech guy with over 20 years of experience building web and mobile apps. Having worked at various tech startups as well as large corporations, Edward strikes a balance between the nimbleness of the former with the structure of the latter. In his spare time, Edward enjoys playing softball, discovering new spicy food restaurants, and spending time with his kids."
+    },
+    {
+      id:4,
+      name: 'Esmeralda Ortiz',
+      photo: '/images/profile_Esme.jpg',
+      title: 'Youth Development Leader',
+      profile: "A Senior Director at the Boys & Girls Clubs of the Peninsula, Esme leads high school and post-secondary success programs across all BGCP sites. Over the past eight years, she has developed and led partnerships with public high schools to engage more students, helping them achieve both academic and leadership goals. As a first-generation university graduate, Esme seeks to increase the representation and success of first-generation students in higher education."
     },
     {
       id: 5,

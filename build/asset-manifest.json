@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.99464cc7.chunk.css",
-  "main.js": "/static/js/main.127b9ab8.chunk.js",
-  "main.js.map": "/static/js/main.127b9ab8.chunk.js.map",
+  "main.css": "/static/css/main.e67803f9.chunk.css",
+  "main.js": "/static/js/main.e3d64e44.chunk.js",
+  "main.js.map": "/static/js/main.e3d64e44.chunk.js.map",
   "static/js/1.24100386.chunk.js": "/static/js/1.24100386.chunk.js",
   "static/js/1.24100386.chunk.js.map": "/static/js/1.24100386.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -18,8 +18,8 @@
   "static/media/App.css": "/static/media/math-patterns-bk.b73a1e38.svg",
   "static/media/unsplash-1.jpg": "/static/media/unsplash-1.b8e9710a.jpg",
   "static/media/unsplash-2.jpg": "/static/media/unsplash-2.21d485d4.jpg",
-  "static/css/main.99464cc7.chunk.css.map": "/static/css/main.99464cc7.chunk.css.map",
+  "static/css/main.e67803f9.chunk.css.map": "/static/css/main.e67803f9.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.1f389ad8355a19d8f7f05bd2f72a7075.js": "/precache-manifest.1f389ad8355a19d8f7f05bd2f72a7075.js",
+  "precache-manifest.e42de7dbd436c18276e67f4ea172b6a5.js": "/precache-manifest.e42de7dbd436c18276e67f4ea172b6a5.js",
   "service-worker.js": "/service-worker.js"
 }

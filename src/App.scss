@@ -22,28 +22,40 @@
 }
 
 header {
+  place-content: end;
   display: flex;
 }
 
-.landing-banner {
-  margin: auto;
-  width: 780px;
-  padding: auto;
+.wrapper {
+  width: 80%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+// .logo {
+//   width: 100%;
+// }
+
+.combined-boxes {
+  display: flex;
+  flex-flow: column-reverse;
+  justify-content: space-between;
 }
 
 .product-image {
   width: 500px;
 }
 
-.nav-options {
+.main-navigation {
+  font-size: 1.3em;
   text-align: center;
-  /* width: 70px; */
   padding: 3px;
-  margin: 8px;
-  border-bottom: 0.5px solid red;
+  margin: 0 15px;
+  border-bottom: 5px solid rgb(216, 0, 83);
 }
 
-.nav-options:hover {
+.main-navigation:hover {
   border-bottom: 0.5px solid rgb(255, 255, 255);
 }
 
@@ -87,10 +99,7 @@ h6 {
 }
 
 section {
-  padding: 60px;
-  display: flex;
-  flex-flow: row;
-  align-items: center;
+  padding: 120px;
 }
 
 .section-intro {
@@ -98,9 +107,11 @@ section {
   margin: 10px 0;
 }
 
-.landing {
-  background-color: rgb(50, 40, 89);
-  background-size: cover;
+.page-header {
+  width: 80%;
+  background: top / cover no-repeat url(./images/header-background.svg),
+            #eee 35%;
+  // height: 1260px;
   color: white;
   display: flex;
   flex-flow: row wrap;
@@ -120,8 +131,8 @@ section {
   color: white;
 }
 
-.product-msg {
-  margin: 20px 50px; 
+.sub-headline {
+  text-align: right; 
   font-size: 1.3em;
 }
 
@@ -203,21 +214,21 @@ section {
   flex-direction: column;
   justify-content: center;
   position: relative;
-  width: 80%;
-  height: 220px;
-  padding: 20px;
-  margin: 0px -30px 0px auto;
-  box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.35);
-  background-color: rgb(186, 44, 108);
+  width: 85%;
+  height: 385px;
+  padding: 50px;
+  margin: auto;
+  background: linear-gradient(201.84deg, #B443CC 0%, #662AAF 73.19%);
+  background-blend-mode: multiply;
 }
 
 .mission-image {
-  margin: auto;
+  height: 550px;
+  overflow: hidden;
 }
 
 .mission-section {
-  margin: auto;
-  width: 90%;
+  padding: 0px;
 }
 
 .why-righton-wrapper {
@@ -302,8 +313,8 @@ section {
 }
 
 img {
-  background-position: center;
-  margin: auto;
+  // background-position: center;
+  // margin: auto;
 }
 
 

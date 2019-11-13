@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import './App.css';
+import './App.scss';
 import './rwdgrid.css';
 
 import ProductFeatures from 'components/molecule/ProductFeatures'
@@ -8,7 +8,7 @@ import OurMission from 'components/molecule/OurMission'
 import WhyRightOn from 'components/molecule/WhyRightOn'
 import TeamMembers from 'components/molecule/TeamMembers'
 import Advisors from 'components/molecule/Advisors'
-import LandingSection from 'components/molecule/LandingSection'
+import PageHeader from 'components/molecule/PageHeader'
 import ProblemSection from 'components/molecule/ProblemSection'
 import Footer from 'components/molecule/Footer'
 
@@ -22,13 +22,15 @@ class App extends Component {
     return (
         <div className="App">
           <div className='container patterned-background'>
-            <LandingSection />
-            <OurMission />
-            <ProblemSection />           
-            <WhyRightOn valueprops={featureData.valueprops}/>
-            <ProductFeatures features={featureData}/>
-            <TeamMembers profiles={teamData} />
-            <Advisors profiles={advisorData} />
+            {/* <div className='container-fluid grid-d-7'> */}
+              <PageHeader />
+              <OurMission />
+              <ProblemSection />           
+              <WhyRightOn valueprops={featureData.valueprops}/>
+              <ProductFeatures features={featureData}/>
+              <TeamMembers profiles={teamData} />
+              <Advisors profiles={advisorData} />
+            {/* </div> */}
           </div>
             <Footer />
         </div>

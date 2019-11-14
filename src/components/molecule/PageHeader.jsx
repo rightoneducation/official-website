@@ -1,4 +1,7 @@
 import React from 'react'
+import { Segment } from 'semantic-ui-react'
+ 
+
 import logo from 'righton.svg'
 import iphonemockup from 'images/app-iphone-mockup.png'
 
@@ -6,7 +9,7 @@ import MainNav from './MainNav'
 
 function PageHeader () {
     return (
-      <section className='container page-header'>
+      <Segment as='section' className='page-header' style={{backgroundColor: 'black'}}>
         <div className="wrapper">
             <div className='logo grid-d-5'>
               <a href='/'><img src={logo} alt="right on education logo" width='100%' /></a> 
@@ -18,7 +21,7 @@ function PageHeader () {
             </div>
           </div>
         </div>
-      </section>
+      </Segment>
     )
 }
   

@@ -26,6 +26,10 @@ header {
   display: flex;
 }
 
+.container {
+  width: 85%;
+}
+
 .wrapper {
   width: 80%;
   display: flex;
@@ -118,12 +122,6 @@ section {
   justify-content: space-around;
 }
 
-.problem {
-  margin: auto;
-  width: 90%;
-  flex-direction: row-reverse;
-}
-
 .product-features {
   justify-content: space-evenly;
   background-color:  rgb(50, 40, 89);
@@ -137,11 +135,11 @@ section {
 }
 
 .problem-card {
- display: flex;
- flex-direction: column;
- justify-content: center;
+//  display: flex;
+//  flex-direction: column;
+//  justify-content: center;
  position: relative;
- width: 80%;
+ width: 50%;
  height: 220px;
  padding: 20px;
  margin: 0px auto 0px -30px;
@@ -223,6 +221,7 @@ section {
 }
 
 .mission-image {
+  margin-bottom: -50px;
   height: 550px;
   overflow: hidden;
 }
@@ -311,12 +310,6 @@ section {
   font-style: italic;
   color: rgb(120, 43, 122)
 }
-
-img {
-  // background-position: center;
-  // margin: auto;
-}
-
 
 footer {
   background-color:  rgb(50, 40, 89);
@@ -448,14 +441,13 @@ footer {
   }
 
   .problem {
-    margin: auto;
-    flex-flow: row wrap;
-    flex-direction: column-reverse;
+    // margin: auto;
+    // flex-flow: row wrap;
+    // flex-direction: column-reverse;
   }
 
   .problem-card {
-    margin: -20px auto 20px auto;
-    width: 100%;
-    height: auto;
+    // margin: -20px auto 20px auto;
+    // width: 100%;
   }
 }

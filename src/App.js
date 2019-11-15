@@ -3,9 +3,9 @@ import { Container } from 'semantic-ui-react'
 // import {browserHistory} from "react-router";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import './App.scss';
-import './rwdgrid.css';
+// import './rwdgrid.css';
 
-import LandingPage from 'components/organism/LandingPage'
+import LandingPage from 'components/organism/LandingPage.jsx'
 import AboutPage from 'components/organism/AboutPage'
 import TeamPage from 'components/organism/TeamPage'
 import PageHeader from 'components/molecule/PageHeader'
@@ -18,11 +18,11 @@ class App extends Component {
         <div className="App">
           <PageHeader />
           <Switch>
-            <Container className='container'>
+            {/* <Container> */}
               <Route exact path='/' render={() => (<LandingPage/>)} />
               <Route path='/about' component={AboutPage} />
               <Route path='/team' component={TeamPage} />
-            </Container>
+            {/* </Container> */}
           </Switch>
           <Footer />
         </div>

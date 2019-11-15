@@ -1,5 +1,5 @@
 import React from 'react'
-import {Image, Message, Segment, Grid} from 'semantic-ui-react'
+import {Image, Segment, Grid} from 'semantic-ui-react'
 
 import bored from 'images/student-looking-bored.jpg'
 import xIcon from 'images/straight_blue_X_icon.svg';

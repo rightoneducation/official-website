@@ -2,4 +2,5 @@
      User Global Variables
 *******************************/
 
-@pageMinWidth  : 1440px;
+@emSize            : 16px;
+@fontSize          : 18px;

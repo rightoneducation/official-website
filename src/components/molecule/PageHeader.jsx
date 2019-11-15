@@ -1,5 +1,5 @@
 import React from 'react'
-import { Segment } from 'semantic-ui-react'
+// import { Segment } from 'semantic-ui-react'
  
 
 import logo from 'righton.svg'
@@ -9,7 +9,7 @@ import MainNav from './MainNav'
 
 function PageHeader () {
     return (
-      <Segment as='section' style={{backgroundColor: 'black'}}>
+      <div className='page-header'>
         <div className="wrapper">
             <div className='logo grid-d-5'>
               <a href='/'><img src={logo} alt="right on education logo" width='100%' /></a> 
@@ -21,7 +21,7 @@ function PageHeader () {
             </div>
           </div>
         </div>
-      </Segment>
+      </div>
     )
 }
   

@@ -112,10 +112,10 @@ section {
 }
 
 .page-header {
-  width: 80%;
+  width: 100%;
   background: top / cover no-repeat url(./images/header-background.svg),
             #eee 35%;
-  // height: 1260px;
+  padding: 8%;
   color: white;
   display: flex;
   flex-flow: row wrap;

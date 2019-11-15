@@ -1,0 +1,4 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+@largeMonitorWidth: @largeMonitorBreakpoint - (@largeMonitorMinimumGutter * 100) - @scrollbarWidth;

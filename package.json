@@ -13,16 +13,21 @@
     "semantic-ui-react": "^0.88.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "craco start",
+    "build": "craco build",
     "build-and-deploy": "npm run build && s3cmd sync build/* s3://www.rightoneducation.com && echo",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "test": "craco test --env=jsdom",
+    "eject": "craco eject"
   },
   "browserslist": [
     ">0.2%",
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "@craco/craco": "^5.6.1",
+    "@semantic-ui-react/craco-less": "^1.1.0",
+    "semantic-ui-less": "^2.4.1"
+  }
 }

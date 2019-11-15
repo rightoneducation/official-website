@@ -10,7 +10,7 @@ import SingleWhy from '../atom/SingleWhy'
 
 function WhyRightOn(props) {
   return (
-    <Segment as='section'>
+    <section>
         <Header as='h1' image={circle} content='Why RightOn!' textAlign='center'>
           {/* Why <b><em>RightOn!</em></b> */}
         </Header>
@@ -22,7 +22,7 @@ function WhyRightOn(props) {
               })}           
           </Grid.Row>
         </Grid>
-    </Segment>
+    </section>
   )
 }
 

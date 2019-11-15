@@ -9,7 +9,7 @@ import MainNav from './MainNav'
 
 function PageHeader () {
     return (
-      <Segment as='section' className='page-header' style={{backgroundColor: 'black'}}>
+      <Segment as='section' style={{backgroundColor: 'black'}}>
         <div className="wrapper">
             <div className='logo grid-d-5'>
               <a href='/'><img src={logo} alt="right on education logo" width='100%' /></a> 

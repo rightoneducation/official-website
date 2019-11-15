@@ -1,7 +1,13 @@
 import React from 'react'
 import { Image, Message, Segment, Button } from 'semantic-ui-react'
 
+import TeamMembers from 'components/molecule/TeamMembers'
+import Advisors from 'components/molecule/Advisors'
+
 import whitehash from 'images/hash_W_icon.svg';
+import advisorData from '_localDb/advisors'
+import teamData from '_localDb/devTeam'
+
 
 function TeamPage () {
     return (
@@ -27,14 +33,13 @@ function TeamPage () {
           <Message.Header as='h2' textAligh='centered'>
               Meet The Team 
             </Message.Header>
+            <TeamMembers profiles={teamData} />
       </Segment>
       <Segment >
           <Message.Header as='h2' textAligh='centered'>
              Advisors
             </Message.Header>
-            <Message.Content>
-                RightOn! creates a simple way for math teachers to foster a positive culture of error: increasing engagement and building self-confidence through an app-based activity that surfaces mistakes and misconceptions in a safe, fun environment. Click the expand button to find out more!
-            </Message.Content>
+            <Advisors profiles={advisorData} />
       </Segment>
       </Segment.Group>
     )

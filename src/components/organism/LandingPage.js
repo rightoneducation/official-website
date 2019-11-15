@@ -7,8 +7,7 @@ import ProblemSection from 'components/molecule/ProblemSection'
 
 import featureData from '_localDb/features'
 
-function LandingPage (props) { 
-    console.log(props)
+function LandingPage () { 
     return (
         <div>
         <OurMission />

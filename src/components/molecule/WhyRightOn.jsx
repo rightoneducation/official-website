@@ -11,10 +11,10 @@ import SingleWhy from '../atom/SingleWhy'
 function WhyRightOn(props) {
   return (
     <section>
-        <Header as='h1' image={circle} content='Why RightOn!' textAlign='center'>
-          {/* Why <b><em>RightOn!</em></b> */}
+        <Header as='h1' textAlign='center'>
+          Why <b><em>RightOn!</em></b>
         </Header>
-        <Grid cloumns={3} stackable fluid>
+        <Grid cloumns={3} stackable>
           <Grid.Row>
                 {props.valueprops.map((valueprop, key) => {
                 return <Grid.Column width={5}><SingleWhy key={key} valueprop={valueprop} />

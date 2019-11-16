@@ -5,16 +5,16 @@ function Header () {
     return (
       <header className='grid-d-12 grid-m-12'>
           <div className='main-navigation'>
-              <Link to='/'><h4>Home</h4></Link>
+              <Link to='/'><h5>Home</h5></Link>
             </div>
           <div className='main-navigation'>
-            <Link to='/about'><h4>About</h4></Link>
+            <Link to='/about'><h5>About</h5></Link>
           </div>
           <div className='main-navigation'>
-            <Link to='/team'><h4>Team</h4></Link>
+            <Link to='/team'><h5>Team</h5></Link>
           </div>
           <div className='main-navigation'>
-            <Link to='/contact'><h4>Contact</h4></Link>
+            <Link to='/contact'><h5>Contact</h5></Link>
           </div>
       </header>
     )

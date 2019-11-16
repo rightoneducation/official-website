@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import { Container } from 'semantic-ui-react'
 // import {browserHistory} from "react-router";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+
 import './App.scss';
-// import './rwdgrid.css';
+import './rwdgrid.css';
 
 import LandingPage from 'components/organism/LandingPage.jsx'
 import AboutPage from 'components/organism/AboutPage'

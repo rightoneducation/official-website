@@ -11,7 +11,7 @@ import teamData from '_localDb/devTeam'
 
 function TeamPage () {
     return (
-        <Segment.Group>
+        <div>
         <Segment as='section' className='mission-section' id='our-mission'>
         <div className='mission-image grid-d-12'>
           <Image src='images/diversity-placeholder-image.jpg' />
@@ -41,7 +41,7 @@ function TeamPage () {
             </Message.Header>
             <Advisors profiles={advisorData} />
       </Segment>
-      </Segment.Group>
+      </div>
     )
 }
 

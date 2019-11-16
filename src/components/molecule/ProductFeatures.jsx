@@ -8,16 +8,11 @@ import SingleFeature from '../atom/SingleFeature'
 
 function ProductFeatures (props) {
     return (
-      <Segment as='section' id='features' style={{backgroundColor: 'red'}}>
-          <Header as='h1' block image={xIcon} content='Product Features' textAlign='centered'></Header>
-          <Grid cloumns={3} stackable fluid>
-          <Grid.Row>
-                {props.features.features.map((feature, key) => { return <Grid.Column width={5}><SingleFeature key={key} feature={feature} />
-                </Grid.Column>
+      <section id='features'>
+        <h1 style={{textAlign:'center'}}>Product Features</h1>
+        {props.features.features.map((feature, key) => { return <SingleFeature key={key} feature={feature} />
               })}           
-          </Grid.Row>
-        </Grid>
-      </Segment>
+      </section>
     )
 }
 

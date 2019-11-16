@@ -2,36 +2,36 @@
   text-align: left;
 }
 
-.App-logo {
-  height: 180px;
-}
+// .App-logo {
+//   height: 180px;
+// }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
+// .App-header {
+//   background-color: #222;
+//   height: 150px;
+//   padding: 20px;
+//   color: white;
+// }
 
-.App-title {
-  font-size: 1.5em;
-}
+// .App-title {
+//   font-size: 1.5em;
+// }
 
-.App-intro {
-  font-size: large;
-}
+// .App-intro {
+//   font-size: large;
+// }
 
 header {
-  place-content: end;
   display: flex;
+  place-content: flex-end;
 }
 
 .container {
-  // width: 85%;
+  width: 85%;
 }
 
 .wrapper {
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
@@ -102,8 +102,17 @@ h6 {
   text-align: center;
 }
 
+.flex-box {
+  display: flex;
+  flex-flow: row wrap;
+}
+
 section {
   padding: 120px;
+}
+
+.segment-image {
+  width: 375px;
 }
 
 .section-intro {
@@ -114,8 +123,8 @@ section {
 .page-header {
   width: 100%;
   background:top/ cover no-repeat url(./images/header-background.svg);
-  height: 65vh;
-  // padding: 5%;
+  // height: 1024px;
+  padding: 10%;
   color: white;
   display: flex;
   flex-flow: row wrap;
@@ -136,14 +145,14 @@ section {
 
 .problem {
   margin: auto;
-  width: 90%;
 }
 
 .problem-card {
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
+  display: flex;
+  flex-direction: column;
+  //  justify-content: center;
+  //  align-items: center;
+  width: 65%;
  position: relative;
  padding: 20px;
  margin: 10px auto 10px -50px;
@@ -455,7 +464,7 @@ footer {
   }
 
   .problem-card {
-    // margin: -20px auto 20px auto;
-    // width: 100%;
+    margin: -20px auto 20px auto;
+    width: 100%;
   }
 }

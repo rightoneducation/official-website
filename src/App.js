@@ -19,11 +19,11 @@ class App extends Component {
         <div className="App">
           <PageHeader />
           <Switch>
-            {/* <Container> */}
+            <div className='container'>
               <Route exact path='/' render={() => (<LandingPage/>)} />
               <Route path='/about' component={AboutPage} />
               <Route path='/team' component={TeamPage} />
-            {/* </Container> */}
+            </div>
           </Switch>
           <Footer />
         </div>

@@ -1,16 +1,15 @@
 import React from 'react'
-import { Item, Image } from 'semantic-ui-react'
 
 function singleFeature (props) {
   const {title, featureIcon, description} = props.feature
   return(
-      <Item className='single-col'>
-        <div className='feature-images'>
-          <center><Image src={featureIcon} width='100%' className="App-logo" alt="Icons made by Freepik from Flaticon is licensed by CC 3.0 BY" /></center>
+      <div className='card grid-3' style={{color: 'white'}}>
+        <div className='feature-items'>
+          <center><img src={featureIcon} width='100%' id="feature-graphic" alt="Icons made by Freepik from Flaticon is licensed by CC 3.0 BY" /></center>
         </div>
-        <Item.Header as='h4' className='feature-title'>{title}</Item.Header>
-        <Item.Description>{description}</Item.Description>
-      </Item>
+        <h3>{title}</h3>
+        <p>{description}</p>
+      </div>
   )
 }
 

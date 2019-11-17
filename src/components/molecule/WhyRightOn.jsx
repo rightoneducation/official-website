@@ -1,22 +1,33 @@
 import React from 'react'
-import { Segment, Image, Header, Grid } from 'semantic-ui-react'
 
 import SingleWhy from '../atom/SingleWhy'
 
+import iphonemockup from 'images/app-iphone-mockup.png'
+
 function WhyRightOn(props) {
   return (
-    <section>
+    <section id='why-righton'>
         <h1 style={{textAlign:'center'}}>
           Why <b><em>RightOn!</em></b>
         </h1>
-        <Grid cloumns={3} stackable>
-          <Grid.Row>
-                {props.valueprops.map((valueprop, key) => {
-                return <Grid.Column width={5}><SingleWhy key={key} valueprop={valueprop} />
-                </Grid.Column>
-              })}           
-          </Grid.Row>
-        </Grid>
+        <div className='wrapper'> 
+        <div className='why-righton-card'>
+          box1
+        </div>
+        <div className='why-righton-card'> 
+          <img src={iphonemockup} width='100%'/>
+        </div>
+        <div className='why-righton-card'>
+          <div>box3</div>
+          <div>box4</div>
+        </div>
+          {/* {props.valueprops.map((valueprop, key) => {
+            return <SingleWhy key={key} singleWhy={valueprop} />
+          })}            */}
+          {/* <div className='grid-6>
+          <img src={iphonemockup} width='50%'/>
+          </div> */}
+        </div>
     </section>
   )
 }

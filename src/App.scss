@@ -1,25 +1,10 @@
 .App {
   text-align: left;
+  font-size: 16px;
+  .logo {
+    width: 650px;
+  }
 }
-
-// .App-logo {
-//   height: 180px;
-// }
-
-// .App-header {
-//   background-color: #222;
-//   height: 150px;
-//   padding: 20px;
-//   color: white;
-// }
-
-// .App-title {
-//   font-size: 1.5em;
-// }
-
-// .App-intro {
-//   font-size: large;
-// }
 
 header {
   display: flex;
@@ -38,18 +23,15 @@ header {
   align-content: center;
 }
 
-.logo {
-  width: 650px;
-}
-
 .combined-boxes {
   display: flex;
   flex-flow: column-reverse;
   justify-content: space-evenly;
 }
-.mission-card
-.product-image {
-  width: 500px;
+.slide-card {
+  background: #772A79;
+  color: white;
+  padding: 15% 3%;
 }
 
 .main-navigation {
@@ -69,7 +51,7 @@ a {
 }
 
 p {
-  font-size: 0.85em;
+  // font-size: 0.85em;
   line-height: 1.4;
   font-weight: 300;
 }
@@ -88,16 +70,6 @@ h2, h3 {
   margin-bottom: 15px;
 }
 
-.h2-light {
-  font-weight: 300;
-  margin-bottom: 10px;
-}
-
-h3 {
-  font-weight: 300;
-  line-height: 1.3;
-}
-
 h6 {
   text-align: center;
 }
@@ -108,17 +80,54 @@ h6 {
 }
 
 section {
-  padding: 120px;
+  padding: 80px;
+  .banner-image {
+    margin-bottom: -50px;
+    height: 70vh;
+    overflow: hidden;
+  }
+  .page-intro {
+    width: 85%;
+    // height: 350px;
+    position: relative;
+    padding: 80px;
+    margin: auto;
+    background-blend-mode: multiply;
+    background: linear-gradient(201.84deg, #B443CC 0%, #662AAF 73.19%);
+  }
+  .page-intro-content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }  
+}
+  .top-section {
+    padding: 0px;
+  }
+#quote {
+  width: 80%;
+  margin: 60px auto;
+  text-align: center;
+  font-style: italic;
+}
+
+#intro-to-team {
+  height: 350px;
+  background: linear-gradient(0deg, #662AAF -25.45%, #FFFFFF 72.56%);
+  opacity: 0.4;
+}
+
+#our-values {
+  padding: 10%;
+  color: white;
+  background: linear-gradient(206.37deg, #FF3369 0%, #662AAF 73.19%);
 }
 
 .segment-image {
   width: 375px;
 }
 
-.section-intro {
-  /* width: 400px; */
-  margin: 10px 0;
-}
 
 .page-header {
   width: 100%;
@@ -138,6 +147,10 @@ section {
   color: white;
 }
 
+#features {
+  background: linear-gradient(221.31deg, #FF3369 0%, #662AAF 73.19%);
+}
+
 .sub-headline {
   text-align: right; 
   font-style: italic;
@@ -150,15 +163,14 @@ section {
 .problem-card {
   display: flex;
   flex-direction: column;
-  //  justify-content: center;
+   justify-content: center;
   //  align-items: center;
   width: 65%;
- position: relative;
- padding: 20px;
- margin: 10px auto 10px -50px;
- box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.35);
- background-color: white;
-}
+  padding: 20px;
+  margin: 10px auto 10px -30px;
+  box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.35);
+  background-color: white;
+  }
 
 .feature-title {
   width: 220px;
@@ -187,12 +199,28 @@ section {
   border: 3px solid rgb(202, 45, 104);
 }
 
-.feature-images {
-  margin: 10px auto;
+.feature-items {
+  margin: 20px auto;
   width: 200px;
-  height: 200px;
-  /* border: 1px solid white; */
+  // border: 1px solid white; 
+  #feature-graphic {
+    height: 180px;
+  }
 }
+
+.card {
+  // border: 1px dashed lightgray; 
+  padding: 1em;
+  margin: 18px 0;
+}
+  .card-image {
+    width: 100%;
+  }
+  .card-content {
+    line-height: 1.3;
+    margin: 20px;
+  }
+
 
 .card-wrapper{
   flex-flow: row wrap;
@@ -210,64 +238,14 @@ section {
   margin: auto;
 }
 
-.patterned-background {
-  background-image: url(./images/math-patterns-bk.svg);
-}
+// .patterned-background {
+//   background-image: url(./images/math-patterns-bk.svg);
+// }
 
-.about-icons {
-  width: 20px;
-  margin-right: 5px;
-}
-
-.mission-card {
-  background-blend-mode: multiply;
-  // z-index: 1;
-  position: relative;
-  width: 85%;
-  height: 350px;
-  padding: 30px;
-  margin: auto;
-  background: linear-gradient(201.84deg, #B443CC 0%, #662AAF 73.19%);
-}
-.mission-content {
-  // z-index: 2;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.mission-image {
-  margin-bottom: -100px;
-  height: 70vh;
-  overflow: hidden;
-}
-
-.mission-section {
-  padding: 0px;
-}
-
-.why-righton-wrapper {
-  /* border: 1px dashed lightgray; */
-  margin: 18px 0;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.why-righton-list {
-  /* border: 1px dashed lightgray; */
-  color: rgb(57, 64, 143);
-  line-height: 1.3;
-  margin: 20px;
-  width: 70%;
-}
-
-.list-image {
-  /* margin: auto; */
-  width: 25%;
-}
+// .about-icons {
+//   width: 20px;
+//   margin-right: 5px;
+// }
 
 .single-advisor-profile {
   margin-top: 15px; 
@@ -279,11 +257,9 @@ section {
 }
 
 
-.advisor {
+#advisors {
   background-color: rgb(120, 43, 122);
-  background-image: url(./images/math-patterns-bk.svg);
-  background-blend-mode: overlay;
-  background-size: cover;
+  // background-size: cover;
   color: white;
 }
 
@@ -420,7 +396,7 @@ footer {
   }
 
   p {
-    font-size: 0.85em;
+    // font-size: 0.85em;
     line-height: 1.4;
   }
 

@@ -5,16 +5,16 @@ function singleMember (props) {
   return(
       <div className='single-col'>
           <center>
-            <img src={photo} width='80%' className='profile-photo' />
-            <h4 className='single-col-title'>{name}</h4>
+            <img src={photo} width='80%' className='profile-photo' alt='right-on-education-team-member'/>
+            <h3 className='single-col-title'>{name}</h3>
             <h6 className='job-title'>{title}</h6>
           </center>
           <p className='feature-description'>
-            <b>Favorite game show:</b>
+            <h5>Favorite game show:</h5>
             <br />
             {favoriteShow}
             <br /><br />
-            <b>Favorite mistake: </b>
+            <h5>Favorite mistake: </h5>
             <br />
             {favoriteMistake}
           </p>

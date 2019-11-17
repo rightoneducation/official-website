@@ -1,14 +1,12 @@
 import React from 'react'
 
-import hash from 'images/hash_icon.svg'
-
 import SingleMember from '../atom/SingleMember'
 
-function Team (props) {
+function TeamMembers (props) {
     return (
-      <section id='team' className='card-wrapper'>
+      <section id='team' className='wrapper'>
         <div className='section-intro'>
-          <h2><img src={hash} width='8%' className='about-icons' alt='product feature' />Meet the Team</h2>
+          <h2>Meet the Team</h2>
         </div>
         <div className='col-wrapper'>
           {props.profiles.devTeam.map((member, key) => {
@@ -20,4 +18,5 @@ function Team (props) {
     
 }
 
-export default Team;
+export default TeamMembers;
+

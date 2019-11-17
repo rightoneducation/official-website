@@ -1,18 +1,17 @@
 import React from 'react'
-import { Item, Image } from 'semantic-ui-react'
 
 function singleWhy(props) {
-  const { title, featureImage, description } = props.valueprop
+  const { title, featureImage, description } = props.singleWhy
   return (
-     <Item className='why-righton-wrapper'>
-        <div className='list-image'>
-          <Image src={featureImage} alt="CHANGE IMAGE" width='100%' />
+     <div className='why-righton-card grid-4 grid-m-6'>
+        <div className='card-image'>
+          <img src={featureImage} alt='right-on-education-product-features' width='100%' />
         </div>
-        <div className='why-righton-list'>
-          <Item.Header>{title}</Item.Header>
-          <Item.Description>{description}</Item.Description>
+        <div className='card-content'>
+          <h3>{title}</h3>
+          <p>{description}</p>
         </div>
-      </Item>
+      </div>
   )
 }
 

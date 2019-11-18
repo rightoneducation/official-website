@@ -118,10 +118,10 @@ section {
 
 .page-header {
   background: #322759;
-  width: 100%;
+  // width: 100%;
   height: 690px;
-  // background:top / contain no-repeat url(./images/header-background.svg);
-  padding: 0 15%;
+  // background: top / cover no-repeat url(./images/header-background.svg);
+  padding: 0 10%;
   color: white;
   display: flex;
   flex-flow: row wrap;
@@ -306,6 +306,7 @@ section {
 }
 
 footer {
+  // background: top / cover no-repeat url(./images/footer-background.svg);
   display: flex;
   flex-flow: row wrap;
   flex-direction: row;

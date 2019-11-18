@@ -18,7 +18,7 @@ module.exports = {
       description: 'With a better understanding of the misconceptions that different students may have, we can suggest follow-up activities and videos tailored to your students’ needs.'
     }
   ],
-  valueprops: [
+  whyRightOn: [
     {
       id: 1,
       title: 'Creating entry points for all students',

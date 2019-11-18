@@ -7,7 +7,7 @@ import whitehash from 'images/hash_W_icon.svg';
 function OurMission () {
     return (
       <section id='mission' className='top-section'>
-        <div className='banner-image grid-d-12'>
+        <div className='banner-image'>
           <img src='images/diversity-placeholder-image.jpg' width='100%'/>
         </div>
         <div className='page-intro'>

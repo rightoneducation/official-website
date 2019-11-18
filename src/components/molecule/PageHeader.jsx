@@ -7,20 +7,19 @@ import MainNav from './MainNav'
 
 function PageHeader () {
     return (
-      <div className='page-header'>
-        {/* <img src={background} /> */}
+      <header className='page-header'>
         <div className="wrapper">
-            <div className='logo'>
+            <div className='grid-d-5'>
               <a href='/'><img src={logo} alt="right on education logo" width='100%' /></a> 
             </div>
-          <div className='combined-boxes grid-d-7'>
+          <div className='combined-boxes grid-d-7 grid-m-12'>
             <MainNav />
-            <div className='sub-headline'>
-              <h3>Unlocking every student’s potential in math!</h3>
+            <div className='sub-headline grid-m-12'>
+              <h1 style={{fontWeight: '300'}}>Unlocking every student’s potential in math!</h1>
             </div>
           </div>
         </div>
-      </div>
+      </header>
     )
 }
   

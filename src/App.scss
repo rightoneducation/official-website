@@ -1,14 +1,10 @@
 .App {
   text-align: left;
   font-size: 16px;
-  .logo {
-    width: 650px;
-  }
 }
 
 header {
   display: flex;
-  place-content: flex-end;
 }
 
 .container {
@@ -26,7 +22,7 @@ header {
 .combined-boxes {
   display: flex;
   flex-flow: column-reverse;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .slide-card {
   background: #772A79;
@@ -36,7 +32,7 @@ header {
 
 .main-navigation {
   text-align: center;
-  padding: 3px;
+  // padding: 3px;
   margin: 0 15px;
   border-bottom: 5px solid rgb(216, 0, 83);
 }
@@ -45,33 +41,18 @@ header {
   border-bottom: 0.5px solid rgb(255, 255, 255);
 }
 
+h1 {
+  font-size: 2em;
+}
+
 a {
   text-decoration: none;
   color: white;
 }
 
 p {
-  // font-size: 0.85em;
   line-height: 1.4;
   font-weight: 300;
-}
-
-.list-description {
-  font-size: 1em;
-  line-height: 1.4;
-  font-weight: 300;
-}
-
-h1 {
-  font-size:2em;
-}
-
-h2, h3 {
-  margin-bottom: 15px;
-}
-
-h6 {
-  text-align: center;
 }
 
 .flex-box {
@@ -81,9 +62,13 @@ h6 {
 
 section {
   padding: 80px;
+  .section-heading {
+    margin-bottom: 50px;
+  }
+
   .banner-image {
     margin-bottom: -50px;
-    height: 70vh;
+    height: 65vh;
     overflow: hidden;
   }
   .page-intro {
@@ -92,7 +77,7 @@ section {
     position: relative;
     padding: 80px;
     margin: auto;
-    background-blend-mode: multiply;
+    mix-blend-mode: multiply;
     background: linear-gradient(201.84deg, #B443CC 0%, #662AAF 73.19%);
   }
   .page-intro-content {
@@ -113,9 +98,11 @@ section {
 }
 
 #intro-to-team {
-  height: 350px;
-  background: linear-gradient(0deg, #662AAF -25.45%, #FFFFFF 72.56%);
-  opacity: 0.4;
+  height: 550px;
+  align-items: center;
+  background: linear-gradient(
+    0deg, #662AAF -20%, #FFFFFF 80%,
+    );
 }
 
 #our-values {
@@ -130,10 +117,11 @@ section {
 
 
 .page-header {
+  background: #322759;
   width: 100%;
-  background:top/ cover no-repeat url(./images/header-background.svg);
-  // height: 1024px;
-  padding: 10%;
+  height: 690px;
+  // background:top / contain no-repeat url(./images/header-background.svg);
+  padding: 0 15%;
   color: white;
   display: flex;
   flex-flow: row wrap;
@@ -152,6 +140,7 @@ section {
 }
 
 .sub-headline {
+  margin: 15px 0px;
   text-align: right; 
   font-style: italic;
 }
@@ -163,11 +152,10 @@ section {
 .problem-card {
   display: flex;
   flex-direction: column;
-   justify-content: center;
-  //  align-items: center;
-  width: 65%;
+  justify-content: center;
+  // height: 350px;
   padding: 20px;
-  margin: 10px auto 10px -30px;
+  margin: 10px auto 10px -20px;
   box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.35);
   background-color: white;
   }
@@ -183,12 +171,40 @@ section {
   text-align: center;
 }
 
+// .isolate {
+//   isolation: isolate;
+// }
+
+.profile-card {
+  padding-right: 0em !important;
+  padding-bottom: 0em !important;
+  color: white;
+  width: 280px;
+  background: linear-gradient(240.12deg, #B443CC 10.99%, #662AAF 50.9%), #B443CC;
+  mix-blend-mode: multiply;
+
+  // .dark {
+  //   width: 280px;
+  //   height: 300px;
+  //   background: linear-gradient(240.12deg, #B443CC 10.99%, #662AAF 50.9%), #B443CC;
+  //   mix-blend-mode: multiply;
+  // }
+
+  .title {
+    margin-bottom: 10px;
+  } 
+  .job-title {
+    background: grey;
+    // height: 48px;
+    padding: 10px 35px;
+  }
+}
+
 .profile-photo {
-  margin: 10px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 5px solid rgb(202, 45, 104);
+  margin-bottom: -20px;
+  // width: 150px;
+  // height: 150px;
+  // border: 5px solid rgb(202, 45, 104);
 }
 
 .profile-photo-advisors {
@@ -215,6 +231,7 @@ section {
 }
   .card-image {
     width: 100%;
+    // height: 250px;
   }
   .card-content {
     line-height: 1.3;
@@ -241,11 +258,11 @@ section {
 // .patterned-background {
 //   background-image: url(./images/math-patterns-bk.svg);
 // }
-
-// .about-icons {
-//   width: 20px;
-//   margin-right: 5px;
-// }
+#advisors {
+  background-color: rgb(120, 43, 122);
+  // background-size: cover;
+  color: white;
+}
 
 .single-advisor-profile {
   margin-top: 15px; 
@@ -256,12 +273,6 @@ section {
   width: 350px;
 }
 
-
-#advisors {
-  background-color: rgb(120, 43, 122);
-  // background-size: cover;
-  color: white;
-}
 
 /* Common flex wrapper */
 
@@ -294,34 +305,22 @@ section {
   text-align: center;
 }
 
-.job-title {
-  /* border-top: 1px solid rgb(138, 17, 138); */
-  border-bottom: 1px solid rgb(138, 17, 138);
-  width: 170px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  font-style: italic;
-  color: rgb(120, 43, 122)
-}
-
 footer {
-  background-color:  rgb(50, 40, 89);
-  text-align: left;
-  color: white;
-}
-
-.footer {
   display: flex;
   flex-flow: row wrap;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 35px 70px;
+  height: 550px;
+  background-color:  rgb(50, 40, 89);
+  text-align: left;
+  color: white;
 }
 
 .footer-logo {
   margin: 10px;
-  width: 200px;
+  width: 300px;
 }
 
 .footer-msg {
@@ -338,16 +337,21 @@ footer {
   text-decoration: underline;
 }
 
-/* Mobile */
+
 @media screen and (max-width: 1200px) {
 
-  .mission-card {
-    height: auto;
+  section .banner-image {
+    height: 50vh;
   }
 
-  .problem-card {
-    // height: auto;
+  h1{
+    font-size: 1.5em;
   }
+
+  h2 {
+      font-size: 1.2em;
+  }
+  
 
   .product-features {
     flex-flow: row wrap;
@@ -364,9 +368,6 @@ footer {
   }
   .about {
     padding: 20px;
-  }
-  section {
-    padding: 10px;
   }
   .card-wrapper,
   .card-wrapper-normal,
@@ -420,7 +421,39 @@ footer {
   }
 }
 
-@media screen and (max-width: 767px) {
+/* Mobile */
+@media screen and (max-width: 720px) {
+
+  section .banner-image {
+    height: 30vh;
+    .page-intro {
+      width: 85%;
+      height: 350px;
+      position: relative;
+      padding: 80px;
+      margin: auto;
+      mix-blend-mode: multiply;
+      background: linear-gradient(201.84deg, #B443CC 0%, #662AAF 73.19%);
+    }
+    .page-intro-content {
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }  
+  }
+
+  .sub-headline {
+    margin: 45px 0px;
+    text-align: right; 
+    font-style: italic;
+    h1 {
+      font-size: 1.5em;
+      text-align: center;
+    }
+  }
+
+  
 
   .mission-section {
     flex-flow: row wrap;
@@ -440,7 +473,26 @@ footer {
   }
 
   .problem-card {
-    margin: -20px auto 20px auto;
-    width: 100%;
+    // margin: -15px auto 20px auto;
+    // width: 30%;
   }
+}
+
+button {
+  border-radius: 12px;
+  border-style: none;
+}
+
+.meet-team {
+  width: max-content;
+  padding: 20px;
+  background: #662AAF;
+}
+
+.bottom-link {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }

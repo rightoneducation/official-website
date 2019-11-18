@@ -8,11 +8,11 @@ import advisorData from '_localDb/advisors'
 import teamData from '_localDb/devTeam'
 
 
-function TeamPage () {
+function TeamPage (props) { 
     return (
       <div>
         <OurValue/>
-        <TeamMembers profiles={teamData}/>
+        <TeamMembers profiles={teamData} {...props}/>
         <Advisors profiles={advisorData} />
       </div>
     )

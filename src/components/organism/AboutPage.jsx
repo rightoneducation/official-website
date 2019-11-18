@@ -5,13 +5,13 @@ import CultureOfError from '../atom/CultureOfError'
 import MyFavNo from '../atom/MyFavNo'
 import IntroToTeam from '../atom/IntroToTeam'
 
-function AboutPage () {
+function AboutPage (props) {
     return (
       <div>
         <OurVision/>
         <Quote/>
-        <CultureOfError/>
-        <MyFavNo/>
+        <CultureOfError {...props}/>
+        <MyFavNo {...props}/>
         <IntroToTeam/>
       </div>
     )

@@ -12,7 +12,7 @@ function LandingPage () {
         <div>
         <OurMission />
         <ProblemSection />           
-        <WhyRightOn valueprops={featureData.valueprops}/>
+        <WhyRightOn valueprops={featureData.whyRightOn}/>
         <ProductFeatures features={featureData}/>
         </div>
     )

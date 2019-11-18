@@ -3,9 +3,9 @@ import React from 'react'
 function singleWhy(props) {
   const { title, featureImage, description } = props.singleWhy
   return (
-     <div className='why-righton-card grid-4 grid-m-6'>
+     <div className='why-righton-card grid-d-3 grid-3 grid-m-12'>
         <div className='card-image'>
-          <img src={featureImage} alt='right-on-education-product-features' width='100%' />
+          <img src={featureImage} alt='right-on-education-product-features' width='100%' align='middle'/>
         </div>
         <div className='card-content'>
           <h3>{title}</h3>

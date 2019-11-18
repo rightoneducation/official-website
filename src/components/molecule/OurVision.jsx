@@ -1,10 +1,12 @@
 import React from 'react'
 
+import image from '../../images/students-pointing-at-screen.jpg'
+
 function OurVision () {
     return (
         <section className='top-section' id='vision'>
         <div className='banner-image grid-d-12'>
-          <img  src='images/diversity-placeholder-image.jpg' alt='right-on-education-vision' width='100%'/>
+          <img  src={image} alt='right-on-education-vision' width='100%'/>
         </div>
         <div className='page-intro'>
         <div className='page-intro-content'>

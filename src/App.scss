@@ -276,6 +276,18 @@ section {
   }
 }
 
+.half-circle {
+    padding: 2%; 
+    margin-top: -3.6% !important; 
+    // height: 100px;
+    width: 70%;
+    border-bottom-right-radius: 800px;
+    border-bottom-left-radius: 800px;
+    border: 15px solid rgb(255, 51, 218);
+    border-top: 0;
+    // border-style: ;
+}
+
 .card {
   padding: 1.4em;
   margin: 18px 0;
@@ -409,6 +421,9 @@ footer {
   .problem-card {
     margin-left: unset;
   }
+  .combined-boxes {
+    align-items: center;
+  }
   section .banner-image {
     // height: 20vh;
     .page-intro {
@@ -445,6 +460,9 @@ footer {
     h2 {
       font-size: 1em;
     }
+  }
+  .combined-boxes {
+    align-items: center;
   }
   #features {
     height: unset;
@@ -499,6 +517,9 @@ footer {
 @media (max-width: 375px) {
   section .banner-image {
     height: unset;
+  }
+  h1 {
+    font-size: 0.8em;
   }
   .combined-boxes {
     align-items: center;

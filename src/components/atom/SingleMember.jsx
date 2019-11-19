@@ -12,7 +12,7 @@ function singleMember (props) {
 
   return(
       <div className='card profile-card'>
-            <div className='dark isolate'>
+            {/* <div className='dark isolate'> */}
             <div className='title'>
               <h2 style={{fontStyle: 'italic'}}>{name}</h2>
             </div>
@@ -22,9 +22,8 @@ function singleMember (props) {
             <ReactCardFlip isFlipped={isFlipped}>
               <Front photo={photo} handleClick={handleClick}/>   
               <Back favMistake={favoriteMistake} favShow={favoriteShow} handleClick={handleClick}/>
-            </ReactCardFlip>
-            </div>
-          
+            </ReactCardFlip> 
+            {/* </div>          */}
       </div>
   )
 }

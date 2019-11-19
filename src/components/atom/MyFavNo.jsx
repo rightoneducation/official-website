@@ -3,8 +3,8 @@ import React from 'react'
 function MyFavNo () {
     return(
         <section id='my-fav-no' style={{padding: '0px'}}>
-            <div className='flex-box'>
-                <div className='slide-card grid-4'>
+            <div className='slide-card flex-box reverse'>
+                <div className='slide-content grid-d-4'>
                     <h2>
                     "My Favorite No"
                     </h2>
@@ -15,8 +15,8 @@ function MyFavNo () {
                 {/* <button id='expand' style={{position: 'absolute'}}>
                     <img src={expandBtn}/>
                 </button> */}
-                <div className='grid-8' style={{background: 'lightgrey'}}>
-                    <iframe width="100%" height="550" src="https://www.youtube.com/embed/srJWx7P6uLE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div className='slide-image grid-d-8' style={{background: 'lightgrey'}}>
+                    <iframe width="100%" height="700" src="https://www.youtube.com/embed/srJWx7P6uLE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     {/* <img src='' width='100%' alt='my-favorite-no'/> */}
                 </div>
               </div>

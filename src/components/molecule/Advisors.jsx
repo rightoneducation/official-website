@@ -5,9 +5,11 @@ import SingleAdvisor from '../atom/SingleAdvisor'
 function Advisors(props) {
   return (
     <section id='advisors'>
-      <div className='advisor'>
+      <div>
         <h1>Advisors</h1>
-        <div className='wrapper' style={{alignItems: 'flex-start'}}>
+      </div>
+      <div className='flex-box advisor'>
+        <div className='wrapper' style={{alignItems: 'flex-start', justifyContent:'space-evenly'}}>
         {props.profiles.advisors.map((advisor, key) => {
           return <SingleAdvisor key={key} advisor={advisor} />
         })}

@@ -13,7 +13,7 @@ header {
 
 .wrapper {
   margin: auto;
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -22,14 +22,21 @@ header {
 
 .combined-boxes {
   display: flex;
-  flex-flow: column-reverse;
+  flex-flow: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
 }
 .slide-card {
   background: #772A79;
   color: white;
-  padding: 15% 3%;
+  .slide-image {
+    height: 700px;
+    overflow: hidden;
+  }
+  .slide-content {
+    align-self: center;
+    padding: 5%;
+  }
 }
 
 .main-navigation {
@@ -67,19 +74,23 @@ p {
   flex-flow: row wrap;
 }
 
+.top-section {
+  padding: 0px;
+}
+
 section {
   padding: 3% 8%;
   .section-heading {
-    margin-bottom: 50px;
+    justify-content: space-between;
+    margin: 0 auto 50px auto;
   }
   .banner-image {
     margin-bottom: -50px;
-    height: 65vh;
+    height: 600px;
     overflow: hidden;
   }
   .page-intro {
     width: 85%;
-    // height: 350px;
     position: relative;
     padding: 80px;
     margin: auto;
@@ -92,18 +103,15 @@ section {
     flex-direction: column;
     justify-content: center;
   }
-  
-  #culture-of-error {
-    // height: 550px;
-  }
   .team-profiles {
-    // justify-content: unset;
-    align-content: center;
+    width: 100%;
+    justify-content: center;
   }  
 }
-  .top-section {
-    padding: 0px;
-  }
+
+#culture-of-error {
+  // height: 550px;
+}
 #quote {
   width: 80%;
   margin: 60px auto;
@@ -118,15 +126,34 @@ section {
 }
 
 #intro-to-team {
-  height: 550px;
+  padding: 8%;
   align-items: center;
   background: linear-gradient(
-    0deg, #662AAF -20%, #FFFFFF 80%,
+    180deg, rgba(102, 42, 175, 0.495) -20%, #FFFFFF 90%,
     );
+    button {
+      border-radius: 12px;
+      border-style: none;
+    }
+    
+    .meet-team {
+      margin-top: 5%;
+      width: max-content;
+      padding: 20px;
+      background: #662AAF;
+    }
+    
+    .bottom-link {
+      margin-top: 50px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+    }
 }
 #advisors {
   background-color: rgb(120, 43, 122);
-  // background-size: cover;
   color: white;
 }
 
@@ -136,16 +163,11 @@ section {
   background: linear-gradient(206.37deg, #FF3369 0%, #662AAF 73.19%);
 }
 
-.segment-image {
-  width: 375px;
-}
-
 
 .page-header {
-  background: #322759;
-  // width: 100%;
-  height: 690px;
   // background: top / cover no-repeat url(./images/header-background.svg);
+  background: #322759;
+  height: 690px;
   padding: 0 10%;
   color: white;
   display: flex;
@@ -161,7 +183,6 @@ section {
 }
 
 #features {
-  height: 750px;
   background: linear-gradient(221.31deg, #FF3369 0%, #662AAF 73.19%);
 }
 
@@ -195,11 +216,12 @@ section {
 // }
 
 .profile-card {
+  width: 300px;
+  border: 10px solid white;
   margin: auto 10px;
   padding-right: 0em !important;
   padding-bottom: 0em !important;
   color: white;
-  width: 280px;
   background: linear-gradient(240.12deg, #B443CC 10.99%, #662AAF 50.9%), #B443CC;
   mix-blend-mode: multiply;
 
@@ -214,13 +236,17 @@ section {
     margin-bottom: 10px;
   } 
   .job-title {
-    background: grey;
-    // height: 48px;
+    color:rgb(50, 40, 89);
+    // mix-blend-mode: multiply;
+    background: white;
+    height: 55px;
     padding: 10px 35px;
   }
 }
 
 .profile-photo {
+  width: 260px;
+  height: 260px;
   margin-bottom: -20px;
 }
 
@@ -241,41 +267,33 @@ section {
 }
 
 .card {
-  padding: 1em;
+  padding: 1.4em;
   margin: 18px 0;
   .card-image {
-    height: 350px;
-    width: 100%;
-    object-fit: fill;
+    // width: 100%;
+    // height: 200px;
+    // object-fit: fill;
   }
   .card-content {
-    line-height: 1.3;
     padding: 15px;
   }
 }
-
 .why-righton-card{
+  padding: 0;
   box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.35);
   background: white;
 }
-
-
-
 .single-advisor-profile {
-  margin-top: 15px; 
+  margin-top: 15px;
   display: flex;
   flex-flow: row wrap;
-  // justify-content: center; 
   align-items: center;
   width: 300px;
 }
-
 footer {
+  // margin-top: -120px;
+  // position: relative;
   // background: top / cover no-repeat url(./images/footer-background.svg);
-  display: flex;
-  flex-flow: row wrap;
-  flex-direction: row;
-  justify-content: space-between;
   align-items: center;
   padding: 3% 12%;
   height: 550px;
@@ -299,12 +317,18 @@ footer {
   }
 }
 
+.divider {
+  align-self: center;
+  align-items: center;
+  background: #FF3369;;
+  height: 10px;
+  width: 35%;
+}
 
 // Minimum desktop resolution
 @media screen and (min-width: 1024px) {
-
   section .banner-image {
-    height: 50vh;
+    height: 35vh;
   }
 
   h1{
@@ -359,12 +383,19 @@ footer {
     font-size: 0.75em;
     color: lightslategray;
   }
+  .combined-boxes {
+    align-items: center;
+  }
 }
+
 
 //Minimum tablet screen resolution 
 @media only screen and (min-width: 768px) {
+  .problem-card {
+    margin-left: unset;
+  }
   section .banner-image {
-    height: 50vh;
+    height: 20vh;
     .page-intro {
       width: 85%;
       height: 350px;
@@ -394,12 +425,20 @@ footer {
 
 
 /* Max mobile screen resolution*/
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
+  nav{
+    h2 {
+      font-size: 1em;
+    }
+  }
+  // .combined-boxes {
+  //   align-items: center;
+  // }
   #features {
     height: unset;
   }
   section .banner-image {
-    height: 30vh;
+    height: 15vh;
     .page-intro {
       width: 85%;
       height: 350px;
@@ -449,24 +488,4 @@ footer {
     margin: auto;
     width: 100%;
   }
-}
-
-
-button {
-  border-radius: 12px;
-  border-style: none;
-}
-
-.meet-team {
-  width: max-content;
-  padding: 20px;
-  background: #662AAF;
-}
-
-.bottom-link {
-  height: 150px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
 }

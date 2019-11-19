@@ -10,7 +10,7 @@ function TeamMembers (props) {
         <div>
           <h1>Meet the Team</h1>
         </div>
-        <div className='team-profiles wrapper grid-d-8' style={{margin: 'auto'}}>
+        <div className='flex-box team-profiles' style={{margin: 'auto'}}>
           {props.profiles.devTeam.map((member, key) => {
             return <SingleMember key={key} member={member} isFlipped={isFlipped} handleClick={handleClick}/>
           })}

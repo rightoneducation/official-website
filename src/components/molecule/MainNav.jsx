@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Header () {
     return (
-      <nav className='flex-box'>
+      <nav className='flex-box mobile'>
           <div className='main-navigation'>
               <Link to='/'><h2>Home</h2></Link>
             </div>

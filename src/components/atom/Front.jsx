@@ -4,9 +4,9 @@ function Front (props) {
     const {photo, handleClick} = props
     return (
         <div>
-            <button onClick={handleClick}>
+            {/* <button onClick={handleClick}> */}
                 <img src={photo} width='100%' className='profile-photo' alt='right-on-education-team-member'/>
-            </button>
+            {/* </button> */}
         </div>
     )
 }

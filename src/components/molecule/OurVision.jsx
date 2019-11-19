@@ -4,9 +4,9 @@ import image from '../../images/students-pointing-at-screen.jpg'
 
 function OurVision () {
     return (
-        <section className='top-section' id='vision'>
-        <div className='banner-image grid-d-12'>
-          <img  src={image} alt='right-on-education-vision' width='100%' align='middle' />
+      <section className='top-section' id='vision'>
+        <div className='banner-image'>
+          <img  src={image} alt='right-on-education-vision' width='100%' align='top' />
         </div>
         <div className='page-intro'>
         <div className='page-intro-content'>

@@ -47,7 +47,7 @@ module.exports = {
         },
         {
           id: 6,
-          name: 'Katerina Schenke',
+          name: 'Katerina Schenke, PhD',
           photo: '/images/profile_katerina.jpg',
           title: 'Research & Learning Scientist',
           favoriteShow: 'Legends of the Hidden Temple',

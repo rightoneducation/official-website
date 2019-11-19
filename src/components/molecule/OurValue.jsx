@@ -3,7 +3,7 @@ import React from 'react'
 function OurValue () {
     return (
         <section className='top-section' id='our-values'>
-        <h2>Our Values</h2>
+        <h1>Our Values</h1>
           <p style={{ 
               borderLeft: '3px solid rgb(216, 0, 83)', paddingLeft: '20px'
               }}>

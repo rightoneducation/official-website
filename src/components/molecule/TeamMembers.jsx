@@ -8,9 +8,9 @@ function TeamMembers (props) {
     return (
       <section id='team'>
         <div>
-          <h2>Meet the Team</h2>
+          <h1>Meet the Team</h1>
         </div>
-        <div className='wrapper'>
+        <div className='team-profiles wrapper grid-d-8' style={{margin: 'auto'}}>
           {props.profiles.devTeam.map((member, key) => {
             return <SingleMember key={key} member={member} isFlipped={isFlipped} handleClick={handleClick}/>
           })}

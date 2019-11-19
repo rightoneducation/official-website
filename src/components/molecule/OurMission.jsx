@@ -8,7 +8,7 @@ function OurMission () {
     return (
       <section id='mission' className='top-section'>
         <div className='banner-image'>
-          <img src='images/diversity-placeholder-image.jpg' width='100%'/>
+          <img src='images/diversity-placeholder-image.jpg' width='100%' align='middle'/>
         </div>
         <div className='page-intro'>
           <div className='page-intro-content'>

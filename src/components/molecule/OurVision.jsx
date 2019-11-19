@@ -6,7 +6,7 @@ function OurVision () {
     return (
         <section className='top-section' id='vision'>
         <div className='banner-image grid-d-12'>
-          <img  src={image} alt='right-on-education-vision' width='100%'/>
+          <img  src={image} alt='right-on-education-vision' width='100%' align='middle' />
         </div>
         <div className='page-intro'>
         <div className='page-intro-content'>

@@ -10,10 +10,12 @@ import image from '../../images/believe-in-yourself.jpg'
 function CultureOfError (props) {
     const {animation, duration, expanded, handleExpand} = props
     return(
-        <section id='culture-of-error' style={{padding: '0px'}}>
-            <div className='flex-box'>
-                <div className='grid-8' style={{background: 'grey'}}>
-                    <img src={image} width='100%'/>
+        <section style={{padding: '0px'}}>
+            <div 
+                id='culture-of-error' 
+                className='flex-box'>
+                <div className='grid-8'>
+                    <img src={image} width='100%' align="middle"/>
                 </div>
                 {/* <button id='expand' style={{position: 'absolute'}}>
                     <img src={expandBtn}/>

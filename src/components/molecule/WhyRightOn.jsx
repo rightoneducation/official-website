@@ -12,8 +12,22 @@ function WhyRightOn(props) {
             Why <b><em>RightOn!</em></b>
           </h1>
         </div>
+        
+        
         <div className='wrapper'> 
-        {/* <div className='why-righton-card'>
+          {props.valueprops.map((valueprop, key) => {
+            return <SingleWhy key={key} singleWhy={valueprop} />
+          })}           
+         
+        </div>
+    </section>
+  )
+}
+
+export default WhyRightOn;
+
+
+{/* <div className='why-righton-card'>
           box1
         </div>
         <div className='why-righton-card'> 
@@ -23,15 +37,7 @@ function WhyRightOn(props) {
           <div>box3</div>
           <div>box4</div>
         </div> */}
-          {props.valueprops.map((valueprop, key) => {
-            return <SingleWhy key={key} singleWhy={valueprop} />
-          })}           
-          {/* <div className='grid-6>
+        
+         {/* <div className='grid-6>
           <img src={iphonemockup} width='50%'/>
           </div> */}
-        </div>
-    </section>
-  )
-}
-
-export default WhyRightOn;

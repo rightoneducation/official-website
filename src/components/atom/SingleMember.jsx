@@ -11,7 +11,7 @@ function singleMember (props) {
   const { isFlipped, handleClick } = props
 
   return(
-      <div className='card profile-card '>
+      <div className='card profile-card'>
             <div className='dark isolate'>
             <div className='title'>
               <h2 style={{fontStyle: 'italic'}}>{name}</h2>

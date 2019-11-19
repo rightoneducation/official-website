@@ -6,7 +6,7 @@ function Advisor (props) {
       <div className='single-advisor-profile'>
         <img src={photo} className='profile-photo-advisors' alt='' />
           <div>
-            <h3 style={{fontWeight: '300'}}>{name}</h3>
+            <h3 style={{fontWeight: '300', marginBottom: '10px'}}>{name}</h3>
             <h5>{title}</h5>
           </div>
           <p>{profile}</p>

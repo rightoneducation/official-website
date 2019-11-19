@@ -7,8 +7,8 @@ import whitehash from 'images/hash_W_icon.svg';
 function OurMission () {
     return (
       <section id='mission' className='top-section'>
-        <div className='banner-image'>
-          <img src='images/diversity-placeholder-image.jpg' width='100%' align='middle'/>
+        <div className='banner-image' style={{objectFit: 'contain', objectPosition:'center'}}>
+          <img src='images/diversity-placeholder-image.jpg' width='100%'/>
         </div>
         <div className='page-intro'>
             <h1>Mission</h1>

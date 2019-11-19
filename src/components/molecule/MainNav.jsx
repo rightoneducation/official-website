@@ -13,9 +13,9 @@ function Header () {
           <div className='main-navigation'>
             <Link to='/team'><h2>Team</h2></Link>
           </div>
-          {/* <div className='main-navigation'>
-            <Link to='/#contact'><h2>Contact</h2></Link>
-          </div> */}
+          <div className='main-navigation'>
+            {/* <Link to='#contact'><h2>Contact</h2></Link> */}
+          </div>
       </nav>
     )
 }

@@ -104,7 +104,7 @@ section {
     justify-content: center;
   }
   .team-profiles {
-    width: 100%;
+    width: 80%;
     justify-content: center;
   }  
 }
@@ -151,6 +151,10 @@ section {
       justify-content: space-evenly;
       align-items: center;
     }
+}
+.advisor {
+  width: 98%;
+  margin: auto;
 }
 #advisors {
   background-color: rgb(120, 43, 122);
@@ -325,10 +329,15 @@ footer {
   width: 35%;
 }
 
-// Minimum desktop resolution
-@media screen and (min-width: 1024px) {
-  section .banner-image {
-    height: 35vh;
+// // Minimum desktop resolution
+@media only screen and (min-width: 1440px) {
+  section {
+    .banner-image {
+      height: 50vh;
+    }
+    .team-profiles {
+      // width: 100%;
+    }
   }
 
   h1{
@@ -389,8 +398,8 @@ footer {
 }
 
 
-//Minimum tablet screen resolution 
-@media only screen and (min-width: 768px) {
+// //Minimum tablet screen resolution 
+@media only screen and (min-width: 1024px) {
   .problem-card {
     margin-left: unset;
   }
@@ -424,21 +433,18 @@ footer {
 }
 
 
-/* Max mobile screen resolution*/
-@media screen and (max-width: 425px) {
+// /* Max mobile screen resolution*/
+@media (min-width: 720px) {
   nav{
     h2 {
       font-size: 1em;
     }
   }
-  // .combined-boxes {
-  //   align-items: center;
-  // }
   #features {
     height: unset;
   }
   section .banner-image {
-    height: 15vh;
+    height: 35vh;
     .page-intro {
       width: 85%;
       height: 350px;
@@ -464,7 +470,7 @@ footer {
   }
   h1 {
     font-size: 1.5em;
-    text-align: center;
+    // text-align: center;
   }
 
   .mission-section {
@@ -478,14 +484,17 @@ footer {
     height: auto;
   }
 
-  .problem {
-    // margin: auto;
-    // flex-flow: row wrap;
-    // flex-direction: column-reverse;
-  }
-
   .problem-card {
     margin: auto;
     width: 100%;
+  }
+}
+
+@media (min-width: 375px) {
+  section .banner-image {
+    height: 20vh;
+  }
+  .combined-boxes {
+    align-items: center;
   }
 }

@@ -86,10 +86,11 @@ section {
   }
   .banner-image {
     margin-bottom: -50px;
-    height: 600px;
+    height: 500px;
     overflow: hidden;
   }
   .page-intro {
+    color: white;
     width: 85%;
     position: relative;
     padding: 80px;
@@ -98,7 +99,9 @@ section {
     background: linear-gradient(201.84deg, #B443CC 0%, #662AAF 73.19%);
   }
   .page-intro-content {
-    color: white;
+    padding-left: 20px;
+    border-left: 8px solid rgb(216, 0, 83);
+    font-size: 1.3em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -237,12 +240,15 @@ section {
   // }
 
   .title {
+    // width: 100%;
     margin-bottom: 10px;
   } 
   .job-title {
-    color:rgb(50, 40, 89);
-    // mix-blend-mode: multiply;
-    background: white;
+    display: flex;
+    align-items: center;
+    color:white;
+    background-blend-mode: multiply;
+    background: rgba(39, 2, 48, 0.377);
     height: 55px;
     padding: 10px 35px;
   }
@@ -333,7 +339,7 @@ footer {
 @media only screen and (min-width: 1440px) {
   section {
     .banner-image {
-      height: 50vh;
+      // height: 50vh;
     }
     .team-profiles {
       // width: 100%;
@@ -404,7 +410,7 @@ footer {
     margin-left: unset;
   }
   section .banner-image {
-    height: 20vh;
+    // height: 20vh;
     .page-intro {
       width: 85%;
       height: 350px;
@@ -444,7 +450,7 @@ footer {
     height: unset;
   }
   section .banner-image {
-    height: 35vh;
+    // height: 35vh;
     .page-intro {
       width: 85%;
       height: 350px;
@@ -490,9 +496,9 @@ footer {
   }
 }
 
-@media (min-width: 375px) {
+@media (max-width: 375px) {
   section .banner-image {
-    height: 20vh;
+    height: unset;
   }
   .combined-boxes {
     align-items: center;

@@ -15,7 +15,8 @@ module.exports = {
           photo: '/images/profile_andy.jpeg',
           title: 'React Native Lead',
           favoriteShow: 'Who Wants to Be a Millionaire',
-          favoriteMistake: 'When going to a shoes-off sushi restaurant, avoid holey socks, especially ones where your big toe might stick out.'
+          favoriteMistake: 'When going to a shoes-off sushi restaurant, avoid holey socks, especially ones where your big toe might stick out.',
+           linkedIn: 'https://www.linkedin.com/in/andyzanli/'
         },
         {
           id: 3,
@@ -68,14 +69,16 @@ module.exports = {
           photo: '/images/profile_ronald.jpg',
           title: 'Math Educator / STEM Administrator',
           favoriteShow: 'Family Feud',
-          favoriteMistake: 'Showed up at the airport, looking forward to my flight, only to realize that I was there a whole day early.'
+          favoriteMistake: 'Showed up at the airport, looking forward to my flight, only to realize that I was there a whole day early.',
+          linkedIn: 'https://www.linkedin.com/in/ronaldtowns/'
         },
         { id: 9,
           name: 'Sinclair Wu',
           photo: '/images/profile_sinclair.jpg',
           title: 'Product Lead',
           favoriteShow: 'Press Your Luck',
-          favoriteMistake: 'Didn’t like edamame the first time I had them at a Japanese restaurant, but then realized I was eating out of the discard pile...'
+          favoriteMistake: 'Didn’t like edamame the first time I had them at a Japanese restaurant, but then realized I was eating out of the discard pile...',
+          linkedIn: 'https://www.linkedin.com/in/sinclairwu/'
         }
       ]
     }

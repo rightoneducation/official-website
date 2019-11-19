@@ -14,13 +14,13 @@ module.exports = {
       title: 'Math Education Researcher',
       profile: 'Ben is a doctoral scholar at Stanford University studying mathematics education. Before transitioning to research, he was a high school math teacher and a project-based learning facilitator. He has developed innovative curricula and is knowledgeable about best practices for learning in and out of the classroom.'
     },
-    {
-      id: 3,
-      name: 'Edward Tan',
-      photo: '/images/profile_edward.jpg',
-      title: 'Technology Executive',
-      profile: "Edward is a tech guy with over 20 years of experience building web and mobile apps. Having worked at various tech startups as well as large corporations, Edward strikes a balance between the nimbleness of the former with the structure of the latter. In his spare time, Edward enjoys playing softball, discovering new spicy food restaurants, and spending time with his kids."
-    },
+    // {
+    //   id: 3,
+    //   name: 'Edward Tan',
+    //   photo: '/images/profile_edward.jpg',
+    //   title: 'Technology Executive',
+    //   profile: "Edward is a tech guy with over 20 years of experience building web and mobile apps. Having worked at various tech startups as well as large corporations, Edward strikes a balance between the nimbleness of the former with the structure of the latter. In his spare time, Edward enjoys playing softball, discovering new spicy food restaurants, and spending time with his kids."
+    // },
     {
       id:4,
       name: 'Esmeralda Ortiz',

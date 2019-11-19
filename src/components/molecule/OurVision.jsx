@@ -9,11 +9,9 @@ function OurVision () {
           <img  src={image} alt='right-on-education-vision' width='100%' align='top' />
         </div>
         <div className='page-intro'>
+          <h1>Our Vision</h1>
         <div className='page-intro-content'>
-          <h2>Our Vision</h2>
-          <p style={{ 
-              borderLeft: '3px solid rgb(216, 0, 83)', paddingLeft: '20px'
-              }}>
+          <p>
           In the future, we envision RightOn! to become a multi-channel learning platform (spanning mobile apps, livestream video, and TV), one that eventually helps connect students of all ages and backgrounds to learn new subjects – from math today to others in the future.
           </p>
           </div>

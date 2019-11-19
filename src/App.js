@@ -39,10 +39,6 @@ class App extends Component {
       expanded: !prevState.expended
     }))
   }
-
-
-
-
   render() {
     const {animation, duration, expanded, isFlipped} = this.state
     return (

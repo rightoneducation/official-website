@@ -1,14 +1,17 @@
-import React from 'react'
+import React, {useState} from 'react'
 import ReactCardFlip from 'react-card-flip'
 
-import Front from './Front'
-import Back from './Back'
-
+import Front from '../atom/Front'
+import Back from '../atom/Back'
 import LinkedIn from '../../images/linkedin-icon.svg'
 
 function singleMember (props) {
-  const {name, linkedIn, photo, title, favoriteShow, favoriteMistake} = props.member
-  const { isFlipped, handleClick } = props
+  const {name, linkedIn, photo, title, favoriteShow, favoriteMistake, isFlipped} = props.member
+  
+  // const [flip, setFlip] = useState(isFlipped)
+  // function handleFlip() {
+  //       setFlip(!isFlipped)
+  //     }
 
   return(
       <div className='card profile-card'>
@@ -25,10 +28,12 @@ function singleMember (props) {
               <h4 style={{fontWeight: '300'}}>{title}</h4>
             </div>
             <ReactCardFlip isFlipped={isFlipped}>
-              <Front photo={photo} handleClick={handleClick}/>   
-              <Back favMistake={favoriteMistake} favShow={favoriteShow} handleClick={handleClick}/>
-            </ReactCardFlip> 
-            {/* </div>          */}
+              {/* <button onClick={handleFlip}> */}
+                <Front photo={photo}/>
+              {/* </button> */}
+              <Back />
+            </ReactCardFlip>
+            {/* </div> */}
       </div>
   )
 }

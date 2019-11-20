@@ -3,12 +3,12 @@ import React from 'react'
 function singleWhy(props) {
   const { title, featureImage, description } = props.singleWhy
   return (
-     <div className='card why-righton-card grid-d-3 grid-m-12'>
-        <div className='card-image'>
+     <div className='card why-righton-card flex-box'>
+        <div className='card-image grid-d-6 grid-m-12'>
           <img src={featureImage} alt='right-on-education-product-features' width='100%'/>
         </div>
-        <div className='card-content'>
-          <h3 style={{marginBottom: '20px'}}>{title}</h3>
+        <div className='card-content grid-d-6 grid-m-12'>
+          <h3 style={{marginBottom: '20px', paddingBottom: '5px', borderBottom: '2px solid red'}}>{title}</h3>
           <p>{description}</p>
         </div>
       </div>
@@ -16,3 +16,4 @@ function singleWhy(props) {
 }
 
 export default singleWhy;
+

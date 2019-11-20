@@ -2,19 +2,19 @@ module.exports = {
   features: [{
       id: 1,
       title: 'Surface and Differentiate Student Misconceptions',
-      featureIcon: '/images/win_mistake.svg',
+      featureIcon: '/images/puzzle.svg',
       description: 'Find out your students’ misconceptions, in order of popularity, for Common Core-aligned questions. Less time hunting for student errors, more time fixing them!'
     },
     {
       id: 2,
       title: 'Connect Misconceptions with Targeted Explanations',
-      featureIcon: '/images/gift.svg',
+      featureIcon: '/images/target_icon.svg',
       description: 'Find out the rationale behind different wrong answers and get tips on how to provide clarifications to your students.'
     },
     {
       id: 3,
       title: 'Share Relevant Resources',
-      featureIcon: '/images/progress_icon.svg',
+      featureIcon: '/images/share_resources.svg',
       description: 'With a better understanding of the misconceptions that different students may have, we can suggest follow-up activities and videos tailored to your students’ needs.'
     }
   ],

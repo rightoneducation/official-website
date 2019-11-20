@@ -16,10 +16,10 @@ class App extends Component {
   constructor () {
     super()
     this.state = {
-      isFlipped: false,
-      animation: 'slideLeft', 
-      duration: 500, 
-      expanded: false
+      // isFlipped: value,
+      // animation: 'slideLeft', 
+      // duration: 500, 
+      // expanded: false
     }
     this.handleFlip = this.handleFlip.bind(this);
     this.handleExpand = this.handleExpand.bind(this);

@@ -8,7 +8,8 @@ function OurValue () {
         <section className='top-section wrapper' id='our-values'>
             <img src={teamIcon}
             className='grid-d-3 grid-tl-12' alt='right-on-education-team-icon' width='20%' />
-        <div className='grid-8'>
+        <div className='grid-d-8 flex-box'>
+            <div style={{alignSelf:'center'}}>
             <h1>Our Values</h1>
             <div className='page-intro-content'>
             <p style={{ lineHeight: '1.6em'}}>
@@ -20,6 +21,7 @@ function OurValue () {
                     <b>Beginner’s mindset:</b> going into things with an open mind, always learning and making new mistakes<br />
                     <b>Fun:</b> having fun along the way!
             </p>
+            </div>
             </div>
         </div>
       </section>

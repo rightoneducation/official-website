@@ -1,14 +1,13 @@
 import React from 'react'
 // import { Image, Message, Segment } from 'semantic-ui-react'
 
-import whitehash from 'images/hash_W_icon.svg';
-
+import placeholder from 'images/diversity-placeholder-image.jpg'
 
 function OurMission () {
     return (
       <section id='mission' className='top-section'>
         <div className='banner-image' style={{objectFit: 'contain', objectPosition:'center'}}>
-          <img src='images/diversity-placeholder-image.jpg' width='100%'/>
+          <img src={placeholder} width='100%'/>
         </div>
         <div className='page-intro'>
             <h1>Mission</h1>

@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState, useEffect } from 'react'
 import ReactCardFlip from 'react-card-flip'
 
 import Front from '../atom/Front'
@@ -9,9 +9,9 @@ function singleMember (props) {
   const {name, linkedIn, photo, title, favoriteShow, favoriteMistake, isFlipped} = props.member
   
   // const [flip, setFlip] = useState(isFlipped)
-  // function handleFlip() {
-  //       setFlip(!isFlipped)
-  //     }
+  function handleFlip() {
+        // setFlip(!isFlipped)
+      }
 
   return(
       <div className='card profile-card'>
@@ -28,9 +28,10 @@ function singleMember (props) {
               <h4 style={{fontWeight: '300'}}>{title}</h4>
             </div>
             <ReactCardFlip isFlipped={isFlipped}>
-              {/* <button onClick={handleFlip}> */}
+              <button onClick={handleFlip}>
+              {/* <button onClick={() => setFlip(true)}> */}
                 <Front photo={photo}/>
-              {/* </button> */}
+              </button>
               <Back />
             </ReactCardFlip>
             {/* </div> */}

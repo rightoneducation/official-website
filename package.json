@@ -30,6 +30,7 @@
   "devDependencies": {
     "@craco/craco": "^5.6.1",
     "@semantic-ui-react/craco-less": "^1.1.0",
+    "eslint-plugin-react-hooks": "^2.3.0",
     "semantic-ui-less": "^2.4.1"
   }
 }

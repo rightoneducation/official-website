@@ -9,7 +9,7 @@ function Footer () {
             <a href='/'><img src={righton} width='100%' alt='RightOn logo' /></a>
           </div>
           <div className='footer-msg'>
-            <h2 style={{fontWeight: '300'}}>Interested in learning more? Email us at <br/> <a href="mailto:info@rightoneducation.com" className='email-us'><b>info@rightoneducation.com</b></a></h2>
+            <h1 style={{fontWeight: '300'}}>Interested in learning more? Email us at <br/> <a href="mailto:info@rightoneducation.com" className='email-us'><b>info@rightoneducation.com</b></a></h1>
           </div>
       </footer>
     )

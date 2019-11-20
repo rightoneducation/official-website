@@ -12,21 +12,25 @@ import TeamPage from 'components/organism/TeamPage'
 import PageHeader from 'components/molecule/PageHeader'
 import Footer from 'components/molecule/Footer'
 
+import teamData from '_localDb/devTeam'
+
+
+
 class App extends Component {
   constructor () {
     super()
     this.state = {
-      // isFlipped: value,
+      isFlipped: false,
       // animation: 'slideLeft', 
       // duration: 500, 
       // expanded: false
     }
     this.handleFlip = this.handleFlip.bind(this);
-    this.handleExpand = this.handleExpand.bind(this);
+    // this.handleExpand = this.handleExpand.bind(this);
   }
-  componentWillUnmount() {
-    window.clearTimeout(this.locationTimeout);
-  }
+  // componentWillUnmount() {
+  //   window.clearTimeout(this.locationTimeout);
+  // }
   
   handleFlip(e){
     e.preventDefault();
@@ -34,11 +38,11 @@ class App extends Component {
       isFlipped: !prevState.isFlipped
     }))
   }
-  handleExpand (e) {
-    this.setState(prevState => ({
-      expanded: !prevState.expended
-    }))
-  }
+  // handleExpand (e) {
+  //   this.setState(prevState => ({
+  //     expanded: !prevState.expended
+  //   }))
+  // }
   render() {
     const {animation, duration, expanded, isFlipped} = this.state
     return (
@@ -52,7 +56,7 @@ class App extends Component {
                 <AboutPage handleExpand={this.handleExpand} animation={animation} duration={duration} expanded={expanded}/>
               )}/>
               <Route path='/team' render={() => (
-                <TeamPage isFlipped={isFlipped} handleClick={this.handleFlip}/>
+                <TeamPage isFlipped={isFlipped} handleFlip={this.handleFlip}/>
               )}/>
             </div>
           </Switch>

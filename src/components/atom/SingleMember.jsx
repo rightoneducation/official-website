@@ -6,12 +6,9 @@ import Back from '../atom/Back'
 import LinkedIn from '../../images/linkedin-icon.svg'
 
 function singleMember (props) {
-  const {name, linkedIn, photo, title, favoriteShow, favoriteMistake, isFlipped} = props.member
-  
-  // const [flip, setFlip] = useState(isFlipped)
-  function handleFlip() {
-        // setFlip(!isFlipped)
-      }
+  const {name, linkedIn, photo, title, favoriteShow, favoriteMistake} = props.member
+  const { isFlipped, handleFlip } = props  
+
 
   return(
       <div className='card profile-card'>
@@ -28,11 +25,8 @@ function singleMember (props) {
               <h4 style={{fontWeight: '300'}}>{title}</h4>
             </div>
             <ReactCardFlip isFlipped={isFlipped}>
-              <button onClick={handleFlip}>
-              {/* <button onClick={() => setFlip(true)}> */}
-                <Front photo={photo}/>
-              </button>
-              <Back />
+              <Front photo={photo} handleFlip={handleFlip}/>
+              <Back favMistake={favoriteMistake} favShow={favoriteShow} handleFlip={handleFlip}/>
             </ReactCardFlip>
             {/* </div> */}
       </div>

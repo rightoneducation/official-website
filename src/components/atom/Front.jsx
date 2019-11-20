@@ -1,12 +1,12 @@
 import React from 'react'
 
 function Front (props) {
-    const {photo, handleClick} = props
+    const {photo, handleFlip} = props
     return (
         <div>
-            {/* <button onClick={handleClick}> */}
+            <button onClick={handleFlip}>
                 <img src={photo} width='100%' className='profile-photo' alt='right-on-education-team-member'/>
-            {/* </button> */}
+            </button>
         </div>
     )
 }

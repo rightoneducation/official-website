@@ -1,19 +1,16 @@
 import React from 'react'
 
 function Back (props) {
-    const {favShow, favMistake, handleClick} = props
+    const {favShow, favMistake, handleFlip} = props
     return (
-        <div>
-            <p>
-            <h5>Favorite game show:</h5>
+        <div className='card' style={{borderLeft: '3px solid #d80053'}}>
+            <button onClick={handleFlip}>
+            <h5 style={{marginBottom: '10px'}}>Favorite game show:</h5>
+            <p>{favShow}</p>
             <br />
-            {favShow}
-            <br /><br />
-            <h5>Favorite mistake: </h5>
-            <br />
-            {favMistake}
-          </p>
-          <button onClick={handleClick}>Click to flip</button>
+            <h5 style={{marginBottom: '10px'}}>Favorite mistake: </h5>
+            <p>{favMistake}</p>
+          </button>
         </div>
     )
 }

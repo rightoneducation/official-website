@@ -7,7 +7,7 @@ import SingleMember from '../atom/SingleMember'
 
 function TeamMembers (props) {
   const {devTeam} = props.profiles
-  const { profiles, handleClick } = props
+  const { profiles, isFlipped, handleFlip } = props
   // let flipped = devTeam[0].isFlipped
 
   // let flipped = isFlipped
@@ -27,7 +27,7 @@ function TeamMembers (props) {
         </div>
         <div className='flex-box team-profiles' style={{margin: 'auto'}}>
         {props.profiles.devTeam.map((member, key) => {
-          return <SingleMember key={key} member={member} 
+          return <SingleMember key={key} member={member} isFlipped={isFlipped} handleFlip={handleFlip}
           />
         })}
 

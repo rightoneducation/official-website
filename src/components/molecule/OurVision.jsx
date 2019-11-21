@@ -12,7 +12,7 @@ function OurVision () {
           <h1>Our Vision</h1>
         <div className='page-intro-content'>
           <p>
-          In the future, we envision RightOn! to become a multi-channel learning platform (spanning mobile apps, livestream video, and TV), one that eventually helps connect students of all ages and backgrounds to learn new subjects – from math today to others in the future.
+          In the future, we envision <b><em>RightOn!</em></b> to become a multi-channel learning platform (spanning mobile apps, livestream video, and TV), one that eventually helps connect students of all ages and backgrounds to learn new subjects – from math today to others in the future.
           </p>
           </div>
         </div>

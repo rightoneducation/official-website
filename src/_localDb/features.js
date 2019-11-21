@@ -23,7 +23,7 @@ module.exports = {
       id: 1,
       title: 'Creating entry points for all students',
       featureImage: '/images/unsplash-1.jpg',
-      description: 'Anyone who’s ever made a mistake in math can play this game -- that’s everyone. :) RightOn! focuses not on speed and just getting correct answers and more on thinking about and learning from mistakes and misconceptions. That’s how every student can take their learning to the next level.'
+      description: 'Anyone who’s ever made a mistake in math can play this game - that’s everyone. :) RightOn! focuses not on speed and just getting correct answers and more on thinking about and learning from mistakes and misconceptions. That’s how every student can take their learning to the next level.'
     },
     {
       id: 2,

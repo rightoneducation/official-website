@@ -8,8 +8,6 @@ import LinkedIn from '../../images/linkedin-icon.svg'
 function singleMember (props) {
   const {name, linkedIn, photo, title, favoriteShow, favoriteMistake} = props.member
   const { isFlipped, handleFlip } = props  
-
-
   return(
       <div className='card profile-card'>
             {/* <div className='dark isolate'> */}

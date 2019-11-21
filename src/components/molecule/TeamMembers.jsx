@@ -6,8 +6,7 @@ import ReactCardFlip from 'react-card-flip'
 import SingleMember from '../atom/SingleMember'
 
 function TeamMembers (props) {
-  const {devTeam} = props.profiles
-  const { profiles, isFlipped, handleFlip } = props
+  const { isFlipped, handleFlip } = props
   // let flipped = devTeam[0].isFlipped
 
   // let flipped = isFlipped

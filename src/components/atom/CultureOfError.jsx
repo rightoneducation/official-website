@@ -1,5 +1,4 @@
 import React from 'react'
-import { Form, Segment, TransitionablePortal } from 'semantic-ui-react'
 import {VelocityComponent, VelocityTransitionGroup } from 'velocity-react'
 
 import ExpandInfo from './ExpandInfo'
@@ -20,7 +19,7 @@ function CultureOfError (props) {
                     Positive Culture of Error
                     </h2>
                     <p>
-                        RightOn! creates a simple way for math teachers to foster a positive culture of error: increasing engagement and building self-confidence through an app-based activity that surfaces mistakes and misconceptions in a safe, fun environment.
+                        <b><em>RightOn!</em></b> creates a simple way for math teachers to foster a positive culture of error: increasing engagement and building self-confidence through an app-based activity that surfaces mistakes and misconceptions in a safe, fun environment.
                     </p>
                 </div>
                 </div>

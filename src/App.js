@@ -14,13 +14,11 @@ import Footer from 'components/molecule/Footer'
 
 import teamData from '_localDb/devTeam'
 
-
-
 class App extends Component {
   constructor () {
     super()
     this.state = {
-      isFlipped: false,
+      // isFlipped: false,
       // animation: 'slideLeft', 
       // duration: 500, 
       // expanded: false
@@ -32,7 +30,10 @@ class App extends Component {
   //   window.clearTimeout(this.locationTimeout);
   // }
   
+
   handleFlip(e){
+    // let foo = teamData.devTeam.find(({isFlipped}) => !isFlipped)
+    // if (foo) foo.isFlipped = true
     e.preventDefault();
     this.setState(prevState => ({
       isFlipped: !prevState.isFlipped

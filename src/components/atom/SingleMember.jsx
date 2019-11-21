@@ -6,16 +6,16 @@ import Back from '../atom/Back'
 import LinkedIn from '../../images/linkedin-icon.svg'
 
 function singleMember (props) {
-  const {name, linkedIn, photo, title, favoriteShow, favoriteMistake} = props.member
-  const { isFlipped, handleFlip } = props  
+  const {name, linkedIn, photo, title, favoriteShow, favoriteMistake, isFlipped} = props.member
+  const { handleFlip } = props  
   return(
       <div className='card profile-card'>
             {/* <div className='dark isolate'> */}
             <div className='title wrapper'>
               <h2 style={{fontStyle: 'italic', marginBottom:'unset'}}>
               {name} 
-              <a href={linkedIn}>  
-                <img src={LinkedIn} width='20px' height='20px' style={{margin: '0 0 -2px 6px'}}/>
+              <a target="_blank" href={linkedIn}>  
+              <img src={LinkedIn} width='20px' height='20px' style={{margin: '0 0 -2px 6px'}}/>
               </a>
               </h2>
             </div>

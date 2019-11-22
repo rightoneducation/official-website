@@ -550,6 +550,7 @@ footer {
   .combined-boxes {
     align-items: center;
       h1 {
+        font-size: 1.3em;
         text-align: center;
       }
     }
@@ -562,6 +563,9 @@ footer {
       width: unset;
     }
     footer {
+      .footer-msg {
+        font-size: 0.8em;
+      }
       text-align: center;
       .footer-msg {
       }

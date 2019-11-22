@@ -6,8 +6,9 @@ import Back from '../atom/Back'
 import LinkedIn from '../../images/linkedin-icon.svg'
 
 function singleMember (props) {
-  const {name, linkedIn, photo, title, favoriteShow, favoriteMistake, isFlipped} = props.member
-  const { handleFlip } = props  
+  const {name, linkedIn, photo, title, favoriteShow, favoriteMistake} = props.profile
+  const { handleFlip, key, isFlipped } = props  
+  console.log(key)
   return(
       <div className='card profile-card'>
             {/* <div className='dark isolate'> */}

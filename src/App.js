@@ -18,34 +18,35 @@ class App extends Component {
   constructor () {
     super()
     this.state = {
-      // isFlipped: false,
-      // animation: 'slideLeft', 
-      // duration: 500, 
-      // expanded: false
+      isFlipped: false,
+      profileCards: teamData.devTeam
     }
     this.handleFlip = this.handleFlip.bind(this);
     // this.handleExpand = this.handleExpand.bind(this);
   }
-  // componentWillUnmount() {
-  //   window.clearTimeout(this.locationTimeout);
-  // }
-  
 
   handleFlip(e){
-    // let foo = teamData.devTeam.find(({isFlipped}) => !isFlipped)
-    // if (foo) foo.isFlipped = true
-    e.preventDefault();
+    e.preventDefault()
     this.setState(prevState => ({
       isFlipped: !prevState.isFlipped
     }))
   }
+  // handleFlip(index){
+  //   // let profileCards = this.state.profileCards
+  //   // profileCards = !profileCards[index].isFlipped
+  //   // console.log(profileCards[index])
+  //   this.setState({
+  //     // profileCards: profileCards
+  //     // isFlipped: !prevState.isFlipped
+  //   })
+  // }
   // handleExpand (e) {
   //   this.setState(prevState => ({
   //     expanded: !prevState.expended
   //   }))
   // }
   render() {
-    const {animation, duration, expanded, isFlipped} = this.state
+    const { isFlipped, profileCards } = this.state
     return (
       <Router>
         <div className="App">
@@ -54,10 +55,10 @@ class App extends Component {
             <div className='container'>
               <Route exact path='/' render={() => (<LandingPage/>)} />
               <Route path='/about' render={() => (
-                <AboutPage handleExpand={this.handleExpand} animation={animation} duration={duration} expanded={expanded}/>
+                <AboutPage handleExpand={this.handleExpand} />
               )}/>
               <Route path='/team' render={() => (
-                <TeamPage isFlipped={isFlipped} handleFlip={this.handleFlip}/>
+                <TeamPage profileCards={profileCards} isFlipped={isFlipped} handleFlip={this.handleFlip}/>
               )}/>
             </div>
           </Switch>

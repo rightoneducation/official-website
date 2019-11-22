@@ -4,7 +4,7 @@ module.exports = {
           id: 1,
           name: 'Angela Dosalmas, PhD',
           photo: '/images/profile_angela.jpg',
-          title: 'Math Educator / Community Engagement',
+          title: `${'Math Educator /'} ${'Community Engagement'}`,
           favoriteShow: 'Hollywood Game Night',
           favoriteMistake: 'Spending hours before a coast-to-coast road trip diligently packing our SUV rooftop cargo bag -- just as specified in the instructions -- only to find out that the vehicle with the loaded bag couldn’t make it out of the garage.',
           linkedIn: 'https://www.linkedin.com/in/angela-dos-almas-506b7719/',

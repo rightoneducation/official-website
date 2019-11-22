@@ -6,9 +6,8 @@ import teamIcon from '../../images/team-icon.svg'
 function OurValue () {
     return (
         <section className='top-section wrapper' id='our-values'>
-        <div>
-        <img src={teamIcon}
-            className='grid-d-3 grid-tl-12' alt='right-on-education-team-icon' width='20%' />
+        <div className='grid-d-3 grid-tl-12'>
+        <img src={teamIcon} alt='right-on-education-team-icon' width='100%' />
         </div>
         <div className='grid-d-8 flex-box'>
             <div style={{alignSelf:'center'}}>

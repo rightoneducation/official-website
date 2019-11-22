@@ -5,7 +5,9 @@ import teamIcon from '../../images/team-icon.svg'
 function IntroToTeam () {
     return(
         <section id='intro-to-team' className='wrapper' style={{justifyContent: 'space-evenly'}}>
-            <img src={teamIcon} alt='right-on-education-team-icon' width= '25%'/>
+            <div>
+            <img src={teamIcon} alt='right-on-education-team-icon' width= '100%'/>
+            </div>
             <div className='bottom-link'>
               <h1 style={{fontWeight: '300'}}>
               We are a diverse group of people who are passionate about education and technology!

@@ -21,15 +21,15 @@ module.exports = {
   whyRightOn: [
     {
       id: 1,
-      title: 'Creating entry points for all students',
+      title: 'Building math proficiency through self-confidence',
       featureImage: '/images/unsplash-1.jpg',
-      description: 'Anyone who’s ever made a mistake in math can play this game - that’s everyone. :) RightOn! focuses not on speed and just getting correct answers and more on thinking about and learning from mistakes and misconceptions. That’s how every student can take their learning to the next level.'
+      description: 'Many students say things like “I’m just not a math person.” or “I’ll never get better at math.” But math is something that everyone can get better at, especially when you try. RightOn! brings out the creativity and fun in math and does so in a safe, encouraging way.'
     },
     {
       id: 2,
-      title: 'Building math proficiency through self-confidence',
+      title: 'Creating entry points for all students',
       featureImage: '/images/unsplash-2.jpg',
-      description: 'Many students say things like “I’m just not a math person.” or “I’ll never get better at math.” But math is something that everyone can get better at, especially when you try. RightOn! brings out the creativity and fun in math and does so in a safe, encouraging way.'
+      description: 'Anyone who’s ever made a mistake in math can play this game - that’s everyone. :) RightOn! focuses not on speed and just getting correct answers and more on thinking about and learning from mistakes and misconceptions. That’s how every student can take their learning to the next level.'
     },
     {
       id: 3,

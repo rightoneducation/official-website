@@ -9,7 +9,8 @@ function MyFavNo () {
                     "My Favorite No"
                     </h2>
                     <p>
-                    “My Favorite No” and other similar activities that math teachers use to foster a positive culture of error have been both a foundation and inspiration for <b><em>RightOn!</em></b>. Click the expand button to find out more and check out the video!
+                    “My Favorite No” and other similar math classroom activities have been both a foundation and inspiration for <b><em>RightOn!</em></b>. Watch the video to learn more!
+
                     </p>
                 </div>
                 {/* <button id='expand' style={{position: 'absolute'}}>

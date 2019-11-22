@@ -41,9 +41,12 @@ header {
 
 .main-navigation {
   text-align: center;
-  // padding: 3px;
+  padding-bottom: 0px;
   margin: 0 15px;
   border-bottom: 5px solid rgb(216, 0, 83);
+  h1 {
+    font-size: 1.6em;
+  }
 }
 
 .main-navigation:hover {
@@ -56,7 +59,7 @@ button {
 
 h1 {
   font-size: 2em;
-  margin-bottom: 20px
+  margin-bottom: 10px
 }
 
 h2 {
@@ -86,11 +89,11 @@ section {
   padding: 3% 8%;
   .section-heading {
     justify-content: space-between;
-    margin: 0 auto 50px auto;
+    margin: 3% auto;
   }
   .banner-image {
     background: lightgrey;
-    margin-bottom: -50px;
+    margin-bottom: -5%;
     // height: 500px;
     overflow: hidden;
   }
@@ -98,7 +101,7 @@ section {
     color: white;
     width: 85%;
     position: relative;
-    padding: 80px;
+    padding: 8% 5%;
     margin: auto;
     mix-blend-mode: multiply;
     background: linear-gradient(201.84deg, #B443CC 0%, #662AAF 73.19%);
@@ -229,6 +232,7 @@ section {
 // }
 
 .profile-card {
+  padding: 1.5em;
   width: 330px;
   border: 10px solid white;
   margin: auto 10px;
@@ -295,7 +299,7 @@ section {
 }
 
 .card {
-  padding: 1.4em;
+  // padding: 0.5%;
   margin: 18px 0;
   .card-image {
     align-self: center;
@@ -315,32 +319,31 @@ section {
   background: white;
 }
 .single-advisor-profile {
-  margin-top: 15px;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  width: 300px;
+  padding: 1.8em;
+  // margin: 10px;
+  // width: 300px;
 }
 footer {
-  // margin-top: -120px;
-  // position: relative;
   background: top / cover no-repeat url(./images/footer-background-short.png);
   align-items: center;
   padding: 3% 8%;
   height: 550px;
   background-color:  rgb(50, 40, 89);
   color: white;
+  
   .footer-logo {
-    // margin: 10px;
+    margin: 20px;
     width: 300px;
   }
   .footer-msg {
-    // margin: 10px;
+    margin: 15px;
   }
   .copyright-msg {
     text-align: right;
-    // margin: 15px 0;
-    // font-size: 1em;
+    margin: 15px 0;
     color: lightslategray;
   }
   .email-us:hover {
@@ -368,7 +371,7 @@ footer {
   }
 
   h1{
-    font-size: 1.5em;
+    font-size: 2em;
   }
 
   h2 {
@@ -463,8 +466,8 @@ footer {
 }
 
 
-// /* Max mobile screen resolution*/
-@media (min-width: 720px) {
+// /* Max tablet screen resolution*/
+@media (max-width: 720px) {
   nav{
     h2 {
       font-size: 1em;
@@ -476,7 +479,8 @@ footer {
   #features {
     height: unset;
   }
-  section .banner-image {
+  section 
+  .banner-image {
     // height: 35vh;
     .page-intro {
       width: 85%;
@@ -524,13 +528,40 @@ footer {
 }
 
 @media (max-width: 375px) {
-  section .banner-image {
-    height: unset;
+  section {
+    .banner-image {
+      height: unset;
+    }
+    .page-intro-content {
+      font-size: unset; 
+    }
   }
-  h1 {
-    font-size: 0.8em;
+  #quote {
+    width: 90%;
+    h1 {
+      font-size: 1.3em;
+    }
   }
   .combined-boxes {
     align-items: center;
+      h1 {
+        text-align: center;
+      }
+    }
+
+    .single-advisor-profile {
+      padding: 0.8em;
+    }
+    .half-circle{
+      padding: 10%;
+      width: unset;
+    }
+    footer {
+      text-align: center;
+      .footer-msg {
+      }
+      .copyright-msg {
+        text-align: center;
+      }
+    }
   }
-}

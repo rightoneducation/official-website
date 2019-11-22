@@ -328,14 +328,14 @@ section {
 }
 footer {
   background: top / cover no-repeat url(./images/footer-background-short.png);
-  align-items: center;
+  align-items: flex-end;
   padding: 3% 8%;
   height: 550px;
   background-color:  rgb(50, 40, 89);
   color: white;
   
   .footer-logo {
-    margin: 20px;
+    margin-top: 20px;
     width: 300px;
   }
   .footer-msg {
@@ -343,7 +343,7 @@ footer {
   }
   .copyright-msg {
     text-align: right;
-    margin: 15px 0;
+    margin: 10px 0;
     color: lightslategray;
   }
   .email-us:hover {

@@ -5,7 +5,7 @@ module.exports = {
       name: 'Ay-Nur Najm',
       photo: '/images/profile_ay-nur.jpg',
       title: 'Math Instructional Coach',
-      profile: 'Ay-Nur is an independent math consultant and is currently pursuing studies in computer science. She was previously a math instructional coach and computer science teacher in Brooklyn, where she helped establish a charter school with Uncommon Schools. She has taught in NYC public and charter schools for a decade and is passionate about providing access to high quality instruction to all kids.'
+      profile: 'Ay-Nur is an independent math consultant and software developer. She was previously a math instructional coach and computer science teacher in Brooklyn, where she helped establish a charter school with Uncommon Schools. She has taught in NYC public and charter schools for a decade and is passionate about providing access to high quality instruction to all kids.'
     },
     {
       id: 2,
@@ -26,21 +26,21 @@ module.exports = {
       name: 'Esmeralda Ortiz',
       photo: '/images/profile_Esme.jpg',
       title: 'Youth Development Leader',
-      profile: "A Senior Director at the Boys & Girls Clubs of the Peninsula, Esme leads high school and post-secondary success programs across all BGCP sites. Over the past eight years, she has developed and led partnerships with public high schools to engage more students, helping them achieve both academic and leadership goals. As a first-generation university graduate, Esme seeks to increase the representation and success of first-generation students in higher education."
+      profile: "A Senior Director at the Boys & Girls Clubs of the Peninsula, Esme leads high school and post-secondary success programs across all BGCP sites. Over the past nine years, she has developed and led partnerships with public high schools to engage more students, helping them achieve both academic and leadership goals. As a first-generation university graduate, Esme seeks to increase the representation and success of first-generation students in higher education."
     },
     {
       id: 5,
       name: 'Paul Chin',
       photo: '/images/profile_paul.jpg',
       title: 'Assistant Professor of Practice',
-      profile: "An Assistant Professor of Practice at the Relay Graduate School of Education, Paul has a demonstrated history of success teaching and leading in underserved communities across the United States. Paul began his career in education as a middle school math and science teacher in Los Angeles and Newark before transitioning to school leadership roles in Indianapolis and Brooklyn. After 11 years of teaching and leading in schools, Paul joined the teaching faculty at Relay and recently began a doctoral program at Teachers College, Columbia University in Adult Learning and Leadership."
+      profile: "An Assistant Professor of Practice at the Relay Graduate School of Education, Paul has a demonstrated history of success teaching and leading in underserved communities across the US. Paul began his career in education as a middle school math teacher in Los Angeles and Newark before transitioning to school leadership roles in Indianapolis and Brooklyn. After 12 years of teaching and leading in schools, Paul joined the teaching faculty at Relay and recently began a doctoral program at Teachers College, Columbia University in Adult Learning and Leadership."
     },
     {
       id: 6,
       name: 'Payton Richardson',
       photo: '/images/profile_payton.jpg',
       title: 'Education Research Analyst',
-      profile: "Payton is a mixed-methods research analyst at the Center for Research on Education Outcomes (CREDO) at Stanford University. Through both qualitative and quantitative analysis, he works on K-12 education research to support data-driven policy. Prior to working with CREDO, he worked on education policy advocacy and teacher training in Tennessee's charter and public schools. Payton is passionate about providing equity across the education landscape."
+      profile: "Payton is a mixed-methods education researcher and policy professional with expertise in analyzing K-12 data, federal and state accountability structures, and performance frameworks. As a Data Officer at Eastside Pathways, Payton formulates data strategies and provides ongoing analysis for a collective impact partnership that mobilizes over 60 public, private, and community-based organizations to support every child on their journey from cradle to career. Prior to Eastside Pathways, Payton spent several years at the Center for Research on Education Outcomes (CREDO). With a newly growing family, Payton is especially passionate about providing equity across the education landscape."
     },
     // {
     //   id: 5,

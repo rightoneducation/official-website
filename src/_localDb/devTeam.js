@@ -16,7 +16,7 @@ module.exports = {
           photo: '/images/profile_andy.jpeg',
           title: 'React Native Lead',
           favoriteShow: 'Who Wants to Be a Millionaire',
-          favoriteMistake: 'When going to a shoes-off sushi restaurant, avoid holey socks, especially ones where your big toe might stick out.',
+          favoriteMistake: 'In a recent email, while typing too quickly, accidentally referred to a colleague as a recent implant from Chicago...',
            linkedIn: 'https://www.linkedin.com/in/andyzanli/',
            isFlipped: false
         },

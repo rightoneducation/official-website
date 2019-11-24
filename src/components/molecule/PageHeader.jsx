@@ -14,10 +14,10 @@ function PageHeader () {
               <a href='/'><img src={logo} alt="right on education logo" width='100%' /></a> 
             </div>
           <div className='combined-boxes grid-d-7 grid-m-12'>
-            <MainNav />
             <div className='sub-headline'>
               <h1 style={{fontWeight: '300'}}>Unlocking every student’s potential in math!</h1>
             </div>
+            <MainNav />
           </div>
         </div>
       </header>

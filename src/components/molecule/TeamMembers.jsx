@@ -1,9 +1,7 @@
 import React from 'react'
 import ReactCardFlip from 'react-card-flip'
 
-// import Back from '../atom/Back'
 import SingleMember from '../atom/SingleMember'
-// import LinkedIn from '../../images/linkedin-icon.svg'
 
 function TeamMembers (props) {
   const { profileCards, handleFlip} = props

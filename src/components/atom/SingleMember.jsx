@@ -1,17 +1,15 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import ReactCardFlip from 'react-card-flip'
 
 import Front from '../atom/Front'
 import Back from '../atom/Back'
 import LinkedIn from '../../images/linkedin-icon.svg'
 
-function singleMember (props) {
-  const {name, linkedIn, photo, title, favoriteShow, favoriteMistake} = props.profile
-  const { handleFlip, key, isFlipped } = props  
-  console.log(key)
+function SingleMember (props) {
+  const {name, linkedIn, photo, title, favoriteShow, favoriteMistake, isFlipped} = props.profile
+  const { handleFlip } = props  
   return(
       <div className='card profile-card'>
-            {/* <div className='dark isolate'> */}
             <div className='title wrapper'>
               <h2 style={{fontStyle: 'italic', marginBottom:'unset'}}>
               {name} 
@@ -27,9 +25,8 @@ function singleMember (props) {
               <Front photo={photo} handleFlip={handleFlip}/>
               <Back favMistake={favoriteMistake} favShow={favoriteShow} handleFlip={handleFlip}/>
             </ReactCardFlip>
-            {/* </div> */}
       </div>
   )
 }
 
-export default singleMember;
+export default SingleMember;

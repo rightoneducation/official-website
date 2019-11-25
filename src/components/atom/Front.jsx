@@ -2,6 +2,7 @@ import React from 'react'
 
 function Front (props) {
     const {photo, handleFlip} = props
+    // console.log(handleFlip)
     return (
         <div>
             <button onClick={handleFlip}>

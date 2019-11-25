@@ -12,41 +12,34 @@ import TeamPage from 'components/organism/TeamPage'
 import PageHeader from 'components/molecule/PageHeader'
 import Footer from 'components/molecule/Footer'
 
-import teamData from '_localDb/devTeam'
+import teamData from '_localDb/teamData'
+import { Item } from 'semantic-ui-react';
 
 class App extends Component {
   constructor () {
     super()
     this.state = {
-      isFlipped: false,
-      profileCards: teamData.devTeam
+      devTeamCards: teamData.devTeam,
+      advisorProfiles: teamData.advisors
     }
-    this.handleFlip = this.handleFlip.bind(this);
-    // this.handleExpand = this.handleExpand.bind(this);
+    // this.handleFlip = this.handleFlip.bind(this);
   }
 
-  handleFlip(e){
-    e.preventDefault()
-    this.setState(prevState => ({
-      isFlipped: !prevState.isFlipped
-    }))
+  handleFlip = item => {
+    console.log(item)
+    const idx = this.state.devTeamCards.findIndex(i => i.id === item.id)
+    if (idx === -1 ){
+      return
+    }
+    const newItems = [...this.state.devTeamCards]
+    newItems[idx] = {
+      ...item,
+      isFlipped: !item.isFlipped
+    }
+    this.setState({devTeamCards: newItems})
   }
-  // handleFlip(index){
-  //   // let profileCards = this.state.profileCards
-  //   // profileCards = !profileCards[index].isFlipped
-  //   // console.log(profileCards[index])
-  //   this.setState({
-  //     // profileCards: profileCards
-  //     // isFlipped: !prevState.isFlipped
-  //   })
-  // }
-  // handleExpand (e) {
-  //   this.setState(prevState => ({
-  //     expanded: !prevState.expended
-  //   }))
-  // }
   render() {
-    const { isFlipped, profileCards } = this.state
+    const { devTeamCards, advisorProfiles } = this.state
     return (
       <Router>
         <div className="App">
@@ -58,7 +51,10 @@ class App extends Component {
                 <AboutPage handleExpand={this.handleExpand} />
               )}/>
               <Route path='/team' render={() => (
-                <TeamPage profileCards={profileCards} isFlipped={isFlipped} handleFlip={this.handleFlip}/>
+                <TeamPage 
+                  profileCards={devTeamCards} 
+                  handleFlip={this.handleFlip} 
+                  advisorData={advisorProfiles}/>
               )}/>
             </div>
           </Switch>

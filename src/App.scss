@@ -86,6 +86,7 @@ p {
 }
 
 section {
+  // position: relative;
   padding: 3% 8%;
   .section-heading {
     justify-content: space-between;
@@ -186,40 +187,39 @@ section {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  position: relative;
   .header-element-4 {
     z-index: 5;
   }
   .header-elements{
-    // height: 960px;
-    position: absolute;
+    // border: 1px solid white;
     width: 100%; 
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    // top: 0;
+    // right: 0;
+    // bottom: 0;
+    // left: 0;
+    // height: 750px;
     #header-element-1{
       background: url(./images/header-element-1.svg);
       background-repeat: no-repeat;
-      width: 100%;
+      // width: 100%;
       position: absolute;
       top: 0;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
+      right: 0;
+      bottom: 0;
+      left: 0;
       z-index: 4;
     }
     #header-element-2{
-      width: 100%;
+      // width: 100%;
       position: absolute;
-      // background: #322759;
       background: url(./images/header-element-2.svg);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: top;
-      // position: absolute;
-      top: -45%;
+      top: -65px;
       right: 0;
-      bottom: 0;
+      bottom: -200px;
       left: 0;
       z-index: 3;
       mix-blend-mode: hard-light;
@@ -227,7 +227,7 @@ section {
     #header-element-3{
       background: url(./images/header-element-3.svg);
       background-repeat: no-repeat;
-      width: 100%;
+      // width: 100%;
       position: absolute;
       top: 15%;
       right: 0;

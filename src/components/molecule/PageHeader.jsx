@@ -9,9 +9,9 @@ function PageHeader () {
     return (
       <header className='page-header'>
         <div className='header-elements'>
-        <div id='header-element-1'></div>
-        <div id='header-element-2'></div>
-        <div id='header-element-3'></div>
+          <div id='header-element-1'></div>
+          <div id='header-element-2'></div>
+          <div id='header-element-3'></div>
         </div>
         <div className="wrapper header-element-4" >
             <div className='grid-d-5'>

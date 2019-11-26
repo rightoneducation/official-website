@@ -180,8 +180,6 @@ section {
 
 
 .page-header { 
-  position: static;
-  // height: 750px;
   background: #322759;
   padding: 10%;
   color: white;
@@ -192,7 +190,7 @@ section {
     z-index: 5;
   }
   .header-elements{
-    height: 960px;
+    // height: 960px;
     position: absolute;
     width: 100%; 
     top: 0;
@@ -204,7 +202,7 @@ section {
       background-repeat: no-repeat;
       width: 100%;
       position: absolute;
-      top: 0px;
+      top: 0;
       right: 0px;
       bottom: 0px;
       left: 0px;
@@ -212,11 +210,13 @@ section {
     }
     #header-element-2{
       width: 100%;
+      position: absolute;
+      // background: #322759;
       background: url(./images/header-element-2.svg);
       background-repeat: no-repeat;
       background-size: cover;
-      background-position: center;
-      position: absolute;
+      background-position: top;
+      // position: absolute;
       top: -45%;
       right: 0;
       bottom: 0;
@@ -227,13 +227,12 @@ section {
     #header-element-3{
       background: url(./images/header-element-3.svg);
       background-repeat: no-repeat;
-      // background-size: cover;
-      width: 20%;
+      width: 100%;
       position: absolute;
-      top: 14.7%;
+      top: 15%;
       right: 0;
-      bottom: 8.5%;
-      left: auto;
+      bottom: 0;
+      left: 85%;
       z-index: 2;
     }
   }
@@ -407,115 +406,107 @@ footer {
   width: 35%;
 }
 
-// // Minimum desktop resolution
-@media only screen and (min-width: 1440px) {
-  section {
-    .banner-image {
-      // height: 50vh;
-    }
-    .team-profiles {
-      // width: 100%;
-    }
-  }
 
-  h1{
-    font-size: 2em;
-  }
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  // h1{
+  //   font-size: 2em;
+  // }
 
-  h2 {
-      font-size: 1.2em;
-  }
+  // h2 {
+  //     font-size: 1.2em;
+  // }
 
-  .product-features {
-    flex-flow: row wrap;
-  }
+  // .product-features {
+  //   flex-flow: row wrap;
+  // }
 
-  .product-msg {
-    margin: 10px;
-  }
-  .problem-description {
-    font-size: 1em;
-  }
-  .one-col-box {
-    width: 100%;
-  }
-  .about {
-    padding: 20px;
-  }
-  .why-righton-card {
-    padding: 10px;
-    box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.35);
-    background: white;
-  }
-  p {
-    // font-size: 0.85em;
-    line-height: 1.4;
-  }
+  // .product-msg {
+  //   margin: 10px;
+  // }
+  // .problem-description {
+  //   font-size: 1em;
+  // }
+  // .one-col-box {
+  //   width: 100%;
+  // }
+  // .about {
+  //   padding: 20px;
+  // }
+  // .why-righton-card {
+  //   padding: 10px;
+  //   box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.35);
+  //   background: white;
+  // }
+  // p {
+  //   // font-size: 0.85em;
+  //   line-height: 1.4;
+  // }
 
-  .list-description {
-    font-size: 0.85em;
-  }
+  // .list-description {
+  //   font-size: 0.85em;
+  // }
 
-  .footer {
-    flex-direction: column-reverse;
-    text-align: center;
-    padding: 10px
-  }
+  // .footer {
+  //   flex-direction: column-reverse;
+  //   text-align: center;
+  //   padding: 10px
+  // }
 
-  .footer-msg {
-    font-size: 0.95em;
-  }
+  // .footer-msg {
+  //   font-size: 0.95em;
+  // }
 
-  .copyright-msg {
-    font-size: 0.75em;
-    color: lightslategray;
-  }
-  .combined-boxes {
-    // align-items: center;
-  }
+  // .copyright-msg {
+  //   font-size: 0.75em;
+  //   color: lightslategray;
+  // }
+  // .combined-boxes {
+  //   // align-items: center;
+  // }
 }
 
 
-// //Minimum tablet screen resolution 
-@media only screen and (min-width: 1024px) {
-  .problem-card {
-    margin-left: unset;
-  }
-  .combined-boxes {
-    // align-items: center;
-  }
-  section .banner-image {
-    // height: 20vh;
-    .page-intro {
-      width: 85%;
-      height: 350px;
-      position: relative;
-      padding: 80px;
-      margin: auto;
-      mix-blend-mode: multiply;
-      background: linear-gradient(201.84deg, #B443CC 0%, #662AAF 73.19%);
-    }
-    .page-intro-content {
-      color: white;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-  } 
-  .card {
-    // width: 80%;
-    .card-image {
-      height: unset;
-    }
-  }
-  #features {
-    height: unset;
-  }
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  // .problem-card {
+  //   margin-left: unset;
+  // }
+  // .combined-boxes {
+  //   // align-items: center;
+  // }
+  // section .banner-image {
+  //   // height: 20vh;
+  //   .page-intro {
+  //     width: 85%;
+  //     height: 350px;
+  //     position: relative;
+  //     padding: 80px;
+  //     margin: auto;
+  //     mix-blend-mode: multiply;
+  //     background: linear-gradient(201.84deg, #B443CC 0%, #662AAF 73.19%);
+  //   }
+  //   .page-intro-content {
+  //     color: white;
+  //     display: flex;
+  //     flex-direction: column;
+  //     justify-content: center;
+  //   }
+  // } 
+  // .card {
+  //   // width: 80%;
+  //   .card-image {
+  //     height: unset;
+  //   }
+  // }
+  // #features {
+  //   height: unset;
+  // }
 }
 
 
-// /* Max tablet screen resolution*/
-@media (max-width: 720px) {
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
   nav{
     h2 {
       font-size: 1em;
@@ -575,7 +566,8 @@ footer {
   }
 }
 
-@media (max-width: 375px) {
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px){
   section {
     .banner-image {
       height: unset;
@@ -594,6 +586,10 @@ footer {
     h1 {
       font-size: 1.3em;
     }
+  }
+  .problem-card {
+    margin: auto;
+    width: 100%;
   }
   .combined-boxes {
     align-items: center;
@@ -622,15 +618,14 @@ footer {
       }
     }
     .header-elements{
-      height: 350px;
       #header-element-1{
-        // bottom: 30% !important;
+        top: -20% !important;
       }
       #header-element-2{
-        bottom: 30% !important;
+        top: -95% !important;
       }
       #header-element-3{
-        top: -0.5% !important;
+        top: -1% !important;
       }
     }
   }

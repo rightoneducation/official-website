@@ -458,7 +458,7 @@ footer {
   //   color: lightslategray;
   // }
   // .combined-boxes {
-  //   // align-items: center;
+  //   align-items: center;
   // }
 }
 
@@ -469,7 +469,7 @@ footer {
   //   margin-left: unset;
   // }
   // .combined-boxes {
-  //   // align-items: center;
+  //   align-items: center;
   // }
   // section .banner-image {
   //   // height: 20vh;
@@ -508,9 +508,9 @@ footer {
       font-size: 1em;
     }
   }
-  .combined-boxes {
-    align-items: center;
-  }
+  // .combined-boxes {
+  //   align-items: center;
+  // }
   #features {
     height: unset;
   }
@@ -563,7 +563,7 @@ footer {
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 415px){
   section {
     .banner-image {
       height: unset;
@@ -605,9 +605,11 @@ footer {
     footer {
       .footer-msg {
         font-size: 0.8em;
+        text-align: center;
+        margin: auto;
       }
-      text-align: center;
-      .footer-msg {
+      .footer-logo {
+        margin: 10px auto;
       }
       .copyright-msg {
         text-align: center;

@@ -8,8 +8,12 @@ import MainNav from './MainNav'
 function PageHeader () {
     return (
       <header className='page-header'>
-        {/* <img src={background} width='100%' style={{ position: 'absolute', mixBlendMode: 'multiply' }} /> */}
-        <div className="wrapper">
+        <div className='header-elements'>
+        <div id='header-element-1'></div>
+        <div id='header-element-2'></div>
+        <div id='header-element-3'></div>
+        </div>
+        <div className="wrapper header-element-4" >
             <div className='grid-d-5'>
               <a href='/'><img src={logo} alt="right on education logo" width='100%' /></a> 
             </div>

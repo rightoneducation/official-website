@@ -9,7 +9,7 @@ module.exports = {
       id: 2,
       title: 'Connect Misconceptions with Targeted Explanations',
       featureIcon: '/images/target_icon.svg',
-      description: 'Find out the rationale behind different wrong answers and get tips on how to provide clarifications to your students.'
+      description: 'Understand the rationale behind different wrong answers and get tips on how to provide clarifications to your students.'
     },
     {
       id: 3,

@@ -188,17 +188,13 @@ section {
   flex-flow: row wrap;
   justify-content: space-around;
   position: relative;
+  overflow: visible;
   .header-element-4 {
     z-index: 5;
   }
   .header-elements{
     // border: 1px solid white;
     width: 100%; 
-    // top: 0;
-    // right: 0;
-    // bottom: 0;
-    // left: 0;
-    // height: 750px;
     #header-element-1{
       background: url(./images/header-element-1.svg);
       background-repeat: no-repeat;
@@ -217,9 +213,9 @@ section {
       background-repeat: no-repeat;
       background-size: cover;
       background-position: top;
-      top: -65px;
+      top: 0;
       right: 0;
-      bottom: -200px;
+      bottom: -185px;
       left: 0;
       z-index: 3;
       mix-blend-mode: hard-light;

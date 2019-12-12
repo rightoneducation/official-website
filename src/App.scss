@@ -385,6 +385,7 @@ footer {
     margin: 15px;
   }
   .copyright-msg {
+    font-size: 0.8rem;
     text-align: right;
     margin: 10px 0;
     color: lightslategray;
@@ -572,16 +573,19 @@ footer {
       font-size: unset; 
     }
   }
+  h1 {
+    font-size: 1.3em;
+  }
   .job-title {
     padding: 2% !important;
     font-size: 0.8em;
     height: unset !important;
   }
+  .single-advisor-profile {
+    flex-flow: wrap;
+  }
   #quote {
     width: 90%;
-    h1 {
-      font-size: 1.3em;
-    }
   }
   .problem-card {
     margin: auto;
@@ -590,7 +594,6 @@ footer {
   .combined-boxes {
     align-items: center;
       h1 {
-        font-size: 1.3em;
         text-align: center;
       }
     }

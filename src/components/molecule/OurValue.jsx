@@ -9,10 +9,14 @@ function OurValue () {
         <div className='banner-image'>
           <img  src={placeholder} alt='right-on-education-vision' width='100%' align='top' />
         </div>
-        <div className='page-intro'>
+        <div className='page-intro flex-box'>
+          <div style={{width: '200px', margin: '30px'}}>
+            <img src={teamIcon} alt='right-on-education' width= '100%' />
+          </div>
+          <div>
             <h1>Our Values</h1>
           <div className='page-intro-content'>
-            <p style={{ lineHeight: '1.6em'}}>
+            <p style={{ lineHeight: '1.5em' }}>
                 We’re a team that sometimes falls down, always gets back up, and never stops having fun.<br/>
                 <b>Trust and open communication:</b> seeking to understand, then to be understood<br/>
                 <b>Integrity:</b> doing the right thing<br />
@@ -21,6 +25,7 @@ function OurValue () {
                 <b>Beginner’s mindset:</b> going into things with an open mind, always learning and making new mistakes<br />
                 <b>Fun:</b> having fun along the way!
             </p>
+          </div>
           </div>
         </div>
       </section>

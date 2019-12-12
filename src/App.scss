@@ -58,7 +58,7 @@ button {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 3em;
   margin-bottom: 10px
 }
 
@@ -99,6 +99,7 @@ section {
     overflow: hidden;
   }
   .page-intro {
+    justify-content: center;
     color: white;
     width: 85%;
     position: relative;
@@ -314,7 +315,7 @@ section {
 }
 
 .profile-photo-advisors {
-  margin: 10px 5px;
+  margin: 0 15px 0 0;
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -363,11 +364,10 @@ section {
 }
 .single-advisor-profile {
   display: flex;
-  flex-flow: row wrap;
-  align-items: center;
+  flex-flow: row;
   padding: 1.8em;
-  // margin: 10px;
-  // width: 300px;
+  margin: 10px;
+  width: 300px;
 }
 footer {
   background: top / cover no-repeat url(./images/footer-background-short.png);

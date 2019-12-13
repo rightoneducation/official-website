@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.fb191eda.chunk.css",
-    "main.js": "/static/js/main.c2e2796d.chunk.js",
-    "main.js.map": "/static/js/main.c2e2796d.chunk.js.map",
+    "main.css": "/static/css/main.5dea6486.chunk.css",
+    "main.js": "/static/js/main.0cb9da2e.chunk.js",
+    "main.js.map": "/static/js/main.0cb9da2e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.abd2afda.js",
     "runtime-main.js.map": "/static/js/runtime-main.abd2afda.js.map",
-    "static/js/2.f56342d6.chunk.js": "/static/js/2.f56342d6.chunk.js",
-    "static/js/2.f56342d6.chunk.js.map": "/static/js/2.f56342d6.chunk.js.map",
+    "static/js/2.bd3de30c.chunk.js": "/static/js/2.bd3de30c.chunk.js",
+    "static/js/2.bd3de30c.chunk.js.map": "/static/js/2.bd3de30c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0a07d2aafa21c9395fe4915df614d8a1.js": "/precache-manifest.0a07d2aafa21c9395fe4915df614d8a1.js",
+    "precache-manifest.3cf2ce3d0378abd6605c5c9c05145a67.js": "/precache-manifest.3cf2ce3d0378abd6605c5c9c05145a67.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.fb191eda.chunk.css.map": "/static/css/main.fb191eda.chunk.css.map",
+    "static/css/main.5dea6486.chunk.css.map": "/static/css/main.5dea6486.chunk.css.map",
     "static/media/app-iphone-mockup.png": "/static/media/app-iphone-mockup.13d0227c.png",
-    "static/media/believe-in-yourself.jpg": "/static/media/believe-in-yourself.759dec72.jpg",
+    "static/media/believe-in-yourself.jpg": "/static/media/believe-in-yourself.0dd369e1.jpg",
     "static/media/diversity-placeholder-image.jpg": "/static/media/diversity-placeholder-image.f0afbec8.jpg",
     "static/media/App.scss": "/static/media/header-element-3.f213d6a0.svg",
     "static/media/header-background.svg": "/static/media/header-background.43624eeb.svg",
@@ -20,12 +20,13 @@
     "static/media/righton.svg": "/static/media/righton.1524a412.svg",
     "static/media/student-looking-bored.jpg": "/static/media/student-looking-bored.20558011.jpg",
     "static/media/students-pointing-at-screen.jpg": "/static/media/students-pointing-at-screen.ea6f1edc.jpg",
-    "static/media/team-icon.svg": "/static/media/team-icon.3f362737.svg"
+    "static/media/team-icon.svg": "/static/media/team-icon.3f362737.svg",
+    "static/media/team-photo.jpg": "/static/media/team-photo.af095bcd.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.abd2afda.js",
-    "static/js/2.f56342d6.chunk.js",
-    "static/css/main.fb191eda.chunk.css",
-    "static/js/main.c2e2796d.chunk.js"
+    "static/js/2.bd3de30c.chunk.js",
+    "static/css/main.5dea6486.chunk.css",
+    "static/js/main.0cb9da2e.chunk.js"
   ]
 }

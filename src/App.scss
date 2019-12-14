@@ -58,7 +58,7 @@ button {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2em;
   margin-bottom: 10px
 }
 
@@ -347,6 +347,18 @@ section {
   padding: 1.8em;
   margin: 10px;
   width: 300px;
+  .advisor-info {
+    width: 95%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+  .high-light {
+    margin-bottom: 10px;
+    background-color: white;
+    color: #772A79;
+    padding: 1.5px 5px;
+  }
 }
 footer {
   background: top / cover no-repeat url(./images/footer-background-short.png);
@@ -434,8 +446,6 @@ footer {
           justify-content: center;
         }
       } 
-    
-    
       .sub-headline {
         margin: 45px 0px;
         text-align: right; 
@@ -461,7 +471,18 @@ footer {
         margin: auto;
         width: 100%;
       }
-  
+      footer {
+        .footer-msg {
+          text-align: center;
+          margin: auto;
+        }
+        .footer-logo {
+          margin: 10px auto;
+        }
+        .copyright-msg {
+          text-align: center;
+        }
+      }
 }
 
 /* 
@@ -501,6 +522,7 @@ footer {
   .combined-boxes {
     align-items: center;
       h1 {
+        font-size: 1.2rem;
         text-align: center;
       }
     }

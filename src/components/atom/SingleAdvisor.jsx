@@ -5,8 +5,9 @@ function Advisor (props) {
   return (
       <div className='grid-d-5 single-advisor-profile'>
         <a href={linkedIn}><img src={photo} className='profile-photo-advisors' alt='' /></a>
-          <div>
-            <h2 style={{fontWeight: '300'}}>{name}</h2><span><h5 style={{marginBottom:'10px'}}>{' | '}{title}</h5></span>
+          <div className='advisor-info'>
+            <h2 style={{fontWeight: '300', marginRight: '10px'}}>{name}</h2>
+            <h5 className='high-light'>{title}</h5>
           <div>
             <p>{profile}</p>
           </div>

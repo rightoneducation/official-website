@@ -175,9 +175,7 @@ section {
 }
 
 #our-values {
-  // padding: 10%;
   color: white;
-  // background: linear-gradient(206.37deg, #FF3369 0%, #662AAF 73.19%);
 }
 
 
@@ -199,7 +197,6 @@ section {
     #header-element-1{
       background: url(./images/header-element-1.svg);
       background-repeat: no-repeat;
-      // width: 100%;
       position: absolute;
       top: 0;
       right: 0;
@@ -208,7 +205,6 @@ section {
       z-index: 4;
     }
     #header-element-2{
-      // width: 100%;
       position: absolute;
       background: url(./images/header-element-2.svg);
       background-repeat: no-repeat;
@@ -224,7 +220,6 @@ section {
     #header-element-3{
       background: url(./images/header-element-3.svg);
       background-repeat: no-repeat;
-      // width: 100%;
       position: absolute;
       top: 15%;
       right: 0;
@@ -250,6 +245,9 @@ section {
   margin: 15px 0px;
   text-align: right; 
   font-style: italic;
+  h1 {
+    font-size: 2rem;
+  }
 }
 
 .problem-card {
@@ -271,10 +269,6 @@ section {
   text-align: center;
 }
 
-// .isolate {
-//   isolation: isolate;
-// }
-
 .profile-card {
   padding: 1.5em;
   width: 330px;
@@ -286,15 +280,7 @@ section {
   background: linear-gradient(240.12deg, #B443CC 10.99%, #662AAF 50.9%), #B443CC;
   mix-blend-mode: multiply;
 
-  // .dark {
-  //   width: 280px;
-  //   height: 300px;
-  //   background: linear-gradient(240.12deg, #B443CC 10.99%, #662AAF 50.9%), #B443CC;
-  //   mix-blend-mode: multiply;
-  // }
-
   .title {
-    // width: 100%;
     margin-bottom: 10px;
   } 
   .job-title {
@@ -333,27 +319,20 @@ section {
 .half-circle {
     padding: 2%; 
     margin-top: -3.6% !important; 
-    // height: 100px;
     width: 70%;
     border-bottom-right-radius: 800px;
     border-bottom-left-radius: 800px;
     border: 15px solid rgb(255, 51, 218);
     border-top: 0;
-    // border-style: ;
 }
 
 .card {
-  // padding: 0.5%;
   margin: 18px 0;
   .card-image {
     align-self: center;
-    // width: 50%;
-    // height: 300px;
-    // object-fit: fill;
   }
   .card-content {
     align-self: center;
-    // width: 50%;
     padding: 15px;
   }
 }
@@ -403,168 +382,93 @@ footer {
   width: 35%;
 }
 
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  // h1{
-  //   font-size: 2em;
-  // }
-
-  // h2 {
-  //     font-size: 1.2em;
-  // }
-
-  // .product-features {
-  //   flex-flow: row wrap;
-  // }
-
-  // .product-msg {
-  //   margin: 10px;
-  // }
-  // .problem-description {
-  //   font-size: 1em;
-  // }
-  // .one-col-box {
-  //   width: 100%;
-  // }
-  // .about {
-  //   padding: 20px;
-  // }
-  // .why-righton-card {
-  //   padding: 10px;
-  //   box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.35);
-  //   background: white;
-  // }
-  // p {
-  //   // font-size: 0.85em;
-  //   line-height: 1.4;
-  // }
-
-  // .list-description {
-  //   font-size: 0.85em;
-  // }
-
-  // .footer {
-  //   flex-direction: column-reverse;
-  //   text-align: center;
-  //   padding: 10px
-  // }
-
-  // .footer-msg {
-  //   font-size: 0.95em;
-  // }
-
-  // .copyright-msg {
-  //   font-size: 0.75em;
-  //   color: lightslategray;
-  // }
-  // .combined-boxes {
-  //   align-items: center;
-  // }
+@media (min-width: 1281px) {
+  
 }
 
+// /* 
+//   ##Device = Laptops, Desktops
+//   ##Screen = B/w 1025px to 1280px
+// */
+// @media (min-width: 1025px) and (max-width: 1280px) {
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  // .problem-card {
-  //   margin-left: unset;
-  // }
-  // .combined-boxes {
-  //   align-items: center;
-  // }
-  // section .banner-image {
-  //   // height: 20vh;
-  //   .page-intro {
-  //     width: 85%;
-  //     height: 350px;
-  //     position: relative;
-  //     padding: 80px;
-  //     margin: auto;
-  //     mix-blend-mode: multiply;
-  //     background: linear-gradient(201.84deg, #B443CC 0%, #662AAF 73.19%);
-  //   }
-  //   .page-intro-content {
-  //     color: white;
-  //     display: flex;
-  //     flex-direction: column;
-  //     justify-content: center;
-  //   }
-  // } 
-  // .card {
-  //   // width: 80%;
-  //   .card-image {
-  //     height: unset;
-  //   }
-  // }
-  // #features {
-  //   height: unset;
-  // }
-}
+// }
 
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1279px) {
   nav{
-    h2 {
-      font-size: 1em;
-    }
-  }
-  // .combined-boxes {
-  //   align-items: center;
-  // }
-  #features {
-    height: unset;
-  }
-  section 
-  .banner-image {
-    // height: 35vh;
-    .page-intro {
-      width: 85%;
-      height: 350px;
-      position: relative;
-      padding: 80px;
-      margin: auto;
-      mix-blend-mode: multiply;
-      background: linear-gradient(201.84deg, #B443CC 0%, #662AAF 73.19%);
-    }
-    .page-intro-content {
-      color: white;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-  } 
-
-
-  .sub-headline {
-    margin: 45px 0px;
-    text-align: right; 
-    font-style: italic;
-  }
-  h1 {
-    font-size: 1.5em;
-    // text-align: center;
-  }
-
-  .mission-section {
-    flex-flow: row wrap;
-    flex-direction: column-reverse;
-  }
-
-  .mission-card {
-    margin: -20px auto 20px auto;
-    width: 100%;
-    height: auto;
-  }
-
-  .problem-card {
-    margin: auto;
-    width: 100%;
-  }
+        h2 {
+          font-size: 1em;
+        }
+      }
+      .combined-boxes {
+        align-items: center;
+      }
+      #features {
+        height: unset;
+      }
+      section 
+      .banner-image {
+        // height: 35vh;
+        .page-intro {
+          width: 85%;
+          height: 350px;
+          position: relative;
+          padding: 80px;
+          margin: auto;
+          mix-blend-mode: multiply;
+          background: linear-gradient(201.84deg, #B443CC 0%, #662AAF 73.19%);
+        }
+        .page-intro-content {
+          color: white;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+      } 
+    
+    
+      .sub-headline {
+        margin: 45px 0px;
+        text-align: right; 
+        font-style: italic;
+      }
+      h1 {
+        font-size: 1.5em;
+        // text-align: center;
+      }
+    
+      .mission-section {
+        flex-flow: row wrap;
+        flex-direction: column-reverse;
+      }
+    
+      .mission-card {
+        margin: -20px auto 20px auto;
+        width: 100%;
+        height: auto;
+      }
+    
+      .problem-card {
+        margin: auto;
+        width: 100%;
+      }
+  
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 415px){
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 767px
+*/
+@media (min-width: 320px) and (max-width: 767px) {
   section {
     .banner-image {
       height: unset;
@@ -574,6 +478,9 @@ footer {
     }
   }
   h1 {
+    font-size: 1.3em;
+  }
+  .main-navigation h1 {
     font-size: 1.3em;
   }
   .job-title {

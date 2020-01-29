@@ -52,6 +52,16 @@ module.exports = {
         },
         {
           id: 6,
+          name: 'Iman Howard',
+          photo: '../images/profile_iman.jpg',
+          title: 'Education Lead',
+          favoriteShow: 'Jeopardy!',
+          favoriteMistake: 'Growing up, my brother convinced me to participate in a “wasabi contest," where I ate a whole spoonful of wasabi. I still love wasabi... in smaller portions.',
+          linkedIn: 'https://www.linkedin.com/in/imanhoward/',
+          isFlipped: false
+        },
+        {
+          id: 7,
           name: 'Katerina Schenke, PhD',
           photo: '/images/profile_katerina.jpg',
           title: 'Research & Learning Scientist',
@@ -61,7 +71,7 @@ module.exports = {
           isFlipped: false
         },
         {
-          id: 7,
+          id: 8,
           name: 'Marizza Bailey',
           photo: '/images/profile_marizza.png',
           title: 'Math Educator / Content & Pedagogy',
@@ -71,7 +81,7 @@ module.exports = {
           isFlipped: false
         },
         {
-          id: 8,
+          id: 9,
           name: 'Ronald Towns',
           photo: '/images/profile_ronald.jpg',
           title: 'Math Educator / STEM Administrator',
@@ -80,7 +90,7 @@ module.exports = {
           linkedIn: 'https://www.linkedin.com/in/ronaldtowns/',
           isFlipped: false
         },
-        { id: 9,
+        { id: 10,
           name: 'Sinclair Wu',
           photo: '/images/profile_sinclair.jpg',
           title: 'Product Lead',
@@ -138,14 +148,14 @@ module.exports = {
           profile: "A Senior Director at the Boys & Girls Clubs of the Peninsula, Esme leads high school and post-secondary success programs across all BGCP sites. Over the past nine years, she has developed and led partnerships with public high schools to engage more students, helping them achieve both academic and leadership goals. As a first-generation university graduate, Esme seeks to increase the representation and success of first-generation students in higher education.",
           linkedIn: 'https://www.linkedin.com/in/esmeralda-ortiz-0400b476/'
         },
-        {
-          id: 6,
-          name: 'Iman Howard',
-          photo: '../images/profile_iman.jpg',
-          title: 'Assistant Principal',
-          profile: 'Iman is a K-12 STEM instruction, curriculum and assessment development expert. A former classroom teacher, Iman learned that the evolving educational landscape calls for classrooms that are culturally responsive, differentiated for each child and maximized for learning through inquiry and engagement. Iman works for the Knowledge is Power Program (KIPP) Charter Schools, where she led the network in science achievement data. In her current role as an Assistant Principal, Iman facilitates adult learning both regionally and nationally as well as builds curriculum resources that reach over 40,000 students.',
-          linkedIn: 'https://www.linkedin.com/in/imanhoward/'
-        },
+        // {
+        //   id: 6,
+        //   name: 'Iman Howard',
+        //   photo: '../images/profile_iman.jpg',
+        //   title: 'Assistant Principal',
+        //   profile: 'Iman is a K-12 STEM instruction, curriculum and assessment development expert. A former classroom teacher, Iman learned that the evolving educational landscape calls for classrooms that are culturally responsive, differentiated for each child and maximized for learning through inquiry and engagement. Iman works for the Knowledge is Power Program (KIPP) Charter Schools, where she led the network in science achievement data. In her current role as an Assistant Principal, Iman facilitates adult learning both regionally and nationally as well as builds curriculum resources that reach over 40,000 students.',
+        //   linkedIn: 'https://www.linkedin.com/in/imanhoward/'
+        // },
         {
           id: 7,
           name: 'Paul Chin',

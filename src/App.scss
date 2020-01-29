@@ -354,10 +354,11 @@ section {
     align-items: center;
   }
   .high-light {
+    border-left: 1px solid white;
     margin-bottom: 10px;
-    background-color: white;
-    color: #772A79;
-    padding: 1.5px 5px;
+    margin-left: 3px;
+    color: white;
+    padding: 1.5px 10px;
   }
 }
 footer {

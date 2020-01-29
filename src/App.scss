@@ -166,7 +166,7 @@ section {
     }
 }
 .advisor {
-  width: 98%;
+  // width: 98%;
   margin: auto;
 }
 #advisors {
@@ -342,11 +342,11 @@ section {
   background: white;
 }
 .single-advisor-profile {
-  display: flex;
-  flex-flow: row;
+  // display: flex;
+  // flex-flow: row;
   padding: 1.8em;
-  margin: 10px;
-  width: 300px;
+  // margin: 10px;
+  // width: 230px;
   .advisor-info {
     width: 95%;
     display: flex;
@@ -355,7 +355,7 @@ section {
   }
   .high-light {
     border-left: 1px solid white;
-    margin-bottom: 10px;
+    margin: 5px;
     margin-left: 3px;
     color: white;
     padding: 1.5px 10px;

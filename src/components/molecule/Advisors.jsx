@@ -9,7 +9,7 @@ function Advisors(props) {
         <h1>Advisors</h1>
       </div>
       <div className='flex-box advisor'>
-        <div className='wrapper' style={{alignItems: 'flex-start', justifyContent:'space-evenly'}}>
+        <div className='wrapper' style={{alignItems: 'flex-start', justifyContent:'space-between'}}>
         {props.advisorProfiles.map((advisor, key) => {
           return <SingleAdvisor key={key} advisor={advisor} />
         })}

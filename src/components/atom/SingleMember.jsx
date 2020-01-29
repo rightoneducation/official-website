@@ -11,15 +11,15 @@ function SingleMember (props) {
   return(
       <div className='card profile-card'>
             <div className='title wrapper'>
-              <h2 style={{fontStyle: 'italic', marginBottom:'unset'}}>
+              <h3 style={{fontStyle: 'italic', marginBottom:'unset'}}>
               {name} 
               <a target="_blank" href={linkedIn}>  
               <img src={LinkedIn} width='20px' height='20px' style={{margin: '0 0 -2px 6px'}}/>
               </a>
-              </h2>
+              </h3>
             </div>
             <div className='title job-title'>
-              <h4 style={{fontWeight: '300'}}>{title}</h4>
+              <h5 style={{fontWeight: '300'}}>{title}</h5>
             </div>
             <ReactCardFlip isFlipped={isFlipped}>
               <Front photo={photo} handleFlip={handleFlip}/>

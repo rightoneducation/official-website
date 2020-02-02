@@ -34,7 +34,7 @@ module.exports = {
           id: 4,
           name: 'Daz C Yang',
           photo: '/images/profile_daz.jpg',
-          title: 'Full-Stack Web Developer',
+          title: 'Visual Designer / Front-end Developer',
           favoriteShow: 'Kasou Taishou',
           favoriteMistake: 'I love learning new languages, and making mistakes with idioms is a key part of becoming more fluent. I find it funny that, when an alarm clock “goes off,” that means it turns on!',
           linkedIn: 'https://www.linkedin.com/in/dazyang',

@@ -1,21 +1,17 @@
 import React from 'react'
 
-import xIcon from 'images/magenta_straight_X_icon.svg';
-
 import SingleFeature from '../atom/SingleFeature'
 
 function ProductFeatures (props) {
     return (
-      <section id='features' className='product-features'>
-        <div className='section-intro'>
-          <h2><img src={xIcon} width='8%' className='about-icons' alt='product feature' />
-          Product Features</h2>
+      <section id='features'>
+        <div className='section-heading half-circle'>
+          <h1 id='section-heading' style={{textAlign:'center', color:'white', fontSize:'3em'}}>Product Features</h1>
         </div>
-        <div className='col-wrapper grid-d-8'>
-          {props.features.features.map((feature, key) => {
-            return <SingleFeature key={key} feature={feature} />
+        <div className='wrapper'>
+          {props.features.features.map((feature, key) => { return <SingleFeature key={key} feature={feature} />
           })}
-        </div>
+        </div> 
       </section>
     )
 }

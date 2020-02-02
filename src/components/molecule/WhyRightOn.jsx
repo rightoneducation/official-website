@@ -1,28 +1,36 @@
 import React from 'react'
 
-import diversity from 'images/diversity-placeholder-image.jpg'
-import unsplash_1 from 'images/unsplash-1.jpg'
-import unsplash_2 from 'images/unsplash-2.jpg'
-import circle from 'images/circle_icon.svg';
-
+import SectionHeading from '../atom/SectionHeading'
 import SingleWhy from '../atom/SingleWhy'
 
+import iphonemockup from 'images/app-iphone-mockup.png'
+
 function WhyRightOn(props) {
+  // const { title, featureImage, description } = props.valueprops
   return (
-    <div className='card-wrapper-normal'>
-      <h2>
-        <img src={circle} className='about-icons' width='10%' alt='product feature' />Why <b><em>RightOn!</em></b>
-        </h2>
-      <h3 className='h3-normal-weight'>
-        <b><em>RightOn!</em></b> is a free game show app that makes math more fun for middle and high school students.
-        </h3>
-      <div className='why-righton-wrapper'>
-        {props.valueprops.map((valueprop, key) => {
-          return <SingleWhy key={key} valueprop={valueprop} />
-        })}
-      </div>
-    </div>
+    <section id='why-righton'>
+        <SectionHeading />
+        <div className='flex-box' style={{justifyContent:'space-around'}}> 
+          <div className='grid-d-7'>
+          {props.valueprops.map((valueprop, key) => {
+            return <SingleWhy key={key} singleWhy={valueprop} />
+          })}    
+          </div>
+          <div className='grid-d-2 grid-t-3 grid-m-3' style={{alignSelf:'center'}}> 
+            <img src={iphonemockup} width='100%'/>
+          </div>
+          {/* <div className='grid-d-3 why-righton-card'>
+          <SingleWhy singleWhy={props.valueprops}/>
+          <SingleWhy singleWhy={props.valueprops}/>
+          </div> */}
+        </div>
+    </section>
   )
 }
 
 export default WhyRightOn;
+
+
+
+
+         

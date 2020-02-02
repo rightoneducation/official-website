@@ -3,16 +3,16 @@ import righton from 'righton.svg'
 
 function Footer () {
     return (
-      <footer id='footer'>
-        <div className='footer'>
-          <p className='copyright-msg'>RightOn Education &copy; 2018 All Rights Reserved</p>
+      <footer className='wrapper' id='footer'>
+          <div className='footer-msg'>
+            <h1 style={{fontWeight: '300'}}>Interested in learning more? Email us at <br/> <a href="mailto:info@rightoneducation.com" className='email-us'><b>info@rightoneducation.com</b></a></h1>
+          </div>
           <div className='footer-logo'>
             <a href='/'><img src={righton} width='100%' alt='RightOn logo' /></a>
+          <div>
+          <p className='copyright-msg'>RightOn Education &copy; 2019 All Rights Reserved</p>
           </div>
-          <div className='footer-msg'>
-            <h3><b>Interested in learning more?</b><br/> Email us at <a href="mailto:info@rightoneducation.com" className='email-us'>info@rightoneducation.com</a></h3>
           </div>
-        </div>
       </footer>
     )
 }

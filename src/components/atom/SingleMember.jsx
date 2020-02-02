@@ -1,25 +1,32 @@
 import React from 'react'
+import ReactCardFlip from 'react-card-flip'
 
-function singleMember (props) {
-  const {name, photo, title, favoriteShow, favoriteMistake} = props.member
+import Front from '../atom/Front'
+import Back from '../atom/Back'
+import LinkedIn from '../../images/linkedin-icon.svg'
+
+function SingleMember (props) {
+  const {name, linkedIn, photo, title, favoriteShow, favoriteMistake, isFlipped} = props.profile
+  const { handleFlip } = props  
   return(
-      <div className='single-col'>
-          <center>
-            <img src={photo} width='80%' className='profile-photo' />
-            <h4 className='single-col-title'>{name}</h4>
-            <h6 className='job-title'>{title}</h6>
-          </center>
-          <p className='feature-description'>
-            <b>Favorite game show:</b>
-            <br />
-            {favoriteShow}
-            <br /><br />
-            <b>Favorite mistake: </b>
-            <br />
-            {favoriteMistake}
-          </p>
+      <div className='card profile-card'>
+            <div className='title wrapper'>
+              <h3 style={{fontStyle: 'italic', marginBottom:'unset'}}>
+              {name} 
+              <a target="_blank" href={linkedIn}>  
+              <img src={LinkedIn} width='20px' height='20px' style={{margin: '0 0 -2px 6px'}}/>
+              </a>
+              </h3>
+            </div>
+            <div className='title job-title'>
+              <h5 style={{fontWeight: '300'}}>{title}</h5>
+            </div>
+            <ReactCardFlip isFlipped={isFlipped}>
+              <Front photo={photo} handleFlip={handleFlip}/>
+              <Back favMistake={favoriteMistake} favShow={favoriteShow} handleFlip={handleFlip}/>
+            </ReactCardFlip>
       </div>
   )
 }
 
-export default singleMember;
+export default SingleMember;

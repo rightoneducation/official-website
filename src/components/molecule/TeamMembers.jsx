@@ -1,23 +1,27 @@
 import React from 'react'
 
-import hash from 'images/hash_icon.svg'
-
 import SingleMember from '../atom/SingleMember'
 
-function Team (props) {
+function TeamMembers (props) {
+  const { profileCards, handleFlip} = props
+  // Loop through the profiles and return a randomised array
+
     return (
-      <section id='team' className='card-wrapper'>
-        <div className='section-intro'>
-          <h2><img src={hash} width='8%' className='about-icons' alt='product feature' />Meet the Team</h2>
+      <section id='team'>
+        <div>
+          <h1>Meet the Team</h1>
         </div>
-        <div className='col-wrapper'>
-          {props.profiles.devTeam.map((member, key) => {
-            return <SingleMember key={key} member={member} />
-          })}
-        </div>  
+        <div className='flex-box team-profiles' style={{margin: 'auto'}}>
+        
+        {profileCards.map((profile) => {  
+          return <SingleMember profile={profile} handleFlip={() => handleFlip(profile)}
+          />
+        })}
+        </div> 
+        
       </section>
     )
     
-}
-
-export default Team;
+  }
+  
+  export default TeamMembers;

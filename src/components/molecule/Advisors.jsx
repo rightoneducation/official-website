@@ -1,19 +1,21 @@
 import React from 'react'
 
-import hash from 'images/hash_icon.svg'
-
-import Advisor from '../atom/Advisor'
+import SingleAdvisor from '../atom/SingleAdvisor'
 
 function Advisors(props) {
   return (
-    <div className='card-wrapper advisor'>
-      <h2><img src={hash} className='about-icons' alt='product feature' />Advisors</h2>
-      <div className='col-wrapper-advisor'>
-      {props.profiles.advisors.map((advisor, key) => {
-        return <Advisor key={key} advisor={advisor} />
-      })}
+    <section id='advisors'>
+      <div>
+        <h1>Advisors</h1>
       </div>
-    </div>
+      <div className='flex-box advisor'>
+        <div className='wrapper' style={{alignItems: 'flex-start', justifyContent:'space-between'}}>
+        {props.advisorProfiles.map((advisor, key) => {
+          return <SingleAdvisor key={key} advisor={advisor} />
+        })}
+        </div>
+      </div>
+    </section>
   )
 }
 

@@ -35,22 +35,23 @@ Github URI: https://github.com/gsvineeth/rwdgrid/
 }
 
 [class*='grid-'] {
-    float: left;
-    padding: 10px;
+    /* float: left; */
+    /* padding: 10px; */
     width:100%;
 }
 
 .clear-grid{
-    clear:both;
-    float:inherit;
+    /* clear:both;
+    float:inherit; */
 }
 .container {
+    /* padding: 0% 10%; */
     margin:0%;
     width: 100%;
 }
 .container:after, .container:before {
-    display: table;
-    clear:both;
+    /* display: table; */
+    /* clear:both; */
     content: " ";
 }
 .nest {
@@ -237,9 +238,9 @@ Github URI: https://github.com/gsvineeth/rwdgrid/
 
 *********************************************************************************************/
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1440px) {
     .container {
-        max-width: 1560px;
+        /* max-width: 2560px; */
         margin:0 auto;
     }
     .container-fluid {

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 // import {browserHistory} from "react-router";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
@@ -13,45 +13,49 @@ import Footer from 'components/molecule/Footer'
 
 import teamData from '_localDb/teamData'
 
-class App extends Component {
-  constructor () {
-    super()
-    this.state = {
-      devTeamCards: teamData.devTeam,
-      advisorProfiles: teamData.advisors
-    }
-    // this.handleFlip = this.handleFlip.bind(this);
-  }
 
-  handleFlip = item => {
-    console.log(item)
-    const idx = this.state.devTeamCards.findIndex(i => i.id === item.id)
-    if (idx === -1 ){
+function App() {
+  const [teamProfiles, setProfiles] = useState({
+    devTeamCards: teamData.devTeam,
+    advisorProfiles: teamData.advisors
+  })
+  const [advisors] = useState({
+    advisorProfiles: teamData.advisors
+  })
+  const { devTeamCards } = teamProfiles
+  const { advisorProfiles } = advisors
+
+  const handleFlip = item => {
+    const idx = devTeamCards.findIndex(i => i.id === item.id)
+    if (idx === -1) {
       return
     }
-    const newItems = [...this.state.devTeamCards]
+    const newItems = [...devTeamCards]
     newItems[idx] = {
       ...item,
       isFlipped: !item.isFlipped
     }
-    this.setState({devTeamCards: newItems})
+    setProfiles({
+      devTeamCards: newItems
+    })
   }
-  render() {
-    const { devTeamCards, advisorProfiles } = this.state
-    return (
-      <Router>
+  
+  return (
+    <Router>
         <div className="App">
           <PageHeader />
           <Switch>
             <div className='container'>
-              <Route exact path='/' render={() => (<LandingPage/>)} />
+              <Route exact path='/' render={() => (
+                <LandingPage/>
+              )} />
               <Route path='/about' render={() => (
-                <AboutPage handleExpand={this.handleExpand} />
+                <AboutPage />
               )}/>
               <Route path='/team' render={() => (
                 <TeamPage 
+                  handleFlip={handleFlip} 
                   profileCards={devTeamCards} 
-                  handleFlip={this.handleFlip} 
                   advisorData={advisorProfiles}/>
               )}/>
             </div>
@@ -59,8 +63,7 @@ class App extends Component {
           <Footer />
         </div>
       </Router>
-    );
-  }
+  )
 }
 
 export default App;

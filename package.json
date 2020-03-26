@@ -12,7 +12,6 @@
     "react-flipcard": "^0.2.1",
     "react-router-dom": "^5.1.2",
     "react-scripts": "^3.2.0",
-    "semantic-ui-react": "^0.88.1",
     "velocity-react": "^1.4.3"
   },
   "scripts": {

@@ -13,7 +13,7 @@ function SingleMember (props) {
             <div className='title wrapper'>
               <h3 style={{fontStyle: 'italic', marginBottom:'unset'}}>
               {name} 
-              <a target="_blank" href={linkedIn}>  
+              <a target="_blank" href={linkedIn} rel="noopener noreferrer">  
               <img src={LinkedIn} width='20px' height='20px' style={{margin: '0 0 -2px 6px'}}/>
               </a>
               </h3>

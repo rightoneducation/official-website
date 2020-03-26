@@ -1,7 +1,7 @@
 import React from 'react'
 
 import logo from 'righton.svg'
-import background from '../../images/header-background.svg'
+// import background from '../../images/header-background.svg'
 
 import MainNav from './MainNav'
 

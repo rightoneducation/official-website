@@ -1,8 +1,8 @@
 import React from 'react'
 
-import ExpandInfo from './ExpandInfo'
+// import ExpandInfo from './ExpandInfo'
 
-import expandBtn from '../../images/expand-button.png'
+// import expandBtn from '../../images/expand-button.png'
 import image from '../../images/believe-in-yourself.jpg'
 
 function CultureOfError (props) {

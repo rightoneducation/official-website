@@ -6,7 +6,7 @@ function Advisor (props) {
       <div className='grid-d-6 single-advisor-profile'>
         <div className='advisor-info'>
           <div>
-          <a href={linkedIn} target='_blank'><img src={photo} className='profile-photo-advisors' alt='' /></a>
+          <a href={linkedIn} target='_blank' rel="noopener noreferrer"><img src={photo} className='profile-photo-advisors' alt='' /></a>
           </div>
           <div>
           <h3 style={{fontWeight: '300', marginRight: '10px'}}>{name}</h3>

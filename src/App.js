@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 // import {browserHistory} from "react-router";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
-// import { Transition } from 'semantic-ui-react'
 
 import './App.scss';
 import './rwdgrid.css';
@@ -13,7 +12,6 @@ import PageHeader from 'components/molecule/PageHeader'
 import Footer from 'components/molecule/Footer'
 
 import teamData from '_localDb/teamData'
-import { Item } from 'semantic-ui-react';
 
 class App extends Component {
   constructor () {

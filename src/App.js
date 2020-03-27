@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 // import {browserHistory} from "react-router";
-import Box from "@material-ui/core/Box";
+import { Box, Container } from "@material-ui/core";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 import './App.scss';
@@ -43,28 +43,28 @@ function App() {
   
   return (
     <Router>
-        <Box className="App">
-          <PageHeader />
-          <Switch>
-            <div className='container'>
-              <Route exact path='/' render={() => (
-                <LandingPage/>
-              )} />
-              <Route path='/about' render={() => (
-                <AboutPage />
-              )}/>
-              <Route path='/team' render={() => (
-                <TeamPage 
-                  handleFlip={handleFlip} 
-                  profileCards={devTeamCards} 
-                  advisorData={advisorProfiles}/>
-              )}/>
-            </div>
-          </Switch>
-          <Footer />
-        </Box>
-      </Router>
-  )
+      <Box className="App">
+        <PageHeader />
+        <Switch>
+          <Container maxWidth="false" className="overwrite-container">
+            <Route exact path="/" render={() => <LandingPage />} />
+            <Route path="/about" render={() => <AboutPage />} />
+            <Route
+              path="/team"
+              render={() => (
+                <TeamPage
+                  handleFlip={handleFlip}
+                  profileCards={devTeamCards}
+                  advisorData={advisorProfiles}
+                />
+              )}
+            />
+          </Container>
+        </Switch>
+        <Footer />
+      </Box>
+    </Router>
+  );
 }
 
 export default App;

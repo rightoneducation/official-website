@@ -12,10 +12,6 @@ header {
   display: flex;
 }
 
-.container {
-  width: 85%;
-}
-
 .wrapper {
   margin: auto;
   width: 100%;
@@ -23,6 +19,10 @@ header {
   flex-flow: row wrap;
   justify-content: space-between;
   align-content: center;
+}
+
+.overwrite-container {
+  padding: 0px !important;
 }
 
 .combined-boxes {
@@ -91,7 +91,6 @@ p {
 }
 
 section {
-  // position: relative;
   padding: 3% 8%;
   .section-heading {
     justify-content: space-between;

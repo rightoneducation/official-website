@@ -3,7 +3,6 @@ import React from 'react'
 import SingleAdvisor from '../atom/SingleAdvisor'
 
 function Advisors({advisorProfiles}) {
-  console.log(advisorProfiles)
   return (
     <section id='advisors'>
       <div>

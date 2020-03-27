@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 // import {browserHistory} from "react-router";
+import Box from "@material-ui/core/Box";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 import './App.scss';
 import './rwdgrid.css';
 
-import LandingPage from 'components/organism/LandingPage.jsx'
-import AboutPage from 'components/organism/AboutPage'
-import TeamPage from 'components/organism/TeamPage'
+import LandingPage from 'components/pages/LandingPage.jsx'
+import AboutPage from 'components/pages/AboutPage'
+import TeamPage from 'components/pages/TeamPage'
 import PageHeader from 'components/molecule/PageHeader'
 import Footer from 'components/molecule/Footer'
 
@@ -42,7 +43,7 @@ function App() {
   
   return (
     <Router>
-        <div className="App">
+        <Box className="App">
           <PageHeader />
           <Switch>
             <div className='container'>
@@ -61,7 +62,7 @@ function App() {
             </div>
           </Switch>
           <Footer />
-        </div>
+        </Box>
       </Router>
   )
 }

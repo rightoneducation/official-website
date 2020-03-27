@@ -1,12 +1,8 @@
 import React from 'react'
 
-// import ExpandInfo from './ExpandInfo'
-
-// import expandBtn from '../../images/expand-button.png'
 import image from '../../images/believe-in-yourself.jpg'
 
 function CultureOfError (props) {
-    // const {animation, duration, expanded, handleExpand} = props
     return(
         <section id='culture-of-error' style={{padding: '0px'}}>
             <div className='slide-card flex-box'>

@@ -1,5 +1,4 @@
 import React from 'react'
-// import { Image, Message, Segment } from 'semantic-ui-react'
 
 import placeholder from 'images/diversity-placeholder-image.jpg'
 

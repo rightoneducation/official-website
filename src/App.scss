@@ -21,10 +21,6 @@ header {
   align-content: center;
 }
 
-.overwrite-container {
-  padding: 0px !important;
-}
-
 .combined-boxes {
   display: flex;
   flex-flow: column;
@@ -96,30 +92,30 @@ section {
     justify-content: space-between;
     margin: 3% auto;
   }
-  .banner-image {
-    background: lightgrey;
-    margin-bottom: -5%;
-    // height: 500px;
-    overflow: hidden;
-  }
-  .page-intro {
-    justify-content: center;
-    color: white;
-    width: 85%;
-    position: relative;
-    padding: 8% 5%;
-    margin: auto;
-    mix-blend-mode: multiply;
-    background: linear-gradient(201.84deg, #B443CC 0%, #662AAF 73.19%);
-  }
-  .page-intro-content {
-    padding-left: 20px;
-    border-left: 8px solid #d80053;
-    font-size: 1.3em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+  // .banner-image {
+  //   background: lightgrey;
+  //   margin-bottom: -5%;
+  //   // height: 500px;
+  //   overflow: hidden;
+  // }
+  // .page-intro {
+  //   justify-content: center;
+  //   color: white;
+  //   width: 85%;
+  //   position: relative;
+  //   padding: 8% 5%;
+  //   margin: auto;
+  //   mix-blend-mode: multiply;
+  //   background: linear-gradient(201.84deg, #B443CC 0%, #662AAF 73.19%);
+  // }
+  // .page-intro-content {
+    // padding-left: 20px;
+    // border-left: 8px solid #d80053;
+    // font-size: 1.3em;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+  // }
   .team-profiles {
     width: 90%;
     justify-content: center;

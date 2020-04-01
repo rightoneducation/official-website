@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// import {browserHistory} from "react-router";
+import { makeStyles } from "@material-ui/core/styles";
 import { Box, Container } from "@material-ui/core";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
@@ -14,6 +14,13 @@ import Footer from 'components/molecule/Footer'
 
 import teamData from '_localDb/teamData'
 
+
+
+const useStyles = makeStyles({
+  container: {
+    padding: '0px'
+  }
+})
 
 function App() {
   const [teamProfiles, setProfiles] = useState({
@@ -40,13 +47,13 @@ function App() {
       devTeamCards: newItems
     })
   }
-  
+  const styles = useStyles()
   return (
     <Router>
       <Box className="App">
         <PageHeader />
         <Switch>
-          <Container maxWidth="false" className="overwrite-container">
+          <Container maxWidth="false" className={styles.container}> 
             <Route exact path="/" render={() => <LandingPage />} />
             <Route path="/about" render={() => <AboutPage />} />
             <Route

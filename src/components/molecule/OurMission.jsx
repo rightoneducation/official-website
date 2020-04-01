@@ -1,23 +1,59 @@
 import React from 'react'
-
+import { makeStyles } from "@material-ui/core/styles";
+import { Box, Paper, Card, Typography } from "@material-ui/core";
 import placeholder from 'images/diversity-placeholder-image.jpg'
 
+const useStyles = makeStyles({
+  bannerImage: {
+    background: "lightgrey",
+    marginBottom: "-5%",
+    overflow: "hidden",
+    objectFit: "contain",
+    objectPosition: "center"
+  },
+  sectionIntro: {
+    justifyContent: 'center',
+    color: 'white',
+    width: '85%',
+    position: "relative",
+    padding: "8% 5%",
+    margin: 'auto',
+    mixBlendMode: 'multiply',
+    background: 'linear-gradient(201.84deg, #B443CC 0%, #662AAF 73.19%)'
+  },
+  sectionContent: {
+    borderLeft: "8px solid #d80053",
+    paddingLeft: "20px",
+    fontWeight: "300",
+    lineHeight: "1.4"
+  }
+});
+
+
 function OurMission () {
+  const styles = useStyles()
     return (
-      <section id='mission' className='top-section'>
-        <div className='banner-image' style={{objectFit: 'contain', objectPosition:'center'}}>
-          <img src={placeholder} width='100%'/>
-        </div>
-        <div className='page-intro'>
-            <h1>Mission</h1>
-          <div className='page-intro-content'>
-            <p>
-            Our mission is to make math more fun for middle and high school students, increasing both motivation and self-confidence. Not a big fan of math? Great, <b><em>RightOn!</em></b> is the game for you. Already like math? That’s cool too, you’ll like it even more!
-            </p>
+      <Box>
+        <section id="mission" className="top-section">
+          <div className={styles.bannerImage}>
+            <img src={placeholder} width="100%" />
           </div>
-        </div>
-      </section>
-    )
+          <Card className={styles.sectionIntro}>
+            <Typography variant="h4">Mission</Typography>
+            <Typography variant="h6" className={styles.sectionContent}>
+                Our mission is to make math more fun for middle and high school
+                students, increasing both motivation and self-confidence. Not a
+                big fan of math? Great,{" "}
+                <b>
+                  <em>RightOn!</em>
+                </b>{" "}
+                is the game for you. Already like math? That’s cool too, you’ll
+                like it even more!
+            </Typography>
+          </Card>
+        </section>
+      </Box>
+    );
 }
 
 export default OurMission;

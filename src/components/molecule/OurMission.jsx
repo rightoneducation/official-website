@@ -1,6 +1,6 @@
 import React from 'react'
 import { makeStyles } from "@material-ui/core/styles";
-import { Box, Paper, Card, Typography } from "@material-ui/core";
+import { Box, Paper, Card, CardContent, Typography } from "@material-ui/core";
 import placeholder from 'images/diversity-placeholder-image.jpg'
 
 const useStyles = makeStyles({
@@ -35,12 +35,13 @@ function OurMission () {
     return (
       <Box>
         <section id="mission" className="top-section">
-          <div className={styles.bannerImage}>
+          <Paper elevation={2} className={styles.bannerImage}>
             <img src={placeholder} width="100%" />
-          </div>
+          </Paper>
           <Card className={styles.sectionIntro}>
-            <Typography variant="h4">Mission</Typography>
-            <Typography variant="h6" className={styles.sectionContent}>
+            <CardContent>
+              <Typography variant="h4">Mission</Typography>
+              <Typography variant="h6" className={styles.sectionContent}>
                 Our mission is to make math more fun for middle and high school
                 students, increasing both motivation and self-confidence. Not a
                 big fan of math? Great,{" "}
@@ -49,7 +50,8 @@ function OurMission () {
                 </b>{" "}
                 is the game for you. Already like math? That’s cool too, you’ll
                 like it even more!
-            </Typography>
+              </Typography>
+            </CardContent>
           </Card>
         </section>
       </Box>

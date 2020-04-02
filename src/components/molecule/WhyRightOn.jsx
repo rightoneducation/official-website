@@ -1,5 +1,12 @@
 import React from 'react'
-
+import {
+  Box,
+  Paper,
+  Card,
+  CardContent,
+  Typography,
+  Grid
+} from "@material-ui/core";
 import SectionHeading from '../atom/SectionHeading'
 import SingleWhy from '../atom/SingleWhy'
 
@@ -8,24 +15,22 @@ import iphonemockup from 'images/app-iphone-mockup.png'
 function WhyRightOn(props) {
   // const { title, featureImage, description } = props.valueprops
   return (
-    <section id='why-righton'>
+    <Box>
+      <section id="why-righton">
         <SectionHeading />
-        <div className='flex-box' style={{justifyContent:'space-around'}}> 
-          <div className='grid-d-7'>
-          {props.valueprops.map((valueprop, key) => {
-            return <SingleWhy key={key} singleWhy={valueprop} />
-          })}    
-          </div>
-          <div className='grid-d-2 grid-t-3 grid-m-3' style={{alignSelf:'center'}}> 
-            <img src={iphonemockup} width='100%'/>
-          </div>
-          {/* <div className='grid-d-3 why-righton-card'>
-          <SingleWhy singleWhy={props.valueprops}/>
-          <SingleWhy singleWhy={props.valueprops}/>
-          </div> */}
-        </div>
-    </section>
-  )
+        <Grid container justify="center" alignItems="center" spacing={2}>
+          <Grid item xs={12} sm={12} md={5}>
+            {props.valueprops.map((valueprop, key) => {
+              return <SingleWhy key={key} singleWhy={valueprop} />;
+            })}
+          </Grid>
+          <Grid item xs={3} sm={3} md={2}>
+            <img src={iphonemockup} width="100%" />
+          </Grid>
+        </Grid>
+      </section>
+    </Box>
+  );
 }
 
 export default WhyRightOn;

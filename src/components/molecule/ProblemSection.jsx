@@ -1,19 +1,54 @@
 import React from 'react'
-
+import { makeStyles } from "@material-ui/core/styles";
+import { Box, Paper, Card, CardContent, Typography, Grid } from "@material-ui/core";
 import bored from 'images/student-looking-bored.jpg'
 
+const useStyles = makeStyles({
+  cardContent: {
+    alignSelf: 'center',
+    padding: '5% 3%',
+    // marginLeft: '-50px',
+  },
+
+})
+
+
 function ProblemSection () {
+  const styles = useStyles()
     return (
-      <section id='problem-section' className='flex-box'>
-        <div className='grid-d-6 grid-m-12'>
-        <img src={bored} alt='right-on-education-stockphoto' width='100%'/>   
-        </div>
-        <div className='problem-card grid-d-6 grid-m-12'>
-          <h3 style={{marginBottom: '20px'}}>The Problem</h3>
-          <p>Math, ugh! Many students feel that math is all about tests, grades, homework, and getting correct answers... What if we could flip things around and make math more about learning from mistakes and even having fun? Give <b><em>RightOn!</em></b> a try and find out how!</p>
-        </div>
-    </section>
-    )
+      <Box>
+        <section id="problem-section" className="flex-box">
+          <Grid container spacing={1}>
+            <Grid xs={12} sm={12} md={6}>
+              <img
+                src={bored}
+                alt="right-on-education-stockphoto"
+                width="100%"
+              />
+            </Grid>
+            <Grid xs={12} sm={12} md={6}>
+              <Card className={styles.cardContent}>
+                <CardContent>
+                  <Typography bold variant="h6" style={{ marginBottom: "20px" }}>
+                    The Problem
+                  </Typography>
+                  <Typography>
+                    Math, ugh! Many students feel that math is all about tests,
+                    grades, homework, and getting correct answers... What if we
+                    could flip things around and make math more about learning
+                    from mistakes and even having fun? Give{" "}
+                    <b>
+                      <em>RightOn!</em>
+                    </b>{" "}
+                    a try and find out how!
+                  </Typography>
+                </CardContent>
+              </Card>
+            </Grid>
+          </Grid>
+        </section>
+      </Box>
+    );
 }
 
 export default ProblemSection;

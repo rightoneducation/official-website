@@ -15,8 +15,7 @@ import iphonemockup from 'images/app-iphone-mockup.png'
 function WhyRightOn(props) {
   // const { title, featureImage, description } = props.valueprops
   return (
-    <Box>
-      <section id="why-righton">
+    <Box component="section" id="why-righton">
         <SectionHeading />
         <Grid container justify="center" alignItems="center" spacing={2}>
           <Grid item xs={12} sm={12} md={5}>
@@ -28,7 +27,6 @@ function WhyRightOn(props) {
             <img src={iphonemockup} width="100%" />
           </Grid>
         </Grid>
-      </section>
     </Box>
   );
 }

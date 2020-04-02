@@ -1,19 +1,25 @@
 import React from 'react'
-
+import { makeStyles } from "@material-ui/core/styles";
+import { Box, Paper, Grid, Container, Typography } from "@material-ui/core";
 import SingleFeature from '../atom/SingleFeature'
 
 function ProductFeatures (props) {
     return (
-      <section id='features'>
-        <div className='section-heading half-circle'>
-          <h1 id='section-heading' style={{textAlign:'center', color:'white', fontSize:'3em'}}>Product Features</h1>
-        </div>
-        <div className='wrapper'>
-          {props.features.features.map((feature, key) => { return <SingleFeature key={key} feature={feature} />
+      <Box component="section" id="features">
+        <Typography variant="h4" className="section-heading half-circle" style={{ textAlign: "center", color: "white", fontWeight: "bold" }}>
+              Product Features
+          </Typography>
+        <Grid container justify="center" spacing={10}>
+          {props.features.features.map((feature, key) => {
+            return (
+              <Grid item xs={12} sm={10} md={4}>
+                <SingleFeature key={key} feature={feature} />
+              </Grid>
+            );
           })}
-        </div> 
-      </section>
-    )
+        </Grid>
+      </Box>
+    );
 }
 
 export default ProductFeatures;

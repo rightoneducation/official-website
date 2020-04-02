@@ -10,7 +10,7 @@ function Footer () {
           <div className='footer-logo'>
             <a href='/'><img src={righton} width='100%' alt='RightOn logo' /></a>
           <div>
-          <p className='copyright-msg'>RightOn Education &copy; 2019 All Rights Reserved</p>
+          <p className='copyright-msg'>RightOn Education &copy; 2020 All Rights Reserved</p>
           </div>
           </div>
       </footer>

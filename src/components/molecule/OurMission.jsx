@@ -11,7 +11,7 @@ const useStyles = makeStyles({
     objectFit: "contain",
     objectPosition: "center"
   },
-  sectionIntro: {
+  cardIntro: {
     justifyContent: 'center',
     color: 'white',
     width: '85%',
@@ -21,14 +21,13 @@ const useStyles = makeStyles({
     mixBlendMode: 'multiply',
     background: 'linear-gradient(201.84deg, #B443CC 0%, #662AAF 73.19%)'
   },
-  sectionContent: {
+  cardContent: {
     borderLeft: "8px solid #d80053",
     paddingLeft: "20px",
     fontWeight: "300",
     lineHeight: "1.4"
   }
 });
-
 
 function OurMission () {
   const styles = useStyles()
@@ -38,16 +37,14 @@ function OurMission () {
           <Paper elevation={2} className={styles.bannerImage}>
             <img src={placeholder} width="100%" />
           </Paper>
-          <Card className={styles.sectionIntro}>
+          <Card className={styles.cardIntro}>
             <CardContent>
               <Typography variant="h4">Mission</Typography>
-              <Typography variant="h6" className={styles.sectionContent}>
+              <Typography variant="h6" className={styles.cardContent}>
                 Our mission is to make math more fun for middle and high school
                 students, increasing both motivation and self-confidence. Not a
-                big fan of math? Great,{" "}
-                <b>
-                  <em>RightOn!</em>
-                </b>{" "}
+                big fan of math? Great,
+                {" "}<b><em>RightOn!</em></b>{" "}
                 is the game for you. Already like math? That’s cool too, you’ll
                 like it even more!
               </Typography>

@@ -4,12 +4,12 @@ import image from '../../images/believe-in-yourself.jpg'
 
 function CultureOfError (props) {
     return(
-        <Box components="section">
+        <Box components="section" style={{ background: "#772A79" }}>
         <Grid container alignItems="center">
             <Grid xs={12} sm={12} md={8}>
                 <img src={image} width='100%'/>
             </Grid>
-            <Grid xs={12} sm={12} md={4}>
+            <Grid xs={12} sm={12} md={4} style={{ padding: "5%", color:"white" }}>
                 <Typography variant="h6">
                 Positive Culture of Error
                 </Typography>

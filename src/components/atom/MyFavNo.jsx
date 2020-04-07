@@ -3,9 +3,9 @@ import { Box, Grid, Typography } from "@material-ui/core";
 
 function MyFavNo () {
     return(
-        <Box components="section">
+        <Box components="section" style={{ background: "#772A79" }}>
             <Grid container alignItems="center">
-            <Grid xs={12} sm={12} md={4}>
+                <Grid xs={12} sm={12} md={4} style={{ padding: "5%", color:"white" }}>
                 <Typography variant="h6">
                     "My Favorite No"
                 </Typography>

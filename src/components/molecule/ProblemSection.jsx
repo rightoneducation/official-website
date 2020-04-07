@@ -13,7 +13,6 @@ const useStyles = makeStyles({
 
 })
 
-
 function ProblemSection () {
   const styles = useStyles()
     return (

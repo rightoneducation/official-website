@@ -363,9 +363,7 @@ section {
 }
 footer {
   background: top / cover no-repeat url(./images/footer-background-short.png);
-  align-items: flex-end;
   padding: 3% 8%;
-  height: 550px;
   background-color:  rgb(50, 40, 89);
   color: white;
   
@@ -537,12 +535,11 @@ footer {
     }
     footer {
       .footer-msg {
-        font-size: 0.8em;
         text-align: center;
         margin: auto;
       }
       .footer-logo {
-        margin: 10px auto;
+        margin: 20px auto;
       }
       .copyright-msg {
         text-align: center;

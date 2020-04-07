@@ -1,24 +1,24 @@
 import React from 'react'
-
+import { Box, Grid, Typography } from "@material-ui/core";
 import image from '../../images/believe-in-yourself.jpg'
 
 function CultureOfError (props) {
     return(
-        <section id='culture-of-error' style={{padding: '0px'}}>
-            <div className='slide-card flex-box'>
-                <div className='slide-image grid-d-8'>
-                    <img src={image} width='100%'/>
-                </div>
-                <div className='slide-content grid-d-4'>
-                    <h2>
-                    Positive Culture of Error
-                    </h2>
-                    <p>
-                    <b><em>RightOn!</em></b> creates a simple way for math teachers to foster a positive culture of error: increasing engagement and building self-confidence through an app-based activity that surfaces mistakes and misconceptions in a safe, fun environment.
-                    </p>
-                </div>
-                </div>
-        </section>
+        <Box components="section">
+        <Grid container alignItems="center">
+            <Grid xs={12} sm={12} md={8}>
+                <img src={image} width='100%'/>
+            </Grid>
+            <Grid xs={12} sm={12} md={4}>
+                <Typography variant="h6">
+                Positive Culture of Error
+                </Typography>
+                <Typography variant="body1">
+                <b><em>RightOn!</em></b> creates a simple way for math teachers to foster a positive culture of error: increasing engagement and building self-confidence through an app-based activity that surfaces mistakes and misconceptions in a safe, fun environment.
+                </Typography>
+            </Grid>
+        </Grid>
+        </Box>
     )
 }
 

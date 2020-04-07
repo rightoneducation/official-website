@@ -1,12 +1,13 @@
 import React from 'react'
+import { Box, Typography } from '@material-ui/core'
 
 function Quote () {
     return(
-        <section id='quote'>
-            <h1 style={{fontWeight: '300', lineHeight: '1.5em'}}>
+        <Box components="section" id='quote'>
+            <Typography variant="h5">
                 "The most valuable thing you can make is a mistake – <br/> you can't learn anything from being perfect." <br/> – Steve Adams
-            </h1>
-        </section>
+            </Typography>
+        </Box>
     )
 }
 

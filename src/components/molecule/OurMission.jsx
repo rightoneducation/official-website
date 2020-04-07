@@ -33,7 +33,6 @@ function OurMission () {
   const styles = useStyles()
     return (
       <Box components="section">
-        {/* <section id="mission" className="top-section"> */}
           <Paper elevation={2} className={styles.bannerImage}>
             <img src={placeholder} width="100%" />
           </Paper>
@@ -50,7 +49,6 @@ function OurMission () {
               </Typography>
             </CardContent>
           </Card>
-        {/* </section> */}
       </Box>
     );
 }

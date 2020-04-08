@@ -10,7 +10,7 @@ function CultureOfError (props) {
                 <img src={image} width='100%'/>
             </Grid>
             <Grid xs={12} sm={12} md={4} style={{ padding: "5%", color:"white" }}>
-                <Typography variant="h6">
+                <Typography variant="h4">
                 Positive Culture of Error
                 </Typography>
                 <Typography variant="body1">

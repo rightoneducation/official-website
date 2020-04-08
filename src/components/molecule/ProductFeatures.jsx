@@ -9,7 +9,7 @@ function ProductFeatures (props) {
         <Typography variant="h4" className="section-heading half-circle" style={{ textAlign: "center", color: "white", fontWeight: "bold" }}>
               Product Features
           </Typography>
-        <Grid container justify="center" spacing={10}>
+        <Grid container justify="center" spacing={3}>
           {props.features.features.map((feature, key) => {
             return (
               <Grid item xs={12} sm={10} md={4}>

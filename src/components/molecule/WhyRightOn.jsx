@@ -17,11 +17,15 @@ function WhyRightOn(props) {
   return (
     <Box component="section" id="why-righton">
         <SectionHeading />
-        <Grid container justify="center" alignItems="center" spacing={2}>
-          <Grid item xs={12} sm={12} md={5}>
+        <Grid container justify="space-around" alignItems="center" spacing={2}>
+          <Grid container xs={10} sm={10} md={8} spacing={3}>
             {props.valueprops.map((valueprop, key) => {
-              return <SingleWhy key={key} singleWhy={valueprop} />;
-            })}
+              return (
+                // <Grid container justify="space-around" alignItems="center" spacing={3}>
+                  <SingleWhy key={key} singleWhy={valueprop} />
+                // </Grid>
+                );
+              })}
           </Grid>
           <Grid item xs={3} sm={3} md={2}>
             <img src={iphonemockup} width="100%" />

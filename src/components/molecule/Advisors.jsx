@@ -1,21 +1,21 @@
 import React from 'react'
-
+import { Box, Typography, Grid } from "@material-ui/core";
 import SingleAdvisor from '../atom/SingleAdvisor'
 
 function Advisors({advisorProfiles}) {
   return (
-    <section id='advisors'>
-      <div>
-        <h1>Advisors</h1>
-      </div>
-      <div className='flex-box advisor'>
-        <div className='wrapper' style={{alignItems: 'flex-start', justifyContent:'space-between'}}>
+    <Box component="section" style={{ background: "#772A79", color: "white" }}>
+      <Typography variant="h4" style={{ marginBottom: "1em" }}>Advisors</Typography>
+      <Grid container spacing={4}>
         {advisorProfiles.map((advisor, index) => {
-          return <SingleAdvisor key={index} advisor={advisor} />
+          return (
+            <Grid item xs={12} sm={12} md={4}>
+              <SingleAdvisor key={index} advisor={advisor} />
+            </Grid>
+          )
         })}
-        </div>
-      </div>
-    </section>
+      </Grid>
+    </Box>
   )
 }
 

@@ -32,7 +32,7 @@ const useStyles = makeStyles({
 function OurMission () {
   const styles = useStyles()
     return (
-      <Box components="section">
+      <Box>
           <Paper elevation={2} className={styles.bannerImage}>
             <img src={placeholder} width="100%" />
           </Paper>

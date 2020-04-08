@@ -18,7 +18,7 @@ function IntroToTeam () {
             <Grid xs={6} sm={5} md={3}>
             <img src={teamIcon} alt='right-on-education-team-icon' width= '100%'/>
             </Grid>
-            <Grid xs={12} sm={12} md={7}>
+            <Grid xs={12} sm={12} md={6}>
                 <Grid container justify="center" alignItems="center">
                     <Typography variant="h5" style={{ margin: "20px", fontWeight: '300', textAlign: "center" }}>
                     We are a diverse group of people who are passionate about education and technology!

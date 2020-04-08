@@ -87,7 +87,7 @@ p {
 }
 
 section {
-  padding: 3% 8%;
+  padding: 5%;
   .section-heading {
     justify-content: space-between;
     margin: 3% auto;
@@ -270,8 +270,8 @@ section {
 }
 
 .profile-card {
-  padding: 1.5em;
-  width: 270px;
+  padding: 1em;
+  width: 280px;
   border: 10px solid white;
   margin: auto 10px;
   padding-right: 0em !important;
@@ -283,13 +283,11 @@ section {
   .title {
     margin-bottom: 10px;
   } 
-  .job-title {
-    display: flex;
-    align-items: center;
+  .job-title-banner {
+    height: 50px;
     color:white;
     background-blend-mode: multiply;
     background: rgba(39, 2, 48, 0.377);
-    height: 45px;
     padding: 10px 20px;
   }
 }
@@ -327,7 +325,7 @@ section {
 }
 
 .card {
-  margin: 18px 0;
+  // margin: 18px 0;
   .card-image {
     align-self: center;
   }
@@ -342,17 +340,9 @@ section {
 //   background: white;
 // }
 .single-advisor-profile {
-  // display: flex;
-  // flex-flow: row;
-  padding: 1.8em;
-  // margin: 10px;
-  // width: 230px;
-  .advisor-info {
-    width: 95%;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-  }
+  // .advisor-info {
+  //   width: 95%;
+  // }
   .high-light {
     border-left: 1px solid white;
     margin: 5px;

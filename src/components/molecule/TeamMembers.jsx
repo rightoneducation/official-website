@@ -1,25 +1,25 @@
 import React from 'react'
-
+import { Box, Typography, Grid } from "@material-ui/core";
 import SingleMember from '../atom/SingleMember'
 
 function TeamMembers({ profileCards, handleFlip }) {
   return (
-    <section id="team">
-      <div>
-        <h1>Meet the Team</h1>
-      </div>
-      <div className="flex-box team-profiles" style={{ margin: "auto" }}>
+    <Box component="section">
+      <Typography variant="h4" style={{marginBottom: "1em"}}>Meet the Team</Typography>
+      <Grid container justify="center" spacing={3}>
         {profileCards.map((profile, index) => {
           return (
-            <SingleMember
-              key={index}
-              profile={profile}
-              handleFlip={() => handleFlip(profile)}
-            />
+            <Grid item>
+              <SingleMember
+                key={index}
+                profile={profile}
+                handleFlip={() => handleFlip(profile)}
+              />
+            </Grid>
           );
         })}
-      </div>
-    </section>
+        </Grid>
+    </Box>
   );
 }
   

@@ -6,10 +6,10 @@ function Advisors({advisorProfiles}) {
   return (
     <Box component="section" style={{ background: "#772A79", color: "white" }}>
       <Typography variant="h4" style={{ marginBottom: "1em" }}>Advisors</Typography>
-      <Grid container spacing={4}>
+      <Grid container spacing={10}>
         {advisorProfiles.map((advisor, index) => {
           return (
-            <Grid item xs={12} sm={12} md={4}>
+            <Grid item xs={12} sm={12} md={6} lg={4}>
               <SingleAdvisor key={index} advisor={advisor} />
             </Grid>
           )

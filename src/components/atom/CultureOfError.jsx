@@ -6,7 +6,7 @@ function CultureOfError (props) {
     return(
         <Box components="section" style={{ background: "#772A79" }}>
         <Grid container alignItems="center">
-            <Grid xs={12} sm={12} md={8}>
+            <Grid xs={12} sm={12} md={8} style={{padding: '0'}}>
                 <img src={image} width='100%'/>
             </Grid>
             <Grid xs={12} sm={12} md={4} style={{ padding: "5%", color:"white" }}>

@@ -12,7 +12,7 @@ function singleWhy(props) {
   return (
     <Card>
       <CardContent>
-        <Grid container justify="space-around" alignItems="center" spacing={3}>
+        <Grid container alignItems="center" justify="space-around">
           <Grid item md={5}>
           <img
             src={featureImage}
@@ -20,7 +20,7 @@ function singleWhy(props) {
             width="100%"
           />
           </Grid>
-          <Grid item md={7}>
+          <Grid item md={6}>
           <h3
             style={{
               marginBottom: "20px",
@@ -39,5 +39,3 @@ function singleWhy(props) {
 }
 
 export default singleWhy;
-
-// 

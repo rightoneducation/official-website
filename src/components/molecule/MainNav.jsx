@@ -1,22 +1,22 @@
 import React from 'react'
+import { Box, Grid, Typography } from "@material-ui/core";
 import { Link } from 'react-router-dom'
 
 function Header () {
     return (
-      <nav className='flex-box mobile'>
-          <div className='main-navigation'>
-              <Link to='/'><h1>Home</h1></Link>
-            </div>
-          <div className='main-navigation'>
-            <Link to='/about'><h1>About</h1></Link>
-          </div>
-          <div className='main-navigation'>
-            <Link to='/team'><h1>Team</h1></Link>
-          </div>
-          {/* <div className='main-navigation'> */}
-            {/* <Link to='#contact'><h2>Contact</h2></Link> */}
-          {/* </div> */}
-      </nav>
+      <Box component="nav">
+        <Grid container spacing={5}>
+          <Grid item>
+            <Link to='/'><Typography variant="h5" className="main-navigation">Home</Typography></Link>
+            </Grid>
+          <Grid item>
+            <Link to='/about'><Typography variant="h5" className="main-navigation">About</Typography></Link>
+          </Grid>
+          <Grid item>
+            <Link to='/team'><Typography variant="h5" className="main-navigation">Team</Typography></Link>
+          </Grid>
+        </Grid>
+      </Box>
     )
 }
 

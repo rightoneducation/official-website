@@ -6,7 +6,8 @@ function TeamMembers({ profileCards, handleFlip }) {
   return (
     <Box component="section">
       <Typography variant="h4" style={{marginBottom: "1em"}}>Meet the Team</Typography>
-      <Grid container justify="center" spacing={3}>
+      <Grid container justify="center">
+      <Grid container justify="center" spacing={3} lg={10}>
         {profileCards.map((profile, index) => {
           return (
             <Grid item>
@@ -19,6 +20,7 @@ function TeamMembers({ profileCards, handleFlip }) {
           );
         })}
         </Grid>
+      </Grid>
     </Box>
   );
 }

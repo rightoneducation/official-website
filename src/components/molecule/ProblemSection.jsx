@@ -7,8 +7,6 @@ const useStyles = makeStyles({
   cardContent: {
     alignSelf: 'center',
     padding: '5% 3%',
-    // fontWeight: "300"
-    // marginLeft: '-50px',
   },
 
 })
@@ -16,12 +14,12 @@ const useStyles = makeStyles({
 function ProblemSection () {
   const styles = useStyles()
     return (
-      <Box component="section" id="problem-section">
+      <Box component="section">
         <Grid container justify="center" alignItems="center" spacing={1}>
-          <Grid xs={12} sm={12} md={6}>
+          <Grid xs={10} sm={10} md={6}>
             <img src={bored} alt="right-on-education-stockphoto" width="100%" />
           </Grid>
-          <Grid xs={12} sm={12} md={6}>
+          <Grid xs={10} sm={10} md={6}>
             <Card className={styles.cardContent}>
               <CardContent>
                 <Typography variant="h5" style={{ marginBottom: "20px" }}>

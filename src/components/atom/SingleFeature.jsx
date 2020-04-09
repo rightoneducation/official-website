@@ -1,21 +1,17 @@
 import React from 'react'
-import { Box, Paper, Grid, Container, Typography } from "@material-ui/core";
+import { Grid, Typography } from "@material-ui/core";
 
 function singleFeature (props) {
   const {title, featureIcon, description} = props.feature
   return(
-    <Grid container spacing={2}>
-      <div className='card' style={{color: 'white'}}>
-        <Grid >
-        <div classNme='feature-items'>
-          <center><img src={featureIcon} width='100%' id="feature-graphic" alt="Icons made by Freepik from Flaticon is licensed by CC 3.0 BY" /></center>
-        </div>
+    <Grid container justify="center" spacing={2} style={{ color: 'white' }}>
+        <Grid item sm={6} md={7}>
+          <center><img src={featureIcon} width='100%' alt="Icons made by Freepik from Flaticon is licensed by CC 3.0 BY" /></center>
         </Grid>
-        <Grid>
+        <Grid item style={{ textAlign: "center" }}>
         <h3 style={{marginBottom: '20px'}}>{title}</h3>
-        <p>{description}</p>
+        <Typography variant="body1">{description}</Typography>
         </Grid>
-      </div>
     </Grid>
   )
 }

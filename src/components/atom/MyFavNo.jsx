@@ -6,7 +6,7 @@ function MyFavNo () {
         <Box components="section" style={{ background: "#772A79" }}>
             <Grid container alignItems="center">
                 <Grid xs={12} sm={12} md={4} style={{ padding: "5%", color:"white" }}>
-                <Typography variant="h4">
+                <Typography variant="h5" style={{ marginBottom: "10px" }}>
                     "My Favorite No"
                 </Typography>
                 <Typography variant="body1">

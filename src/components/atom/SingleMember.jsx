@@ -9,6 +9,7 @@ function SingleMember (props) {
   const {name, linkedIn, photo, title, favoriteShow, favoriteMistake, isFlipped} = props.profile
   const { handleFlip } = props  
   return (
+    <div>
     <Grid className="card profile-card">
       <Grid container alignItems="center" className="title">
         <Typography variant="h6" style={{ fontStyle: "italic", marginBottom: "unset" }}>
@@ -37,6 +38,7 @@ function SingleMember (props) {
         />
       </ReactCardFlip>
     </Grid>
+    </div>
   );
 }
 

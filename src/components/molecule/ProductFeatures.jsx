@@ -11,7 +11,7 @@ function ProductFeatures (props) {
         <Grid container justify="space-around" spacing={5}>
           {props.features.features.map((feature, key) => {
             return (
-              <Grid item xs={7} sm={7} md={3}>
+              <Grid item xs={10} sm={7} md={3}>
                 <SingleFeature key={key} feature={feature} />
               </Grid>
             );

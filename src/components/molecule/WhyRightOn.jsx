@@ -14,7 +14,7 @@ function WhyRightOn(props) {
           <Grid item sm={12}>
             <SectionHeading />
           </Grid>
-          <Grid container xs={10} sm={10} md={6} spacing={3}>
+          <Grid container xs={10} sm={10} md={7} spacing={3}>
             {props.valueprops.map((valueprop, key) => {
               return (
                 <Grid item>

@@ -5,7 +5,6 @@ import {
 } from "@material-ui/core";
 import SectionHeading from '../atom/SectionHeading'
 import SingleWhy from '../atom/SingleWhy'
-
 import iphonemockup from 'images/app-iphone-mockup.png'
 
 function WhyRightOn(props) {

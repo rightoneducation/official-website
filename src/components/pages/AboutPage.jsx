@@ -6,9 +6,10 @@ import MyFavNo from '../atom/MyFavNo'
 import IntroToTeam from '../atom/IntroToTeam'
 
 function AboutPage (props) {
+  const { styles } = props
     return (
       <div>
-        <OurVision/>
+        <OurVision styles={styles}/>
         <Quote/>
         <CultureOfError {...props}/>
         <MyFavNo {...props}/>

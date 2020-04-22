@@ -4,34 +4,8 @@ import { Box, Paper, Card, CardContent, Grid, Typography } from "@material-ui/co
 import teamIcon from '../../images/team-icon.svg'
 import placeholder from 'images/team-photo.jpg'
 
-const useStyles = makeStyles({
-  bannerImage: {
-    background: "lightgrey",
-    marginBottom: "-5%",
-    overflow: "hidden",
-    objectFit: "contain",
-    objectPosition: "center"
-  },
-  cardIntro: {
-    justifyContent: 'center',
-    color: 'white',
-    width: '85%',
-    position: "relative",
-    padding: "8% 5%",
-    margin: 'auto',
-    mixBlendMode: 'multiply',
-    background: 'linear-gradient(201.84deg, #B443CC 0%, #662AAF 73.19%)'
-  },
-  cardContent: {
-    borderLeft: "8px solid #d80053",
-    paddingLeft: "20px",
-    fontWeight: "300",
-    lineHeight: "1.4"
-  }
-});
-
-function OurValue () {
-  const styles = useStyles()
+function OurValue (props) {
+  const { styles } = props
     return (
       <Box>
         <Paper elevation={2} className={styles.bannerImage}>
@@ -40,7 +14,7 @@ function OurValue () {
         <Card className={styles.cardIntro}>
           <CardContent>
           <Grid container justify="space-around" alignItems="center" spacing={2}>
-            <Grid sm={4} md={3} lg={2}>
+            <Grid xs={6} sm={3} md={3} lg={2}>
               <img src={teamIcon} alt='right-on-education' width= '100%' />
             </Grid>
             <Grid md={7}>

@@ -3,34 +3,35 @@ import { makeStyles } from "@material-ui/core/styles";
 import { Box, Paper, Card, CardContent, Typography } from "@material-ui/core";
 import placeholder from 'images/diversity-placeholder-image.jpg'
 
-const useStyles = makeStyles({
-  bannerImage: {
-    background: "lightgrey",
-    marginBottom: "-5%",
-    overflow: "hidden",
-    objectFit: "contain",
-    objectPosition: "center"
-  },
-  cardIntro: {
-    justifyContent: 'center',
-    color: 'white',
-    width: '85%',
-    position: "relative",
-    padding: "8% 5%",
-    margin: 'auto',
-    mixBlendMode: 'multiply',
-    background: 'linear-gradient(201.84deg, #B443CC 0%, #662AAF 73.19%)'
-  },
-  cardContent: {
-    borderLeft: "8px solid #d80053",
-    paddingLeft: "20px",
-    fontWeight: "300",
-    lineHeight: "1.4"
-  }
-});
+// const useStyles = makeStyles({
+//   bannerImage: {
+//     background: "lightgrey",
+//     marginBottom: "-5%",
+//     overflow: "hidden",
+//     objectFit: "contain",
+//     objectPosition: "center"
+//   },
+//   cardIntro: {
+//     justifyContent: 'center',
+//     color: 'white',
+//     width: '85%',
+//     position: "relative",
+//     padding: "8% 5%",
+//     margin: 'auto',
+//     mixBlendMode: 'multiply',
+//     background: 'linear-gradient(201.84deg, #B443CC 0%, #662AAF 73.19%)'
+//   },
+//   cardContent: {
+//     borderLeft: "8px solid #d80053",
+//     paddingLeft: "20px",
+//     fontWeight: "300",
+//     lineHeight: "1.4"
+//   }
+// });
 
-function OurMission () {
-  const styles = useStyles()
+function OurMission (props) {
+  const{styles} = props
+  // const styles = useStyles()
     return (
       <Box>
           <Paper elevation={2} className={styles.bannerImage}>

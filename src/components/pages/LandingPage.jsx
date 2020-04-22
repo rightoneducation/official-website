@@ -7,10 +7,11 @@ import ProblemSection from 'components/molecule/ProblemSection'
 
 import featureData from '_localDb/features'
 
-function LandingPage () { 
+function LandingPage (props) { 
+    const {styles} = props
     return (
         <div>
-        <OurMission />
+        <OurMission styles={styles}/>
         <ProblemSection />           
         <WhyRightOn valueprops={featureData.whyRightOn}/>
         <ProductFeatures features={featureData}/>

@@ -4,7 +4,7 @@ function Back (props) {
     const {favShow, favMistake, handleFlip} = props
     return (
         <div style={{borderLeft: '3px solid #d80053', padding: '10px'}}>
-            <button onMouseOver={handleFlip}>
+            <button onMouseLeave={handleFlip} onClick={handleFlip}>
             <h5 style={{marginBottom: '10px'}}>Favorite game show:</h5>
             <p style={{fontSize: '.9rem'}}>{favShow}</p>
             <br />

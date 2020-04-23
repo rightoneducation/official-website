@@ -7,7 +7,7 @@ function Advisors({advisorProfiles}) {
     <Box component="section" style={{ background: "#772A79", color: "white" }}>
       <Typography
         variant="h4"
-        style={{ marginBottom: "1em", fontWeight: "500", textAlign: "center" }}
+        style={{ marginBottom: "1.5em", fontWeight: "500", textAlign: "center" }}
       >
         Advisors
       </Typography>

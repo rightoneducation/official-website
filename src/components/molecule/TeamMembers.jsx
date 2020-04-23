@@ -7,7 +7,7 @@ function TeamMembers({ profileCards, handleFlip }) {
     <Box component="section">
       <Typography
         variant="h4"
-        style={{ marginBottom: "1em", fontWeight: "500", textAlign: "center" }}
+        style={{ marginBottom: "1.5em", fontWeight: "500", textAlign: "center" }}
       >
         Meet the Team
       </Typography>

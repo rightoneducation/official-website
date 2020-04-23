@@ -15,8 +15,9 @@ const useStyles = makeStyles((theme) => ({
   subTitle: {
     textAlign: "right",
     fontStyle: "italic",
-    [theme.breakpoints.between("xs", "sm")]: {
-      fontSize: "1.2em",
+    [theme.breakpoints.down("xs")]: {
+      fontSize: "1.1em",
+      textAlign: "center"
     },
   },
 }));
@@ -48,11 +49,11 @@ function PageHeader () {
             alignItems="flex-end"
             justify="flex-end"
             md={7}
-            spacing={8}
+            spacing={5}
             className={styles.linkOptions}
           >
             <Grid item>
-              <Typography variant="h4" className={styles.subTitle}>
+              <Typography variant="h5" className={styles.subTitle}>
                 Unlocking every student’s potential in math!
               </Typography>
             </Grid>

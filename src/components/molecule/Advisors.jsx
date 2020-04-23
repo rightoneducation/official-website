@@ -5,18 +5,23 @@ import SingleAdvisor from '../atom/SingleAdvisor'
 function Advisors({advisorProfiles}) {
   return (
     <Box component="section" style={{ background: "#772A79", color: "white" }}>
-      <Typography variant="h4" style={{ marginBottom: "1em", fontWeight: '500' }}>Advisors</Typography>
+      <Typography
+        variant="h4"
+        style={{ marginBottom: "1em", fontWeight: "500", textAlign: "center" }}
+      >
+        Advisors
+      </Typography>
       <Grid container spacing={10}>
         {advisorProfiles.map((advisor, index) => {
           return (
             <Grid item xs={12} sm={12} md={6} lg={6}>
               <SingleAdvisor key={index} advisor={advisor} />
             </Grid>
-          )
+          );
         })}
       </Grid>
     </Box>
-  )
+  );
 }
 
 export default Advisors;

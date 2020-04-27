@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { makeStyles } from "@material-ui/core/styles";
-import { ThemeProvider } from "@material-ui/core/styles";
 import { Box, Container } from "@material-ui/core";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
@@ -10,8 +9,8 @@ import './rwdgrid.css';
 import LandingPage from 'components/pages/LandingPage.jsx'
 import AboutPage from 'components/pages/AboutPage'
 import TeamPage from 'components/pages/TeamPage'
-import PageHeader from 'components/molecule/PageHeader'
-import Footer from 'components/molecule/Footer'
+import PageHeader from 'components/molecules/PageHeader'
+import Footer from 'components/molecules/Footer'
 
 import teamData from '_localDb/teamData'
 

@@ -9,6 +9,24 @@ const useStyles = makeStyles( theme => ({
       justifyContent: "center",
       textAlign: "center"
     }
+  },
+  logo: {
+  marginTop: "20px",
+  width: "300px"
+  },
+  footerMsg: {
+    margin: "15px"
+  },
+  copyRight: {
+    fontSize: "0.8rem",
+    textAlign: "right",
+    margin: "10px 0",
+    color: "lightslategray"
+  },
+  email: {
+    '&:hover': {
+      textDecoration: "underline"
+    }
   }
 }))
 
@@ -19,16 +37,16 @@ function Footer () {
       <Box component="footer">
         <Grid container justify="space-around"  alignItems="center" className={styles.footer}>
           <Grid item xs={12} sm={12} md={7}> 
-            <Typography variant="h5" className="footer-msg">
-              Interested in learning more? Email us at <br/> <a href="mailto:info@rightoneducation.com" className='email-us'><b>info@rightoneducation.com</b></a>
+            <Typography variant="h5" className={styles.footerMsg}>
+              Interested in learning more? Email us at <br/> <a href="mailto:info@rightoneducation.com" className={styles.email}><b>info@rightoneducation.com</b></a>
               </Typography>
           </Grid>
-          <Grid container item xs={10} sm={8} md={2} lg={3} justify="center" spacing={1} className="footer-logo">
+          <Grid container item xs={10} sm={8} md={2} lg={3} justify="center" spacing={1} className={styles.logo}>
             <Grid item md={10}>
-            <img src={righton} width='100%' alt='RightOn logo' />
+            <img src={righton} width='100%' alt='RightOn-Logo' />
             </Grid>
             <Grid item>
-            <p className='copyright-msg'>RightOn Education &copy; 2020 All Rights Reserved</p>
+            <p className={styles.copyRight}>RightOn Education &copy; 2020 All Rights Reserved</p>
             </Grid>
           </Grid>
         </Grid>

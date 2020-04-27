@@ -6,7 +6,7 @@ function SectionHeading () {
         <Box>
           <Grid container justify="space-around" alignItems="center">
             <Grid item md={3}>
-              <div className='divider'/>
+              <div className="divider"/>
             </Grid>
             <Grid item>
               <h1 style={{fontWeight: '400', textAlign:'center', fontSize:'3em', margin: '0 20px', flexFlow: 'inherit'}}>
@@ -14,7 +14,7 @@ function SectionHeading () {
               </h1>
             </Grid>
             <Grid item md={3}>
-            <div className='divider'/>
+            <div className="divider"/>
             </Grid>
           </Grid>
         </Box>

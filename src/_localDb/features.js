@@ -1,5 +1,5 @@
 module.exports = {
-  features: [{
+  productFeatures: [{
       id: 1,
       title: 'Surface and Differentiate Student Misconceptions',
       featureIcon: '/images/puzzle.svg',

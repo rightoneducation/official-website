@@ -1,9 +1,9 @@
 import React from 'react'
-import OurVision from '../molecule/OurVision'
-import Quote from '../atom/Quote'
-import CultureOfError from '../atom/CultureOfError'
-import MyFavNo from '../atom/MyFavNo'
-import IntroToTeam from '../atom/IntroToTeam'
+import OurVision from '../organisms/OurVision'
+import Quote from '../atoms/Quote'
+import CultureOfError from '../molecules/CultureOfError'
+import MyFavNo from '../molecules/MyFavNo'
+import IntroToTeam from '../molecules/IntroToTeam'
 
 function AboutPage (props) {
   const { styles } = props
@@ -11,8 +11,8 @@ function AboutPage (props) {
       <div>
         <OurVision styles={styles}/>
         <Quote/>
-        <CultureOfError {...props}/>
-        <MyFavNo {...props}/>
+        <CultureOfError />
+        <MyFavNo />
         <IntroToTeam/>
       </div>
     )

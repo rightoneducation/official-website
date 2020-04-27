@@ -1,8 +1,8 @@
 import React from 'react'
 
-import OurValue from '../molecule/OurValue';
-import TeamMembers from 'components/molecule/TeamMembers'
-import Advisors from 'components/molecule/Advisors'
+import OurValue from '../organisms/OurValue';
+import TeamMembers from 'components/organisms/TeamMembers'
+import Advisors from 'components/organisms/Advisors'
 
 
 function TeamPage ({ advisorData, profileCards, handleFlip, styles }) { 

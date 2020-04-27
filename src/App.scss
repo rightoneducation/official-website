@@ -2,13 +2,6 @@
   text-align: left;
   font-size: 16px;
 }
-.main-navigation {
-  border-bottom: 5px solid rgb(216, 0, 83);
-}
-
-.main-navigation:hover {
-  border-bottom: 1px solid rgb(255, 255, 255);
-}
 
 button {
   all: unset;
@@ -34,16 +27,6 @@ section {
   text-align: center;
   font-style: italic;
 }
-
-.bottom-link {
-  margin-top: 50px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
 .page-header { 
   background: #322759;
   padding: 10%;
@@ -93,56 +76,6 @@ section {
     }
   }
 }
-
-#features {
-  background: linear-gradient(221.31deg, #FF3369 0%, #662AAF 73.19%);
-}
-
-.profile-card {
-  padding: 1em;
-  width: 280px;
-  border: 10px solid white;
-  margin: auto 10px;
-  padding-right: 0em !important;
-  padding-bottom: 0em !important;
-  color: white;
-  background: linear-gradient(250deg, rgb(129, 8, 156) 1.99%, #662AAF 50.9%), rgb(112, 35, 129);
-  mix-blend-mode: multiply;
-
-  .title {
-    margin-bottom: 10px;
-  } 
-  .job-title-banner {
-    height: 50px;
-    color:white;
-    background-blend-mode: multiply;
-    background: rgba(39, 2, 48, 0.377);
-    padding: 10px 20px;
-  }
-}
-
-.profile-photo {
-  cursor: pointer;
-  width: 249px;
-  margin-bottom: -20px;
-}
-
-.profile-photo-advisors {
-  margin: 0 15px 0 0;
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  border: 3px solid rgb(202, 45, 104);
-}
-
-.feature-items {
-  margin: 20px auto;
-  width: 250px;
-  #feature-graphic {
-    height: 300px;
-  }
-}
-
 .half-circle {
     padding: 2%; 
     margin-top: -5.5% !important; 
@@ -153,44 +86,11 @@ section {
     border-top: 0;
 }
 
-.card-image {
-  align-self: center;
-}
-.card-content {
-  align-self: center;
-  padding: 15px;
-}
-
-.high-light {
-  border-left: 1px solid white;
-  margin: 5px;
-  margin-left: 3px;
-  color: white;
-  padding: 1.5px 10px;
-}
-
 footer {
   background: top / cover no-repeat url(./images/footer-background-short.png);
   padding: 3% 8%;
   background-color:  rgb(50, 40, 89);
   color: white;
-  
-  .footer-logo {
-    margin-top: 20px;
-    width: 300px;
-  }
-  .footer-msg {
-    margin: 15px;
-  }
-  .copyright-msg {
-    font-size: 0.8rem;
-    text-align: right;
-    margin: 10px 0;
-    color: lightslategray;
-  }
-  .email-us:hover {
-    text-decoration: underline;
-  }
 }
 
 .divider {

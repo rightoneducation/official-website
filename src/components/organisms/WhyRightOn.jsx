@@ -3,11 +3,12 @@ import {
   Box,
   Grid
 } from "@material-ui/core";
-import SectionHeading from '../atom/SectionHeading'
-import SingleWhy from '../atom/SingleWhy'
+import SectionHeading from '../atoms/SectionHeading'
+import SingleWhy from '../atoms/SingleWhy'
 import iphonemockup from 'images/app-iphone-mockup.png'
 
 function WhyRightOn(props) {
+  const { whyRightOn } = props
   return (
     <Box component="section">
         <Grid container justify="space-around" alignItems="center" spacing={8}>
@@ -15,10 +16,10 @@ function WhyRightOn(props) {
             <SectionHeading />
           </Grid>
           <Grid container xs={10} sm={10} md={7} spacing={3}>
-            {props.valueprops.map((valueprop, key) => {
+            {whyRightOn.map((singleWhy, key) => {
               return (
                 <Grid item>
-                  <SingleWhy key={key} singleWhy={valueprop} />
+                  <SingleWhy key={key} singleWhy={singleWhy} />
                 </Grid>
                 );
               })}

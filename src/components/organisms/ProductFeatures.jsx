@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Paper, Grid, Container, Typography } from "@material-ui/core";
+import { Box, Grid, Typography } from "@material-ui/core";
 import SingleFeature from '../atoms/SingleFeature'
 
 function ProductFeatures (props) {

@@ -5,7 +5,7 @@ import image from "../../images/believe-in-yourself.jpg";
 function CultureOfErrorImage(props) {
   return (
     <Grid xs={12} sm={12} md={8} style={{ padding: "0" }}>
-      <img src={image} width="100%" />
+      <img src={image} width="100%" alt="positive-culture-of-error"/>
     </Grid>
   );
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Paper, Card, CardContent, Typography } from "@material-ui/core";
+import { Box } from "@material-ui/core";
 import LandingBannerImage from "../molecules/LandingBannerImage";
 import LandingTopIntro from "../molecules/AboutTopIntro";
 

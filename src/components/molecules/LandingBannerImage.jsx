@@ -7,7 +7,7 @@ function LandingBannerImage(props) {
 
   return (
     <Paper elevation={2} className={styles.bannerImage}>
-      <img src={placeholder} width="100%" />
+      <img src={placeholder} width="100%" alt="vision-banner" />
     </Paper>
   );
 }

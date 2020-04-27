@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Grid, Typography } from "@material-ui/core";
+import { Box, Grid } from "@material-ui/core";
 
 function SectionHeading () {
     return(

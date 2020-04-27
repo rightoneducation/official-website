@@ -1,8 +1,8 @@
 import React from 'react'
 import OurVision from '../organisms/OurVision'
 import Quote from '../atoms/Quote'
-import CultureOfError from '../molecules/CultureOfError'
-import MyFavNo from '../molecules/MyFavNo'
+import CultureOfError from '../molecules/CultureOfErrorSection'
+import MyFavNo from '../molecules/MyFavNoSection'
 import IntroToTeam from '../molecules/IntroToTeam'
 
 function AboutPage (props) {

@@ -47,6 +47,7 @@ function SingleMember (props) {
               width="20px"
               height="20px"
               style={{ margin: "0 0 -2px 6px" }}
+              alt="member-profile-photos"
             />
           </a>
       </Grid>

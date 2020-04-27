@@ -3,8 +3,6 @@ import {
   Grid,
   Card,
   CardContent,
-  Paper,
-  Typography
 } from "@material-ui/core";
 
 function singleWhy(props) {

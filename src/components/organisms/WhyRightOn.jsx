@@ -24,7 +24,7 @@ function WhyRightOn(props) {
                 );
               })}
           </Grid>
-          <Grid item xs={4} sm={4} md={2}>
+          <Grid item xs={4} sm={4} md={3}>
             <img src={iphonemockup} width="100%" alt="righton-mobile-app-version"/>
           </Grid>
         </Grid>

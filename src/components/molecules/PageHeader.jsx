@@ -38,7 +38,7 @@ function PageHeader () {
           spacing={8}
           className="header-element-4"
         >
-          <Grid item md={5}>
+          <Grid item sm={4} md={5}>
             <a href="/">
               <img src={logo} alt="right on education logo" width="100%" />
             </a>

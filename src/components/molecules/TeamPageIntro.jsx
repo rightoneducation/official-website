@@ -11,7 +11,7 @@ function TeamPageIntro(props) {
           <Grid xs={6} sm={3} md={3} lg={2}>
             <img src={teamIcon} alt="right-on-education" width="100%" />
           </Grid>
-          <Grid md={7}>
+          <Grid md={9}>
             <Typography variant="h4">Our Values</Typography>
             <Typography variant="h6" className={styles.cardContent}>
               We’re a team that sometimes falls down, always gets back up, and

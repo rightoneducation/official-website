@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactCardFlip from 'react-card-flip'
 import { makeStyles } from "@material-ui/core/styles";
-import { Typography, Grid } from "@material-ui/core";
+import { Grid } from "@material-ui/core";
 import Front from './ProfileFront'
 import Back from './ProfileBack'
 

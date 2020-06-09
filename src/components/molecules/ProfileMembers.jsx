@@ -2,7 +2,7 @@ import React from "react";
 import { Grid } from "@material-ui/core";
 import SingleMember from "../atoms/SingleMember";
 
-function ProfileMembers({ profileCards, handleFlip }) {
+function ProfileMembers({ profileCards }) {
   return (
     <Grid container justify="center" spacing={3} lg={10}>
       {profileCards.map((profile, index) => {
@@ -11,7 +11,6 @@ function ProfileMembers({ profileCards, handleFlip }) {
             <SingleMember
               key={index}
               profile={profile}
-              handleFlip={() => handleFlip(profile)}
             />
           </Grid>
         );

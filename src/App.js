@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { makeStyles } from "@material-ui/core/styles";
 import { Box, Container } from "@material-ui/core";
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import './App.scss';
 import './rwdgrid.css';
@@ -14,7 +14,7 @@ import Footer from 'components/molecules/Footer'
 
 import teamData from '_localDb/teamData'
 
-const useStyles = makeStyles( theme => ({
+const useStyles = makeStyles(theme => ({
   container: {
     padding: '0px',
   },
@@ -49,44 +49,22 @@ const useStyles = makeStyles( theme => ({
 }))
 
 function App() {
-  const [teamProfiles, setProfiles] = useState({
-    devTeamCards: teamData.devTeam,
-    advisorProfiles: teamData.advisors
-  })
-  const [advisors] = useState({
-    advisorProfiles: teamData.advisors
-  })
-  const { devTeamCards } = teamProfiles
-  const { advisorProfiles } = advisors
-
-  const handleFlip = item => {
-    const idx = devTeamCards.findIndex(i => i.id === item.id)
-    const newItems = [...devTeamCards]
-    newItems[idx] = {
-      ...item,
-      isFlipped: !item.isFlipped
-    }
-    setProfiles({
-      devTeamCards: newItems
-    })
-  }
   const styles = useStyles()
   return (
     <Router>
       <Box className="App">
-        <PageHeader styles={styles}/>
+        <PageHeader styles={styles} />
         <Switch>
-          <Container maxWidth="false" className={styles.container}> 
-            <Route exact path="/" render={() => <LandingPage styles={styles}/>} />
-            <Route path="/about" render={() => <AboutPage styles={styles}/>} />
+          <Container maxWidth="false" className={styles.container}>
+            <Route exact path="/" render={() => <LandingPage styles={styles} />} />
+            <Route path="/about" render={() => <AboutPage styles={styles} />} />
             <Route
               path="/team"
               render={() => (
                 <TeamPage
                   styles={styles}
-                  handleFlip={handleFlip}
-                  profileCards={devTeamCards}
-                  advisorData={advisorProfiles}
+                  profileCards={teamData.devTeam}
+                  advisorData={teamData.advisors}
                 />
               )}
             />

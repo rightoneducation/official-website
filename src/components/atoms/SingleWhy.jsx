@@ -9,15 +9,16 @@ function singleWhy(props) {
   const { title, featureImage, description } = props.singleWhy
   return (
     <Card>
-        <Grid container alignItems="center" justify="space-around" spacing={1}>
-          <Grid item md={6}>
+        <Grid>
+        {/* <Grid container alignItems="center" justify="space-around" spacing={1}> */}
+          <Grid>
             <img
               src={featureImage}
               alt="right-on-education-product-features"
               width="100%"
               />
           </Grid>
-          <Grid item md={6}>
+          <Grid>
           <CardContent>
             <h3
               style={{

@@ -9,7 +9,7 @@ function Advisors(props) {
         variant="h4"
         style={{ marginBottom: "1.5em", fontWeight: "500", textAlign: "center" }}
       >
-        Advisors
+        Our Advisors
       </Typography>
       <ProfileAdvisors {...props}/>
     </Box>

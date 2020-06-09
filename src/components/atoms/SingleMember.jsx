@@ -10,6 +10,7 @@ const useStyles = makeStyles({
   profileCard: {
   padding: "1em",
   width: "280px",
+  height: "330px",
   border: "10px solid white",
   margin: "auto 10px",
   paddingRight: "0em",

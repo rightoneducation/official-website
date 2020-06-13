@@ -28,7 +28,11 @@ function Front (props) {
     const { photo, name, linkedIn, title } = props.profile;
     const styles = useStyles();
     return (
-      <div onMouseOver={handleFlip} onClick={handleFlip}>
+      <div 
+        onMouseEnter={handleFlip} 
+        onMouseLeave={handleFlip} 
+        onClick={handleFlip}
+        >
         <div style={{display: "flex", justifyContent: "center"}}>
           <img
             src={photo}

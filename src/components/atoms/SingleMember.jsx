@@ -28,7 +28,9 @@ function SingleMember (props) {
   return (
     <div>
     <Grid>
-      <ReactCardFlip isFlipped={isFlipped}>
+      <ReactCardFlip 
+        isFlipped={isFlipped} 
+        >
         <Grid className={styles.profileCard}>
           <Front {...props} handleFlip={() => handleFlip()} />
         </Grid>

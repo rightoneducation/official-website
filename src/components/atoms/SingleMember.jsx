@@ -1,5 +1,6 @@
 import React from 'react'
-import ReactCardFlip from 'react-card-flip'
+import Flippy, { FrontSide, BackSide } from "react-flippy";
+import FlipCard from "react-flipcard-2";
 import { makeStyles } from "@material-ui/core/styles";
 import { Grid } from "@material-ui/core";
 import Front from './ProfileFront'
@@ -23,26 +24,36 @@ const useStyles = makeStyles({
 
 function SingleMember (props) {
   const { favoriteShow, favoriteMistake, isFlipped} = props.profile
-  const { handleFlip } = props  
+  const { handleFlip } = props
+  const removeFlippyCardStyle = {
+    padding: "0",
+    boxShadow: "none"
+  }  
   const styles = useStyles()
   return (
     <div>
-    <Grid>
-      <ReactCardFlip 
-        isFlipped={isFlipped} 
+        <Grid>
+          <Flippy
+          flipOnHover={true}
+          flipOnClick={true}
+          flipDirection="horizontal"
         >
-        <Grid className={styles.profileCard}>
-          <Front {...props} handleFlip={() => handleFlip()} />
-        </Grid>
-        <Grid className={styles.profileCard}>
-          <Back
-            favMistake={favoriteMistake}
-            favShow={favoriteShow}
-            handleFlip={() => handleFlip()}
-          />
-        </Grid>
-      </ReactCardFlip>
-    </Grid>
+          <FrontSide style={removeFlippyCardStyle}>
+          <Grid className={styles.profileCard}>
+            <Front {...props} handleFlip={() => handleFlip()} />
+          </Grid>
+          </FrontSide>
+          <BackSide style={removeFlippyCardStyle}>
+          <Grid className={styles.profileCard}>
+            <Back
+              favMistake={favoriteMistake}
+              favShow={favoriteShow}
+              handleFlip={() => handleFlip()}
+            />
+          </Grid>
+        </BackSide>
+        </Flippy>
+      </Grid>
     </div>
   );
 }

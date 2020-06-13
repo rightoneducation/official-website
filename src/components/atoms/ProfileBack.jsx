@@ -4,8 +4,6 @@ function Back (props) {
     const {favShow, favMistake, handleFlip} = props
     return (
       <div
-        onMouseLeave={handleFlip}
-        // onClick={handleFlip}
         style={{ borderLeft: "3px solid #d80053", padding: "10px" }}
       >
         <h5 style={{ marginBottom: "10px" }}>Favorite game show:</h5>

@@ -6,30 +6,35 @@ import LinkedIn from "../../images/linkedin-icon.svg";
 const useStyles = makeStyles({
   profilePhoto: {
     cursor: "pointer",
-    width: "180px",
-    marginLeft: "-15px",
+    width: "150px",
+    // marginLeft: "-15px",
     marginBottom: "10px",
-    borderTop: "10px solid white",
-    borderLeft: "10px solid white",
+    border: "5px solid white",
+    // borderLeft: "10px solid white",
+    borderRadius: "50%"
   },
   jobTitle: {
+    height: "60px",
     marginTop: "10px",
-    marginBottom: "10px",
-    height: "50px",
+    textAlign: "center",
     color: "white",
     backgroundBlendMode: "multiply",
     background: "rgba(39, 2, 48, 0.377)",
-    padding: "10px 20px",
-  }
+    padding: "8px 15px 20px 15px",
+  },
 });
 
 function Front (props) {
-    // const {handleFlip} = props
     const { photo, name, linkedIn, title } = props.profile;
     const styles = useStyles();
     return (
-      <div>
-        <div style={{display: "flex", justifyContent: "center"}}>
+      <div style={{ marginTop: "-70px" }}>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+          }}
+        >
           <img
             src={photo}
             width="100%"
@@ -37,12 +42,17 @@ function Front (props) {
             alt="right-on-education-team-member"
           />
         </div>
-        <Grid container alignItems="center">
+        <Grid 
+          container  
+          alignItems="center" 
+          justify="center"
+          >
           <Typography
             variant="h6"
             style={{
               fontSize: "18px",
               fontStyle: "italic",
+              textAlign: "center",
               marginBottom: "unset",
             }}
           >
@@ -58,7 +68,12 @@ function Front (props) {
             />
           </a>
         </Grid>
-        <Grid container alignItems="center" className={styles.jobTitle}>
+        <Grid
+          container
+          alignItems="center"
+          justify="center"
+          className={styles.jobTitle}
+        >
           <Typography
             variant="body2"
             style={{ fontWeight: "300", lineHeight: "1.2" }}

@@ -6,11 +6,12 @@
   "dependencies": {
     "@material-ui/core": "^4.0.0-rc.0",
     "@material-ui/icons": "^4.9.1",
-    "node-sass": "^4.13.1",
+    "node-sass": "^4.14.1",
     "react": "^16.13.1",
-    "react-card-flip": "^1.0.10",
     "react-dom": "^16.13.1",
     "react-flipcard": "^0.2.1",
+    "react-flipcard-2": "^0.3.2",
+    "react-flippy": "^0.1.5",
     "react-router-dom": "^5.1.2",
     "react-scripts": "^3.4.1",
     "velocity-react": "^1.4.3"

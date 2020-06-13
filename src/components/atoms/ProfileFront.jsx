@@ -7,11 +7,10 @@ const useStyles = makeStyles({
   profilePhoto: {
     cursor: "pointer",
     width: "150px",
-    // marginLeft: "-15px",
     marginBottom: "10px",
     border: "5px solid white",
-    // borderLeft: "10px solid white",
-    borderRadius: "50%"
+    borderRadius: "50%",
+    boxShadow: "0px 20px 30px -15px rgba(0,0,0,0.7)",
   },
   jobTitle: {
     height: "60px",
@@ -42,11 +41,7 @@ function Front (props) {
             alt="right-on-education-team-member"
           />
         </div>
-        <Grid 
-          container  
-          alignItems="center" 
-          justify="center"
-          >
+        <Grid container alignItems="center" justify="center">
           <Typography
             variant="h6"
             style={{

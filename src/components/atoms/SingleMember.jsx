@@ -14,7 +14,7 @@ const useStyles = makeStyles({
   margin: "20px 10px",
   paddingBottom: "0em",
   color: "white",
-  background: "linear-gradient(145deg, rgb(129, 8, 156) 10.5%, #662AAF 75.9%), rgb(112, 35, 129)",
+  background: "linear-gradient(45deg, rgb(129, 8, 156) 10.5%, #662AAF 75.9%), rgb(112, 35, 129)",
   mixBlendMode: "multiply",
   },
   profileBack: {

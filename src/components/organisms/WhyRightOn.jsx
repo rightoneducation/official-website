@@ -5,7 +5,7 @@ import {
 } from "@material-ui/core";
 import SectionHeading from '../atoms/SectionHeading'
 import SingleWhy from '../atoms/SingleWhy'
-import chromebook from 'images/chromebook_mockup.png'
+import chromebook from 'images/chromebook_mockup.jpg'
 
 function WhyRightOn(props) {
   const { whyRightOn } = props
@@ -18,8 +18,8 @@ function WhyRightOn(props) {
         <Grid
           item
           container
-          xs={10}
-          sm={10}
+          xs={12}
+          sm={8}
           md={10}
           spacing={4}
           justify="space-around"
@@ -32,15 +32,15 @@ function WhyRightOn(props) {
             );
           })}
         </Grid>
-        <Grid item container justify="space-around" alignItems="center" sm={12}>
-          <Grid item align="center" sm={12} md={8}>
+        {/* <Grid item container justify="space-around" alignItems="center" xs={12} sm={12}> */}
+          <Grid align="center" xs={12} sm={12} md={8}>
             <img
               src={chromebook}
               width="100%"
               alt="right-on-education-chromebook-app"
             />
           </Grid>
-        </Grid>
+        {/* </Grid> */}
       </Grid>
     </Box>
   );

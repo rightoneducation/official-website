@@ -47,7 +47,7 @@ function SingleMember (props) {
           flipDirection="horizontal"
         > */}
           {/* <FrontSide style={removeFlippyCardStyle}> */}
-          <Grid className={styles.profileFront} style={removeFlippyCardStyle}>
+          <Grid className={styles.profileFront}>
             <Front {...props} handleFlip={() => handleFlip()} />
           </Grid>
           {/* </FrontSide> */}

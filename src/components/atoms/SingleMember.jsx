@@ -40,27 +40,27 @@ function SingleMember (props) {
   const styles = useStyles()
   return (
     <div>
-        <Grid>
-          <Flippy
+      <Grid>
+        {/* <Flippy
           flipOnHover={true}
           flipOnClick={true}
           flipDirection="horizontal"
-        >
-          <FrontSide style={removeFlippyCardStyle}>
-          <Grid className={styles.profileFront}>
+        > */}
+          {/* <FrontSide style={removeFlippyCardStyle}> */}
+          <Grid className={styles.profileFront} style={removeFlippyCardStyle}>
             <Front {...props} handleFlip={() => handleFlip()} />
           </Grid>
-          </FrontSide>
-          <BackSide style={removeFlippyCardStyle}>
-          <Grid className={styles.profileBack}>
-            <Back
-              favMistake={favoriteMistake}
-              favShow={favoriteShow}
-              handleFlip={() => handleFlip()}
-            />
-          </Grid>
-        </BackSide>
-        </Flippy>
+          {/* </FrontSide> */}
+          {/* <BackSide style={removeFlippyCardStyle}> */}
+            {/* <Grid className={styles.profileBack} style={removeFlippyCardStyle}>
+              <Back
+                favMistake={favoriteMistake}
+                favShow={favoriteShow}
+                handleFlip={() => handleFlip()}
+              />
+            </Grid> */}
+          {/* </BackSide> */}
+        {/* </Flippy> */}
       </Grid>
     </div>
   );

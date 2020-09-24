@@ -41,26 +41,26 @@ function SingleMember (props) {
   return (
     <div>
       <Grid>
-        {/* <Flippy
+        <Flippy
           flipOnHover={true}
           flipOnClick={true}
           flipDirection="horizontal"
-        > */}
-          {/* <FrontSide style={removeFlippyCardStyle}> */}
+        >
+          <FrontSide style={removeFlippyCardStyle}>
           <Grid className={styles.profileFront}>
             <Front {...props} handleFlip={() => handleFlip()} />
           </Grid>
-          {/* </FrontSide> */}
-          {/* <BackSide style={removeFlippyCardStyle}> */}
-            {/* <Grid className={styles.profileBack} style={removeFlippyCardStyle}>
+          </FrontSide>
+          <BackSide style={removeFlippyCardStyle}>
+            <Grid className={styles.profileBack} style={removeFlippyCardStyle}>
               <Back
                 favMistake={favoriteMistake}
                 favShow={favoriteShow}
                 handleFlip={() => handleFlip()}
               />
-            </Grid> */}
-          {/* </BackSide> */}
-        {/* </Flippy> */}
+            </Grid> 
+          </BackSide>
+        </Flippy>
       </Grid>
     </div>
   );

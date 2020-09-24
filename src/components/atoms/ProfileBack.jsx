@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Back (props) {
-    const {favShow, favMistake, handleFlip} = props
+    const {favShow, favMistake} = props
     return (
       <div
         style={{ borderLeft: "3px solid #d80053", paddingLeft: "10px" }}

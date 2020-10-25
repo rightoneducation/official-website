@@ -38,7 +38,7 @@ function ProblemSection () {
                   Many people think that math learning is all about homework,
                   tests, and correct answers. We flip that idea on its head,
                   enabling students to learn from mistakes while having fun.
-                  Give RightOn! a try and find out how! Give{" "}
+                  Give{" "}
                   <b>
                     <em>RightOn!</em>
                   </b>{" "}

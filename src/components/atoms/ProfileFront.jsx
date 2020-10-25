@@ -5,8 +5,7 @@ import LinkedIn from "../../images/linkedin-icon.svg";
 
 const useStyles = makeStyles({
   profilePhoto: {
-    cursor: "pointer",
-    width: "150px",
+    width: "168px",
     marginBottom: "10px",
     border: "5px solid white",
     borderRadius: "50%",
@@ -28,31 +27,28 @@ function Front (props) {
     const styles = useStyles();
     return (
       <div style={{ marginTop: "-70px" }}>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-          }}
-        >
-          <img
-            src={photo}
-            width="100%"
-            className={styles.profilePhoto}
-            alt="right-on-education-team-member"
-          />
-        </div>
         <Grid container alignItems="center" justify="center">
-          <Typography
-            variant="h6"
-            style={{
-              fontSize: "18px",
-              fontStyle: "italic",
-              textAlign: "center",
-              marginBottom: "unset",
-            }}
-          >
-            {name}
-          </Typography>
+          <div>
+            <img
+              src={photo}
+              width="100%"
+              className={styles.profilePhoto}
+              alt="right-on-education-team-member"
+            />
+          </div>
+          <div>
+            <Typography
+              variant="h6"
+              style={{
+                fontSize: "18px",
+                fontStyle: "italic",
+                textAlign: "center",
+                marginBottom: "unset",
+              }}
+            >
+              {name}
+            </Typography>
+          </div>
           <a target="_blank" href={linkedIn} rel="noopener noreferrer">
             <img
               src={LinkedIn}

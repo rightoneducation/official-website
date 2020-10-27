@@ -1,7 +1,7 @@
 import React from 'react'
 import { Box } from "@material-ui/core";
 import LandingBannerImage from "../molecules/LandingBannerImage";
-import LandingTopIntro from "../molecules/AboutTopIntro";
+import LandingTopIntro from "../molecules/LandingTopIntro";
 
 function OurMission (props) {
   const{styles} = props

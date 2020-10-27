@@ -29,14 +29,19 @@ function ProblemSection () {
             <Card className={styles.cardContent}>
               <CardContent>
                 <Typography variant="h5" style={{ marginBottom: "10px" }}>
-                 The Problem
+                  The Problem
                 </Typography>
-                <Typography variant="body1" style={{fontWeight: "300", lineHeight: "1.4"}}>
-                  Math, ugh! Many students feel that math is all about tests,
-                  grades, homework, and getting correct answers... What if we
-                  could flip things around and make math more about learning
-                  from mistakes and even having fun? Give
-                  {" "}<b><em>RightOn!</em></b>{" "}
+                <Typography
+                  variant="body1"
+                  style={{ fontWeight: "300", lineHeight: "1.4" }}
+                >
+                  Many people think that math learning is all about homework,
+                  tests, and correct answers. We flip that idea on its head,
+                  enabling students to learn from mistakes while having fun.
+                  Give{" "}
+                  <b>
+                    <em>RightOn!</em>
+                  </b>{" "}
                   a try and find out how!
                 </Typography>
               </CardContent>

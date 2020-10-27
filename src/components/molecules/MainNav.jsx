@@ -19,13 +19,13 @@ function Header () {
       <Box component="nav">
         <Grid container spacing={5}>
           <Grid item>
-            <Link to='/'><Typography variant="h5" className={styles.mainNav}>Home</Typography></Link>
+            <Link to='/'><Typography variant="h6" className={styles.mainNav}>Home</Typography></Link>
             </Grid>
           <Grid item>
-            <Link to='/about'><Typography variant="h5" className={styles.mainNav}>About</Typography></Link>
+            <Link to='/about'><Typography variant="h6" className={styles.mainNav}>About</Typography></Link>
           </Grid>
           <Grid item>
-            <Link to='/team'><Typography variant="h5" className={styles.mainNav}>Team</Typography></Link>
+            <Link to='/team'><Typography variant="h6" className={styles.mainNav}>Team</Typography></Link>
           </Grid>
         </Grid>
       </Box>

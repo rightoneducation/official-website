@@ -1,32 +1,35 @@
 {
   "files": {
-    "main.css": "/static/css/main.887b3fc8.chunk.css",
-    "main.js": "/static/js/main.75aa4f4a.chunk.js",
-    "main.js.map": "/static/js/main.75aa4f4a.chunk.js.map",
+    "main.css": "/static/css/main.dabc46be.chunk.css",
+    "main.js": "/static/js/main.8f145294.chunk.js",
+    "main.js.map": "/static/js/main.8f145294.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7ee083d1.js",
     "runtime-main.js.map": "/static/js/runtime-main.7ee083d1.js.map",
-    "static/js/2.e5fd512b.chunk.js": "/static/js/2.e5fd512b.chunk.js",
-    "static/js/2.e5fd512b.chunk.js.map": "/static/js/2.e5fd512b.chunk.js.map",
+    "static/css/2.70e35f80.chunk.css": "/static/css/2.70e35f80.chunk.css",
+    "static/js/2.ddca32c0.chunk.js": "/static/js/2.ddca32c0.chunk.js",
+    "static/js/2.ddca32c0.chunk.js.map": "/static/js/2.ddca32c0.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ad36218c1550b476b197d1a2836d00a0.js": "/precache-manifest.ad36218c1550b476b197d1a2836d00a0.js",
+    "precache-manifest.7de5e2cf21cc29cb694c401c2d48bece.js": "/precache-manifest.7de5e2cf21cc29cb694c401c2d48bece.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.887b3fc8.chunk.css.map": "/static/css/main.887b3fc8.chunk.css.map",
-    "static/js/2.e5fd512b.chunk.js.LICENSE.txt": "/static/js/2.e5fd512b.chunk.js.LICENSE.txt",
-    "static/media/app-iphone-mockup.png": "/static/media/app-iphone-mockup.13d0227c.png",
+    "static/css/2.70e35f80.chunk.css.map": "/static/css/2.70e35f80.chunk.css.map",
+    "static/css/main.dabc46be.chunk.css.map": "/static/css/main.dabc46be.chunk.css.map",
+    "static/js/2.ddca32c0.chunk.js.LICENSE.txt": "/static/js/2.ddca32c0.chunk.js.LICENSE.txt",
     "static/media/believe-in-yourself.jpg": "/static/media/believe-in-yourself.0dd369e1.jpg",
+    "static/media/chromebook_mockup.jpg": "/static/media/chromebook_mockup.9064cfa6.jpg",
     "static/media/diversity-placeholder-image.jpg": "/static/media/diversity-placeholder-image.f0afbec8.jpg",
     "static/media/App.scss": "/static/media/header-element-3.f213d6a0.svg",
     "static/media/linkedin-icon.svg": "/static/media/linkedin-icon.4eafd5a3.svg",
     "static/media/righton.svg": "/static/media/righton.1524a412.svg",
     "static/media/student-looking-bored.jpg": "/static/media/student-looking-bored.20558011.jpg",
-    "static/media/students-pointing-at-screen.jpg": "/static/media/students-pointing-at-screen.ea6f1edc.jpg",
+    "static/media/students-pointing-at-screen.jpg": "/static/media/students-pointing-at-screen.f36af683.jpg",
     "static/media/team-icon.svg": "/static/media/team-icon.3f362737.svg",
     "static/media/team-photo.jpg": "/static/media/team-photo.af095bcd.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.7ee083d1.js",
-    "static/js/2.e5fd512b.chunk.js",
-    "static/css/main.887b3fc8.chunk.css",
-    "static/js/main.75aa4f4a.chunk.js"
+    "static/css/2.70e35f80.chunk.css",
+    "static/js/2.ddca32c0.chunk.js",
+    "static/css/main.dabc46be.chunk.css",
+    "static/js/main.8f145294.chunk.js"
   ]
 }

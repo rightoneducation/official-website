@@ -20,7 +20,6 @@ const useStyles = makeStyles({
   },
   profileBack: {
     display: "flex",
-    alignItems: "center",
     padding: "1em",
     height: "305px",
     border: "10px solid white",
@@ -32,13 +31,13 @@ const useStyles = makeStyles({
   },
 });
 
-function SingleMember (props) {
+function SingleMember(props) {
   const { favoriteShow, favoriteMistake } = props.profile
   // const { handleFlip } = props
   const removeFlippyCardStyle = {
     padding: "0",
     boxShadow: "none"
-  }  
+  }
   const styles = useStyles()
   return (
     <div>
@@ -49,9 +48,9 @@ function SingleMember (props) {
           flipDirection="vertical"
         >
           <FrontSide style={removeFlippyCardStyle}>
-          <Grid className={styles.profileFront}>
-            <Front {...props}/>
-          </Grid>
+            <Grid className={styles.profileFront}>
+              <Front {...props} />
+            </Grid>
           </FrontSide>
           <BackSide style={removeFlippyCardStyle}>
             <Grid className={styles.profileBack}>
@@ -59,7 +58,7 @@ function SingleMember (props) {
                 favMistake={favoriteMistake}
                 favShow={favoriteShow}
               />
-            </Grid> 
+            </Grid>
           </BackSide>
         </Flippy>
       </Grid>

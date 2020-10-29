@@ -8,9 +8,9 @@ function AboutTopIntro(props) {
         <CardContent>
           <Typography variant="h4">Our Vision</Typography>
           <Typography variant="h6" className={styles.cardContent}>
-            In the future, we envision
+          In the future, we envision
             <b>
-              <em>RightOn!</em>
+              <em> RightOn! </em>
             </b>
             to become a multi-channel learning platform (spanning mobile apps
             and livestream video), one that eventually helps connect students of

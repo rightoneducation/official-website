@@ -31,18 +31,10 @@ function ProblemSection () {
                 <Typography variant="h5" style={{ marginBottom: "10px" }}>
                   The Problem
                 </Typography>
-                <Typography
-                  variant="body1"
-                  style={{ fontWeight: "300", lineHeight: "1.4" }}
-                >
-                  Many people think that math learning is all about homework,
-                  tests, and correct answers. We flip that idea on its head,
-                  enabling students to learn from mistakes while having fun.
-                  Give{" "}
-                  <b>
-                    <em>RightOn!</em>
-                  </b>{" "}
-                  a try and find out how!
+                <Typography variant="body1" style={{fontWeight: "300", lineHeight: "1.4"}}>
+                  Many people think that STEM learning is all about homework, tests, and correct answers.
+                  We flip that idea on its head, enabling students to learn from mistakes while having fun.
+                  Give {""}<b><em>RightOn!</em></b>{""} a try and find out how!
                 </Typography>
               </CardContent>
             </Card>

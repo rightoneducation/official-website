@@ -29,7 +29,7 @@ function singleWhy(props) {
             >
               {title}
             </h3>
-            <p>{description}</p>
+            <p dangerouslySetInnerHTML={{__html : description}}/>
           </CardContent>
           </Grid>
         </Grid>

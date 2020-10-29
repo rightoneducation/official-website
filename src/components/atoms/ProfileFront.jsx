@@ -69,7 +69,7 @@ function Front (props) {
             variant="body2"
             style={{ fontWeight: "300", lineHeight: "1.2" }}
           >
-            {title}
+            <p dangerouslySetInnerHTML={{__html : title}} />
           </Typography>
         </Grid>
       </div>

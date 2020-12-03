@@ -36,12 +36,12 @@ function Footer () {
     return (
       <Box component="footer">
         <Grid container justify="space-around"  alignItems="center" className={styles.footer}>
-          <Grid item xs={12} sm={12} md={7}> 
+          <Grid item xs={12} sm={12} md={7} > 
             <Typography variant="h5" className={styles.footerMsg}>
               Interested in learning more? Email us at <br/> <a href="mailto:info@rightoneducation.com" className={styles.email}><b>info@rightoneducation.com</b></a>
               </Typography>
           </Grid>
-          <Grid container item xs={10} sm={8} md={2} lg={3} justify="center" spacing={1} className={styles.logo}>
+          <Grid container item xs={12} sm={8} md={4} lg={3} justify="center" spacing={1} className={styles.logo}>
             <Grid item md={10}>
             <img src={righton} width='100%' alt='RightOn-Logo' />
             </Grid>

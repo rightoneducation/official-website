@@ -12,7 +12,7 @@ function LandingTopIntro(props) {
           increasing both motivation and self-confidence. Not a big
           fan of math or science? Great,
           <b>
-            <em>RightOn!</em>
+            <em> RightOn! </em>
           </b>
           is the app for you. Already like STEM? That’s cool too, you’ll like
           it even more!

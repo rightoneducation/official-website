@@ -12,7 +12,7 @@ function CultureOfErrorContent(props) {
         style={{ fontWeight: "300", lineHeight: "1.4" }}
       >
         <b>
-          <em>RightOn!</em>
+          <em> RightOn! </em>
         </b>{" "}
         creates a simple way for math teachers to foster a positive culture
         of error: increasing engagement and building self-confidence through

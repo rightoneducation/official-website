@@ -46,7 +46,7 @@ function SingleMember (props) {
         <Flippy
           flipOnHover={true}
           flipOnClick={true}
-          flipDirection="vertical"
+          flipDirection="horizontal"
         >
           <FrontSide style={removeFlippyCardStyle}>
           <Grid className={styles.profileFront}>

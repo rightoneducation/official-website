@@ -2,7 +2,7 @@ module.exports = {
     devTeam: [
         {
           id: 1,
-          name: 'Angela Dosalmas, PhD',
+          name: 'Mozzie Dosalmas, PhD',
           photo: '/images/profile_angela.jpg',
           title: `${'Math Educator'} <br /> ${'CRMT & Equity'}`,
           favoriteShow: 'Hollywood Game Night',
@@ -32,7 +32,7 @@ module.exports = {
         },
         {
           id: 4,
-          name: 'Daz C Yang',
+          name: 'Daz C. Yang',
           photo: '/images/profile_daz.jpg',
           title: 'UI Designer & <br/> Front-End Developer',
           favoriteShow: 'Kasou Taishou',

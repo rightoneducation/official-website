@@ -2,7 +2,7 @@ module.exports = {
     devTeam: [
         {
           id: 1,
-          name: 'Angela Dosalmas, PhD',
+          name: 'Mozzie Dosalmas, PhD',
           photo: '/images/profile_angela.jpg',
           title: `${'Math Educator'} <br /> ${'CRMT & Equity'}`,
           favoriteShow: 'Hollywood Game Night',
@@ -24,7 +24,7 @@ module.exports = {
           id: 3,
           name: 'Anna Roberds',
           photo: '/images/profile_anna.jpeg',
-          title: 'Math Educator <br /> Community Engagement',
+          title: 'Math Educator <br /> Curriculum Program Manager',
           favoriteShow: 'The Amazing Race',
           favoriteMistake: 'One time I got to the airport extra early and was so set on walking around and using my extra time that I missed the boarding call. Ended up watching my flight take off from the window of the airport!',
           linkedIn:'https://www.linkedin.com/in/anna-roberds-a9144653/',
@@ -32,7 +32,7 @@ module.exports = {
         },
         {
           id: 4,
-          name: 'Daz C Yang',
+          name: 'Daz C. Yang',
           photo: '/images/profile_daz.jpg',
           title: 'UI Designer & <br/> Front-End Developer',
           favoriteShow: 'Kasou Taishou',
@@ -106,7 +106,7 @@ module.exports = {
           name: 'Andrea Ruby',
           photo: '../images/profile_andrea.jpg',
           title: 'Math Educator',
-          profile: 'Andrea has shared her love for teaching math as a secondary math teacher in the Philadelphia Public Schools for the last 12 years. She has designed curriculum, facilitated professional development, and managed partnerships to advance underserved youth in the STEM fields. A former Fulbright Scholar, Andrea has an MS degree in Urban Education, with a focus in secondary mathematics.',
+          profile: 'Andrea has shared her love for teaching math as a secondary math teacher in the Philadelphia Public Schools for the last 13 years. She has designed curriculum, facilitated professional development, and managed partnerships to advance underserved youth in the STEM fields. A former Fulbright Scholar, Andrea has an MS degree in Urban Education, with a focus in secondary mathematics.',
           linkedIn: null
         },
         {
@@ -145,7 +145,7 @@ module.exports = {
           name: 'Esmeralda Ortiz',
           photo: '/images/profile_Esme.jpg',
           title: 'Youth Development Leader',
-          profile: "A Senior Director at the Boys & Girls Clubs of the Peninsula, Esme leads high school and post-secondary success programs across all BGCP sites. Over the past nine years, she has developed and led partnerships with public high schools to engage more students, helping them achieve both academic and leadership goals. As a first-generation university graduate, Esme seeks to increase the representation and success of first-generation students in higher education.",
+          profile: "A Senior Director at the Boys & Girls Clubs of the Peninsula, Esme leads high school and post-secondary success programs across all BGCP sites. Over the past ten years, she has developed and led partnerships with public high schools to engage more students, helping them achieve both academic and leadership goals. As a first-generation university graduate, Esme seeks to increase the representation and success of first-generation students in higher education.",
           linkedIn: 'https://www.linkedin.com/in/esmeralda-ortiz-0400b476/'
         },
         // {

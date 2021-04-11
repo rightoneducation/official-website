@@ -73,7 +73,7 @@ module.exports = {
         {
           id: 7,
           name: 'Katerina Schenke, PhD',
-          photo: '/images/profile_katerina.jpg',
+          photo: '/images/profile_Katerina.jpg',
           title: 'Education Researcher & Learning Scientist',
           favoriteShow: 'Legends of the Hidden Temple',
           favoriteMistake: 'Biting into a jalapeno, thinking it was a bell pepper...',

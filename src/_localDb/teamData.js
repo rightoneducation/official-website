@@ -42,6 +42,16 @@ module.exports = {
         },
         {
           id: 5,
+          name: 'Eric Nguyen',
+          photo: '/images/profile_eric.jpg',
+          title: 'Development Intern',
+          favoriteShow: 'Jeopardy!',
+          favoriteMistake: ' Studied diligently for a CS exam, only to find out that I had fallen asleep while studying and it was all a dream.',
+          linkedIn: 'https://www.linkedin.com/in/eric-nguyen-a77977196/',
+          isFlipped: false
+        },
+        {
+          id: 5,
           name: 'Edward Tan',
           photo: '/images/profile_edward.jpg',
           title: 'Architecture Lead',

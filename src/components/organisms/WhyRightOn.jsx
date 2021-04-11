@@ -6,6 +6,7 @@ import {
 import SectionHeading from '../atoms/SectionHeading'
 import SingleWhy from '../atoms/SingleWhy'
 import chromebook from 'images/chromebook_mockup.jpg'
+import RightOnVideo from '../atoms/RightOnVideo';
 
 function WhyRightOn(props) {
   const { whyRightOn } = props
@@ -15,6 +16,7 @@ function WhyRightOn(props) {
         <Grid item sm={12}>
           <SectionHeading />
         </Grid>
+        <RightOnVideo/>
         <Grid
           item
           container

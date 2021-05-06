@@ -2,7 +2,7 @@ module.exports = {
     devTeam: [
         {
           id: 1,
-          name: 'Angela Dosalmas, PhD',
+          name: 'Mozzie Dosalmas, PhD',
           photo: '/images/profile_angela.jpg',
           title: `${'Math Educator'} <br /> ${'CRMT & Equity'}`,
           favoriteShow: 'Hollywood Game Night',
@@ -32,12 +32,22 @@ module.exports = {
         },
         {
           id: 4,
-          name: 'Daz C Yang',
+          name: 'Daz C. Yang',
           photo: '/images/profile_daz.jpg',
           title: 'UI Designer & <br/> Front-End Developer',
           favoriteShow: 'Kasou Taishou',
           favoriteMistake: 'I love learning new languages, and making mistakes with idioms is a key part of becoming more fluent. I find it funny that, when an alarm clock “goes off,” that means it turns on!',
           linkedIn: 'https://www.linkedin.com/in/dazyang',
+          isFlipped: false
+        },
+        {
+          id: 5,
+          name: 'Eric Nguyen',
+          photo: '/images/profile_eric.jpg',
+          title: 'Development Intern',
+          favoriteShow: 'Jeopardy!',
+          favoriteMistake: ' Studied diligently for a CS exam, only to find out that I had fallen asleep while studying and it was all a dream.',
+          linkedIn: 'https://www.linkedin.com/in/eric-nguyen-a77977196/',
           isFlipped: false
         },
         {
@@ -63,7 +73,7 @@ module.exports = {
         {
           id: 7,
           name: 'Katerina Schenke, PhD',
-          photo: '/images/profile_katerina.jpg',
+          photo: '/images/profile_Katerina.jpg',
           title: 'Education Researcher & Learning Scientist',
           favoriteShow: 'Legends of the Hidden Temple',
           favoriteMistake: 'Biting into a jalapeno, thinking it was a bell pepper...',

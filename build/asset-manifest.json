@@ -1,63 +1,35 @@
 {
   "files": {
-<<<<<<< Updated upstream
-    "main.css": "/static/css/main.dabc46be.chunk.css",
-<<<<<<< HEAD
-    "main.js": "/static/js/main.8f145294.chunk.js",
-    "main.js.map": "/static/js/main.8f145294.chunk.js.map",
-=======
     "main.css": "/static/css/main.8971da30.chunk.css",
-    "main.js": "/static/js/main.cf2532d9.chunk.js",
-    "main.js.map": "/static/js/main.cf2532d9.chunk.js.map",
->>>>>>> Stashed changes
-=======
-    "main.js": "/static/js/main.51627123.chunk.js",
-    "main.js.map": "/static/js/main.51627123.chunk.js.map",
->>>>>>> 06478dedb69cf0823923b7ea0105920a2f1eeb2f
+    "main.js": "/static/js/main.85580a82.chunk.js",
+    "main.js.map": "/static/js/main.85580a82.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7ee083d1.js",
     "runtime-main.js.map": "/static/js/runtime-main.7ee083d1.js.map",
     "static/css/2.70e35f80.chunk.css": "/static/css/2.70e35f80.chunk.css",
     "static/js/2.ddca32c0.chunk.js": "/static/js/2.ddca32c0.chunk.js",
     "static/js/2.ddca32c0.chunk.js.map": "/static/js/2.ddca32c0.chunk.js.map",
     "index.html": "/index.html",
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-    "precache-manifest.7de5e2cf21cc29cb694c401c2d48bece.js": "/precache-manifest.7de5e2cf21cc29cb694c401c2d48bece.js",
-=======
-    "precache-manifest.cf78eab38d218ed0641f8003ef8f1d93.js": "/precache-manifest.cf78eab38d218ed0641f8003ef8f1d93.js",
->>>>>>> Stashed changes
-=======
-    "precache-manifest.048f59e104b6dc96740407960e66c95d.js": "/precache-manifest.048f59e104b6dc96740407960e66c95d.js",
->>>>>>> 06478dedb69cf0823923b7ea0105920a2f1eeb2f
+    "precache-manifest.baf0ce21196fad49c821d1dfd43a0b62.js": "/precache-manifest.baf0ce21196fad49c821d1dfd43a0b62.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.70e35f80.chunk.css.map": "/static/css/2.70e35f80.chunk.css.map",
-    "static/css/main.dabc46be.chunk.css.map": "/static/css/main.dabc46be.chunk.css.map",
+    "static/css/main.8971da30.chunk.css.map": "/static/css/main.8971da30.chunk.css.map",
     "static/js/2.ddca32c0.chunk.js.LICENSE.txt": "/static/js/2.ddca32c0.chunk.js.LICENSE.txt",
     "static/media/believe-in-yourself.jpg": "/static/media/believe-in-yourself.0dd369e1.jpg",
     "static/media/chromebook_mockup.jpg": "/static/media/chromebook_mockup.9064cfa6.jpg",
     "static/media/diversity-placeholder-image.jpg": "/static/media/diversity-placeholder-image.f0afbec8.jpg",
-    "static/media/App.scss": "/static/media/header-element-3.f213d6a0.svg",
+    "static/media/App.scss": "/static/media/header-element-3.1ef0f1af.svg",
     "static/media/linkedin-icon.svg": "/static/media/linkedin-icon.4eafd5a3.svg",
-    "static/media/righton.svg": "/static/media/righton.1524a412.svg",
+    "static/media/righton.svg": "/static/media/righton.026326a0.svg",
     "static/media/student-looking-bored.jpg": "/static/media/student-looking-bored.20558011.jpg",
     "static/media/students-pointing-at-screen.jpg": "/static/media/students-pointing-at-screen.f36af683.jpg",
-    "static/media/team-icon.svg": "/static/media/team-icon.3f362737.svg",
+    "static/media/team-icon.svg": "/static/media/team-icon.6a04e751.svg",
     "static/media/team-photo.jpg": "/static/media/team-photo.af095bcd.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.7ee083d1.js",
     "static/css/2.70e35f80.chunk.css",
     "static/js/2.ddca32c0.chunk.js",
-<<<<<<< Updated upstream
-    "static/css/main.dabc46be.chunk.css",
-<<<<<<< HEAD
-    "static/js/main.8f145294.chunk.js"
-=======
     "static/css/main.8971da30.chunk.css",
-    "static/js/main.cf2532d9.chunk.js"
->>>>>>> Stashed changes
-=======
-    "static/js/main.51627123.chunk.js"
->>>>>>> 06478dedb69cf0823923b7ea0105920a2f1eeb2f
+    "static/js/main.85580a82.chunk.js"
   ]
 }

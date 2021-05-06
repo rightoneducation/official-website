@@ -1,15 +1,25 @@
 {
   "files": {
+<<<<<<< Updated upstream
     "main.css": "/static/css/main.dabc46be.chunk.css",
     "main.js": "/static/js/main.8f145294.chunk.js",
     "main.js.map": "/static/js/main.8f145294.chunk.js.map",
+=======
+    "main.css": "/static/css/main.8971da30.chunk.css",
+    "main.js": "/static/js/main.cf2532d9.chunk.js",
+    "main.js.map": "/static/js/main.cf2532d9.chunk.js.map",
+>>>>>>> Stashed changes
     "runtime-main.js": "/static/js/runtime-main.7ee083d1.js",
     "runtime-main.js.map": "/static/js/runtime-main.7ee083d1.js.map",
     "static/css/2.70e35f80.chunk.css": "/static/css/2.70e35f80.chunk.css",
     "static/js/2.ddca32c0.chunk.js": "/static/js/2.ddca32c0.chunk.js",
     "static/js/2.ddca32c0.chunk.js.map": "/static/js/2.ddca32c0.chunk.js.map",
     "index.html": "/index.html",
+<<<<<<< Updated upstream
     "precache-manifest.7de5e2cf21cc29cb694c401c2d48bece.js": "/precache-manifest.7de5e2cf21cc29cb694c401c2d48bece.js",
+=======
+    "precache-manifest.cf78eab38d218ed0641f8003ef8f1d93.js": "/precache-manifest.cf78eab38d218ed0641f8003ef8f1d93.js",
+>>>>>>> Stashed changes
     "service-worker.js": "/service-worker.js",
     "static/css/2.70e35f80.chunk.css.map": "/static/css/2.70e35f80.chunk.css.map",
     "static/css/main.dabc46be.chunk.css.map": "/static/css/main.dabc46be.chunk.css.map",
@@ -29,7 +39,12 @@
     "static/js/runtime-main.7ee083d1.js",
     "static/css/2.70e35f80.chunk.css",
     "static/js/2.ddca32c0.chunk.js",
+<<<<<<< Updated upstream
     "static/css/main.dabc46be.chunk.css",
     "static/js/main.8f145294.chunk.js"
+=======
+    "static/css/main.8971da30.chunk.css",
+    "static/js/main.cf2532d9.chunk.js"
+>>>>>>> Stashed changes
   ]
 }

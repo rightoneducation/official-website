@@ -2,16 +2,6 @@ module.exports = {
     devTeam: [
         {
           id: 1,
-          name: 'Mozzie Dosalmas, PhD',
-          photo: '/images/profile_angela.jpg',
-          title: `${'Math Educator'} <br /> ${'CRMT & Equity'}`,
-          favoriteShow: 'Hollywood Game Night',
-          favoriteMistake: 'Spending hours before a road trip packing our SUV cargo bag -- carefully following all the instructions -- only to find out that the vehicle with the loaded bag on top couldn’t make it out of the garage.',
-          linkedIn: 'https://www.linkedin.com/in/angela-dos-almas-506b7719/',
-          isFlipped: false
-        },
-        {
-          id: 2,
           name: 'Andy Li',
           photo: '/images/profile_andy.jpeg',
           title: 'React Native Lead',
@@ -21,7 +11,7 @@ module.exports = {
            isFlipped: false
         },
         {
-          id: 3,
+          id: 2,
           name: 'Anna Roberds',
           photo: '/images/profile_anna.jpeg',
           title: 'Math Educator <br /> Curriculum Program Manager',
@@ -31,13 +21,23 @@ module.exports = {
           isFlipped: false
         },
         {
-          id: 4,
+          id: 3,
           name: 'Daz C. Yang',
           photo: '/images/profile_daz.jpg',
           title: 'UI Designer & <br/> Front-End Developer',
           favoriteShow: 'Kasou Taishou',
           favoriteMistake: 'I love learning new languages, and making mistakes with idioms is a key part of becoming more fluent. I find it funny that, when an alarm clock “goes off,” that means it turns on!',
           linkedIn: 'https://www.linkedin.com/in/dazyang',
+          isFlipped: false
+        },
+        {
+          id: 4,
+          name: 'Edward Tan',
+          photo: '/images/profile_edward.jpg',
+          title: 'Architecture Lead',
+          favoriteShow: 'Who Wants to Be a Millionaire',
+          favoriteMistake: 'Wearing a holey sock that my big toe was poking through, on a day I was unexpectedly invited by my boss to a shoes-off sushi restaurant',
+          linkedIn: 'https://www.linkedin.com/in/edwardtan/',
           isFlipped: false
         },
         {
@@ -48,16 +48,6 @@ module.exports = {
           favoriteShow: 'Jeopardy!',
           favoriteMistake: ' Studied diligently for a CS exam, only to find out that I had fallen asleep while studying and it was all a dream.',
           linkedIn: 'https://www.linkedin.com/in/eric-nguyen-a77977196/',
-          isFlipped: false
-        },
-        {
-          id: 5,
-          name: 'Edward Tan',
-          photo: '/images/profile_edward.jpg',
-          title: 'Architecture Lead',
-          favoriteShow: 'Who Wants to Be a Millionaire',
-          favoriteMistake: 'Wearing a holey sock that my big toe was poking through, on a day I was unexpectedly invited by my boss to a shoes-off sushi restaurant',
-          linkedIn: 'https://www.linkedin.com/in/edwardtan/',
           isFlipped: false
         },
         {
@@ -73,7 +63,7 @@ module.exports = {
         {
           id: 7,
           name: 'Katerina Schenke, PhD',
-          photo: '/images/profile_Katerina.jpg',
+          photo: '/images/Profile_Katerina.jpg',
           title: 'Education Researcher & Learning Scientist',
           favoriteShow: 'Legends of the Hidden Temple',
           favoriteMistake: 'Biting into a jalapeno, thinking it was a bell pepper...',
@@ -92,6 +82,16 @@ module.exports = {
         },
         {
           id: 9,
+          name: 'Mozzie Dosalmas, PhD',
+          photo: '/images/profile_angela.jpg',
+          title: `${'Math Educator'} <br /> ${'CRMT & Equity'}`,
+          favoriteShow: 'Hollywood Game Night',
+          favoriteMistake: 'Spending hours before a road trip packing our SUV cargo bag -- carefully following all the instructions -- only to find out that the vehicle with the loaded bag on top couldn’t make it out of the garage.',
+          linkedIn: 'https://www.linkedin.com/in/angela-dos-almas-506b7719/',
+          isFlipped: false
+        },
+        {
+          id: 10,
           name: 'Ronald Towns',
           photo: '/images/profile_ronald.jpg',
           title: 'STEM Administrator <br/> Math PD',
@@ -100,7 +100,7 @@ module.exports = {
           linkedIn: 'https://www.linkedin.com/in/ronaldtowns/',
           isFlipped: false
         },
-        { id: 10,
+        { id: 11,
           name: 'Sinclair Wu',
           photo: '/images/profile_sinclair.jpg',
           title: 'Product Lead',

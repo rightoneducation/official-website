@@ -54,7 +54,7 @@ function PageHeader () {
           >
             <Grid item>
               <Typography variant="h5" className={styles.subTitle}>
-                Unlocking every student’s potential in STEM
+                Inspiring learning by embracing mistakes
               </Typography>
             </Grid>
             <Grid item>

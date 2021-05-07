@@ -16,7 +16,7 @@ function WhyRightOn(props) {
         <Grid item sm={12}>
           <SectionHeading />
         </Grid>
-        <RightOnVideo/>
+        <RightOnVideo/>
         <Grid
           item
           container

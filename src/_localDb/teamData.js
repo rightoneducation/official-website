@@ -145,7 +145,7 @@ module.exports = {
           name: 'Esmeralda Ortiz',
           photo: '/images/profile_Esme.jpg',
           title: 'Youth Development Leader',
-          profile: "A Senior Director at the Boys & Girls Clubs of the Peninsula, Esme leads high school and post-secondary success programs across all BGCP sites. Over the past ten years, she has developed and led partnerships with public high schools to engage more students, helping them achieve both academic and leadership goals. As a first-generation university graduate, Esme seeks to increase the representation and success of first-generation students in higher education.",
+          profile: "A Vice President at the Boys & Girls Clubs of the Peninsula, Esme leads high school and post-secondary success programs across all BGCP sites. Over the past ten years, she has developed and led partnerships with public high schools to engage more students, helping them achieve both academic and leadership goals. As a first-generation university graduate, Esme seeks to increase the representation and success of first-generation students in higher education.",
           linkedIn: 'https://www.linkedin.com/in/esmeralda-ortiz-0400b476/'
         },
         // {

@@ -1,19 +1,19 @@
 module.exports = {
   productFeatures: [{
       id: 1,
-      title: 'Surface and Differentiate Student Misconceptions',
+      title: 'Engage Your Students & Assess Understanding',
       featureIcon: '/images/puzzle.svg',
-      description: 'Find out your students’ misconceptions, in order of popularity, for Common Core-aligned questions. Less time hunting for student errors, more time fixing them!'
+      description: 'Find out your students’ misconceptions, in order of frequency, for Common Core-aligned questions: less time hunting for student errors, more time fixing them!'
     },
     {
       id: 2,
-      title: 'Connect Misconceptions with Targeted Explanations',
+      title: 'Get the Underlying Rationale Behind Wrong Answers',
       featureIcon: '/images/target_icon.svg',
       description: 'Understand the rationale behind different wrong answers and get tips on how to provide clarifications to your students.'
     },
     {
       id: 3,
-      title: 'Share Relevant Resources',
+      title: 'Share Targeted Resources',
       featureIcon: '/images/share_resources.svg',
       description: 'With a better understanding of the misconceptions that different students may have, we can suggest follow-up activities and videos tailored to your students’ needs.'
     }
@@ -35,7 +35,7 @@ module.exports = {
       id: 3,
       title: 'Making errors fun and productive',
       featureImage: '/images/diversity-placeholder-image.jpg',
-      description: '<strong><em>RightOn!</em></strong> is a classroom app that quickly engages students, helps surface and differentiate misconceptions, and provides teachers with real-time insights, tips, and resources tailored to their students’ needs.'
+      description: '<strong><em>RightOn!</em></strong> is a math classroom app that engages students in thinking about and discussing mistakes and misconceptions, increasing self-confidence and deepening conceptual understanding.'
     }
   ]
 }

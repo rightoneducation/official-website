@@ -1,21 +1,21 @@
 module.exports = {
   productFeatures: [{
       id: 1,
-      title: 'Engage Your Students & Assess Understanding',
+      title: 'Engage Your Students in Deeper Thinking',
       featureIcon: '/images/puzzle.svg',
-      description: 'Find out your students’ misconceptions, in order of frequency, for Common Core-aligned questions: less time hunting for student errors, more time fixing them!'
+      description: 'Turn multiple-choice questions into metacognitive challenges: student-tested, teacher-approved, and standards-aligned!'
     },
     {
       id: 2,
-      title: 'Get the Underlying Rationale Behind Wrong Answers',
+      title: 'Get the Rationale Behind Wrong Answers',
       featureIcon: '/images/target_icon.svg',
-      description: 'Understand the rationale behind different wrong answers and get tips on how to provide clarifications to your students.'
+      description: 'Understand the reasoning behind different wrong answers and view tips to help your students get back on track.'
     },
     {
       id: 3,
       title: 'Share Targeted Resources',
       featureIcon: '/images/share_resources.svg',
-      description: 'With a better understanding of the misconceptions that different students may have, we can suggest follow-up activities and videos tailored to your students’ needs.'
+      description: 'Suggest follow-up activities and videos tailored to your students’ needs.'
     }
   ],
   whyRightOn: [

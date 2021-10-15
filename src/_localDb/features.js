@@ -1,21 +1,21 @@
 module.exports = {
   productFeatures: [{
       id: 1,
-      title: 'Surface and Differentiate Student Misconceptions',
+      title: 'Engage Your Students in Deeper Thinking',
       featureIcon: '/images/puzzle.svg',
-      description: 'Find out your students’ misconceptions, in order of popularity, for Common Core-aligned questions. Less time hunting for student errors, more time fixing them!'
+      description: 'Turn multiple-choice questions into metacognitive challenges: student-tested, teacher-approved, and standards-aligned!'
     },
     {
       id: 2,
-      title: 'Connect Misconceptions with Targeted Explanations',
+      title: 'Get the Rationale Behind Wrong Answers',
       featureIcon: '/images/target_icon.svg',
-      description: 'Understand the rationale behind different wrong answers and get tips on how to provide clarifications to your students.'
+      description: 'Understand the reasoning behind different wrong answers and view tips to help your students get back on track.'
     },
     {
       id: 3,
-      title: 'Share Relevant Resources',
+      title: 'Share Targeted Resources',
       featureIcon: '/images/share_resources.svg',
-      description: 'With a better understanding of the misconceptions that different students may have, we can suggest follow-up activities and videos tailored to your students’ needs.'
+      description: 'Suggest follow-up activities and videos tailored to your students’ needs.'
     }
   ],
   whyRightOn: [
@@ -35,7 +35,7 @@ module.exports = {
       id: 3,
       title: 'Making errors fun and productive',
       featureImage: '/images/diversity-placeholder-image.jpg',
-      description: '<strong><em>RightOn!</em></strong> is a classroom app that quickly engages students, helps surface and differentiate misconceptions, and provides teachers with real-time insights, tips, and resources tailored to their students’ needs.'
+      description: '<strong><em>RightOn!</em></strong> is a math classroom app that engages students in thinking about and discussing mistakes and misconceptions, increasing self-confidence and deepening conceptual understanding.'
     }
   ]
 }

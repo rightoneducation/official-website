@@ -116,7 +116,7 @@ module.exports = {
           name: 'Andrea Ruby',
           photo: '../images/profile_andrea.jpg',
           title: 'Math Educator',
-          profile: 'Andrea has shared her love for teaching math as a secondary math teacher in the Philadelphia Public Schools for the last 13 years. She has designed curriculum, facilitated professional development, and managed partnerships to advance underserved youth in the STEM fields. A former Fulbright Scholar, Andrea has an MS degree in Urban Education, with a focus in secondary mathematics.',
+          profile: 'Andrea has shared her love for teaching math as a secondary math teacher in the Philadelphia Public Schools for the last 14 years. She has designed curriculum, facilitated professional development, and managed partnerships to advance underserved youth in STEM. A former Fulbright Scholar, Andrea has an MS degree in Urban Education, with a focus in secondary mathematics.',
           linkedIn: null
         },
         {
@@ -139,8 +139,8 @@ module.exports = {
           id: 4,
           name: 'Bunmi Esho',
           photo: '../images/profile_bummi.jpg',
-          title: 'STEM Advocacy Executive Director',
-          profile: 'Bunmi is the California Executive Director of Techbridge Girls, where she leads program operations, fundraising and strategic planning for the California region. Prior to joining TBG, Bunmi lived in Southeast Asia leading education programs and managing teams with local nonprofits, schools and the first science center in Cambodia. Bunmi has 20 years of experience in the STEM, nonprofit and education sectors. She has a bachelor’s in chemical engineering, a master’s in education and considers herself an eternal STEM advocate.',
+          title: 'STEM Advocacy Director',
+          profile: 'Bunmi is a Program Director at Endless OS Foundation, which works to democratize access to technology to create opportunities for underserved and under-resourced populations around the world. She has over 20 years of experience in the STEM, nonprofit, and education sectors and considers herself an eternal STEM advocate.',
           linkedIn: 'https://www.linkedin.com/in/bunmiesho/'
         },
         // {
@@ -155,7 +155,7 @@ module.exports = {
           name: 'Esmeralda Ortiz',
           photo: '/images/profile_Esme.jpg',
           title: 'Youth Development Leader',
-          profile: "A Senior Director at the Boys & Girls Clubs of the Peninsula, Esme leads high school and post-secondary success programs across all BGCP sites. Over the past ten years, she has developed and led partnerships with public high schools to engage more students, helping them achieve both academic and leadership goals. As a first-generation university graduate, Esme seeks to increase the representation and success of first-generation students in higher education.",
+          profile: "A Vice President at the Boys & Girls Clubs of the Peninsula, Esme leads high school and post-secondary success programs across all BGCP sites. Over the past ten years, she has developed and led partnerships with public high schools to engage more students, helping them achieve both academic and leadership goals. A first-generation college graduate, Esme seeks to increase the representation and success of first-generation students in higher education.",
           linkedIn: 'https://www.linkedin.com/in/esmeralda-ortiz-0400b476/'
         },
         // {
@@ -163,7 +163,7 @@ module.exports = {
         //   name: 'Iman Howard',
         //   photo: '../images/profile_iman.jpg',
         //   title: 'Assistant Principal',
-        //   profile: 'Iman is a K-12 STEM instruction, curriculum and assessment development expert. A former classroom teacher, Iman learned that the evolving educational landscape calls for classrooms that are culturally responsive, differentiated for each child and maximized for learning through inquiry and engagement. Iman works for the Knowledge is Power Program (KIPP) Charter Schools, where she led the network in science achievement data. In her current role as an Assistant Principal, Iman facilitates adult learning both regionally and nationally as well as builds curriculum resources that reach over 40,000 students.',
+        //   profile: 'Iman is a K-12 STEM instruction, curriculum and assessment development leader. A former classroom teacher, Iman learned that the evolving educational landscape calls for classrooms that are culturally responsive, differentiated for each child and maximized for learning through inquiry and engagement. Iman works for the Knowledge is Power Program (KIPP) Charter Schools, with experience in both San Francisco and Philadelphia. In her current role as an Assistant Principal and a Principal in Residence, Iman facilitates adult learning both regionally and nationally as well as builds curriculum resources that reach over 40,000 students.',
         //   linkedIn: 'https://www.linkedin.com/in/imanhoward/'
         // },
         {

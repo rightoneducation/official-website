@@ -27,6 +27,9 @@ function Header () {
           <Grid item>
             <Link to='/team'><Typography variant="h6" className={styles.mainNav}>Team</Typography></Link>
           </Grid>
+          <Grid item>
+            <Link to='/resources'><Typography variant="h6" className={styles.mainNav}>Resources</Typography></Link>
+          </Grid>
         </Grid>
       </Box>
     )

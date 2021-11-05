@@ -9,6 +9,7 @@ import './rwdgrid.css';
 import LandingPage from 'components/pages/LandingPage.jsx'
 import AboutPage from 'components/pages/AboutPage'
 import TeamPage from 'components/pages/TeamPage'
+import ResourcePage from 'components/pages/ResourcePage'
 import PageHeader from 'components/molecules/PageHeader'
 import Footer from 'components/molecules/Footer'
 
@@ -90,6 +91,7 @@ function App() {
                 />
               )}
             />
+            <Route path="/resources" render={() => <ResourcePage styles={styles} />} />
           </Container>
         </Switch>
         <Footer />

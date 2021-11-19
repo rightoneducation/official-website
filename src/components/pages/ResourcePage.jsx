@@ -1,8 +1,9 @@
 import React from 'react';
+import ErrorAnalysisActivitiesSection from '../organisms/ErrorAnalysisActivitiesSection';
 
 function ResourcePage() {
     return(
-        <h1>Hello World!</h1>
+        <ErrorAnalysisActivitiesSection/>
     )
 }
 

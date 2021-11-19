@@ -1,9 +1,13 @@
 import React from 'react';
+import PositiveCultureOfErrorSection from 'components/organisms/PositiveCultureOfErrorSection';
 
-function ResourcePage() {
-    return(
-        <h1>Hello World!</h1>
-    )
+function ResourcePage(props) {
+    const { styles } = props
+        return(
+            <div>
+                <PositiveCultureOfErrorSection styles={styles}/>
+            </div>
+        )
 }
 
 export default ResourcePage;

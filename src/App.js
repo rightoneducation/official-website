@@ -46,7 +46,6 @@ const useStyles = makeStyles( theme => ({
       fontSize: '1em'
     }
   },
-
 }))
 
 function App() {

@@ -10,9 +10,6 @@ const useStyles = makeStyles(theme => ({
     [theme.breakpoints.down('xs')]: {
       fontSize: '1em'
     }
-  },
-  boxOverLap: {
-    
   }
 }))
 

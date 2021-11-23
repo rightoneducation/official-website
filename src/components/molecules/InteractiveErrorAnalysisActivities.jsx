@@ -15,6 +15,7 @@ const useStyles = makeStyles( theme => ({
     color: '#B443CC',
     transform: 'rotate(0deg)',
     marginLeft: 'auto',
+    marginRight: 'auto',
     transition: theme.transitions.create('transform', {
       duration: theme.transitions.duration.shortest,
     }),
@@ -47,7 +48,7 @@ function InteractiveErrorAnalysisActivities() {
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
           <Typography variant="h5" style={{ marginBottom: "10px", marginTop: "10px", textAlign: "center" }}>
-            [insert answer here]
+            2 and 7 are factors of 14, but Uno has missed that 1 and 14 are also factors of 14.
           </Typography>
         </CardContent>
       </Collapse>

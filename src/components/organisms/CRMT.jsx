@@ -5,7 +5,7 @@ import CRMTDiagram from '../molecules/CRMTDiagram';
 export default function CRMT(props) {
     // const { styles } = props;
     return(
-        <Box components="section" style={ { background: "#772A79", marginTop: '150px', color: 'white' } }>
+        <Box components="section" style={ { background: "transparent", marginTop: '150px', color: 'white' } }>
             <Grid container style={ {justifyContent: "center"} }>
                     <h1>Culturally Responsive Mathematics Teaching</h1>
             </Grid>

@@ -3,11 +3,12 @@ import ErrorAnalysisActivitiesSection from '../organisms/ErrorAnalysisActivities
 import PositiveCultureOfErrorSection from 'components/organisms/PositiveCultureOfErrorSection';
 import CRMT from '../organisms/CRMT';
 import RightOnGameShow from '../organisms/RightOnGameShow';
+import 'resourcepage.css';
 
 function ResourcePage(props) {
     const { styles } = props
         return(
-            <div>
+            <div className="resourceStyles">
                 <PositiveCultureOfErrorSection styles={styles}/>
                 <ErrorAnalysisActivitiesSection/>
                 <CRMT />

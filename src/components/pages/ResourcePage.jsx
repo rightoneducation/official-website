@@ -1,15 +1,20 @@
 import React from 'react';
-import ErrorAnalysisActivitiesSection from '../organisms/ErrorAnalysisActivitiesSection';
 import PositiveCultureOfErrorSection from 'components/organisms/PositiveCultureOfErrorSection';
+import ErrorAnalysisActivitiesSection from '../organisms/ErrorAnalysisActivitiesSection';
+import CRMT from '../organisms/CRMT';
+import RightOnGameShow from '../organisms/RightOnGameShow';
+import 'resourcepage.css';
 
 function ResourcePage(props) {
     const { styles } = props
         return(
-            <div>
+            <div className="resourceStyles">
                 <PositiveCultureOfErrorSection styles={styles}/>
                 <ErrorAnalysisActivitiesSection/>
+                <CRMT />
+                <RightOnGameShow />
             </div>
         )
-}
+    }
 
 export default ResourcePage;

@@ -31,7 +31,7 @@ function PositiveCultureofErrorText() {
           </Typography>
         </Grid>
         <Grid id='quote' item xs={5}>
-          <Card className={styles.cardContent}>
+          <Card className={styles.cardContent} style={{"background": "white"}}>
             <CardContent>
               <Typography variant="h5">
               “Rough draft thinking happens when students share their unfinished, in-progress ideas and remain open to revising those ideas.” <br/> — Rough Draft Math, Dr. Amanda Jansen

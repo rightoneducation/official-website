@@ -6,7 +6,7 @@ function PositiveCultureBox(props) {
     const { styles } = props
         return(
           <Card className={styles.cardIntro}>
-              <PositiveCultureofErrorText/>
+              <PositiveCultureofErrorText styles={ styles }/>
           </Card>
         );
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import { makeStyles } from "@material-ui/core/styles";
 import { Box, Grid } from '@material-ui/core';
-import Uno from 'images/Uno.svg'
+import Uno from '../../images/Uno.svg'
 import AboutErrorAnalysisActivities from '../molecules/AboutErrorAnalysisActivities';
 import InteractiveErrorAnalysisActivities from '../molecules/InteractiveErrorAnalysisActivities';
 

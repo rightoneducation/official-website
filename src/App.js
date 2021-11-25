@@ -6,14 +6,14 @@ import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import './App.scss';
 import './rwdgrid.css';
 
-import LandingPage from 'components/pages/LandingPage.jsx'
-import AboutPage from 'components/pages/AboutPage'
-import TeamPage from 'components/pages/TeamPage'
-import ResourcePage from 'components/pages/ResourcePage'
-import PageHeader from 'components/molecules/PageHeader'
-import Footer from 'components/molecules/Footer'
+import LandingPage from './components/pages/LandingPage.jsx'
+import AboutPage from './components/pages/AboutPage'
+import TeamPage from './components/pages/TeamPage'
+import ResourcePage from './components/pages/ResourcePage'
+import PageHeader from './components/molecules/PageHeader'
+import Footer from './components/molecules/Footer'
 
-import teamData from '_localDb/teamData'
+import teamData from './_localDb/teamData'
 
 const useStyles = makeStyles( theme => ({
   container: {

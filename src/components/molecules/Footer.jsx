@@ -1,5 +1,5 @@
 import React from 'react'
-import righton from 'righton.svg'
+import righton from '../../righton.svg'
 import { makeStyles } from "@material-ui/core/styles";
 import { Box,Typography, Grid } from "@material-ui/core";
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import PositiveCultureOfErrorSection from 'components/organisms/PositiveCultureOfErrorSection';
+import PositiveCultureOfErrorSection from '../organisms/PositiveCultureOfErrorSection';
 import ErrorAnalysisActivitiesSection from '../organisms/ErrorAnalysisActivitiesSection';
 import CRMT from '../organisms/CRMT';
 import RightOnGameShow from '../organisms/RightOnGameShow';

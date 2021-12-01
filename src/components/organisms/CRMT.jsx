@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Grid, Typography } from "@material-ui/core";
-import CRMTimage from '../../images/CRMT-text.png';
+import CRMTimage from '../../images/CRMT.png';
 
 export default function CRMT(props) {
     // const { styles } = props;

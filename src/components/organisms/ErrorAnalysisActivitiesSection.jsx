@@ -5,27 +5,18 @@ import Uno from '../../images/Uno.svg'
 import AboutErrorAnalysisActivities from '../molecules/AboutErrorAnalysisActivities';
 import InteractiveErrorAnalysisActivities from '../molecules/InteractiveErrorAnalysisActivities';
 
-
-const useStyles = makeStyles( theme => ({
-    boxSeperate: {
-        marginTop: '30px',
-        marginLeft: '40px',
-    }
-  })
-)
-
-function ErrorAnalysisActivitiesSection() {
-    const styles = useStyles()
+function ErrorAnalysisActivitiesSection(props) {
+    const { styles } = props
     return(
         <div>
             <Box component="section">
-                <Grid container justify="center" alignItems="center" spacing={1}>
-                    <Grid xs={9} sm={4} md={3}>
-                        <img src={Uno} alt="monster-with-speech-bubble" width="100%" />
-                    </Grid>
-                    <Grid xs={9} sm={5} md={4} className={styles.boxSeperate}>
-                        <AboutErrorAnalysisActivities/>
+                <Grid container justify="space-around" alignItems="center" spacing={1}>
+                    <Grid xs={9} sm={6}>
+                        <AboutErrorAnalysisActivities styles={styles}/>
                         <InteractiveErrorAnalysisActivities/>
+                    </Grid>
+                    <Grid xs={9} sm={3}>
+                        <img src={Uno} alt="monster-with-speech-bubble" width="100%" />
                     </Grid>
                 </Grid>
             </Box>

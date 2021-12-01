@@ -5,7 +5,7 @@ import {
 } from "@material-ui/core";
 import SectionHeading from '../atoms/SectionHeading'
 import SingleWhy from '../atoms/SingleWhy'
-import chromebook from 'images/chromebook_mockup.jpg'
+import chromebook from '../../images/chromebook_mockup.jpg'
 import RightOnVideo from '../atoms/RightOnVideo';
 
 function WhyRightOn(props) {

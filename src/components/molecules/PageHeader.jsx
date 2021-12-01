@@ -1,7 +1,7 @@
 import React from 'react'
 import { makeStyles } from "@material-ui/core/styles";
 import { Box, Grid, Typography } from "@material-ui/core";
-import logo from 'righton.svg'
+import logo from '../../righton.svg'
 
 import MainNav from './MainNav'
 

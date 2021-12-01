@@ -1,11 +1,11 @@
 import React from 'react'
 
-import ProductFeatures from 'components/organisms/ProductFeatures'
-import OurMission from 'components/organisms/OurMission'
-import WhyRightOn from 'components/organisms/WhyRightOn'
-import ProblemSection from 'components/organisms/ProblemSection'
+import ProductFeatures from '../organisms/ProductFeatures'
+import OurMission from '../organisms/OurMission'
+import WhyRightOn from '../organisms/WhyRightOn'
+import ProblemSection from '../organisms/ProblemSection'
 
-import featureData from '_localDb/features'
+import featureData from '../../_localDb/features'
 
 function LandingPage (props) { 
     const {styles} = props

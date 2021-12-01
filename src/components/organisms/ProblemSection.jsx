@@ -1,7 +1,7 @@
 import React from 'react'
 import { makeStyles } from "@material-ui/core/styles";
 import { Box, Card, CardContent, Typography, Grid } from "@material-ui/core";
-import bored from 'images/student-looking-bored.jpg'
+import bored from '../../images/student-looking-bored.jpg'
 
 const useStyles = makeStyles( theme => ({
   cardContent: {

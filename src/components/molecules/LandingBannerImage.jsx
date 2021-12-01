@@ -1,6 +1,6 @@
 import React from "react";
 import { Paper } from "@material-ui/core";
-import placeholder from "images/diversity-placeholder-image.jpg";
+import placeholder from "../../images/diversity-placeholder-image.jpg";
 
 function LandingBannerImage(props) {
   const { styles } = props;

@@ -1,6 +1,12 @@
 .App {
   text-align: left;
   font-size: 16px;
+  h1, h2, h3, h4 {
+      font-weight: bold;
+  }
+  section {
+    padding: 5%;
+  }
 }
 
 button {
@@ -17,9 +23,7 @@ p {
   font-weight: 300;
 }
 
-section {
-  padding: 5%;
-}
+
 
 #quote {
   width: 80%;

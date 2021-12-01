@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid } from "@material-ui/core"; //Card, CardContent
+import { Grid, Typography } from "@material-ui/core"; //Card, CardContent
 
 export default function GameShowHeading(props) {
 //   const { styles } = props;
@@ -9,7 +9,7 @@ export default function GameShowHeading(props) {
         <div className="divider"/>
       </Grid>
       <Grid item>
-        <h1 style={ {color: 'white', margin: '0px'} }>RightOn! Game Show</h1>
+        <Typography variant="h4" style={{color: "white"}}>RightOn! Game Show</Typography>
       </Grid>
       <Grid item md={3}>
         <div className="divider" />

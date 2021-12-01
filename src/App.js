@@ -46,6 +46,9 @@ const useStyles = makeStyles( theme => ({
       fontSize: '1em'
     }
   },
+  resourcesPageBk: {
+    background: 'linear-gradient(201.84deg, #B443CC 0%, #662AAF 73.19%)'
+  }
 }))
 
 function App() {

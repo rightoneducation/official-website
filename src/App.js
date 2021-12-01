@@ -47,7 +47,16 @@ const useStyles = makeStyles( theme => ({
     }
   },
   resourcesPageBk: {
-    background: 'linear-gradient(201.84deg, #B443CC 0%, #662AAF 73.19%)'
+    background: 'linear-gradient(#BD074C 10%, #4C2679, #210040)'
+  },
+  positiveCultureofErrorCardContent:{
+    marginTop: "20px",
+    fontWeight: "300",
+    lineHeight: "1.4",
+    listStyle: "inside",
+    [theme.breakpoints.down('xs')]: {
+      fontSize: '1em'
+    }
   }
 }))
 

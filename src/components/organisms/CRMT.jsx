@@ -1,15 +1,15 @@
 import React from 'react';
-import { Box, Grid } from "@material-ui/core";
-import CRMTDiagram from '../molecules/CRMTDiagram';
+import { Box, Grid, Typography } from "@material-ui/core";
+import CRMTimage from '../../images/CRMT-text.png';
 
 export default function CRMT(props) {
     // const { styles } = props;
     return(
-        <Box components="section" style={ { background: "transparent", marginTop: '150px', color: 'white' } }>
+        <Box component="section">
             <Grid container style={ {justifyContent: "center"} }>
-                    <h1>Culturally Responsive Mathematics Teaching</h1>
+                <Typography variant="h4" style={{color: 'white'}}>Culturally Responsive Mathematics Teaching</Typography>
             </Grid>
-            <CRMTDiagram />
+            <img src={CRMTimage} alt="CRMT-Diagram" style={ {display: 'flex', margin:'auto', width: "70%"} } />
         </Box>
     );
 }

@@ -9,8 +9,8 @@ function ResourcePage(props) {
         return(
             <div className={styles.resourcesPageBk}>
                 <PositiveCultureOfErrorSection styles={styles}/>
-                <ErrorAnalysisActivitiesSection/>
                 <CRMT />
+                <ErrorAnalysisActivitiesSection/>
                 <RightOnGameShow />
             </div>
         )

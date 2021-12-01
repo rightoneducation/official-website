@@ -18,7 +18,7 @@ function ErrorAnalysisActivitiesSection() {
     const styles = useStyles()
     return(
         <div>
-            <Box component="section" style={{backgroundColor: 'purple'}}>
+            <Box component="section">
                 <Grid container justify="center" alignItems="center" spacing={1}>
                     <Grid xs={9} sm={4} md={3}>
                         <img src={Uno} alt="monster-with-speech-bubble" width="100%" />

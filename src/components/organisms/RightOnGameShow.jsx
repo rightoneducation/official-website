@@ -7,7 +7,7 @@ import GameShowDescription from '../molecules/GameShowDescription';
 export default function RightOnGameShow(props) {
     const { styles } = props;
     return(
-        <Box components="section" style={ { background: "transparent", marginTop: '150px' } }>
+        <Box component="section">
             <Grid container style={ {justifyContent: "center"} }>
                     <GameShowHeading styles={ styles } />
                     <GameShowVideo />

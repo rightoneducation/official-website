@@ -21,7 +21,7 @@ const useStyles = makeStyles( theme => ({
   },
   bannerImage: {
     background: "lightgrey",
-    marginBottom: "-5%",
+    marginBottom: "-3%",
     overflow: "hidden",
     objectFit: "contain",
     objectPosition: "center"
@@ -31,7 +31,7 @@ const useStyles = makeStyles( theme => ({
     color: 'white',
     width: '85%',
     position: "relative",
-    padding: "8% 5%",
+    padding: "5%",
     margin: 'auto',
     mixBlendMode: 'multiply',
     background: 'linear-gradient(201.84deg, #B443CC 0%, #662AAF 73.19%)'

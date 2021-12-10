@@ -47,7 +47,40 @@ const useStyles = makeStyles( theme => ({
     }
   },
   resourcesPageBk: {
-    background: 'linear-gradient(#BD074C 10%, #4C2679, #210040)'
+    background: 'linear-gradient(#BD074C 10%, #4C2679, #210040)',
+  },
+  circle: {
+    position: 'absolute',
+    top: '115vw',
+    left: '-100px',
+    borderRadius: '50%',
+    width: '708px',
+    height: '708px',
+    background: 'rgba(255, 255, 255, 0.15)',
+    opacity: '0.5',
+    boxShadow: '0px 4px 10px 5px rgba(0, 0, 0, 0.25)'
+  },
+  square: {
+    position: 'absolute',
+    top: '150vw',
+    right: '-330px',
+    width: '503px',
+    height: '516px',
+    background: 'rgba(255, 255, 255, 0.15)',
+    boxShadow: '0px 4px 10px 5px rgba(0, 0, 0, 0.25)',
+    transform: 'rotate(31.35deg)'
+  },
+  hexagon: {
+    position: 'absolute',
+    top: '230vw',
+    left: '-500px',
+    width:' 840px',
+    height: '840px',
+    clipPath: 'polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0 50%)',
+    opacity: '0.15',
+    background: 'white',
+    boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.25)',
+    transform: 'rotate(139.2deg)'
   },
   positiveCultureofErrorCardContent:{
     marginTop: "20px",

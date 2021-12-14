@@ -5,13 +5,13 @@ import quote from '../../images/Resources_Quote.png'
 function PositiveCultureBox(props) {
     const { styles } = props
         return(
-          <Card className={styles.cardIntro} style={{background: 'rgba(41, 0, 83, 0.8)', mixBlendMode: 'initial'}}>
+          <Card className={styles.cardIntro} style={{background: 'linear-gradient(52.63deg, #FF3369 0%, #662AAF 73.19%)', mixBlendMode: 'initial'}}> {/*background: 'rgba(41, 0, 83, 0.8)'*/}
               <CardContent>
               <Grid container justify="center" alignItems="center" spacing={3}>
                   <Grid item xs={6} md={5} lg={7} style={{padding: 'initial'}}>
                     <Typography variant="h4">Positive Culture of Error</Typography>
                     <Typography variant="h6" className={styles.positiveCultureofErrorCardContent}>
-                    In his book, Teach Like a Champion, veteran educator Doug Lemov talks about creating a classroom environment where “...students feel safe making and discussing mistakes, so you can spend less time hunting for errors and more time fixing them...” He outlines four key methods:
+                    In his book, <u><a href="https://www.google.com/">Teach Like a Champion</a></u>, veteran educator Doug Lemov talks about creating a classroom environment where “...students feel safe making and discussing mistakes, so you can spend less time hunting for errors and more time fixing them...” He outlines four key methods:
                       <ul>
                         <li>Expect error</li>
                         <li>Withhold answers</li>

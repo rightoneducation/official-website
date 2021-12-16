@@ -8,7 +8,7 @@ import ResourcePageShapes from '../organisms/ResourcePageShapes';
 function ResourcePage(props) {
     const { styles } = props
         return(
-            <div className={styles.resourcesPageBk} style={{position: 'relative', zIndex: '-1'}}>
+            <div className={styles.resourcesPageBk} style={{position: 'relative'}}>
                 <ResourcePageShapes />
                 <div style={ {position: 'relative', zIndex: '1'} }>
                     <PositiveCultureOfErrorSection styles={styles}/>

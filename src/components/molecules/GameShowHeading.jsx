@@ -9,7 +9,7 @@ export default function GameShowHeading(props) {
         <div className="divider"/>
       </Grid>
       <Grid item>
-        <Typography variant="h4" style={{color: "white"}}>RightOn! Game Show</Typography>
+        <Typography variant="h4" style={{color: "white", padding: '8px 0px'}}>RightOn! Game Show</Typography>
       </Grid>
       <Grid item md={3}>
         <div className="divider" />

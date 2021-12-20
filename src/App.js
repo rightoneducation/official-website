@@ -88,8 +88,18 @@ const useStyles = makeStyles( theme => ({
     lineHeight: "1.4",
     listStyle: "inside",
     [theme.breakpoints.down('xs')]: {
-      fontSize: '1em'
+      fontSize: '1em',
+      justifyContent: 'center',
     }
+  },
+  positiveCultureofErrorCardIntro: {
+    justifyContent: 'center',
+    color: 'white',
+    width: '85%',
+    position: "relative",
+    padding: "5%",
+    margin: 'auto',
+    mixBlendMode: 'initial',
   }
 }))
 

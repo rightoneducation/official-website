@@ -17,7 +17,7 @@ function Header () {
   const styles = useStyles()
     return (
       <Box component="nav">
-        <Grid container spacing={5}>
+        <Grid container spacing={5} wrap="nowrap">
           <Grid item>
             <Link to='/'><Typography variant="h6" className={styles.mainNav}>Home</Typography></Link>
             </Grid>

@@ -11,7 +11,7 @@ function PositiveCultureBox(props) {
                   <Grid item xs={12} md={5} lg={7} style={{padding: 'initial'}}>
                     <Typography variant="h4">Positive Culture of Error</Typography>
                     <Typography variant="h6" className={styles.positiveCultureofErrorCardContent}>
-                    In his book, <u>Teach Like a Champion</u>, veteran educator Doug Lemov talks about creating a classroom environment where “...students feel safe making and discussing mistakes, so you can spend less time hunting for errors and more time fixing them...” He outlines four key methods:
+                    In his book, <a href="https://www.amazon.com/Teach-Like-Champion-Doug-Lemov/dp/1119712610/"><u>Teach Like a Champion</u></a>, veteran educator Doug Lemov talks about creating a classroom environment where “...students feel safe making and discussing mistakes, so you can spend less time hunting for errors and more time fixing them...” He outlines four key methods:
                     </Typography>
                     <Typography variant="h6" className={styles.positiveCultureofErrorCardContent}>
                       <ul>

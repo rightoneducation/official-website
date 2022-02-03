@@ -1,3 +1,5 @@
+import * as React from 'react'
+
 const circle = {
     position: 'absolute',
     top: '65vw',

@@ -20,16 +20,15 @@ function TeamPageIntro(props) {
               <b>Trust and open communication:</b> seeking to understand, then
               to be understood
               <br />
-              <b>Integrity:</b> doing the right thing
+              <b>Rising together:</b> lifting ourselves up by lifting others
               <br />
-              <b>Compassion:</b> lending a hand to others, giving back,
-              expressing gratitude
+              <b>Humble perseverance:</b> falling down seven times, getting up eight
               <br />
-              <b>Humility:</b> working together on something bigger than
-              ourselves
+              <b>Gratitude:</b> keeping a grateful mindset through ups and downs
               <br />
-              <b>Beginner’s mindset:</b> going into things with an open mind,
-              always learning and making new mistakes
+              <b>Positive culture of error:</b> learning from mistakes, iterating, and improving
+              <br />
+              <b>Beginner’s mindset:</b> embarking on all journeys with an open mind
               <br />
               <b>Fun:</b> having fun along the way!
             </Typography>

@@ -3,7 +3,7 @@ module.exports = {
         {
           id: 1,
           name: 'Andy Li',
-          photo: '/images/profile_andy.jpeg',
+          photo: '/images/marizza_test.png',
           title: 'React Native Lead',
           favoriteShow: 'The Price is Right',
           favoriteMistake: 'While typing an email too quickly, accidentally referred to a colleague as a recent implant from Chicago...',

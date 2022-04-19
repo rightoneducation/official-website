@@ -24,9 +24,8 @@ const useStyles = makeStyles( theme => ({
     marginBottom: "-3%",
     overflow: "hidden",
     objectFit: "contain",
-    //objectPosition: "center",
-    alignItems: 'center', 
-    justifyContent: 'center',
+    objectPosition: "center",
+    alignItems: 'center',
     display: 'flex'
   },
   cardIntro: {

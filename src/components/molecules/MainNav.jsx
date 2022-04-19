@@ -6,10 +6,10 @@ import { Link } from 'react-router-dom'
 const useStyles = makeStyles({
   mainNav: {
   fontWeight: '500',
-  borderBottom: '5px solid rgb(216, 0, 83)',
-  '&:hover':{
-    borderBottom: '1px solid rgb(255, 255, 255)'
-  }
+  // borderBottom: '5px solid rgb(216, 0, 83)',
+  // '&:hover':{
+  //   borderBottom: '1px solid rgb(255, 255, 255)'
+  // }
 }
 })
 

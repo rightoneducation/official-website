@@ -13,7 +13,7 @@ function TeamMembers(props) {
         Meet the Team
       </Typography> */}
       
-      <Grid container alignItems="center" justify="center">
+      <Grid container alignItems="center" justify="space-around">
       <img
         src={placeholder}
         alt="right-on-education-team-title"

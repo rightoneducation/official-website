@@ -36,7 +36,7 @@ const useStyles = makeStyles( theme => ({
     padding: "5%",
     margin: 'auto',
     mixBlendMode: 'multiply',
-    background: 'linear-gradient(201.84deg, #B443CC 0%, #662AAF 73.19%)'
+    //background: 'linear-gradient(201.84deg, #B443CC 0%, #662AAF 73.19%)'
   },
   cardContent: {
     borderLeft: "8px solid #d80053",

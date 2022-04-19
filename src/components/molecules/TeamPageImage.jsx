@@ -8,7 +8,7 @@ function LandingBannerImage(props) {
   return (
     <Paper elevation={2} className={styles.bannerImage}>
       <Grid container alignItems="center" justify="space-around">
-            <img src={placeholder} alt='right-on-education-team-banner' width= '100%'/>
+            <img src={placeholder} alt='right-on-education-team-banner' width= '100%' max-width= '756.4px'/>
             </Grid>
     </Paper>
   );

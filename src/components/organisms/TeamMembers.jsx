@@ -2,6 +2,7 @@ import React from 'react'
 import { Box, Typography, Grid } from "@material-ui/core";
 import ProfileMembers from '../molecules/ProfileMembers'
 import placeholder from '../../images/team-title.png'
+import { StylesContext } from '@material-ui/styles';
 function TeamMembers(props) {
   return (
     <Box component="section">
@@ -11,13 +12,14 @@ function TeamMembers(props) {
       >
         Meet the Team
       </Typography> */}
+      
+      <Grid container justify="center">
       <img
         src={placeholder}
         alt="right-on-education-team-title"
-        width="100%"
+        width="70%"
         align="top"
       />
-      <Grid container justify="center">
         <ProfileMembers {...props}/>
       </Grid>
     </Box>

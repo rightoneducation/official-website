@@ -1,6 +1,6 @@
 import React from "react";
 import { Paper } from "@material-ui/core";
-import placeholder from "../../images/Monsters.png";
+import placeholder from "../../images/Banner.png";
 
 function LandingBannerImage(props) {
   const { styles } = props;
@@ -11,7 +11,7 @@ function LandingBannerImage(props) {
         src={placeholder}
         alt="right-on-education-vision"
         width="100%"
-        align="top"
+        align="center"
       />
     </Paper>
   );

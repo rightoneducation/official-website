@@ -9,7 +9,7 @@ function TeamPageIntro(props) {
       <CardContent>
         <Grid container justify="space-around" alignItems="center" spacing={2}>
           <Grid xs={6} sm={3} md={3} lg={2}>
-            <img src={teamIcon} alt="right-on-education" width="100%" />
+            <img src={teamIcon} alt="right-on-education" width="100%" height="50%"/>
           </Grid>
           <Grid md={9}>
             <Typography variant="h4">Our Values</Typography>

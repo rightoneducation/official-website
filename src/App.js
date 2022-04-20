@@ -28,26 +28,26 @@ const useStyles = makeStyles( theme => ({
     alignItems: 'center',
     display: 'flex'
   },
-  cardIntro: {
-    justifyContent: 'center',
-    color: 'white',
-    width: '85%',
-    position: "relative",
-    padding: "5%",
-    margin: 'auto',
-    mixBlendMode: 'multiply',
-    //background: 'linear-gradient(201.84deg, #B443CC 0%, #662AAF 73.19%)'
-  },
-  cardContent: {
-    borderLeft: "8px solid #d80053",
-    marginTop: "20px",
-    paddingLeft: "20px",
-    fontWeight: "300",
-    lineHeight: "1.4",
-    [theme.breakpoints.down('xs')]: {
-      fontSize: '1em'
-    }
-  },
+  // cardIntro: {
+  //   justifyContent: 'center',
+  //   color: 'white',
+  //   width: '85%',
+  //   position: "relative",
+  //   padding: "5%",
+  //   margin: 'auto',
+  //   mixBlendMode: 'multiply',
+  //   background: 'linear-gradient(201.84deg, #B443CC 0%, #662AAF 73.19%)'
+  // },
+  // cardContent: {
+  //   borderLeft: "8px solid #d80053",
+  //   marginTop: "20px",
+  //   paddingLeft: "20px",
+  //   fontWeight: "300",
+  //   lineHeight: "1.4",
+  //   [theme.breakpoints.down('xs')]: {
+  //     fontSize: '1em'
+  //   }
+  // },
   resourcesPageBk: {
     background: 'linear-gradient(#BD074C 10%, #4C2679, #210040)',
   },

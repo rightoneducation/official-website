@@ -33,51 +33,57 @@ p {
 }
 .page-header { 
   background: #322759;
-  padding: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 2%;
   color: white;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   position: relative;
   overflow: visible;
+
+  .righton-logo {
+    padding: 5%;
+    justify-content: left;
+  }
   .header-element-4 {
     z-index: 5;
   }
   .header-elements{
     width: 100%; 
-    #header-element-1{
-      background: url(./images/header-element-1.svg);
-      background-repeat: no-repeat;
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      z-index: 4;
-    }
+    // #header-element-1{
+    //   background: url(./images/page-header-banner.svg);
+    //   background-repeat: no-repeat;
+    //   position: absolute;
+    //   top: 0;
+    //   right: 0;
+    //   bottom: 0;
+    //   left: 0;
+    //   z-index: 4;
+    // }
     #header-element-2{
       position: absolute;
-      background: url(./images/header-element-2.svg);
+      background: url(./images/page-header-right-triangle.svg);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: top;
       top: 0;
       right: 0;
-      bottom: -185px;
-      left: 0;
-      z-index: 3;
-      mix-blend-mode: hard-light;
-    }
-    #header-element-3{
-      background: url(./images/header-element-3.svg);
-      background-repeat: no-repeat;
-      position: absolute;
-      top: 15%;
-      right: 0;
       bottom: 0;
-      left: 85%;
+      left: 0;
       z-index: 2;
     }
+    // #header-element-3{
+    //   background: url(./images/page-header-right-triangle.svg);
+    //   background-repeat: no-repeat;
+    //   position: absolute;
+    //   top: 15%;
+    //   right: 0;
+    //   bottom: 0;
+    //   left: 85%;
+    //   z-index: 2;
+    // }
   }
 }
 .half-circle {

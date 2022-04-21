@@ -23,7 +23,7 @@ const useStyles = makeStyles({
 });
 
 function Front (props) {
-    const { photo } = props.profile;
+    const { photo,title } = props.profile;
     const styles = useStyles();
     return (
       <div style={{ marginTop: "-70px" }}>
@@ -59,19 +59,24 @@ function Front (props) {
             />
           </a> */}
         </Grid>
-        {/* <Grid
+        <Grid
           container
           alignItems="center"
           justify="center"
           className={styles.jobTitle}
         >
-          <Typography
+          <img
+            src={title}
+            width="100%"
+            alt="member-title"
+          />
+          {/* <Typography
             variant="body2"
             style={{ fontWeight: "300", lineHeight: "1.2" }}
           >
             <p dangerouslySetInnerHTML={{__html : title}} />
-          </Typography>
-        </Grid> */}
+          </Typography> */}
+        </Grid>
       </div>
     );
 }

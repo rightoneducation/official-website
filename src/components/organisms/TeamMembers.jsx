@@ -5,7 +5,7 @@ import placeholder from '../../images/team-title.png'
 import { StylesContext } from '@material-ui/styles';
 function TeamMembers(props) {
   return (
-    <Box component="section" /*style={{ background: "#772A79", color: "white"}}*/>
+    <Box component="section" style={{ background: "#322759"}}>
       {/* <Typography
         variant="h4"
         style={{ marginBottom: "1.5em", fontWeight: "500", textAlign: "center" }}

@@ -20,8 +20,9 @@ const useStyles = makeStyles( theme => ({
     padding: '0px',
   },
   bannerImage: {
-    //background: "lightgrey",
-    marginBottom: "-3%",
+    background: "#322759",
+    marginTop: "-2%",
+    marginBottom: "-7%",
     overflow: "hidden",
     objectFit: "contain",
     objectPosition: "center",

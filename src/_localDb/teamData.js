@@ -3,7 +3,7 @@ module.exports = {
         {
           id: 1,
           name: 'Andy Li',
-          photo: '/images/andy-circle.png',
+          photo: '/images/andy-sticker.png',
           title: 'React Native Lead',
           favoriteShow: 'The Price is Right',
           favoriteMistake: 'While typing an email too quickly, accidentally referred to a colleague as a recent implant from Chicago...',
@@ -13,7 +13,7 @@ module.exports = {
         {
           id: 2,
           name: 'Anna Roberds',
-          photo: '/images/anna-circle.png',
+          photo: '/images/anna-sticker.png',
           title: 'Math Educator <br /> Curriculum Program Manager',
           favoriteShow: 'The Amazing Race',
           favoriteMistake: 'One time I got to the airport extra early and was so set on walking around and using my extra time that I missed the boarding call. Ended up watching my flight take off from the window of the airport!',
@@ -23,7 +23,7 @@ module.exports = {
         {
           id: 3,
           name: 'Daz C. Yang',
-          photo: '/images/daz-circle.png',
+          photo: '/images/daz-sticker.png',
           title: 'UI Designer & <br/> Front-End Developer',
           favoriteShow: 'Kasou Taishou',
           favoriteMistake: 'I love learning new languages, and making mistakes with idioms is a key part of becoming more fluent. I find it funny that, when an alarm clock “goes off,” that means it turns on!',
@@ -33,7 +33,7 @@ module.exports = {
         {
           id: 4,
           name: 'Edward Tan',
-          photo: '/images/edward-circle.png',
+          photo: '/images/edward-sticker.png',
           title: 'Architecture Lead',
           favoriteShow: 'Who Wants to Be a Millionaire',
           favoriteMistake: 'Wearing a holey sock that my big toe was poking through, on a day I was unexpectedly invited by my boss to a shoes-off sushi restaurant',
@@ -43,7 +43,7 @@ module.exports = {
         {
           id: 5,
           name: 'Eric Nguyen',
-          photo: '/images/eric-circle.png',
+          photo: '/images/eric-sticker.png',
           title: 'Development Intern',
           favoriteShow: 'Jeopardy!',
           favoriteMistake: ' Studied diligently for a CS exam, only to find out that I had fallen asleep while studying and it was all a dream.',
@@ -53,7 +53,7 @@ module.exports = {
         {
           id: 6,
           name: 'Iman Howard',
-          photo: '../images/iman-circle.png',
+          photo: '../images/iman-sticker.png',
           title: `${'STEM Administrator'} <br/> ${'Curriculum Specialist '}`,
           favoriteShow: 'Jeopardy!',
           favoriteMistake: 'Growing up, my brother got me to participate in a wasabi eating contest and eat an entireful spoonful at once. I still love wasabi... just in smaller portions.',
@@ -63,7 +63,7 @@ module.exports = {
         {
           id: 7,
           name: 'Katerina Schenke, PhD',
-          photo: '/images/katerina-circle.png',
+          photo: '/images/katerina-sticker.png',
           title: 'Education Researcher & Learning Scientist',
           favoriteShow: 'Legends of the Hidden Temple',
           favoriteMistake: 'Biting into a jalapeno, thinking it was a bell pepper...',
@@ -73,7 +73,7 @@ module.exports = {
         {
           id: 8,
           name: 'Marizza Bailey',
-          photo: '/images/marizza-circle.png',
+          photo: '/images/marizza-sticker.png',
           title: 'Math Educator <br/> Content & Pedagogy',
           favoriteShow: 'Who Wants to Be a Millionaire',
           favoriteMistake: 'The day I moved from a city in California to the woodlands of Arkansas, I stopped the car to pick up a wild tortoise on the road and tried to find its owners because I thought all tortoises were pets.',
@@ -83,7 +83,7 @@ module.exports = {
         {
           id: 9,
           name: 'Mozzie Dosalmas, PhD',
-          photo: '/images/mozzie-circle.png',
+          photo: '/images/mozzie-sticker.png',
           title: `${'Math Educator'} <br /> ${'CRMT & Equity'}`,
           favoriteShow: 'Hollywood Game Night',
           favoriteMistake: 'Spending hours before a road trip packing our SUV cargo bag -- carefully following all the instructions -- only to find out that the vehicle with the loaded bag on top couldn’t make it out of the garage.',
@@ -93,7 +93,7 @@ module.exports = {
         {
           id: 10,
           name: 'Ronald Towns',
-          photo: '/images/ronald-circle.png',
+          photo: '/images/ronald-sticker.png',
           title: 'STEM Administrator <br/> Math PD',
           favoriteShow: 'Family Feud',
           favoriteMistake: 'Arrived at the airport, excited about my flight, only to realize that I had gotten there a whole day early',
@@ -102,7 +102,7 @@ module.exports = {
         },
         { id: 11,
           name: 'Sinclair Wu',
-          photo: '/images/sinclair-circle.png',
+          photo: '/images/sinclair-sticker.png',
           title: 'Product Lead',
           favoriteShow: 'Press Your Luck',
           favoriteMistake: 'Didn’t like edamame the first time I had them at a Japanese restaurant, but then realized I was eating out of the discard pile...',

@@ -14,9 +14,9 @@ const useStyles = makeStyles({
     margin: "20px 10px",
     paddingBottom: "0em",
     color: "white",
-    background:
-      "linear-gradient(45deg, rgb(129, 8, 156) 10.5%, #662AAF 75.9%), rgb(112, 35, 129)",
-    mixBlendMode: "multiply",
+    // background:
+    //   "linear-gradient(45deg, rgb(129, 8, 156) 10.5%, #662AAF 75.9%), rgb(112, 35, 129)",
+    // mixBlendMode: "multiply",
   },
   profileBack: {
     display: "flex",
@@ -26,9 +26,9 @@ const useStyles = makeStyles({
     border: "10px solid white",
     margin: "-70px 10px",
     color: "white",
-    background:
-      "linear-gradient(180deg, rgb(129, 8, 156) 1.99%, #662AAF 50.9%), rgb(112, 35, 129)",
-    mixBlendMode: "multiply",
+    // background:
+    //   "linear-gradient(180deg, rgb(129, 8, 156) 1.99%, #662AAF 50.9%), rgb(112, 35, 129)",
+    // mixBlendMode: "multiply",
   },
 });
 

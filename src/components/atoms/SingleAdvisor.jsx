@@ -23,9 +23,14 @@ function Advisor (props) {
   const styles = useStyles();
   return (
     <Grid container>
-      <Grid container alignItems="space-around">
+      <Grid container>
         <Grid item>
-        <a href={linkedIn} target='_blank' rel="noopener noreferrer"><img src={photo} className={styles.profilePhoto} alt='' /></a>
+        <a href={linkedIn} target='_blank' rel="noopener noreferrer">
+          <img 
+            src={photo} 
+            className={styles.profilePhoto} 
+            alt='advisor-profile'
+            /></a>
         </Grid>
         <Grid item>
         {/* <h3 style={{fontWeight: '300', marginRight: '10px'}}>{name}</h3>

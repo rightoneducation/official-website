@@ -17,7 +17,7 @@ function TeamMembers(props) {
       <img
         src={placeholder}
         alt="right-on-education-team-title"
-        width="60%"
+        width="45%"
         align="top"
       />
         <ProfileMembers {...props}/>

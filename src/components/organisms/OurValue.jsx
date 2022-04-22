@@ -9,7 +9,7 @@ function OurValue (props) {
     return (
       <Box>
         <TeamPageImage styles={styles} />
-        <TeamPageIntro styles={styles} />
+        {/* <TeamPageIntro styles={styles} /> */}
       </Box>
     );
 }

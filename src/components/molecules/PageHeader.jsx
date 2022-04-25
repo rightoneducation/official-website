@@ -28,7 +28,7 @@ function PageHeader () {
       <Box component="header" className="page-header">
         <div className="header-elements">
           <div id="header-element-1"></div>
-          <div id="header-element-2"></div>
+          {/* <div id="header-element-2"></div> */}
           <div id="header-element-3"></div>
         </div>
         <Grid

@@ -20,11 +20,14 @@ const useStyles = makeStyles( theme => ({
     padding: '0px',
   },
   bannerImage: {
-    background: "lightgrey",
-    marginBottom: "-3%",
+    //background: "lightgrey",
+    marginTop: "-2%",
+    marginBottom: "-7%",
     overflow: "hidden",
     objectFit: "contain",
-    objectPosition: "center"
+    objectPosition: "center",
+    alignItems: 'center',
+    display: 'flex'
   },
   cardIntro: {
     justifyContent: 'center',

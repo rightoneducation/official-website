@@ -4,7 +4,7 @@ import ProfileMembers from '../molecules/ProfileMembers'
 import placeholder from '../../images/team-title.png'
 function TeamMembers(props) {
   return (
-    <Box component="section">
+    <Box component="section" style={{ background: "#322759"}}>
       {/* <Typography
         variant="h4"
         style={{ marginBottom: "1.5em", fontWeight: "500", textAlign: "center" }}

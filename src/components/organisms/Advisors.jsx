@@ -4,7 +4,7 @@ import ProfileAdvisors from '../molecules/ProfileAdvisors'
 
 function Advisors(props) {
   return (
-    <Box component="section" style={{ background: "#772A79", color: "white" }}>
+    <Box component="section" style={{ background: "#322759", color: "white" }}>
       <Typography
         variant="h4"
         style={{ marginBottom: "1.5em", fontWeight: "500", textAlign: "center" }}

@@ -4,22 +4,22 @@ import { Typography, Grid } from "@material-ui/core";
 import LinkedIn from "../../images/linkedin-icon.svg";
 
 const useStyles = makeStyles({
-  profilePhoto: {
-    width: "168px",
-    marginBottom: "10px",
-    border: "5px solid white",
-    borderRadius: "50%",
-    boxShadow: "0px 20px 30px -15px rgba(0,0,0,0.7)",
-  },
-  jobTitle: {
-    height: "60px",
-    marginTop: "10px",
-    textAlign: "center",
-    color: "white",
-    backgroundBlendMode: "multiply",
-    background: "rgba(39, 2, 48, 0.377)",
-    padding: "8px 15px 20px 15px",
-  },
+  // profilePhoto: {
+  //   width: "168px",
+  //   marginBottom: "10px",
+  //   border: "5px solid white",
+  //   borderRadius: "50%",
+  //   boxShadow: "0px 20px 30px -15px rgba(0,0,0,0.7)",
+  // },
+  // jobTitle: {
+  //   height: "60px",
+  //   marginTop: "10px",
+  //   textAlign: "center",
+  //   color: "white",
+  //   backgroundBlendMode: "multiply",
+  //   background: "rgba(39, 2, 48, 0.377)",
+  //   padding: "8px 15px 20px 15px",
+  // },
 });
 
 function Front (props) {
@@ -36,7 +36,7 @@ function Front (props) {
               alt="right-on-education-team-member"
             />
           </div>
-          <div>
+          {/* <div>
             <Typography
               variant="h6"
               style={{
@@ -48,7 +48,7 @@ function Front (props) {
             >
               {name}
             </Typography>
-          </div>
+          </div> */}
           <a target="_blank" href={linkedIn} rel="noopener noreferrer">
             <img
               src={LinkedIn}
@@ -65,12 +65,17 @@ function Front (props) {
           justify="center"
           className={styles.jobTitle}
         >
-          <Typography
+          <img
+            src={title}
+            width="100%"
+            alt="member-title"
+          />
+          {/* <Typography
             variant="body2"
             style={{ fontWeight: "300", lineHeight: "1.2" }}
           >
             <p dangerouslySetInnerHTML={{__html : title}} />
-          </Typography>
+          </Typography> */}
         </Grid>
       </div>
     );

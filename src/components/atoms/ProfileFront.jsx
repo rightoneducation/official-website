@@ -4,13 +4,16 @@ import { Typography, Grid } from "@material-ui/core";
 import LinkedIn from "../../images/linkedin-icon.svg";
 
 const useStyles = makeStyles({
-  // profilePhoto: {
-  //   width: "168px",
-  //   marginBottom: "10px",
-  //   border: "5px solid white",
-  //   borderRadius: "50%",
-  //   boxShadow: "0px 20px 30px -15px rgba(0,0,0,0.7)",
-  // },
+  teamCards: {
+    justifyContent: "space-around"
+  },
+  profilePhoto: {
+    marginBottom: "10px",
+    paddingLeft: "10px"
+    // border: "5px solid white",
+    // borderRadius: "50%",
+    // boxShadow: "0px 20px 30px -15px rgba(0,0,0,0.7)",
+  },
   // jobTitle: {
   //   height: "60px",
   //   marginTop: "10px",
@@ -26,16 +29,16 @@ function Front (props) {
     const { photo, name, linkedIn, title } = props.profile;
     const styles = useStyles();
     return (
-      <div style={{ marginTop: "-70px" }}>
-        <Grid container alignItems="center" justify="center">
-          <div>
+      <div>
+        <Grid container className={styles.teamCards}>
+          <Grid>
             <img
               src={photo}
               width="100%"
               className={styles.profilePhoto}
               alt="right-on-education-team-member"
             />
-          </div>
+          </Grid>
           {/* <div>
             <Typography
               variant="h6"
@@ -49,7 +52,7 @@ function Front (props) {
               {name}
             </Typography>
           </div> */}
-          <a target="_blank" href={linkedIn} rel="noopener noreferrer">
+          {/* <a target="_blank" href={linkedIn} rel="noopener noreferrer">
             <img
               src={LinkedIn}
               width="20px"
@@ -57,7 +60,7 @@ function Front (props) {
               style={{ margin: "0 0 -2px 6px" }}
               alt="member-profile-photos"
             />
-          </a>
+          </a> */}
         </Grid>
         <Grid
           container

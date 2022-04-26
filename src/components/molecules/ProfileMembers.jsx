@@ -4,7 +4,7 @@ import SingleMember from "../atoms/SingleMember";
 
 function ProfileMembers({ profileCards, handleFlip }) {
   return (
-    <Grid container justify="center" spacing={3} lg={10}>
+    <Grid container justify="space-around" spacing={3} lg={10}>
       {profileCards.map((profile, index) => {
         return (
           <Grid item>

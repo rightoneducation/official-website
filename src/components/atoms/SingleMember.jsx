@@ -8,12 +8,12 @@ import Back from './ProfileBack'
 
 const useStyles = makeStyles({
   profileFront: {
-    padding: "0.8em",
-    width: "270px",
+    //padding: "0.8em",
+    width: "360px",
     //border: "10px solid white",
     margin: "20px 10px",
     paddingBottom: "0em",
-    color: "white",
+    //color: "white",
     // background:
     //   "linear-gradient(45deg, rgb(129, 8, 156) 10.5%, #662AAF 75.9%), rgb(112, 35, 129)",
     // mixBlendMode: "multiply",

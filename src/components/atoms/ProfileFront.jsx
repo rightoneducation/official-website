@@ -68,11 +68,13 @@ function Front (props) {
           justify="center"
           className={styles.jobTitle}
         >
+          <a href={linkedIn} target='_blank' rel="noopener noreferrer">
           <img
             src={title}
             width="100%"
             alt="member-title"
           />
+          </a>
           {/* <Typography
             variant="body2"
             style={{ fontWeight: "300", lineHeight: "1.2" }}

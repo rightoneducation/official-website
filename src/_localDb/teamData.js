@@ -114,7 +114,7 @@ module.exports = {
         {
           id: 1,
           name: 'Andrea Ruby',
-          photo: '../images/profile_andrea.jpg',
+          photo: '/images/andrea-desktop.png',
           title: 'Math Educator',
           profile: 'Andrea has shared her love for teaching math as a secondary math teacher in the Philadelphia Public Schools for the last 14 years. She has designed curriculum, facilitated professional development, and managed partnerships to advance underserved youth in STEM. A former Fulbright Scholar, Andrea has an MS degree in Urban Education, with a focus in secondary mathematics.',
           linkedIn: null
@@ -122,7 +122,7 @@ module.exports = {
         {
           id: 2,
           name: 'Ay-Nur Najm',
-          photo: '/images/profile_ay-nur.jpg',
+          photo: '/images/ay-nure-desktop.png',
           title: 'Math Instructional Coach',
           profile: 'Ay-Nur is an independent math consultant and software developer. She was previously a math instructional coach and computer science teacher in Brooklyn, where she helped establish a charter school with Uncommon Schools. She has taught in NYC public and charter schools for a decade and is passionate about providing access to high quality instruction to all kids.',
           linkedIn: 'https://www.linkedin.com/in/ay-nur-najm/'
@@ -130,7 +130,7 @@ module.exports = {
         {
           id: 3,
           name: 'Ben Woodford',
-          photo: '/images/profile_ben.jpg',
+          photo: '/images/ben-desktop.png',
           title: 'Math Education Researcher',
           profile: 'Ben is a doctoral scholar at Stanford University studying mathematics education. Before transitioning to research, he was a high school math teacher and a project-based learning facilitator. He has developed innovative curricula and is knowledgeable about best practices for learning in and out of the classroom.',
           linkedIn: 'https://www.linkedin.com/in/ben-woodford-32153952/'
@@ -138,7 +138,7 @@ module.exports = {
         {
           id: 4,
           name: 'Bunmi Esho',
-          photo: '../images/profile_bummi.jpg',
+          photo: '/images/bunmi-desktop.png',
           title: 'STEM Advocacy Director',
           profile: 'Bunmi is a Program Director at Endless OS Foundation, which works to democratize access to technology to create opportunities for underserved and under-resourced populations around the world. She has over 20 years of experience in the STEM, nonprofit, and education sectors and considers herself an eternal STEM advocate.',
           linkedIn: 'https://www.linkedin.com/in/bunmiesho/'
@@ -153,7 +153,7 @@ module.exports = {
         {
           id: 5,
           name: 'Esmeralda Ortiz',
-          photo: '/images/profile_Esme.jpg',
+          photo: '/images/esme-desktop.png',
           title: 'Youth Development Leader',
           profile: "A Vice President at the Boys & Girls Clubs of the Peninsula, Esme leads high school and post-secondary success programs across all BGCP sites. Over the past ten years, she has developed and led partnerships with public high schools to engage more students, helping them achieve both academic and leadership goals. A first-generation college graduate, Esme seeks to increase the representation and success of first-generation students in higher education.",
           linkedIn: 'https://www.linkedin.com/in/esmeralda-ortiz-0400b476/'
@@ -169,7 +169,7 @@ module.exports = {
         {
           id: 7,
           name: 'Paul Chin',
-          photo: '/images/profile_paul.jpg',
+          photo: '/images/paul-desktop.png',
           title: 'Assistant Professor of Practice',
           profile: "An Assistant Professor of Practice at the Relay Graduate School of Education, Paul has a demonstrated history of success teaching and leading in underserved communities across the US. Paul began his career in education as a middle school math teacher in Los Angeles and Newark before transitioning to school leadership roles in Indianapolis and Brooklyn. After 12 years of teaching and leading in schools, Paul joined the teaching faculty at Relay and recently began a doctoral program at Teachers College, Columbia University in Adult Learning and Leadership.",
           linkedIn: 'https://www.linkedin.com/in/paul-chin-04046143/'
@@ -177,7 +177,7 @@ module.exports = {
         {
           id: 8,
           name: 'Payton Richardson',
-          photo: '/images/profile_payton.jpg',
+          photo: '/images/payton-desktop.png',
           title: 'Data Officer',
           profile: "Payton is a mixed-methods education researcher and policy professional with expertise in analyzing K-12 data, federal and state accountability structures, and performance frameworks. As a Data Officer at Eastside Pathways, Payton formulates data strategies and provides ongoing analysis for a collective impact partnership that mobilizes over 60 public, private, and community-based organizations to support every child on their journey from cradle to career. Prior to Eastside Pathways, Payton spent several years at the Center for Research on Education Outcomes (CREDO). With a newly growing family, Payton is especially passionate about providing equity across the education landscape.",
           linkedIn: 'https://www.linkedin.com/in/williampaytonrichardson/'

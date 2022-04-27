@@ -12,11 +12,11 @@ const useStyles = makeStyles({
     margin: "20px 10px",
     paddingBottom: "0em"
   },
-  profileBack: {
-    width: "360px",
-    margin: "20px 10px",
-    paddingBottom: "0em"
-  },
+  // profileBack: {
+  //   width: "360px",
+  //   margin: "20px 10px",
+  //   paddingBottom: "0em"
+  // },
 });
 
 function SingleMember (props) {
@@ -26,6 +26,7 @@ function SingleMember (props) {
       <Grid>
           <Grid className={styles.profileFront}>
             <Front {...props}/>
+            <Back {...props}/>
           </Grid>
       </Grid>
     </div>

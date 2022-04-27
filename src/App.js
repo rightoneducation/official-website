@@ -2,7 +2,9 @@ import React, { useState } from 'react';
 import { makeStyles } from "@material-ui/core/styles";
 import { Box, Container } from "@material-ui/core";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import FlipCard from "../src/FlipCard";
 
+import "bootstrap/dist/css/bootstrap.min.css";
 import './App.scss';
 import './rwdgrid.css';
 
@@ -117,17 +119,17 @@ function App() {
   const { devTeamCards } = teamProfiles
   const { advisorProfiles } = advisors
 
-  const handleFlip = item => {
-    const idx = devTeamCards.findIndex(i => i.id === item.id)
-    const newItems = [...devTeamCards]
-    newItems[idx] = {
-      ...item,
-      isFlipped: !item.isFlipped
-    }
-    setProfiles({
-      devTeamCards: newItems
-    })
-  }
+  // const handleFlip = item => {
+  //   const idx = devTeamCards.findIndex(i => i.id === item.id)
+  //   const newItems = [...devTeamCards]
+  //   newItems[idx] = {
+  //     ...item,
+  //     isFlipped: !item.isFlipped
+  //   }
+  //   setProfiles({
+  //     devTeamCards: newItems
+  //   })
+  // }
   const styles = useStyles()
   return (
     <Router>
@@ -142,7 +144,7 @@ function App() {
               render={() => (
                 <TeamPage
                   styles={styles}
-                  handleFlip={handleFlip}
+                  //handleFlip={handleFlip}
                   profileCards={devTeamCards}
                   advisorData={advisorProfiles}
                 />

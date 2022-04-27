@@ -20,7 +20,7 @@ function Back (props) {
         <Grid container className={styles.teamCards}>
           <Grid>
             <img
-              src={photo}
+              src={back}
               width="100%"
               className={styles.profileBack}
               alt="right-on-education-team-member-info"

@@ -5,109 +5,76 @@ module.exports = {
           name: 'Andy Li',
           photo: '/images/andy-sticker.png',
           title: '/images/andy-name.png',
-          favoriteShow: 'The Price is Right',
-          favoriteMistake: 'While typing an email too quickly, accidentally referred to a colleague as a recent implant from Chicago...',
-           linkedIn: 'https://www.linkedin.com/in/andyzanli/',
-           isFlipped: false
+          linkedIn: 'https://www.linkedin.com/in/andyzanli/'
         },
         {
           id: 2,
           name: 'Anna Roberds',
           photo: '/images/anna-sticker.png',
           title: '/images/anna-name.png',
-          favoriteShow: 'The Amazing Race',
-          favoriteMistake: 'One time I got to the airport extra early and was so set on walking around and using my extra time that I missed the boarding call. Ended up watching my flight take off from the window of the airport!',
-          linkedIn:'https://www.linkedin.com/in/anna-roberds/',
-          isFlipped: false
+          linkedIn:'https://www.linkedin.com/in/anna-roberds/'
         },
         {
           id: 3,
           name: 'Daz C. Yang',
           photo: '/images/daz-sticker.png',
           title: '/images/daz-name.png',
-          favoriteShow: 'Kasou Taishou',
-          favoriteMistake: 'I love learning new languages, and making mistakes with idioms is a key part of becoming more fluent. I find it funny that, when an alarm clock “goes off,” that means it turns on!',
-          linkedIn: 'https://www.linkedin.com/in/dazyang',
-          isFlipped: false
+          linkedIn: 'https://www.linkedin.com/in/dazyang'
         },
         {
           id: 4,
           name: 'Edward Tan',
           photo: '/images/edward-sticker.png',
           title: '/images/edward-name.png',
-          favoriteShow: 'Who Wants to Be a Millionaire',
-          favoriteMistake: 'Wearing a holey sock that my big toe was poking through, on a day I was unexpectedly invited by my boss to a shoes-off sushi restaurant',
-          linkedIn: 'https://www.linkedin.com/in/edwardtan/',
-          isFlipped: false
+          linkedIn: 'https://www.linkedin.com/in/edwardtan/'
         },
         {
           id: 5,
           name: 'Eric Nguyen',
           photo: '/images/eric-sticker.png',
           title: '/images/eric-name.png',
-          favoriteShow: 'Jeopardy!',
-          favoriteMistake: ' Studied diligently for a CS exam, only to find out that I had fallen asleep while studying and it was all a dream.',
-          linkedIn: 'https://www.linkedin.com/in/eric-nguyen-a77977196/',
-          isFlipped: false
+          linkedIn: 'https://www.linkedin.com/in/eric-nguyen-a77977196/'
         },
         {
           id: 6,
           name: 'Iman Howard',
           photo: '../images/iman-sticker.png',
           title: '/images/iman-name.png',
-          favoriteShow: 'Jeopardy!',
-          favoriteMistake: 'Growing up, my brother got me to participate in a wasabi eating contest and eat an entireful spoonful at once. I still love wasabi... just in smaller portions.',
           linkedIn: 'https://www.linkedin.com/in/imanhoward/',
-          isFlipped: false
         },
         {
           id: 7,
           name: 'Katerina Schenke, PhD',
           photo: '/images/katerina-sticker.png',
           title: '/images/katerina-name.png',
-          favoriteShow: 'Legends of the Hidden Temple',
-          favoriteMistake: 'Biting into a jalapeno, thinking it was a bell pepper...',
           linkedIn: 'https://www.linkedin.com/in/katerina-schenke-phd-37b827b7/',
-          isFlipped: false
         },
         {
           id: 8,
           name: 'Marizza Bailey',
           photo: '/images/marizza-sticker.png',
           title: '/images/marizza-name.png',
-          favoriteShow: 'Who Wants to Be a Millionaire',
-          favoriteMistake: 'The day I moved from a city in California to the woodlands of Arkansas, I stopped the car to pick up a wild tortoise on the road and tried to find its owners because I thought all tortoises were pets.',
           linkedIn: 'https://www.linkedin.com/in/marizza-bailey-5b981143',
-          isFlipped: false
         },
         {
           id: 9,
           name: 'Mozzie Dosalmas, PhD',
           photo: '/images/mozzie-sticker.png',
           title: '/images/mozzie-name.png',
-          favoriteShow: 'Hollywood Game Night',
-          favoriteMistake: 'Spending hours before a road trip packing our SUV cargo bag -- carefully following all the instructions -- only to find out that the vehicle with the loaded bag on top couldn’t make it out of the garage.',
           linkedIn: 'https://www.linkedin.com/in/angela-dos-almas-506b7719/',
-          isFlipped: false
         },
         {
           id: 10,
           name: 'Ronald Towns',
           photo: '/images/ronald-sticker.png',
           title: '/images/ronald-name.png',
-          favoriteShow: 'Family Feud',
-          favoriteMistake: 'Arrived at the airport, excited about my flight, only to realize that I had gotten there a whole day early',
           linkedIn: 'https://www.linkedin.com/in/ronaldtowns/',
-          isFlipped: false
         },
         { id: 11,
           name: 'Sinclair Wu',
           photo: '/images/sinclair-sticker.png',
           title: '/images/sinclair-name.png',
-          favoriteShow: 'Press Your Luck',
-          favoriteMistake: 'Didn’t like edamame the first time I had them at a Japanese restaurant, but then realized I was eating out of the discard pile...',
           linkedIn: 'https://www.linkedin.com/in/sinclairwu/',
-          isFlipped: false
         }
       ],
       advisors: [

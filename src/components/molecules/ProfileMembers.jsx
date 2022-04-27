@@ -11,7 +11,6 @@ function ProfileMembers({ profileCards, handleFlip }) {
             <SingleMember
               key={index}
               profile={profile}
-              handleFlip={() => handleFlip(profile)}
             />
           </Grid>
         );

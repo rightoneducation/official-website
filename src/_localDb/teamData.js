@@ -17,7 +17,7 @@ module.exports = {
           title: '/images/anna-name.png',
           favoriteShow: 'The Amazing Race',
           favoriteMistake: 'One time I got to the airport extra early and was so set on walking around and using my extra time that I missed the boarding call. Ended up watching my flight take off from the window of the airport!',
-          linkedIn:'https://www.linkedin.com/in/anna-roberds-a9144653/',
+          linkedIn:'https://www.linkedin.com/in/anna-roberds/',
           isFlipped: false
         },
         {

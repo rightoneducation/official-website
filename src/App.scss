@@ -119,3 +119,27 @@ footer {
 .activeRoute {
   background-color: white;
 }
+
+.flip-card-inner {
+  transform-style: preserve-3d;
+  transition: .5s linear .1s;
+  position: relative;
+  width: inherit;
+  height: inherit;
+
+  &.showBack {
+    transform: rotateY(180deg);
+  }
+
+  .card {
+    backface-visibility: hidden;
+
+    &.front {
+      transform: rotateY(0);
+    }
+
+    &.back {
+      transform: rotateY(180deg);
+    }
+  }
+}

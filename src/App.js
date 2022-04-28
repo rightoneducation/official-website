@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { makeStyles } from "@material-ui/core/styles";
 import { Box, Container } from "@material-ui/core";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
-import FlipCard from "../src/FlipCard";
+
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.scss';

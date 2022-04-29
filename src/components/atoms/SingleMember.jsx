@@ -20,16 +20,18 @@ const useStyles = makeStyles({
   // },
 });
 
+
 function SingleMember (props) {
+  const {variant, id} = props.profile;
   const [showBack, setShowBack] = useState(false);
   function handleClick() {
-    if (props.variant === "click") {
+    if (variant === "click") {
       setShowBack(!showBack);
     }
   }
   const styles = useStyles()
   return (
-    <div tabIndex={props.id} onClick={handleClick} className={cn("flip-card-outer")} >
+    <div tabIndex={id} onClick={handleClick} className={cn("flip-card-outer")} >
       <div className={cn("flip-card-inner", {
           showBack
         })}>

@@ -13,7 +13,7 @@ const useStyles = makeStyles({
 });
 
 function Front (props) {
-    const { photo, linkedIn, title } = props.profile;
+    const { photo, back, linkedIn, title } = props.profile;
     const styles = useStyles();
     return (
       <div>

@@ -120,12 +120,10 @@ footer {
   background-color: white;
 }
 
+.flip-card-outer {
 .flip-card-inner {
   transform-style: preserve-3d;
   transition: .5s linear .1s;
-  position: relative;
-  width: inherit;
-  height: inherit;
 
   &.showBack {
     transform: rotateY(180deg);
@@ -133,6 +131,7 @@ footer {
 
   .card {
     backface-visibility: hidden;
+    background-color: #322759;
 
     &.front {
       transform: rotateY(0);
@@ -142,4 +141,5 @@ footer {
       transform: rotateY(180deg);
     }
   }
+}
 }

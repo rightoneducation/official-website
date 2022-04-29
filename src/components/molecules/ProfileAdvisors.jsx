@@ -4,10 +4,10 @@ import SingleAdvisor from "../atoms/SingleAdvisor";
 
 function Advisors({ advisorProfiles }) {
   return (
-    <Grid container spacing={10}>
+    <Grid container justify="center">
       {advisorProfiles.map((advisor, index) => {
         return (
-          <Grid item xs={12} sm={12} md={6} lg={6}>
+          <Grid item>
             <SingleAdvisor key={index} advisor={advisor} />
           </Grid>
         );

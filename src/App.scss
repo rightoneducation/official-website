@@ -103,3 +103,19 @@ footer {
   background: #FF3369;;
   height: 10px;
 }
+
+.mainNav:link {
+  color: #E87DA6;
+}
+.mainNav:visited {
+  color: #E87DA6;
+}
+.mainNav:hover {
+  color: white;
+}
+.mainNav:active {
+  color: white;
+}
+.activeRoute {
+  background-color: white;
+}

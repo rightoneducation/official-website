@@ -128,7 +128,7 @@ footer {
 .flip-card-inner {
   transform-style: preserve-3d;
   transition: .5s linear .1s;
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 100%;
 

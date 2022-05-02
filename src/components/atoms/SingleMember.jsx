@@ -40,8 +40,6 @@ function SingleMember (props) {
           <div className="card front">
             <Front {...props}>{Front}</Front>
           </div>
-          </Grid>
-          <Grid className={styles.profileFront}>
           <div className="card back">
             <Back {...props}>{Back}</Back>
           </div>

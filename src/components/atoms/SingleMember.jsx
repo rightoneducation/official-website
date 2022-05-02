@@ -31,22 +31,25 @@ function SingleMember (props) {
   }
   const styles = useStyles()
   return (
-    <div tabIndex={id} onClick={handleClick} className={cn("flip-card-outer")} >
+    <Grid tabIndex={id} onClick={handleClick} className={cn("flip-card-outer")} >
       <div className={cn("flip-card-inner", {
           showBack
         })}>
-      <Grid>
-          <Grid className={styles.profileFront}>
+      {/* <Grid> */}
+          {/* <div className={styles.profileFront}> */}
           <div className="card front">
-            <Front {...props}>{Front}</Front>
+          <div className="card-body d-flex justify-content-center align-items-center">
+            <Front {...props}/>
+            </div>
           </div>
           <div className="card back">
-            <Back {...props}>{Back}</Back>
+          <div className="card-body d-flex justify-content-center align-items-center">
+            <Back {...props}/>
           </div>
-          </Grid>
-      </Grid>
+          </div>
+      {/* </Grid> */}
       </div>
-    </div>
+    </Grid>
   );
 }
 

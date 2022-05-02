@@ -22,7 +22,7 @@ const useStyles = makeStyles({
 
 
 function SingleMember (props) {
-  const {variant, id} = props.profile;
+  const {variant, id, front, back} = props.profile;
   const [showBack, setShowBack] = useState(false);
   function handleClick() {
     if (variant === "click") {
@@ -38,10 +38,12 @@ function SingleMember (props) {
       <Grid>
           <Grid className={styles.profileFront}>
           <div className="card front">
-            <Front {...props}/>
+            <Front {...props}>{Front}</Front>
           </div>
+          </Grid>
+          <Grid className={styles.profileFront}>
           <div className="card back">
-            <Back {...props}/>
+            <Back {...props}>{Back}</Back>
           </div>
           </Grid>
       </Grid>

@@ -13,14 +13,14 @@ const useStyles = makeStyles({
 });
 
 function Back (props) {
-    const { back, linkedIn, title } = props.profile;
+    const { photo, back, linkedIn, title } = props.profile;
     const styles = useStyles();
     return (
       <div>
         <Grid container className={styles.teamCards}>
           <Grid>
             <img
-              src={photo}
+              src={back}
               width="100%"
               className={styles.profileBack}
               alt="right-on-education-team-member-info"

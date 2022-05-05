@@ -31,7 +31,6 @@ function Front (props) {
           container
           alignItems="center"
           justify="center"
-          className={styles.jobTitle}
         >
           <a href={linkedIn} target='_blank' rel="noopener noreferrer">
           <img

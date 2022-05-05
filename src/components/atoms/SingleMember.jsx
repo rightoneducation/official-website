@@ -31,11 +31,11 @@ function SingleMember (props) {
   }
   const styles = useStyles()
   return (
+    <div>
     <Grid tabIndex={id} onClick={handleClick} className={cn("flip-card-outer")} >
       <div className={cn("flip-card-inner", {
           showBack
         })}>
-      {/* <Grid> */}
           {/* <div className={styles.profileFront}> */}
           <div className="card front">
           <div className="card-body d-flex justify-content-center align-items-center">
@@ -47,9 +47,9 @@ function SingleMember (props) {
             <Back {...props}/>
           </div>
           </div>
-      {/* </Grid> */}
       </div>
     </Grid>
+    </div>
   );
 }
 

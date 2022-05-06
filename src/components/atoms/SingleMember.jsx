@@ -8,11 +8,11 @@ import cn from "classnames";
 
 
 const useStyles = makeStyles({
-  profileFront: {
-    width: "360px",
-    margin: "20px 10px",
-    paddingBottom: "0em"
-  },
+  // profileFront: {
+  //   width: "360px",
+  //   margin: "20px 10px",
+  //   paddingBottom: "0em"
+  // },
   // profileBack: {
   //   width: "360px",
   //   margin: "20px 10px",
@@ -29,7 +29,7 @@ function SingleMember (props) {
       setShowBack(!showBack);
     }
   }
-  const styles = useStyles()
+  //const styles = useStyles()
   return (
     <div>
     <div tabIndex={id} onClick={handleClick} className={cn("flip-card-outer")} >

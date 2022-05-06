@@ -32,7 +32,7 @@ function SingleMember (props) {
   const styles = useStyles()
   return (
     <div>
-    <Grid tabIndex={id} onClick={handleClick} className={cn("flip-card-outer")} >
+    <div tabIndex={id} onClick={handleClick} className={cn("flip-card-outer")} >
       <div className={cn("flip-card-inner", {
           showBack
         })}>
@@ -48,7 +48,7 @@ function SingleMember (props) {
           </div>
           </div>
       </div>
-    </Grid>
+    </div>
     </div>
   );
 }

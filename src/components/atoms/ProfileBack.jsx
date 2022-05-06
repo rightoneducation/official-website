@@ -17,17 +17,17 @@ function Back (props) {
     const styles = useStyles();
     return (
       <div>
-        <Grid container className={styles.teamCards}>
-          <Grid>
+        <div container className={styles.teamCards}>
+          <div>
             <img
               src={back}
               width="100%"
               className={styles.profileBack}
               alt="right-on-education-team-member-info"
             />
-          </Grid>
-        </Grid>
-        <Grid
+          </div>
+        </div>
+        <div
           container
           alignItems="center"
           justify="center"
@@ -39,7 +39,7 @@ function Back (props) {
             alt="member-title"
           />
           </a>
-        </Grid>
+        </div>
       </div>
     );
 }

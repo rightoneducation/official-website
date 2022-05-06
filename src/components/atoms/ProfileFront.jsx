@@ -17,17 +17,17 @@ function Front (props) {
     const styles = useStyles();
     return (
       <div>
-        <Grid container className={styles.teamCards}>
-          <Grid>
+        <div container className={styles.teamCards}>
+          <div>
             <img
               src={photo}
               width="100%"
               className={styles.profilePhoto}
               alt="right-on-education-team-member"
             />
-          </Grid>
-        </Grid>
-        <Grid
+          </div>
+        {/* </Grid> */}
+        <div
           container
           alignItems="center"
           justify="center"
@@ -39,7 +39,8 @@ function Front (props) {
             alt="member-title"
           />
           </a>
-        </Grid>
+        </div>
+        </div>
       </div>
     );
 }

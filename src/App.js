@@ -5,6 +5,7 @@ import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 
 import "bootstrap/dist/css/bootstrap.min.css";
+import '../node_modules/bootstrap/scss/bootstrap.scss';
 import './App.scss';
 import './rwdgrid.css';
 

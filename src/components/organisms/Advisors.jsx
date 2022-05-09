@@ -14,6 +14,7 @@ function Advisors(props) {
       </Typography> */}
       <Grid container alignItems="center" justify="space-around">
       <img
+        className="advisors-banner"
         src={placeholder}
         alt="advisor-title"
         width="45%"

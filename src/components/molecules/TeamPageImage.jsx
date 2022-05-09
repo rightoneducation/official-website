@@ -1,15 +1,15 @@
 import React from "react";
 import { Paper } from "@material-ui/core";
-import placeholder from "../../images/team-banner.png";
+import placeholder from "../../images/team-monster-banner.png";
 
 function LandingBannerImage(props) {
   const { styles } = props;
 
   return (
     <Paper elevation={2} className={styles.bannerImage}>
-      <img
+      <img 
         src={placeholder}
-        alt="right-on-education-team-image"
+        alt="right-on-education-monster-banner"
         width="100%"
         max-width="756.4px"
         align="top"

@@ -7,6 +7,7 @@ function TeamMembers(props) {
     <Box component="section" style={{ background: "#322759"}}>
       <Grid container justify="center" >
       <img className="team-banner"
+        style={{marginBottom: "28px"}} 
         src={placeholder}
         alt="right-on-education-our-team"
         width="45%"

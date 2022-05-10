@@ -8,13 +8,7 @@ const useStyles = makeStyles({
     height: "625px",
     marginTop: "28px"
   },
-  // jobTitle: {
-  //   borderLeft: "1px solid white",
-  //   margin: "5px",
-  //   marginLeft: "3px",
-  //   color: "white",
-  //   padding: "1.5px 10px",
-  // },
+
 });
 function Advisor (props) {
   const {name, photo, profile,title, linkedIn} = props.advisor

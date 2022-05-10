@@ -7,8 +7,11 @@ const useStyles = makeStyles({
     justifyContent: "space-around"
   },
   profilePhoto: {
-    marginBottom: "10px",
-    paddingLeft: "10px"
+    // width: "290px",
+    // height: "300px",
+    // margin: "20px 10px",
+    //marginBottom: "10px",
+   
   },
 });
 

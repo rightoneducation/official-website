@@ -12,16 +12,17 @@ function Advisors(props) {
       >
         Our Advisors
       </Typography> */}
-      <Grid container alignItems="center" justify="space-around">
+      <Grid container  justify="center">
       <img
         className="advisors-banner"
         src={placeholder}
         alt="advisor-title"
         width="45%"
-        align="center"
+        align="top"
       />
-      </Grid>
       <ProfileAdvisors {...props}/>
+      </Grid>
+      
     </Box>
   );
 }

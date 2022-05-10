@@ -188,13 +188,13 @@ footer {
     width: 100%;
     height: 100%;
     background-color: #322759;
-    
+    outline: none !important;
     border: none;
 
     &.front {
       transform: rotateY(0);
     }
-
+    
     &.back {
       transform: rotateY(180deg);
       

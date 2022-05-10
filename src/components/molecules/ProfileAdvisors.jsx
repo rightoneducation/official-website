@@ -4,7 +4,7 @@ import SingleAdvisor from "../atoms/SingleAdvisor";
 
 function Advisors({ advisorProfiles }) {
   return (
-    <Grid container justify="center" >
+    <Grid container justify="space-evenly" >
       {advisorProfiles.map((advisor, index) => {
         return (
           <Grid item >

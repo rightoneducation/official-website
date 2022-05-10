@@ -6,8 +6,7 @@ const useStyles = makeStyles({
   advisorPhoto: {
     width: "350px",
     height: "625px",
-    
-    
+    marginTop: "28px"
   },
   // jobTitle: {
   //   borderLeft: "1px solid white",
@@ -23,8 +22,7 @@ function Advisor (props) {
   return (
     <Grid container>
       {/* <Grid container alignItems="center"> */}
-        <Grid item justify="center" xs={12}>
-        <div className="advisor-profile">
+        <Grid item xs={12}>
         <a href={linkedIn} target='_blank' rel="noopener noreferrer">
           <img 
             src={photo} 
@@ -32,7 +30,6 @@ function Advisor (props) {
             alt='' 
             />
         </a>
-        </div>
         </Grid>
         {/* <Grid item>
         <h3 style={{fontWeight: '300', marginRight: '10px'}}>{name}</h3>

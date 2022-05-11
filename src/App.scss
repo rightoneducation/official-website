@@ -111,11 +111,11 @@ footer {
   background-color: white;
 }
 
-.team-intro{
+.team-page-intros{
   margin-bottom: 55px;
 }
 
-.team-banner{
+.team-page-banners{
   font-family: "filson-pro";
   font-style: normal;
   font-size: 84px;
@@ -127,11 +127,12 @@ footer {
 
 }
 
-.team-banner-underline{
+.team-page-banners-underline{
   width: 747px;
   border: 3.5px solid #E29B5D; 
   opacity: 1;
 }
+
 
 .flip-card-outer {
   perspective: 1000px;
@@ -147,13 +148,6 @@ footer {
   position: relative;
   width: inherit;
   height: inherit;
-  -webkit-tap-highlight-color: transparent;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
 
   .flip-card-outer:focus{
     outline: none !important;
@@ -191,10 +185,10 @@ footer {
 
 
 @media (max-width: 768px) {
-  .team-intro{
+  .team-page-intros{
     margin-bottom: 45px;
   }
-  .team-banner{
+  .team-page-banners{
     font-family:"filson-pro";  
     font-size: 45px;
     font-weight: 700;
@@ -203,16 +197,12 @@ footer {
     text-align: center;
     color: white;
    }
-   .team-banner-underline{
+   .team-page-banners-underline{
     width: 430px;
     border: 3px solid #E29B5D; 
     opacity: 1;
     margin-top: -4px;
   }
-
- .advisors-banner{
-   width: 300px;
- }
 
  .flip-card-outer {
   perspective: 1000px;
@@ -221,6 +211,15 @@ footer {
   margin: 10px, 0;
   margin-right: 1px;
   margin-left: 1px;
+ 
+
+  .flip-card-outer:focus{
+    outline: none !important;
+  }
+
+  .flip-card-outer:active{
+    outline: none !important;
+  }
 
   
 .flip-card-inner {

@@ -1,16 +1,15 @@
 import React from 'react'
-import { Box, Grid, Typography } from "@material-ui/core";
+import { Box, Grid} from "@material-ui/core";
 import ProfileMembers from '../molecules/ProfileMembers'
-import placeholder from '../../images/our-team.png'
 function TeamMembers(props) {
   return (
     <Box component="section" style={{ background: "#322759"}}>
       <Grid container justify="center" >
-        <div className='team-intro'>
+        <div className='team-page-intros'>
         <h1 
-          className='team-banner'>
+          className='team-page-banners'>
           Meet Our Team
-          <hr className='team-banner-underline'/>
+          <hr className='team-page-banners-underline'/>
         </h1>
         </div>
         <ProfileMembers {...props}/>

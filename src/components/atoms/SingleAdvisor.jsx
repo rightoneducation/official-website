@@ -3,20 +3,12 @@ import { Grid } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles({
-  // profilePhoto: {
-  //   margin: "0 15px 0 0",
-  //   width: "80px",
-  //   height: "80px",
-  //   borderRadius: "50%",
-  //   border: "3px solid rgb(202, 45, 104)",
-  // },
-  // jobTitle: {
-  //   borderLeft: "1px solid white",
-  //   margin: "5px",
-  //   marginLeft: "3px",
-  //   color: "white",
-  //   padding: "1.5px 10px",
-  // },
+  advisorPhoto: {
+    width: "350px",
+    height: "625px",
+    marginTop: "28px"
+  },
+
 });
 function Advisor (props) {
   const {name, photo, profile,title, linkedIn} = props.advisor
@@ -24,8 +16,14 @@ function Advisor (props) {
   return (
     <Grid container>
       {/* <Grid container alignItems="center"> */}
-        <Grid item>
-        <a href={linkedIn} target='_blank' rel="noopener noreferrer"><img src={photo} className={styles.profilePhoto} alt='' /></a>
+        <Grid item xs={12}>
+        <a href={linkedIn} target='_blank' rel="noopener noreferrer">
+          <img 
+            src={photo} 
+            className={styles.advisorPhoto} 
+            alt='' 
+            />
+        </a>
         </Grid>
         {/* <Grid item>
         <h3 style={{fontWeight: '300', marginRight: '10px'}}>{name}</h3>

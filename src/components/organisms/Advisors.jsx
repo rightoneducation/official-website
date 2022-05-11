@@ -8,23 +8,16 @@ import placeholder from '../../images/advisor-title.png'
 function Advisors(props) {
   return (
     <Box component="section" style={{ background: "#322759", marginTop: "-25px"}}>
-      {/* <Typography
-        variant="h4"
-        style={{ marginBottom: "1.5em", fontWeight: "500", textAlign: "center" }}
-      >
-        Our Advisors
-      </Typography> */}
-      <Grid container justify="center">
-      <img
-        className="advisors-banner"
-        src={placeholder}
-        alt="advisor-title"
-        width="45%"
-        align="top"
-      />
-      <ProfileAdvisors {...props}/>
+      <Grid container justify="center" >
+      <div className='team-page-intros'>
+        <h1 
+          className='team-page-banners'>
+          Our Advisors
+          <hr className='team-page-banners-underline'/>
+        </h1>
+        </div>
+        <ProfileAdvisors {...props}/>
       </Grid>
-      
     </Box>
   );
 }

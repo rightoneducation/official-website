@@ -1,8 +1,9 @@
+@import url('http://fonts.cdnfonts.com/css/filson-pro');
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto',
-  sans-serif;
+  font-family: 'Filson Pro';
+  font-style: normal;
   min-width: 100%;
   min-height: 100%;
 }

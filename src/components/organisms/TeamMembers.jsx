@@ -6,13 +6,20 @@ function TeamMembers(props) {
   return (
     <Box component="section" style={{ background: "#322759"}}>
       <Grid container justify="center">
-      <img className="team-banner"
+        <div>
+        <h1 
+          className='team-banner'>
+          Meet Our Team
+        </h1>
+        <hr className='team-banner-underline'/>
+        </div>
+      {/* <img className="team-banner"
         style={{marginBottom: "28px"}} 
         src={placeholder}
         alt="right-on-education-our-team"
         width="45%"
         align="top"
-      />
+      /> */}
         <ProfileMembers {...props}/>
       </Grid>
     </Box>

@@ -5,23 +5,14 @@ import placeholder from '../../images/our-team.png'
 function TeamMembers(props) {
   return (
     <Box component="section" style={{ background: "#322759"}}>
-      <Grid container justify="center">
-        <Grid style={{marginBottom: "45px"}}>
-        <Typography>
+      <Grid container justify="center" >
+        <div className='team-intro'>
         <h1 
           className='team-banner'>
           Meet Our Team
+          <hr className='team-banner-underline'/>
         </h1>
-        <hr className='team-banner-underline'/>
-        </Typography>
-        </Grid>
-      {/* <img className="team-banner"
-        style={{marginBottom: "28px"}} 
-        src={placeholder}
-        alt="right-on-education-our-team"
-        width="45%"
-        align="top"
-      /> */}
+        </div>
         <ProfileMembers {...props}/>
       </Grid>
     </Box>

@@ -111,6 +111,10 @@ footer {
   background-color: white;
 }
 
+.team-intro{
+  margin-bottom: 55px;
+}
+
 .team-banner{
   font-family: "filson-pro";
   font-style: normal;
@@ -187,23 +191,25 @@ footer {
 
 
 @media (max-width: 768px) {
+  .team-intro{
+    margin-bottom: 45px;
+  }
   .team-banner{
-    font-family: "filson-pro";
-    font-style: normal;
-    font-size: 84px;
+    font-family:"filson-pro";  
+    font-size: 45px;
     font-weight: 700;
     line-height: 84px;
     letter-spacing: 0em;
     text-align: center;
     color: white;
-  
-  }
-  .team-banner-underline{
-    width: 747px;
-    border: 3.5px solid #E29B5D; 
-    align-items: center;
+   }
+   .team-banner-underline{
+    width: 430px;
+    border: 3px solid #E29B5D; 
     opacity: 1;
+    margin-top: -4px;
   }
+
  .advisors-banner{
    width: 300px;
  }

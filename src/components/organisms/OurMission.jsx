@@ -7,7 +7,7 @@ function OurMission (props) {
   const{styles} = props
     return (
       <Box>
-        <LandingBannerImage styles={styles} />
+        {/* <LandingBannerImage styles={styles} /> */}
         <LandingTopIntro styles={styles} />
       </Box>
     );

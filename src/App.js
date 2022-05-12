@@ -23,8 +23,8 @@ const useStyles = makeStyles( theme => ({
     padding: '0px',
   },
   bannerImage: {
-    background: "#322759",
-    marginTop: "-2%",
+    background: "none",
+    //marginTop: "-2%",
     marginBottom: "-7%",
     overflow: "hidden",
     objectFit: "contain",

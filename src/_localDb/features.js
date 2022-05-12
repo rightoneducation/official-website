@@ -1,21 +1,24 @@
 module.exports = {
   productFeatures: [{
       id: 1,
-      title: 'Engage Your Students in Deeper Thinking',
-      featureIcon: '/images/puzzle.svg',
-      description: 'Turn multiple-choice questions into metacognitive challenges: student-tested, teacher-approved, and standards-aligned!'
+      //title: 'Engage Your Students in Deeper Thinking',
+      featureImage: '/images/value-card-1.png',
+      //featureIcon: '/images/puzzle.svg',
+      //description: 'Turn multiple-choice questions into metacognitive challenges: student-tested, teacher-approved, and standards-aligned!'
     },
     {
       id: 2,
-      title: 'Get the Rationale Behind Wrong Answers',
-      featureIcon: '/images/target_icon.svg',
-      description: 'Understand the reasoning behind different wrong answers and view tips to help your students get back on track.'
+      //title: 'Get the Rationale Behind Wrong Answers',
+      featureImage: '/images/value-card-2.png',
+      //featureIcon: '/images/target_icon.svg',
+      //description: 'Understand the reasoning behind different wrong answers and view tips to help your students get back on track.'
     },
     {
       id: 3,
-      title: 'Share Targeted Resources',
-      featureIcon: '/images/share_resources.svg',
-      description: 'Suggest follow-up activities and videos tailored to your students’ needs.'
+      //title: 'Share Targeted Resources',
+      featureImage: '/images/value-card-3.png',
+      //featureIcon: '/images/share_resources.svg',
+      //description: 'Suggest follow-up activities and videos tailored to your students’ needs.'
     }
   ],
   whyRightOn: [

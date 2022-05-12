@@ -116,7 +116,7 @@ footer {
   margin-bottom: 55px;
 }
 
-.team-page-banners{
+.page-banners{
   font-family: "filson-pro";
   font-style: normal;
   font-size: 64px;
@@ -128,7 +128,7 @@ footer {
 
 }
 
-.team-page-banners-underline{
+.page-banners-underline{
   width: 550px;
   border: 3.5px solid #E29B5D; 
   opacity: 1;
@@ -188,7 +188,7 @@ footer {
 @media (max-width: 768px) {
   .team-page-intros{
     margin-top: 35px;
-    margin-bottom: 45px;
+    margin-bottom: 30px;
   }
   .team-page-banners{
     font-family:"filson-pro";  

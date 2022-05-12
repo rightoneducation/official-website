@@ -7,7 +7,7 @@ import Advisors from '../organisms/Advisors'
 
 function TeamPage ({ advisorData, profileCards, handleFlip, styles }) { 
     return (
-      <div>
+      <div style={{background: "#322759"}}>
         <OurValue styles={styles}/>
         <TeamMembers profileCards={profileCards} handleFlip={handleFlip}/>
         <Advisors advisorProfiles={advisorData} />

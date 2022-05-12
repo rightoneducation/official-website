@@ -11,11 +11,11 @@ function LandingPage (props) {
     const {styles} = props
     const { whyRightOn, productFeatures } = featureData
     return (
-        <div>
-        <OurMission styles={styles}/>
-        <ProblemSection />           
+        <div style={{background: "linear-gradient(180deg, #322759 -2.67%, #40216F 64.71%, #591796 100%)"}}>
+        <OurMission styles={styles}/>   
+        <ProductFeatures productFeatures={productFeatures}/>       
         <WhyRightOn whyRightOn={whyRightOn}/>
-        <ProductFeatures productFeatures={productFeatures}/>
+        {/* <ProblemSection />  */}
         </div>
     )
 }

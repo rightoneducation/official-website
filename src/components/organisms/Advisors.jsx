@@ -7,13 +7,13 @@ import placeholder from '../../images/advisor-title.png'
 
 function Advisors(props) {
   return (
-    <Box component="section" style={{ background: "#322759", marginTop: "-25px"}}>
+    <Box component="section" style={{marginTop: "-25px"}}>
       <Grid container justify="center" >
       <div className='team-page-intros'>
         <h1 
-          className='team-page-banners'>
+          className='page-banners'>
           Our Advisors
-          <hr className='team-page-banners-underline'/>
+          <hr className='page-banners-underline'/>
         </h1>
         </div>
         <ProfileAdvisors {...props}/>

@@ -35,13 +35,13 @@ function WhyRightOn(props) {
           })}
         </Grid>
         {/* <Grid item container justify="space-around" alignItems="center" xs={12} sm={12}> */}
-          <Grid align="center" xs={12} sm={12} md={8}>
+          {/* <Grid align="center" xs={12} sm={12} md={8}>
             <img
               src={chromebook}
               width="100%"
               alt="right-on-education-chromebook-app"
             />
-          </Grid>
+          </Grid> */}
         {/* </Grid> */}
       </Grid>
     </Box>

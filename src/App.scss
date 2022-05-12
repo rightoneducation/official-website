@@ -112,13 +112,14 @@ footer {
 }
 
 .team-page-intros{
+  margin-top: 55px;
   margin-bottom: 55px;
 }
 
 .team-page-banners{
   font-family: "filson-pro";
   font-style: normal;
-  font-size: 84px;
+  font-size: 64px;
   font-weight: 700;
   line-height: 84px;
   letter-spacing: 0em;
@@ -128,7 +129,7 @@ footer {
 }
 
 .team-page-banners-underline{
-  width: 747px;
+  width: 550px;
   border: 3.5px solid #E29B5D; 
   opacity: 1;
 }
@@ -186,11 +187,12 @@ footer {
 
 @media (max-width: 768px) {
   .team-page-intros{
+    margin-top: 35px;
     margin-bottom: 45px;
   }
   .team-page-banners{
     font-family:"filson-pro";  
-    font-size: 45px;
+    font-size: 34px;
     font-weight: 700;
     line-height: 84px;
     letter-spacing: 0em;
@@ -198,7 +200,8 @@ footer {
     color: white;
    }
    .team-page-banners-underline{
-    width: 430px;
+    justify-content: center;
+    width: 300px;
     border: 3px solid #E29B5D; 
     opacity: 1;
     margin-top: -4px;

@@ -2,12 +2,12 @@ import React from "react";
 import image from "../../images/vision-desktop.png"
 import { Card, CardContent, Typography } from "@material-ui/core";
 
-function AboutTopIntro(props) {
+function AboutVisionCard(props) {
   const { styles } = props;
   return (
       <img
         src={image}
-        alt="mission-card"
+        alt="vision-card"
         width="30%"
         align="right"
       />
@@ -29,4 +29,4 @@ function AboutTopIntro(props) {
   );
 }
 
-export default AboutTopIntro;
+export default AboutVisionCard;

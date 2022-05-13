@@ -9,7 +9,7 @@ function AboutBannerImage(props) {
       <Paper elevation={2} className={styles.bannerImage}>
         <img
           src={image}
-          alt="right-on-education-vision"
+          alt="banner-background"
           width="100%"
           align="top"
         />

@@ -2,7 +2,7 @@ import React from "react";
 import { Paper } from "@material-ui/core";
 import placeholder from "../../images/team-monster-banner.png";
 
-function LandingBannerImage(props) {
+function TeamPageImage(props) {
   const { styles } = props;
 
   return (
@@ -18,4 +18,4 @@ function LandingBannerImage(props) {
   );
 }
 
-export default LandingBannerImage;
+export default TeamPageImage;

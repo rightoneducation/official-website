@@ -1,7 +1,8 @@
 import React from 'react'
 import { Box } from "@material-ui/core";
 import AboutBannerImage from '../molecules/AboutBannerImage'
-import AboutTopIntro from '../molecules/AboutTopIntro'
+import AboutVisionCard from '../molecules/AboutVisionCard'
+import AboutMissionCard from '../molecules/AboutMissionCard';
 
 
 function OurVision (props) {
@@ -9,7 +10,8 @@ function OurVision (props) {
     return (
       <Box components="section">
         <AboutBannerImage styles={styles}/>
-        <AboutTopIntro styles={styles}/>
+        <AboutVisionCard styles={styles}/>
+        <AboutMissionCard styles={styles}/>
       </Box>
     );
 }

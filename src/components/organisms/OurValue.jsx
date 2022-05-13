@@ -1,15 +1,14 @@
 import React from 'react'
 import { Box } from "@material-ui/core";
-import TeamPageImage from '../molecules/TeamPageImage'
-import TeamPageIntro from '../molecules/TeamPageIntro'
+import AboutValues from "../molecules/AboutValues"
 
 
 function OurValue (props) {
   const { styles } = props
+  const {ourValues} = featureData
     return (
       <Box>
-        <TeamPageImage styles={styles} />
-        {/* <TeamPageIntro styles={styles} /> */}
+        <AboutValues ourValues={ourValues} />
       </Box>
     );
 }

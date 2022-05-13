@@ -1,6 +1,6 @@
 import React from "react";
 import { Paper } from "@material-ui/core";
-import image from "../../images/students-pointing-at-screen.jpg";
+import image from "../../images/banner-background.png";
 
 function AboutBannerImage(props) {
   const { styles } = props;

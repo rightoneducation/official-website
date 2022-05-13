@@ -4,16 +4,18 @@ import Quote from '../atoms/Quote'
 import CultureOfError from '../molecules/CultureOfErrorSection'
 import MyFavNo from '../molecules/MyFavNoSection'
 import IntroToTeam from '../molecules/IntroToTeam'
+import OurMission from '../organisms/OurMission'
 
 function AboutPage (props) {
   const { styles } = props
     return (
       <div>
         <OurVision styles={styles}/>
-        <Quote/>
+        <OurNewMission styles={styles}/>
+        {/* <Quote/> */}
         <CultureOfError />
         <MyFavNo />
-        <IntroToTeam/>
+        {/* <IntroToTeam/> */}
       </div>
     )
 }

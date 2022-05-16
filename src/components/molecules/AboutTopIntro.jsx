@@ -10,6 +10,7 @@ function AboutTopIntro(props) {
     src={placeholder}
     alt="right-on-education-vision"
     width="100%"
+    max-width="756.4px"
   />
   </Grid>
   );

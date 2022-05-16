@@ -1,24 +1,17 @@
 import React from "react";
-import { Card, CardContent, Typography } from "@material-ui/core";
+import { Grid, GridDirection } from "@material-ui/core";
+import placeholder from '../../images/vision-desktop.png'
 
 function AboutTopIntro(props) {
   const { styles } = props;
   return (
-      <Card className={styles.cardIntro}>
-        <CardContent>
-          <Typography variant="h4">Our Vision</Typography>
-          <Typography variant="h6" className={styles.cardContent}>
-            In the future, we envision
-            <b>
-              <em> RightOn! </em>
-            </b>
-            to become a multi-channel learning platform (spanning mobile apps
-            and livestream video), one that eventually helps connect students of
-            all ages and backgrounds to learn new subjects – from math today to
-            others in the future.
-          </Typography>
-        </CardContent>
-      </Card>
+    <Grid>
+    <img
+    src={placeholder}
+    alt="right-on-education-vision"
+    width="100%"
+  />
+  </Grid>
   );
 }
 

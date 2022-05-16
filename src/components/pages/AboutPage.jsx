@@ -10,7 +10,7 @@ function AboutPage (props) {
   const { styles } = props
   const {ourValues} = featureData
     return (
-      <div styles={{background: "linear-gradient(180deg, #322759 -2.67%, #40216F 64.71%, #591796 100%)"}}>
+      <div style={{background: "linear-gradient(180deg, #322759 -2.67%, #40216F 64.71%, #591796 100%)"}}>
         <OurVision styles={styles}/>
         <AboutValues ourValues={ourValues}/>
         <CultureOfError />

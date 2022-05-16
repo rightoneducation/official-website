@@ -5,6 +5,7 @@ import {
 
 function singleValue(props) {
   const {featureImage} = props.singleValue
+  console.log(props.singleValue)
   return (
         <Grid>
         {/* <Grid container alignItems="center" justify="space-around" spacing={1}> */}

@@ -54,7 +54,7 @@ module.exports = {
     },
     {
       id: 4,
-      featureImage:'/images/perserverence-desktop.png'
+      featureImage:'/images/perseverence-desktop.png'
     },
     {
       id: 5,
@@ -62,7 +62,7 @@ module.exports = {
     },
     {
       id: 6,
-      featureImage:'/images/beginner-mindeset-desktop.png'
+      featureImage:'/images/beginner-mindset-desktop.png'
     },
   ]
 }

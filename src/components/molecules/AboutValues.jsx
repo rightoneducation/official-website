@@ -4,16 +4,16 @@ import teamIcon from "../../images/team-icon.svg";
 import SingleValue from '../atoms/SingleValue'
 
 function AboutValues(props) {
-  const { ourValues, featureImage } = props
+  const { ourValues} = props
   return (
     <Grid
           item
           container
-          xs={12}
-          sm={8}
-          md={10}
-          spacing={4}
-          justify="space-around"
+          // xs={12}
+          // sm={8}
+          // md={10}
+          // spacing={4}
+          // justify="space-around"
         >
           {ourValues.map((singleValue, key) => {
             return (

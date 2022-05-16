@@ -1,5 +1,6 @@
 module.exports = {
-  productFeatures: [{
+  productFeatures: [
+    {
       id: 1,
       title: 'Engage Your Students in Deeper Thinking',
       featureIcon: '/images/puzzle.svg',
@@ -61,7 +62,7 @@ module.exports = {
     },
     {
       id: 6,
-      featureImage:'/images/begineer-mindeset.desktop.png'
+      featureImage:'/images/beginner-mindeset-desktop.png'
     },
   ]
 }

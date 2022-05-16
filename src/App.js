@@ -139,7 +139,9 @@ function App() {
         <Switch>
           <Container maxWidth="false" className={styles.container}> 
             <Route exact path="/" render={() => <LandingPage styles={styles}/>} />
-            <Route path="/about" render={() => <AboutPage styles={styles}/>} />
+            <Route path="/about" render={() => 
+              <AboutPage
+                 styles={styles}/>} />
             <Route
               path="/team"
               render={() => (

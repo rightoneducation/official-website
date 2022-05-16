@@ -5,10 +5,7 @@ import SingleValue from '../atoms/SingleValue'
 function AboutValues(props) {
   const {ourValues} = props
   return (
-    <Grid
-          item
-          container
-        >
+    <Grid item container>
           {ourValues.map((singleValue, key) => {
             return (
               <Grid item md={4}>
@@ -16,7 +13,7 @@ function AboutValues(props) {
               </Grid>
             );
           })}
-        </Grid>
+    </Grid>
   );
 }
 

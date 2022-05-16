@@ -6,12 +6,12 @@ import AboutValues from '../molecules/AboutValues'
 
 import featureData from '../../_localDb/features'
 
-function AboutPage (props) {
-  const { styles } = props
+function AboutPage () {
   const {ourValues} = featureData
+  console.log(featureData)
     return (
       <div style={{background: "linear-gradient(180deg, #322759 -2.67%, #40216F 64.71%, #591796 100%)"}}>
-        <OurVision styles={styles}/>
+        <OurVision/>
         <AboutValues ourValues={ourValues}/>
         <CultureOfError />
         <MyFavNo />

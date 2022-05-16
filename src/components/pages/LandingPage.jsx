@@ -12,7 +12,7 @@ function LandingPage (props) {
     const { whyRightOn, productFeatures } = featureData
     return (
         <div>
-        <OurMission styles={styles}/>
+        {/* <OurMission styles={styles}/> */}
         <ProblemSection />           
         <WhyRightOn whyRightOn={whyRightOn}/>
         <ProductFeatures productFeatures={productFeatures}/>

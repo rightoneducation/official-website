@@ -5,7 +5,7 @@ import MyFavNoVideo from '../atoms/MyFavNoVideo'
 
 function MyFavNo () {
     return (
-      <Box components="section" style={{ background: "#772A79" }}>
+      <Box components="section">
         <Grid container alignItems="center">
           <MyFavNoText />
           <MyFavNoVideo />

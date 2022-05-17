@@ -111,9 +111,44 @@ footer {
   background-color: white;
 }
 
+.about-values-quote{
+  font-family: Roboto;
+  font-style: italic;
+  font-size: 45px;
+  text-align: center;
+  line-height: 56.25px;
+  color: #D3BEFF;
+  letter-spacing: 0em;
+  font-weight: 10;
+
+}
+.about-values{
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+.about-values-quote-bold{
+  font-family: Roboto, light;
+  font-style: italic;
+  font-size: 45px;
+  text-align: center;
+  line-height: 56.25px;
+  color: #EFDAFF;
+  letter-spacing: 0em;
+  font-weight: 600;
+}
+
+.about-page-banners-underline{
+  width: 550px;
+  border: 3.5px solid #E29B5D; 
+  opacity: 1;
+  margin-left: 200px;
+  margin-bottom: 50px;
+}
+
 .team-page-intros{
   margin-top: 55px;
   margin-bottom: 55px;
+  text-align: center;
 }
 
 .team-page-banners{
@@ -132,6 +167,7 @@ footer {
   width: 550px;
   border: 3.5px solid #E29B5D; 
   opacity: 1;
+  justify-content: center;
 }
 
 
@@ -186,6 +222,43 @@ footer {
 
 
 @media (max-width: 768px) {
+
+  .about-values-quote{
+  font-family: Roboto;
+  font-style: italic;
+  font-size: 25px;
+  text-align: center;
+  line-height: 56.25px;
+  color: #D3BEFF;
+  letter-spacing: 0em;
+  font-weight: 10;
+
+}
+.about-values{
+  margin-top: 55px;
+  margin-bottom: 55px;
+  z-index: 1;
+}
+.about-values-quote-bold{
+  font-family: Roboto, light;
+  font-style: italic;
+  font-size: 25px;
+  text-align: center;
+  line-height: 56.25px;
+  color: #EFDAFF;
+  letter-spacing: 0em;
+  font-weight: 600;
+}
+
+.about-page-banners-underline{
+  justify-content: center;
+  width: 300px;
+  border: 3px solid #E29B5D; 
+  opacity: 1;
+  margin-top: -4px;
+  margin-right: 200px;
+}
+
   .team-page-intros{
     margin-top: 35px;
     margin-bottom: 45px;

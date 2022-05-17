@@ -9,7 +9,7 @@ function AboutTopIntro(props) {
     <img
     src={placeholder}
     alt="right-on-education-vision"
-    width="100%"
+    width="85%"
     max-width="756.4px"
   />
   </Grid>

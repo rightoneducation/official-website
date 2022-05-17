@@ -9,7 +9,7 @@ function AboutTopMission(props) {
         <img
         src={placeholder}
         alt="right-on-education-mission"
-        width="100%"
+        width="85%"
         />
   </Grid>
   );

@@ -8,7 +8,7 @@ function singleValue(props) {
             <img
               src={featureImage}
               alt="right-on-education-our-values"
-              width="100%"
+              width="80%"
               />
         </Grid>
   );

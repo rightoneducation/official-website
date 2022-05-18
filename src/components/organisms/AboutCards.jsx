@@ -3,27 +3,32 @@ import {
   Box,
   Grid
 } from "@material-ui/core";
+import SingleAbout from '../atoms/SingleAbout';
 
 function AboutCards(props) {
     const { aboutCards } = props
     return (
-<Grid
-          item
-          container
-          xs={12}
-          sm={8}
-          md={10}
-          spacing={4}
-          justify="space-around"
-        >
-          {whyRightOn.map((singleWhy, key) => {
-            return (
-              <Grid item md={4}>
-                <SingleWhy key={key} singleWhy={singleWhy} />
-              </Grid>
-            );
-          })}
+    <Box component="section">
+        <Grid container alignItems="center" >
+            <Grid
+                item
+                container
+                xs={12}
+                sm={8}
+                md={10}
+                // spacing={1}
+                justify="space-between"
+                >
+                {aboutCards.map((aboutCards, key) => {
+                    return (
+                    <Grid item md={4}>
+                        <SingleAbout key={key} aboutCards={aboutCards} />
+                    </Grid>
+                    );
+                })}
+            </Grid>
         </Grid>
+    </Box>
 );
 }
 

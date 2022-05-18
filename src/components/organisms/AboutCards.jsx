@@ -19,6 +19,10 @@ function AboutCards(props) {
                 // spacing={1}
                 justify="space-between"
                 >
+                {/* <Grid item md={4}>
+                    <PosCultureErrorCard/>
+                    <MyFavNoCard/>
+                </Grid> */}
                 {aboutCards.map((aboutCards, key) => {
                     return (
                     <Grid item md={4}>

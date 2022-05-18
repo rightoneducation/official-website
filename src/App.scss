@@ -4,9 +4,14 @@
 .App {
   text-align: left;
   font-size: 16px;
-  h1, h2, h3, h4 {
-      font-weight: bold;
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-weight: bold;
   }
+
   section {
     padding: 5%;
   }
@@ -34,21 +39,28 @@ p {
   text-align: center;
   font-style: italic;
 }
-.page-header { 
+
+.page-header {
   background: #322759;
-  padding: 10%;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   color: white;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   position: relative;
   overflow: visible;
+
   .header-element-4 {
     z-index: 5;
   }
-  .header-elements{
-    width: 100%; 
-    #header-element-1{
+
+  .header-elements {
+    width: 100%;
+
+    #header-element-1 {
       background: url(./images/header-element-1.svg);
       background-repeat: no-repeat;
       //position: absolute;
@@ -58,8 +70,8 @@ p {
       left: 0;
       z-index: 4;
     }
-   
-    #header-element-3{
+
+    #header-element-3 {
       background: url(./images/header-element-3.svg);
       background-repeat: no-repeat;
       position: absolute;
@@ -71,47 +83,53 @@ p {
     }
   }
 }
+
 .half-circle {
-    padding: 2%; 
-    margin-top: -5.5% !important; 
-    width: 70%;
-    border-bottom-right-radius: 800px;
-    border-bottom-left-radius: 800px;
-    border: 15px solid rgb(255, 51, 218);
-    border-top: 0;
+  padding: 2%;
+  margin-top: -5.5% !important;
+  width: 70%;
+  border-bottom-right-radius: 800px;
+  border-bottom-left-radius: 800px;
+  border: 15px solid rgb(255, 51, 218);
+  border-top: 0;
 }
 
 footer {
   background: top / cover no-repeat url(./images/footer-background-short.png);
   padding: 3% 8%;
-  background-color:  rgb(50, 40, 89);
+  background-color: rgb(50, 40, 89);
   color: white;
 }
 
 .divider {
   align-self: center;
   align-items: center;
-  background: #FF3369;;
+  background: #FF3369;
+  ;
   height: 10px;
 }
 
 .mainNav:link {
   color: #E87DA6;
 }
+
 .mainNav:visited {
   color: #E87DA6;
 }
+
 .mainNav:hover {
   color: white;
 }
+
 .mainNav:active {
   color: white;
 }
+
 .activeRoute {
   background-color: white;
 }
 
-.about-values-quote{
+.about-values-quote {
   font-family: Roboto;
   font-style: italic;
   font-size: 45px;
@@ -122,11 +140,13 @@ footer {
   font-weight: 10;
 
 }
-.about-values{
+
+.about-values {
   margin-top: 55px;
   margin-bottom: 55px;
 }
-.about-values-quote-bold{
+
+.about-values-quote-bold {
   font-family: Roboto, light;
   font-style: italic;
   font-size: 45px;
@@ -137,21 +157,27 @@ footer {
   font-weight: 600;
 }
 
-.about-page-banners-underline{
+.about-page-banners-underline {
   width: 550px;
-  border: 3.5px solid #E29B5D; 
+  border: 3.5px solid #E29B5D;
   opacity: 1;
   margin-left: 200px;
   margin-bottom: 50px;
 }
 
-.team-page-intros{
+.about-page-triangle {
+  margin-top: "-1850px";
+  margin-bottom: "130px";
+  z-index: "0"
+}
+
+.team-page-intros {
   margin-top: 55px;
   margin-bottom: 55px;
   text-align: center;
 }
 
-.team-page-banners{
+.team-page-banners {
   font-family: "filson-pro";
   font-style: normal;
   font-size: 64px;
@@ -163,9 +189,9 @@ footer {
 
 }
 
-.team-page-banners-underline{
+.team-page-banners-underline {
   width: 550px;
-  border: 3.5px solid #E29B5D; 
+  border: 3.5px solid #E29B5D;
   opacity: 1;
   justify-content: center;
 }
@@ -178,159 +204,171 @@ footer {
   margin: 25px, 0;
   margin-right: 5px;
   margin-left: 5px;
-  
-.flip-card-inner {
-  transform-style: preserve-3d;
-  transition: .5s linear .1s;
-  position: relative;
-  width: inherit;
-  height: inherit;
 
-  .flip-card-outer:focus{
-    outline: none !important;
-  }
+  .flip-card-inner {
+    transform-style: preserve-3d;
+    transition: .5s linear .1s;
+    position: relative;
+    width: inherit;
+    height: inherit;
 
-  .flip-card-outer:active{
-    outline: none !important;
-  }
-
-  &.showBack {
-    transform: rotateY(180deg);
-  }
-
-  .card {
-    backface-visibility: hidden;
-    position: absolute;
-    
-    width: 100%;
-    height: 100%;
-    background-color: #322759;
-    
-    border: none;
-
-    &.front {
-      transform: rotateY(0);
+    .flip-card-outer:focus {
+      outline: none !important;
     }
 
-    &.back {
+    .flip-card-outer:active {
+      outline: none !important;
+    }
+
+    &.showBack {
       transform: rotateY(180deg);
-      
+    }
+
+    .card {
+      backface-visibility: hidden;
+      position: absolute;
+
+      width: 100%;
+      height: 100%;
+      background-color: #322759;
+
+      border: none;
+
+      &.front {
+        transform: rotateY(0);
+      }
+
+      &.back {
+        transform: rotateY(180deg);
+
+      }
     }
   }
-}
 }
 
 
 @media (max-width: 768px) {
 
-  .about-values-quote{
-  font-family: Roboto;
-  font-style: italic;
-  font-size: 25px;
-  text-align: center;
-  line-height: 56.25px;
-  color: #D3BEFF;
-  letter-spacing: 0em;
-  font-weight: 10;
+  .about-values {
+    margin-top: 55px;
+    margin-bottom: 55px;
+    z-index: 1;
+  }
 
-}
-.about-values{
-  margin-top: 55px;
-  margin-bottom: 55px;
-  z-index: 1;
-}
-.about-values-quote-bold{
-  font-family: Roboto, light;
-  font-style: italic;
-  font-size: 25px;
-  text-align: center;
-  line-height: 56.25px;
-  color: #EFDAFF;
-  letter-spacing: 0em;
-  font-weight: 600;
-}
+  .about-values-quote {
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+    line-height: 56.25px;
+    color: #D3BEFF;
+    letter-spacing: 0em;
+    font-weight: 10;
+    padding-left: 110px;
+    padding-right: 110px;
 
-.about-page-banners-underline{
-  justify-content: center;
-  width: 300px;
-  border: 3px solid #E29B5D; 
-  opacity: 1;
-  margin-top: -4px;
-  margin-right: 200px;
-}
+  }
 
-  .team-page-intros{
+  .about-values-quote-bold {
+    font-family: Roboto, light;
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+    line-height: 56.25px;
+    color: #EFDAFF;
+    letter-spacing: 0em;
+    font-weight: 600;
+  }
+
+  .about-page-banners-underline {
+    justify-content: center;
+    width: 300px;
+    border: 3px solid #E29B5D;
+    opacity: 1;
+    margin-top: -4px;
+    margin-right: 200px;
+  }
+
+  .about-page-triangle {
+    margin-top: "-1850px";
+    margin-bottom: "50px";
+    z-index: "0"
+  }
+
+  .team-page-intros {
     margin-top: 35px;
     margin-bottom: 45px;
   }
-  .team-page-banners{
-    font-family:"filson-pro";  
+
+  .team-page-banners {
+    font-family: "filson-pro";
     font-size: 34px;
     font-weight: 700;
     line-height: 84px;
     letter-spacing: 0em;
     text-align: center;
     color: white;
-   }
-   .team-page-banners-underline{
+  }
+
+  .team-page-banners-underline {
     justify-content: center;
     width: 300px;
-    border: 3px solid #E29B5D; 
+    border: 3px solid #E29B5D;
     opacity: 1;
     margin-top: -4px;
   }
 
- .flip-card-outer {
-  perspective: 1000px;
-  width: 300px;
-  height: 400px;
-  margin: 10px, 0;
-  margin-right: 1px;
-  margin-left: 1px;
- 
+  .flip-card-outer {
+    perspective: 1000px;
+    width: 300px;
+    height: 400px;
+    margin: 10px, 0;
+    margin-right: 1px;
+    margin-left: 1px;
 
-  .flip-card-outer:focus{
-    outline: none !important;
-  }
 
-  .flip-card-outer:active{
-    outline: none !important;
-  }
-
-  
-.flip-card-inner {
-  transform-style: preserve-3d;
-  transition: .5s linear .1s;
-  position: relative;
-  width: inherit;
-  height: inherit;
-  
-
-  &.showBack {
-    transform: rotateY(180deg);
-  }
-
-  .card {
-    backface-visibility: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #322759;
-    border: none;
-    
-
-    &.front {
-      transform: rotateY(0);
+    .flip-card-outer:focus {
+      outline: none !important;
     }
-    
-    &.back {
-      transform: rotateY(180deg);
-      
+
+    .flip-card-outer:active {
+      outline: none !important;
     }
-    
+
+
+    .flip-card-inner {
+      transform-style: preserve-3d;
+      transition: .5s linear .1s;
+      position: relative;
+      width: inherit;
+      height: inherit;
+
+
+      &.showBack {
+        transform: rotateY(180deg);
+      }
+
+      .card {
+        backface-visibility: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #322759;
+        border: none;
+
+
+        &.front {
+          transform: rotateY(0);
+        }
+
+        &.back {
+          transform: rotateY(180deg);
+
+        }
+
+      }
+    }
   }
-}
-}
 }

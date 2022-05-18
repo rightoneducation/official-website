@@ -74,7 +74,7 @@ module.exports = {
     {
       id: 2,
       title: '"My Favorite No"',
-      featureImage: '/images/believe-in-yourself.jpg',
+      src: 'https://www.youtube.com/embed/srJWx7P6uLE',
       description: '“My Favorite No” and other similar math classroom activities have been both a foundation and inspiration for RightOn! Watch the video to learn more!'
     }
   ]

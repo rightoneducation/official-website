@@ -6,7 +6,7 @@ import {
 } from "@material-ui/core";
 
 function SingleAbout(props) {
-  const { title, featureImage, description } = props.aboutCards
+  const { title, featureImage, src, description } = props.aboutCards
   return (
     <Card
         style={{
@@ -60,6 +60,16 @@ function SingleAbout(props) {
                   marginBottom: "-400px"
               }}
               />
+            <iframe
+                width="100%"
+                height="400"
+                src={src}
+                title="My Fav No"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+            >
+            </iframe>
           </Grid>
         </Grid>
     </Card>

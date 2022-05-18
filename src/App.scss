@@ -129,6 +129,8 @@ footer {
   background-color: white;
 }
 
+/*about-page*/
+
 .about-values-quote {
   font-family: Roboto;
   font-style: italic;
@@ -166,9 +168,35 @@ footer {
 }
 
 .about-page-triangle {
-  margin-top: "-1850px";
-  margin-bottom: "130px";
-  z-index: "0"
+  margin-top: -1855px;
+  z-index: 0;
+}
+
+.about-cards {
+  width: 658px;
+  height: 733px;
+}
+
+.about-cards-title {
+  font-family: 'filson-pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  border-bottom: 7px solid #E29B5D;
+  color: white;
+}
+
+.about-cards-description {
+  padding: 12px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 38px;
+  color: white;
 }
 
 .team-page-intros {
@@ -250,8 +278,8 @@ footer {
 @media (max-width: 768px) {
 
   .about-values {
-    margin-top: 55px;
-    margin-bottom: 55px;
+    margin-top: 25px;
+    margin-bottom: 45px;
     z-index: 1;
   }
 
@@ -287,12 +315,13 @@ footer {
     opacity: 1;
     margin-top: -4px;
     margin-right: 200px;
+    margin-bottom: 20px;
   }
 
   .about-page-triangle {
-    margin-top: "-1850px";
-    margin-bottom: "50px";
-    z-index: "0"
+    margin-top: -500px;
+    margin-bottom: 100px;
+    z-index: 0;
   }
 
   .team-page-intros {

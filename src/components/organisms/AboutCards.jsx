@@ -16,7 +16,7 @@ function AboutCards(props) {
                 xs={12}
                 sm={8}
                 md={10}
-                // spacing={1}
+                spacing={2}
                 justify="space-between"
                 >
                 {/* <Grid item md={4}>

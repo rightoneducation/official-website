@@ -5,48 +5,23 @@ import {
   CardContent,
 } from "@material-ui/core";
 
+
 function SingleAbout(props) {
   const { title, featureImage, src, description } = props.aboutCards
   return (
-    <Card
-        style={{
-            width: "658px",
-            height: "733px",
-            background: "#3E226C",
-            borderRadius: "30px",
-            filter: "drop-shadow(15px 15px 10px rgba(0, 0, 0, 0.25))"
-        }}
+    <Card 
+      style={{backgroundColor: "#3E226C", filter: "drop-shadow(15px 15px 10px rgba(0, 0, 0, 0.25))", borderRadius: "30px"}}
+      className='about-cards'
     >
         <Grid>
         {/* <Grid container alignItems="center" justify="space-around" spacing={1}> */}
           
           <Grid>
           <CardContent>
-            <h3
-              style={{
-                fontFamily: 'filson-pro',
-                fontStyle: "normal",
-                fontWeight: "700",
-                fontSize: "48px",
-                lineHeight: "48px",
-                textAlign: "center",
-                marginBottom: "20px",
-                paddingBottom: "5px",
-                borderBottom: "7px solid #E29B5D",
-                color: "white"
-              }}
-            >
+            <h3 className='about-cards-title'>
               {title}
             </h3>
-            <p 
-                style={{
-                    padding: "12px",
-                    fontFamily: 'Roboto',
-                    fontWeight: "400",
-                    fontSize: "29px",
-                    lineHeight: "38px",
-                    color: "white"
-                }}
+            <p className='about-cards-description'
                 dangerouslySetInnerHTML={{__html : description}}
             />
           </CardContent>

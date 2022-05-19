@@ -69,13 +69,13 @@ module.exports = {
       id: 1,
       title: 'Positive Culture of Error',
       featureImage: '/images/ted-you-got-this-desktop.png',
-      description: 'RightOn! creates a simple way for math teachers to foster a positive culture of error: increasing engagement and building self-confidence through an app-based activity that surfaces mistakes and misconceptions in a safe, fun environment.'
+      description: '<i>RightOn!</i> creates a simple way for math teachers to foster a positive culture of error: increasing engagement and building self-confidence through an app-based activity that surfaces mistakes and misconceptions in a safe, fun environment.'
     },
     {
       id: 2,
       title: '"My Favorite No"',
       src: 'https://www.youtube.com/embed/srJWx7P6uLE',
-      description: '“My Favorite No” and other similar math classroom activities have been both a foundation and inspiration for RightOn! Watch the video to learn more!'
+      description: '“My Favorite No” and other similar math classroom activities have been both a foundation and inspiration for <i>RightOn!</i> <br/> Watch the video to learn more!'
     }
   ]
 }

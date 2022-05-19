@@ -37,5 +37,45 @@ module.exports = {
       featureImage: '/images/diversity-placeholder-image.jpg',
       description: '<strong><em>RightOn!</em></strong> is a math classroom app that engages students in thinking about and discussing mistakes and misconceptions, increasing self-confidence and deepening conceptual understanding.'
     }
+  ],
+  ourValues: [
+    {
+      id: 1,
+      featureImage:'/images/trust-communication-desktop.png'
+    },
+    {
+      id: 2,
+      featureImage:'/images/positive-culture-desktop.png'
+    },
+    {
+      id: 3,
+      featureImage:'/images/gratitude-desktop.png'
+    },
+    {
+      id: 4,
+      featureImage:'/images/perseverence-desktop.png'
+    },
+    {
+      id: 5,
+      featureImage:'/images/rising-desktop.png'
+    },
+    {
+      id: 6,
+      featureImage:'/images/beginner-mindset-desktop.png'
+    },
+  ],
+  aboutCards: [
+    {
+      id: 1,
+      title: 'Positive Culture of Error',
+      featureImage: '/images/ted-you-got-this-desktop.png',
+      description: '<i>RightOn!</i> creates a simple way for math teachers to foster a positive culture of error: increasing engagement and building self-confidence through an app-based activity that surfaces mistakes and misconceptions in a safe, fun environment.'
+    },
+    {
+      id: 2,
+      title: '"My Favorite No"',
+      src: 'https://www.youtube.com/embed/srJWx7P6uLE',
+      description: '“My Favorite No” and other similar math classroom activities have been both a foundation and inspiration for <i>RightOn!</i> <br/> Watch the video to learn more!'
+    }
   ]
 }

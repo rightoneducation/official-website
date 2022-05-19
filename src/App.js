@@ -46,8 +46,8 @@ const useStyles = makeStyles( theme => ({
     borderLeft: "8px solid #d80053",
     marginTop: "20px",
     paddingLeft: "20px",
-    fontWeight: "300",
-    lineHeight: "1.4",
+    // fontWeight: "300",
+    // lineHeight: "1.4",
     [theme.breakpoints.down('xs')]: {
       fontSize: '1em'
     }

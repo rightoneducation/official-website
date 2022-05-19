@@ -27,9 +27,9 @@ function PageHeader () {
     return (
       <Box component="header" className="page-header">
         <div className="header-elements">
-          <div id="header-element-1"></div>
+          {/* <div id="header-element-1"></div> */}
           {/* <div id="header-element-2"></div> */}
-          <div id="header-element-3"></div>
+          {/* <div id="header-element-3"></div> */}
         </div>
         <Grid
           container
@@ -40,7 +40,7 @@ function PageHeader () {
         >
           <Grid item sm={4} md={5}>
             <a href="/">
-              <img src={logo} alt="right on education logo" width="100%" />
+              <img src={logo} alt="right on education logo" width="30%" />
             </a>
           </Grid>
           <Grid

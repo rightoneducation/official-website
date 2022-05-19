@@ -146,6 +146,9 @@ footer {
 .about-values {
   margin-top: 55px;
   margin-bottom: 55px;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
 }
 
 .about-values-quote-bold {
@@ -165,6 +168,8 @@ footer {
   opacity: 1;
   margin-left: 200px;
   margin-bottom: 50px;
+  align-items: center;
+  justify-content: center;
 }
 
 .about-page-triangle {
@@ -175,6 +180,8 @@ footer {
 .about-cards {
   width: 658px;
   height: 733px;
+  align-items: center;
+  justify-content: center;
 }
 
 .about-cards-title {
@@ -281,6 +288,8 @@ footer {
     margin-top: 25px;
     margin-bottom: 45px;
     z-index: 1;
+    align-items: center;
+    justify-content: center;
   }
 
   .about-values-quote {
@@ -310,6 +319,7 @@ footer {
 
   .about-page-banners-underline {
     justify-content: center;
+    align-items: center;
     width: 300px;
     border: 3px solid #E29B5D;
     opacity: 1;
@@ -322,6 +332,36 @@ footer {
     margin-top: -500px;
     margin-bottom: 100px;
     z-index: 0;
+  }
+
+  .about-cards {
+    width: 450px;
+    height: 650px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about-cards-title {
+    font-family: 'filson-pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    border-bottom: 7px solid #E29B5D;
+    color: white;
+  }
+  
+  .about-cards-description {
+    padding: 12px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    color: white;
+    margin-bottom: -45px;
   }
 
   .team-page-intros {

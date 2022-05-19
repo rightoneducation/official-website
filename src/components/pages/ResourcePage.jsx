@@ -11,10 +11,10 @@ function ResourcePage(props) {
             <div className={styles.resourcesPageBk} style={{position: 'relative'}}>
                 <ResourcePageShapes />
                 <div style={ {position: 'relative', zIndex: '1'} }>
+                    <RightOnGameShow /> 
                     <PositiveCultureOfErrorSection styles={styles}/>
-                    <CRMT />
                     <ErrorAnalysisActivitiesSection styles={styles}/>
-                    <RightOnGameShow />
+                    <CRMT />
                 </div>
             </div>
         )

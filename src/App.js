@@ -53,7 +53,7 @@ const useStyles = makeStyles( theme => ({
     }
   },
   resourcesPageBk: {
-    background: 'linear-gradient(#BD074C 10%, #4C2679, #210040)',
+    background: 'linear-gradient(180deg, #322759 -2.67%, #40216F 64.71%, #591796 100%);',
   },
   circle: {
     position: 'absolute',

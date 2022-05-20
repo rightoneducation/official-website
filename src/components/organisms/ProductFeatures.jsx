@@ -1,15 +1,16 @@
 import React from 'react'
 import { Box, Grid, Typography } from "@material-ui/core";
 import SingleFeature from '../atoms/SingleFeature'
+import placeholder from '../../images/BG.png'
 
 function ProductFeatures (props) {
   const { productFeatures } = props
     return (
-      <Box component="section" >
+      <Grid container justify="center">
         {/* <Typography variant="h4" className="half-circle" style={{ textAlign: "center", color: "white", fontWeight: "bold", margin: "30px auto" }}>
               Product Features
           </Typography> */}
-        <Grid container justify="space-around">
+        <Grid container justify="space-around" style={{zIndex: "1"}}>
           {productFeatures.map((feature, key) => {
             return (
               <Grid item >
@@ -18,7 +19,13 @@ function ProductFeatures (props) {
             );
           })}
         </Grid>
-      </Box>
+        <img
+        src={placeholder}
+        width="100%"
+        alt="triangle background"
+        className="about-page-triangle"
+      />
+      </Grid>
     );
 }
 

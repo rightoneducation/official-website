@@ -3,7 +3,7 @@ import { Grid } from "@material-ui/core";
 
 function RightOnVideo() {
   return (
-      <Grid xs={12} sm={12} md={8}>
+      <Grid xs={12} sm={12} md={8} style={{marginBottom: "70px"}}>
         <iframe
           width="100%"
           height="420"

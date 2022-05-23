@@ -52,6 +52,7 @@ p {
   justify-content: space-around;
   position: relative;
   overflow: visible;
+  z-index: 1;
 
   .header-element-4 {
     z-index: 5;
@@ -111,7 +112,7 @@ footer {
 
 /*page-header*/
 
-.sub-title{
+.sub-title {
   font-family: 'filson-pro';
   font-style: normal;
   font-weight: 10;
@@ -140,6 +141,48 @@ footer {
 }
 
 /*landing-page*/
+
+.problem-section {
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.problem-section-top-background {
+
+  position: absolute;
+  width: 1146.89px;
+  height: 1123.12px;
+  top: -100px;
+  right: -80px;
+}
+
+.problem-section-landing-block {
+  position: absolute;
+  width: 725px;
+  height: 978px;
+  left: 0px;
+  top: 1px;
+  z-index: 3;
+}
+
+.problem-section-chromebook {
+  position: absolute;
+  width: 1336px;
+  height: 506px;
+  left: 53px;
+  top: 335px;
+  z-index: 2;
+}
+
+.problem-section-monster-static {
+  position: absolute;
+  width: 395px;
+  height: 384px;
+  left: 111px;
+  top: 719px;
+  z-index: 4;
+}
 
 .why-cards {
   width: 359px;
@@ -339,7 +382,7 @@ footer {
     align-items: center;
     justify-content: center;
   }
-  
+
   .why-cards-title {
     font-family: 'filson-pro';
     font-style: normal;
@@ -348,7 +391,7 @@ footer {
     line-height: 29px;
     color: white;
   }
-  
+
   .why-cards-title-underline {
     border: 2px solid #FFFFFF;
     width: 172px;
@@ -356,7 +399,7 @@ footer {
     left: 136px;
     top: 2988px;
   }
-  
+
   .why-cards-description {
     font-family: 'Roboto';
     font-style: normal;
@@ -364,7 +407,7 @@ footer {
     font-size: 17px;
     line-height: 22px;
     color: #FFFFFF;
-  
+
   }
 
   .about-values {

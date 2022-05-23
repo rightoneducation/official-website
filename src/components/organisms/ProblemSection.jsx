@@ -2,7 +2,11 @@ import React from 'react'
 import { makeStyles } from "@material-ui/core/styles";
 import { Box, Card, CardContent, Typography, Grid } from "@material-ui/core";
 import bored from '../../images/student-looking-bored.jpg'
-import chromebook from '../../images/chromebook_mockup.png'
+import chromebook from '../../images/chromebook-mockup-1.png'
+import block from '../../images/landing-block.png'
+import topBackground from '../../images/math-symbol-bg-top.png'
+import staticMonster from '../../images/product-features-monster-static.png'
+import ProductFeatures from '../organisms/ProductFeatures'
 
 // const useStyles = makeStyles( theme => ({
 //   cardContent: {
@@ -18,36 +22,42 @@ import chromebook from '../../images/chromebook_mockup.png'
 //   }
 // }))
 
-function ProblemSection () {
+function ProblemSection() {
   //const styles = useStyles()
-    return (
-      <Box component="section">
-        <Grid container justify="center" alignItems="center" spacing={1}>
-        <Grid align="center" xs={12} sm={12} md={8}>
-            <img
-              src={chromebook}
-              width="100%"
-              alt="right-on-education-chromebook-app"
-              zIndez="1"
-            />
-          </Grid>
-          {/* <Grid xs={10} sm={10} md={5} className={styles.boxOverLap}>
-            <Card className={styles.cardContent}>
-              <CardContent>
-                <Typography variant="h5" style={{ marginBottom: "10px" }}>
-                  The Problem
-                </Typography>
-                <Typography variant="body1" style={{fontWeight: "300", lineHeight: "1.4"}}>
-                  Many people think that STEM learning is all about homework, tests, and correct answers.
-                  We flip that idea on its head, enabling students to learn from mistakes while having fun.
-                  Give {""}<b><em>RightOn!</em></b>{""} a try and find out how!
-                </Typography>
-              </CardContent>
-            </Card>
-          </Grid> */}
-        </Grid>
-      </Box>
-    );
+  return (
+    <Box component="section" className='problem-section'>
+      {/* <Grid container justify="center" alignItems="center" spacing={1}>
+        <Grid align="center" xs={12} sm={12} md={8}> */}
+      <Grid container>
+        <img
+          src={topBackground}
+          className='problem-section-top-background'
+          width="100%"
+          alt="math-background"
+        />
+        <img
+          src={block}
+          alt="landing-page-block"
+          className='problem-section-landing-block'
+        />
+        <img
+          src={chromebook}
+          alt="right-on-education-chromebook-app"
+          className='problem-section-chromebook'
+        />
+        <a href="#productFeaturesSection">
+          <img
+          src={staticMonster}
+          alt="product-features-monster"
+          className='problem-section-monster-static'
+          />
+        </a>
+        {/* </Grid>
+        
+        </Grid> */}
+      </Grid>
+    </Box>
+  );
 }
 
 export default ProblemSection;

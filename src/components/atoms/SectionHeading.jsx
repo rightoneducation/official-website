@@ -5,7 +5,13 @@ function SectionHeading () {
     return(
         <Box>
           <Grid container justify="space-around" alignItems="center">
-            <Grid item md={3}>
+            <Grid item>
+              <h4 className='team-page-banners'>
+                Why <i>RightOn!</i>
+                <hr className='team-page-banners-underline'/>
+              </h4>
+            </Grid>
+            {/* <Grid item md={3}>
               <div className="divider"/>
             </Grid>
             <Grid item>
@@ -15,7 +21,7 @@ function SectionHeading () {
             </Grid>
             <Grid item md={3}>
             <div className="divider"/>
-            </Grid>
+            </Grid> */}
           </Grid>
         </Box>
     )

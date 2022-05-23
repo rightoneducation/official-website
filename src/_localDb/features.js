@@ -2,19 +2,19 @@ module.exports = {
   productFeatures: [{
       id: 1,
       title: 'Engage Your Students in Deeper Thinking',
-      featureIcon: '/images/puzzle.svg',
+      featureIcon: '/images/value-card-1.png',
       description: 'Turn multiple-choice questions into metacognitive challenges: student-tested, teacher-approved, and standards-aligned!'
     },
     {
       id: 2,
       title: 'Get the Rationale Behind Wrong Answers',
-      featureIcon: '/images/target_icon.svg',
+      featureIcon: '/images/value-card-2.png',
       description: 'Understand the reasoning behind different wrong answers and view tips to help your students get back on track.'
     },
     {
       id: 3,
       title: 'Share Targeted Resources',
-      featureIcon: '/images/share_resources.svg',
+      featureIcon: '/images/value-card-3.png',
       description: 'Suggest follow-up activities and videos tailored to your students’ needs.'
     }
   ],
@@ -23,19 +23,19 @@ module.exports = {
       id: 1,
       title: 'Building math proficiency through self-confidence',
       featureImage: '/images/unsplash-1.jpg',
-      description: 'Many students say things like “I’m just not a math person.” or “I’ll never get better at science." But STEM is something that everyone can get better at, especially when you try. <strong><em>RightOn!</em></strong> brings out the creativity and fun in math and does so in a safe, encouraging way.'
+      description: 'Many students say things like “I’m just not a math person.” or “I’ll never get better at science." But STEM is something that everyone can get better at, especially when you try. <i>RightOn!</i> brings out the creativity and fun in math and does so in a safe, encouraging way.'
     },
     {
       id: 2,
       title: 'Creating entry points for all students',
       featureImage: '/images/unsplash-2.jpg',
-      description: 'Anyone who’s ever made a mistake in math can play this game - that’s everyone. :) <strong><em>RightOn!</em></strong> focuses not on speed and just getting correct answers but more on thinking about and learning from mistakes and misconceptions. That’s how every student can take their learning to the next level.'
+      description: 'Anyone who’s ever made a mistake in math can play this game - that’s everyone. :) <i>RightOn!</i> focuses not on speed and just getting correct answers but more on thinking about and learning from mistakes and misconceptions. That’s how every student can take their learning to the next level.'
     },
     {
       id: 3,
       title: 'Making errors fun and productive',
       featureImage: '/images/diversity-placeholder-image.jpg',
-      description: '<strong><em>RightOn!</em></strong> is a math classroom app that engages students in thinking about and discussing mistakes and misconceptions, increasing self-confidence and deepening conceptual understanding.'
+      description: '<i>RightOn!</i> is a math classroom app that engages students in thinking about and discussing mistakes and misconceptions, increasing self-confidence and deepening conceptual understanding.'
     }
   ],
   ourValues: [

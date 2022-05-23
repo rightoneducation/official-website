@@ -13,6 +13,7 @@ function AboutBannerImage(props) {
           alt="banner-background"
           width="100%"
           align="top"
+          height="200px"
         />
       </Grid>
   );

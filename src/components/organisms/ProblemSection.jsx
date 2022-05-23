@@ -2,6 +2,7 @@ import React from 'react'
 import { makeStyles } from "@material-ui/core/styles";
 import { Box, Card, CardContent, Typography, Grid } from "@material-ui/core";
 import bored from '../../images/student-looking-bored.jpg'
+import chromebook from '../../images/chromebook_mockup.png'
 
 const useStyles = makeStyles( theme => ({
   cardContent: {
@@ -22,10 +23,14 @@ function ProblemSection () {
     return (
       <Box component="section">
         <Grid container justify="center" alignItems="center" spacing={1}>
-          <Grid xs={10} sm={10} md={4}>
-            <img src={bored} alt="right-on-education-stockphoto" width="100%" />
+        <Grid align="center" xs={12} sm={12} md={8}>
+            <img
+              src={chromebook}
+              width="100%"
+              alt="right-on-education-chromebook-app"
+            />
           </Grid>
-          <Grid xs={10} sm={10} md={5} className={styles.boxOverLap}>
+          {/* <Grid xs={10} sm={10} md={5} className={styles.boxOverLap}>
             <Card className={styles.cardContent}>
               <CardContent>
                 <Typography variant="h5" style={{ marginBottom: "10px" }}>
@@ -38,7 +43,7 @@ function ProblemSection () {
                 </Typography>
               </CardContent>
             </Card>
-          </Grid>
+          </Grid> */}
         </Grid>
       </Box>
     );

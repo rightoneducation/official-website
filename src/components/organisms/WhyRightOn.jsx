@@ -12,7 +12,7 @@ function WhyRightOn(props) {
   const { whyRightOn } = props
   return (
     <Box component="section">
-      <Grid container justify="space-around" alignItems="center" spacing={5}>
+      <Grid container justify="center" alignItems="center" spacing={5}>
         <Grid item sm={12}>
           <SectionHeading />
         </Grid>
@@ -24,7 +24,7 @@ function WhyRightOn(props) {
           sm={8}
           md={10}
           spacing={4}
-          justify="space-around"
+          justify="center"
         >
           {whyRightOn.map((singleWhy, key) => {
             return (
@@ -35,13 +35,13 @@ function WhyRightOn(props) {
           })}
         </Grid>
         {/* <Grid item container justify="space-around" alignItems="center" xs={12} sm={12}> */}
-          <Grid align="center" xs={12} sm={12} md={8}>
+          {/* <Grid align="center" xs={12} sm={12} md={8}>
             <img
               src={chromebook}
               width="100%"
               alt="right-on-education-chromebook-app"
             />
-          </Grid>
+          </Grid> */}
         {/* </Grid> */}
       </Grid>
     </Box>

@@ -129,6 +129,43 @@ footer {
   background-color: white;
 }
 
+/*landing-page*/
+
+.why-cards {
+  width: 359px;
+  height: 628.71px;
+  align-items: center;
+  justify-content: center;
+}
+
+.why-cards-title {
+  font-family: 'filson-pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29px;
+  color: white;
+}
+
+.why-cards-title-underline {
+  border: 2px solid #FFFFFF;
+  width: 172px;
+  height: 0px;
+  left: 136px;
+  top: 2988px;
+  opacity: 1;
+}
+
+.why-cards-description {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 22px;
+  color: #FFFFFF;
+
+}
+
 /*about-page*/
 
 .about-values-quote {
@@ -205,6 +242,8 @@ footer {
   line-height: 38px;
   color: white;
 }
+
+/*team-page*/
 
 .team-page-intros {
   margin-top: 55px;
@@ -284,6 +323,40 @@ footer {
 
 @media (max-width: 768px) {
 
+  .why-cards {
+    width: 296px;
+    height: 570px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .why-cards-title {
+    font-family: 'filson-pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    color: white;
+  }
+  
+  .why-cards-title-underline {
+    border: 2px solid #FFFFFF;
+    width: 172px;
+    height: 0px;
+    left: 136px;
+    top: 2988px;
+  }
+  
+  .why-cards-description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+  
+  }
+
   .about-values {
     margin-top: 25px;
     margin-bottom: 45px;
@@ -340,7 +413,7 @@ footer {
     align-items: center;
     justify-content: center;
   }
-  
+
   .about-cards-title {
     font-family: 'filson-pro';
     font-style: normal;
@@ -353,7 +426,7 @@ footer {
     border-bottom: 7px solid #E29B5D;
     color: white;
   }
-  
+
   .about-cards-description {
     padding: 12px;
     font-family: Roboto;

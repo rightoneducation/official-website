@@ -30,7 +30,7 @@ function ProblemSection () {
               alt="right-on-education-chromebook-app"
             />
           </Grid>
-          <Grid xs={10} sm={10} md={5} className={styles.boxOverLap}>
+          {/* <Grid xs={10} sm={10} md={5} className={styles.boxOverLap}>
             <Card className={styles.cardContent}>
               <CardContent>
                 <Typography variant="h5" style={{ marginBottom: "10px" }}>
@@ -43,7 +43,7 @@ function ProblemSection () {
                 </Typography>
               </CardContent>
             </Card>
-          </Grid>
+          </Grid> */}
         </Grid>
       </Box>
     );

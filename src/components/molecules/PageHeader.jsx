@@ -12,14 +12,14 @@ const useStyles = makeStyles((theme) => ({
       alignItems: "center"
     },
   },
-  subTitle: {
-    textAlign: "right",
-    fontStyle: "italic",
-    [theme.breakpoints.down("xs")]: {
-      fontSize: "1.1em",
-      textAlign: "center"
-    },
-  },
+  // subTitle: {
+  //   textAlign: "right",
+  //   fontStyle: "italic",
+  //   [theme.breakpoints.down("xs")]: {
+  //     fontSize: "1.1em",
+  //     textAlign: "center"
+  //   },
+  // },
 }));
 
 function PageHeader () {
@@ -53,9 +53,9 @@ function PageHeader () {
             className={styles.linkOptions}
           >
             <Grid item>
-              <Typography variant="h5" className={styles.subTitle}>
+              <h4 className="sub-title">
                 Inspiring learning by embracing mistakes
-              </Typography>
+              </h4>
             </Grid>
             <Grid item>
               <MainNav />

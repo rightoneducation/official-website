@@ -4,22 +4,22 @@ import { Box, Card, CardContent, Typography, Grid } from "@material-ui/core";
 import bored from '../../images/student-looking-bored.jpg'
 import chromebook from '../../images/chromebook_mockup.png'
 
-const useStyles = makeStyles( theme => ({
-  cardContent: {
-    alignSelf: 'center',
-    padding: '1%',
-  },
-  boxOverLap: {
-    marginLeft: '-20px',
-    [theme.breakpoints.down('sm')]: {
-      marginTop: '-20px',
-      marginLeft: '0px'
-    }
-  }
-}))
+// const useStyles = makeStyles( theme => ({
+//   cardContent: {
+//     alignSelf: 'center',
+//     padding: '1%',
+//   },
+//   boxOverLap: {
+//     marginLeft: '-20px',
+//     [theme.breakpoints.down('sm')]: {
+//       marginTop: '-20px',
+//       marginLeft: '0px'
+//     }
+//   }
+// }))
 
 function ProblemSection () {
-  const styles = useStyles()
+  //const styles = useStyles()
     return (
       <Box component="section">
         <Grid container justify="center" alignItems="center" spacing={1}>
@@ -28,6 +28,7 @@ function ProblemSection () {
               src={chromebook}
               width="100%"
               alt="right-on-education-chromebook-app"
+              zIndez="1"
             />
           </Grid>
           {/* <Grid xs={10} sm={10} md={5} className={styles.boxOverLap}>

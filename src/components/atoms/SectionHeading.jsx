@@ -7,7 +7,7 @@ function SectionHeading () {
           <Grid container justify="space-around" alignItems="center">
             <Grid item>
               <h4 className='team-page-banners'>
-                Why <i>RightOn!</i>
+                Why RightOn!
                 <hr className='team-page-banners-underline'/>
               </h4>
             </Grid>

@@ -214,8 +214,9 @@ footer {
 
 .problem-section-chromebook {
   position: absolute;
-  width: 1336px;
-  height: 506px;
+  // width: 1336px;
+  // height: 506px;
+  width: 90%;
   left: 53px;
   top: 335px;
   z-index: 2;
@@ -223,10 +224,7 @@ footer {
 
 .problem-section-monster-static {
   position: absolute;
-  width: 395px;
-  height: 384px;
-  left: 111px;
-  top: 719px;
+  padding-top: 620px;
   z-index: 4;
 }
 
@@ -309,7 +307,8 @@ footer {
 }
 
 .about-page-triangle {
-  margin-top: -1855px;
+  margin-top: -500px;
+  //padding-bottom: 100px;
   z-index: 0;
 }
 

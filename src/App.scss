@@ -44,18 +44,18 @@ p {
   background: #322759;
   padding-left: 50px;
   padding-right: 50px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  //justify-content: space-around;
   position: relative;
   overflow: visible;
   z-index: 1;
 
   .header-element-4 {
     z-index: 5;
+    padding-bottom: 30px;
   }
 
   .header-elements {

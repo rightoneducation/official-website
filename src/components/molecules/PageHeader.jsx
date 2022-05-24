@@ -1,7 +1,7 @@
 import React from 'react'
 import { makeStyles } from "@material-ui/core/styles";
 import { Box, Grid, Typography } from "@material-ui/core";
-import logo from '../../righton.svg'
+import logo from '../../images/right-on-logo-circle.png'
 
 import MainNav from './MainNav'
 
@@ -34,7 +34,7 @@ function PageHeader () {
         <Grid
           container
           justify="space-between"
-          alignItems="center"
+          alignItems="bottom"
           spacing={8}
           className="header-element-4"
         >
@@ -52,11 +52,11 @@ function PageHeader () {
             spacing={5}
             className={styles.linkOptions}
           >
-            <Grid item>
+            {/* <Grid item>
               <h4 className="sub-title">
                 Inspiring learning by embracing mistakes
               </h4>
-            </Grid>
+            </Grid> */}
             <Grid item>
               <MainNav />
             </Grid>

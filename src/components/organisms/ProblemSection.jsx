@@ -35,6 +35,13 @@ function ProblemSection() {
           width="100%"
           alt="math-background"
         />
+        <h4 className='problem-section-landing-block-header1'>
+          Everyone can be <br /> a math person!
+          <hr className='problem-section-landing-block-underline' />
+        </h4>
+        <h4 className='problem-section-landing-block-header2'>
+          Explore how  <i>RightOn!</i>  inspires <br/> learning by embracing <br/> mistakes.
+        </h4>
         <img
           src={block}
           alt="landing-page-block"
@@ -47,9 +54,9 @@ function ProblemSection() {
         />
         <a href="#productFeaturesSection">
           <img
-          src={staticMonster}
-          alt="product-features-monster"
-          className='problem-section-monster-static'
+            src={staticMonster}
+            alt="product-features-monster"
+            className='problem-section-monster-static'
           />
         </a>
         {/* </Grid>

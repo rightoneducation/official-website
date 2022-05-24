@@ -166,6 +166,52 @@ footer {
   z-index: 3;
 }
 
+.problem-section-landing-block-header1 {
+  position: absolute;
+  width: 375px;
+  height: 179px;
+  left: 111px;
+  top: 200px;
+  z-index: 4;
+  font-family: 'filson-pro';
+  display: flex;
+  align-items: center;
+  text-align: left;
+  color: #FEFDFF;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 106.3%;
+}
+
+.problem-section-landing-block-header2 {
+  font-family: 'roboto';
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  z-index: 4;
+  // height: 147px;
+  // width: 375px;
+  left: 111px;
+  top: 470px;
+  position: absolute;
+}
+
+.problem-section-landing-block-underline {
+  position: absolute;
+  width: 279px;
+  margin-top: 250px;
+  // height: 0px;
+  // left: 111px;
+  // top: 300px;
+  border: 2px solid #FFFFFF;
+  opacity: 1;
+}
+
 .problem-section-chromebook {
   position: absolute;
   width: 1336px;

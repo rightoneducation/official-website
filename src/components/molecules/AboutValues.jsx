@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
 import SingleValue from '../atoms/SingleValue'
-import placeholder from '../../images/BG.png'
+import placeholder from '../../images/background-triangle.png'
 
 function AboutValues(props) {
   const { ourValues } = props

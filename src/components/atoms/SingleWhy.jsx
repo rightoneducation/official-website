@@ -10,8 +10,7 @@ function singleWhy(props) {
   return (
     <Card style={{backgroundColor: "#501B87", boxShadow: "-5px 8px 10px rgba(0, 0, 0, 0.25)"}}
     className='why-cards'>
-        <Grid container alignItems="center" spacing={1}>
-        {/* <Grid container alignItems="center" justify="space-around" spacing={1}> */}
+        <Grid container alignItems="center" justify="center" spacing={1}>
           <Grid>
             <img
               src={featureImage}

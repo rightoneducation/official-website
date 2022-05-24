@@ -6,7 +6,7 @@ function singleFeature (props) {
   return(
     <Grid container justify="center" spacing={2}>
         <Grid item>
-          <center><img src={featureIcon} width='100%' alt="product-features" /></center>
+          <center><img src={featureIcon} width='90%' alt="product-features" /></center>
         </Grid>
         {/* <Grid item style={{ textAlign: "left"}} sm={12} md={10}>
         <h3 style={{marginBottom: '20px'}}>{title}</h3>

@@ -20,9 +20,6 @@ function WhyRightOn(props) {
         <Grid
           item
           container
-          xs={12}
-          sm={8}
-          md={10}
           spacing={4}
           justify="center"
         >

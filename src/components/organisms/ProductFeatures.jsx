@@ -1,7 +1,7 @@
 import React from 'react'
 import { Box, Grid, Typography } from "@material-ui/core";
 import SingleFeature from '../atoms/SingleFeature'
-import placeholder from '../../images/BG.png'
+import placeholder from '../../images/background-triangle.png'
 
 function ProductFeatures (props) {
   const { productFeatures } = props

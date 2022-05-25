@@ -52,7 +52,7 @@ p {
   justify-content: space-around;
   position: relative;
   overflow: visible;
-  z-index: 1;
+  z-index: 4;
 
   .header-element-4 {
     z-index: 5;
@@ -146,6 +146,7 @@ footer {
   position: relative;
   top: 0px;
   left: 0px;
+  margin-top: -100px;
 }
 
 .problem-section-top-background {

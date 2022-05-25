@@ -54,6 +54,17 @@ p {
   overflow: visible;
   z-index: 4;
 
+  .logo{
+    position: absolute;
+    width: 15%;
+    margin-top: -100px;
+  }
+
+  .nav-bar{
+    padding-top: 90px;
+    padding-bottom: 30px;
+  }
+
   .header-element-4 {
     z-index: 5;
   }
@@ -62,26 +73,26 @@ p {
     width: 100%;
 
     #header-element-1 {
-      background: url(./images/header-element-1.svg);
+      background: url(./images/triangle.png);
       background-repeat: no-repeat;
-      //position: absolute;
+      position: absolute;
       top: 0;
       right: 0;
       bottom: 0;
-      left: 0;
+      left: 35%;
       z-index: 4;
     }
 
-    #header-element-3 {
-      background: url(./images/header-element-3.svg);
-      background-repeat: no-repeat;
-      position: absolute;
-      top: 15%;
-      right: 0;
-      bottom: 0;
-      left: 85%;
-      z-index: 2;
-    }
+    // #header-element-3 {
+    //   background: url(./images/header-element-3.svg);
+    //   background-repeat: no-repeat;
+    //   position: absolute;
+    //   top: 15%;
+    //   right: 0;
+    //   bottom: 0;
+    //   left: 85%;
+    //   z-index: 2;
+    // }
   }
 }
 
@@ -225,7 +236,7 @@ footer {
 
 .problem-section-monster-static {
   position: absolute;
-  padding-top: 620px;
+  margin-top: 620px;
   z-index: 4;
 }
 

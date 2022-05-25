@@ -2,6 +2,7 @@ import React from 'react'
 import { makeStyles } from "@material-ui/core/styles";
 import { Box, Grid, Typography } from "@material-ui/core";
 import logo from '../../images/right-on-logo-circle.png'
+import triangle from '../../images/page-header-triangle.png'
 
 import MainNav from './MainNav'
 
@@ -40,7 +41,7 @@ function PageHeader () {
         >
           <Grid item sm={4} md={5}>
             <a href="/">
-              <img src={logo} alt="right on education logo" width="30%" />
+              <img src={logo} alt="right on education logo" className='logo'/>
             </a>
           </Grid>
           <Grid
@@ -50,7 +51,7 @@ function PageHeader () {
             justify="flex-end"
             md={7}
             spacing={5}
-            className={styles.linkOptions}
+            className="nav-bar"
           >
             {/* <Grid item>
               <h4 className="sub-title">
@@ -60,6 +61,11 @@ function PageHeader () {
             <Grid item>
               <MainNav />
             </Grid>
+            {/* <Grid container>
+              <Grid item>
+                <img src={triangle} alt="right education triangle" />
+              </Grid>
+            </Grid> */}
           </Grid>
         </Grid>
       </Box>

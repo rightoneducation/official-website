@@ -54,6 +54,17 @@ p {
   overflow: visible;
   z-index: 4;
 
+  .logo{
+    position: absolute;
+    width: 15%;
+    margin-top: -100px;
+  }
+
+  .nav-bar{
+    padding-top: 90px;
+    padding-bottom: 30px;
+  }
+
   .header-element-4 {
     z-index: 5;
   }

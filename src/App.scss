@@ -61,27 +61,27 @@ p {
   .header-elements {
     width: 100%;
 
-    #header-element-1 {
-      background: url(./images/header-element-1.svg);
-      background-repeat: no-repeat;
-      //position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      z-index: 4;
-    }
+    // #header-element-1 {
+    //   background: url(./images/header-element-1.svg);
+    //   background-repeat: no-repeat;
+    //   //position: absolute;
+    //   top: 0;
+    //   right: 0;
+    //   bottom: 0;
+    //   left: 0;
+    //   z-index: 4;
+    // }
 
-    #header-element-3 {
-      background: url(./images/header-element-3.svg);
-      background-repeat: no-repeat;
-      position: absolute;
-      top: 15%;
-      right: 0;
-      bottom: 0;
-      left: 85%;
-      z-index: 2;
-    }
+    // #header-element-3 {
+    //   background: url(./images/header-element-3.svg);
+    //   background-repeat: no-repeat;
+    //   position: absolute;
+    //   top: 15%;
+    //   right: 0;
+    //   bottom: 0;
+    //   left: 85%;
+    //   z-index: 2;
+    // }
   }
 }
 

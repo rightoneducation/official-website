@@ -4,6 +4,8 @@ import ErrorAnalysisActivitiesSection from '../organisms/ErrorAnalysisActivities
 import CRMT from '../organisms/CRMT';
 import RightOnGameShow from '../organisms/RightOnGameShow';
 import ResourcePageShapes from '../organisms/ResourcePageShapes';
+import RightOnVideoPlaylist from '../organisms/RightOnVideoPlaylist';
+import AboutBannerImage from '../molecules/AboutBannerImage';
 
 function ResourcePage(props) {
     const { styles } = props
@@ -11,9 +13,11 @@ function ResourcePage(props) {
             <div className={styles.resourcesPageBk} style={{position: 'relative'}}>
                 <ResourcePageShapes />
                 <div style={ {position: 'relative', zIndex: '1'} }>
-                    <PositiveCultureOfErrorSection styles={styles}/>
-                    <CRMT />
+                    <AboutBannerImage/>
+                    <RightOnVideoPlaylist />
                     <ErrorAnalysisActivitiesSection styles={styles}/>
+                    <CRMT />
+                    <PositiveCultureOfErrorSection styles={styles}/>
                     <RightOnGameShow />
                 </div>
             </div>

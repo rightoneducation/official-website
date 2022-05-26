@@ -54,13 +54,13 @@ p {
   overflow: visible;
   z-index: 4;
 
-  .logo{
+  .logo {
     position: absolute;
     width: 15%;
     margin-top: -100px;
   }
 
-  .nav-bar{
+  .nav-bar {
     padding-top: 90px;
     padding-bottom: 30px;
   }
@@ -429,6 +429,19 @@ footer {
       }
     }
   }
+}
+
+/*resources-page*/
+.overview-video-heading {
+  font-family: "filson-pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  color: #FFFFFF;
+  letter-spacing: 0em;
+  padding-bottom: 20px;
+  
 }
 
 

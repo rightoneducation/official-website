@@ -79,7 +79,8 @@ p {
       top: 0;
       right: 0;
       bottom: 0;
-      left: 35%;
+      left: -100px;
+      //left: 35%;
       z-index: 4;
     }
 
@@ -209,14 +210,14 @@ footer {
   // height: 147px;
   // width: 375px;
   left: 111px;
-  top: 470px;
+  top: 410px;
   position: absolute;
 }
 
 .problem-section-landing-block-underline {
   position: absolute;
   width: 279px;
-  margin-top: 250px;
+  margin-top: 190px;
   // height: 0px;
   // left: 111px;
   // top: 300px;
@@ -236,7 +237,7 @@ footer {
 
 .problem-section-monster-static {
   position: absolute;
-  margin-top: 620px;
+  margin-top: 500px;
   z-index: 4;
 }
 

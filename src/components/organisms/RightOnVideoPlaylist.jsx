@@ -5,11 +5,13 @@ import OverviewVideo from "../atoms/OverviewVideo"
 import GameShowDescription from '../molecules/GameShowDescription';
 import OverviewVideoHeading from "../molecules/OverviewVideoHeading";
 import triangle from "../../images/background-triangle.png"
+import AboutBannerImage from "../molecules/AboutBannerImage";
 
 export default function RightOnVideoPlaylist(props) {
     const { styles } = props;
     return (
         <Box >
+            <AboutBannerImage/>
             <Grid container style={{ justifyContent: "center" }}>
                 <OverviewVideoHeading />
                 <OverviewVideo />

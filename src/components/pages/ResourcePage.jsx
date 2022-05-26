@@ -11,9 +11,8 @@ function ResourcePage(props) {
     const { styles } = props
         return(
             <div className={styles.resourcesPageBk} style={{position: 'relative'}}>
-                <ResourcePageShapes />
+                {/* <ResourcePageShapes /> */}
                 <div style={ {position: 'relative', zIndex: '1'} }>
-                    <AboutBannerImage/>
                     <RightOnVideoPlaylist />
                     <ErrorAnalysisActivitiesSection styles={styles}/>
                     <CRMT />

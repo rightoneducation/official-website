@@ -441,9 +441,76 @@ footer {
   color: #FFFFFF;
   letter-spacing: 0em;
   padding-bottom: 20px;
-  
+
 }
 
+.error-analysis {
+  text-align: right;
+  justify-content: right;
+}
+
+.error-analysis-header {
+  font-family: 'filson-pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 55px;
+  text-align: right;
+  color: #FFFFFF;
+
+}
+
+.error-analysis-underline {
+  width: 704px;
+  border: 4px solid #E29B5D;
+  opacity: 1;
+  justify-content: right;
+  margin-bottom: 30px;
+}
+
+.error-analysis-description {
+  padding-left: 50px;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #FFFFFF;
+
+}
+
+.crmt-header {
+  font-family: 'filson-pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 66px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.crmt-description {
+  font-family: 'Roboto';
+  font-style: normal;
+  // font-weight: 300;
+  font-size: 28px;
+  line-height: 38px; 
+  letter-spacing: 0em; 
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.crmt-description-bold {
+  font-family: 'Roboto';
+  font-style: italic;
+  line-height: 38px; 
+  letter-spacing: 0em; 
+  text-align: left;
+  // font-weight: 700;
+  font-size: 28px;
+  color: #FFFFFF;
+}
 
 @media (max-width: 768px) {
 

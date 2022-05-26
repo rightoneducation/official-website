@@ -40,7 +40,7 @@ function ProblemSection() {
           <hr className='problem-section-landing-block-underline' />
         </h4>
         <h4 className='problem-section-landing-block-header2'>
-          Explore how  <i>RightOn!</i>  inspires <br/> learning by embracing <br/> mistakes.
+          Explore how  <i>RightOn!</i>  inspires <br/> learning by embracing mistakes.
         </h4>
         <img
           src={block}

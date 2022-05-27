@@ -7,7 +7,7 @@ function PositiveCultureBox(props) {
   return (
     <Box component="section">
       <Grid container style={{ margin: "100px" }}>
-        <Grid item style={{ align: "center"}}>
+        <Grid item style={{marginLeft: "-100px"}}>
           <h4 className='crmt-header'>
             Teach Like a Champion
             <hr className='error-analysis-underline' />
@@ -23,7 +23,7 @@ function PositiveCultureBox(props) {
           </h6>
         </Grid>
         <Hidden smDown='true'>
-          <Grid item xs={12} md={7} lg={5} style={{ marginLeft: "100px", marginTop: "200px"}}>
+          <Grid item xs={12} md={7} lg={5} style={{ marginLeft: "80px", marginTop: "200px", marginRight: "5px"}}>
             <a target="amazon" href="https://www.amazon.com/Rough-Draft-Math-Revising-Learn/dp/1625312067/">
               <img src={quote}></img></a>
           </Grid>

@@ -13,7 +13,7 @@ export default function CRMT(props) {
                 width="100%"
                 style={{marginBottom:"-250px"}}
             />
-            <Grid container style={{ margin: "100px" }}>
+            <Grid container style={{ margin: "100px", justifyContent: "center", marginLeft: "-2px" }}>
                 {/* <Grid item>
                     <img
                         src={triangleUp}
@@ -21,7 +21,7 @@ export default function CRMT(props) {
                         
                     />
                 </Grid> */}
-                <Grid item style={{ align: "center" }}>
+                <Grid item>
                     <h1 className='crmt-header'>
                         Culturally Responsive <br /> Mathematics Teaching
                         <hr className='error-analysis-underline' />
@@ -38,8 +38,8 @@ export default function CRMT(props) {
                         <li>Improve the quality of mathematics teaching in the  <br /> classroom</li>
                     </h4>
                 </Grid>
-                <Grid item style={{ marginLeft: "100px", marginTop: "100px" }}>
-                    <img src={CRMTimage} alt="CRMT-Diagram" style={{ justifyContent: "right" }} />
+                <Grid item style={{ marginLeft: "150px", marginTop: "100px" }}>
+                    <img src={CRMTimage} alt="CRMT-Diagram" />
                 </Grid>
             </Grid>
             <img

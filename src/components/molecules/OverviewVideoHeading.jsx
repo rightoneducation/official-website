@@ -7,7 +7,7 @@ export default function OverviewVideoHeading(props) {
     return (
         <Grid container justify="center">
             <Grid item>
-                <h4 className="overview-video-heading">
+                <h4 className="crmt-header">
                     RightOn! Overview
                 </h4>
             </Grid>

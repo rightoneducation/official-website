@@ -495,8 +495,8 @@ footer {
   font-style: normal;
   // font-weight: 300;
   font-size: 28px;
-  line-height: 38px; 
-  letter-spacing: 0em; 
+  line-height: 38px;
+  letter-spacing: 0em;
   text-align: left;
   color: #FFFFFF;
 }
@@ -504,11 +504,39 @@ footer {
 .crmt-description-bold {
   font-family: 'Roboto';
   font-style: italic;
-  line-height: 38px; 
-  letter-spacing: 0em; 
+  line-height: 38px;
+  letter-spacing: 0em;
   text-align: left;
   // font-weight: 700;
   font-size: 28px;
+  color: #FFFFFF;
+}
+
+.game-show-description1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #FFFFFF;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.game-show-underline {
+  width: 172px;
+  border: 1px solid #FFFFFF;
+  opacity: 1;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.game-show-description2 {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
   color: #FFFFFF;
 }
 

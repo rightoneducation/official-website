@@ -4,8 +4,8 @@ import { Grid, Typography } from "@material-ui/core"; //Card, CardContent
 export default function GameShowHeading(props) {
 //   const { styles } = props;
   return (
-    <Grid container justify="space-around" alignItems="center" style={ {marginBottom: '30px', marginTop: '20px'} }>
-      <Grid item md={3}>
+    <Grid container style={ {marginBottom: '30px', marginTop: '20px'} }>
+      {/* <Grid item md={3}>
         <div className="divider"/>
       </Grid>
       <Grid item>
@@ -13,6 +13,12 @@ export default function GameShowHeading(props) {
       </Grid>
       <Grid item md={3}>
         <div className="divider" />
+      </Grid> */}
+      <Grid item>
+        <h4 className="crmt-header">
+          RightOn! Game Show
+          <hr className="error-analysis-underline"/>
+          </h4>
       </Grid>
     </Grid>
   );

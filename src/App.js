@@ -88,25 +88,25 @@ const useStyles = makeStyles( theme => ({
     boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.25)',
     transform: 'rotate(139.2deg)'
   },
-  positiveCultureofErrorCardContent:{
-    marginTop: "20px",
-    fontWeight: "300",
-    lineHeight: "1.4",
-    listStyle: "inside",
-    [theme.breakpoints.down('xs')]: {
-      fontSize: '1em',
-      justifyContent: 'center',
-    }
-  },
-  positiveCultureofErrorCardIntro: {
-    justifyContent: 'center',
-    color: 'white',
-    width: '85%',
-    position: "relative",
-    padding: "5%",
-    margin: 'auto',
-    mixBlendMode: 'initial',
-  }
+  // positiveCultureofErrorCardContent:{
+  //   marginTop: "20px",
+  //   fontWeight: "300",
+  //   lineHeight: "1.4",
+  //   listStyle: "inside",
+  //   [theme.breakpoints.down('xs')]: {
+  //     fontSize: '1em',
+  //     justifyContent: 'center',
+  //   }
+  // },
+  // positiveCultureofErrorCardIntro: {
+  //   justifyContent: 'center',
+  //   color: 'white',
+  //   width: '85%',
+  //   position: "relative",
+  //   padding: "5%",
+  //   margin: 'auto',
+  //   mixBlendMode: 'initial',
+  // }
 }))
 
 function App() {

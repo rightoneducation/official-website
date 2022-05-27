@@ -1,41 +1,36 @@
 import React from 'react';
-import { Card, CardContent, Typography, Grid, Hidden } from "@material-ui/core";
-import quote from '../../images/Resources_Quote.png'
+import { Card, CardContent, Typography, Grid, Hidden, Box } from "@material-ui/core";
+import quote from '../../images/ted-and-quote.png'
 
 function PositiveCultureBox(props) {
-    const { styles } = props
-        return(
-          <Card className={styles.positiveCultureofErrorCardIntro} style={{background: 'linear-gradient(232.63deg, rgba(102, 42, 175, 0.93), rgba(255, 51, 105, 0.83))',}}> {/*background: 'rgba(41, 0, 83, 0.8)'; linear-gradient(52.63deg, #FF3369 0%, #662AAF 73.19%); */}
-              <CardContent>
-              <Grid container justify="center" alignItems="center" spacing={3}>
-                  <Grid item xs={12} md={5} lg={7} style={{padding: 'initial'}}>
-                    <Typography variant="h4">Positive Culture of Error</Typography>
-                    <Typography variant="h6" className={styles.positiveCultureofErrorCardContent}>
-                    In his book, <a href="https://www.amazon.com/Teach-Like-Champion-Doug-Lemov/dp/1119712610/"><u>Teach Like a Champion</u></a>, veteran educator Doug Lemov talks about creating a classroom environment where “...students feel safe making and discussing mistakes, so you can spend less time hunting for errors and more time fixing them...” He outlines four key methods:
-                    </Typography>
-                    <Typography variant="h6" className={styles.positiveCultureofErrorCardContent}>
-                      <ul>
-                        <li>Expect error</li>
-                        <li>Withhold answers</li>
-                        <li>Manage your tell</li>
-                        <li>Praise risk-taking</li>
-                      </ul> 
-                    </Typography>
-                  </Grid>
-                  <Hidden smDown='true'>
-                  <Grid item xs={12} md={7} lg={5} style={{padding: 'initial'}}>
-                    <a target="amazon" href="https://www.amazon.com/Rough-Draft-Math-Revising-Learn/dp/1625312067/"><img src={quote} width="100%"></img></a>
-                    {/* <Card className={styles.cardContent} style={{"background": "white"}}>
-                        <Typography variant="h5">
-                        “Rough draft thinking happens when students share their unfinished, in-progress ideas and remain open to revising those ideas.” <br/> — Rough Draft Math, Dr. Amanda Jansen
-                        </Typography>
-                    </Card> */}
-                  </Grid>
-                  </Hidden>
-                </Grid>
-              </CardContent>
-          </Card>
-        );
+  const { styles } = props
+  return (
+    <Box component="section">
+      <Grid container style={{ margin: "100px" }}>
+        <Grid item style={{ align: "center"}}>
+          <h4 className='crmt-header'>
+            Teach Like a Champion
+            <hr className='error-analysis-underline' />
+          </h4>
+          <h6 className='crmt-description'>
+            In his book, <a href="https://www.amazon.com/Teach-Like-Champion-Doug-Lemov/dp/1119712610/" style={{ color: "#E87DA6", fontStyle: "italic" }}><u>Teach Like a Champion</u></a>, veteran <br /> educator Doug Lemov talks about creating a <br /> classroom environment where “...students feel<br />  safe making and discussing mistakes, so you <br /> can spend less time hunting for errors and more<br />  time fixing them...” He outlines four key <br /> methods:
+            <br />
+            <br />
+            <li>Expect error</li>
+            <li>Withhold answers</li>
+            <li>Manage your tell</li>
+            <li>Praise risk-taking</li>
+          </h6>
+        </Grid>
+        <Hidden smDown='true'>
+          <Grid item xs={12} md={7} lg={5} style={{ marginLeft: "100px", marginTop: "200px"}}>
+            <a target="amazon" href="https://www.amazon.com/Rough-Draft-Math-Revising-Learn/dp/1625312067/">
+              <img src={quote}></img></a>
+          </Grid>
+        </Hidden>
+      </Grid>
+    </Box>
+  );
 }
 
 export default PositiveCultureBox;

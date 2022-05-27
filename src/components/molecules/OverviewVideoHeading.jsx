@@ -10,6 +10,7 @@ export default function OverviewVideoHeading(props) {
                 <h4 className="crmt-header">
                     RightOn! Overview
                 </h4>
+                <br/>
             </Grid>
         </Grid>
     );

@@ -54,13 +54,13 @@ p {
   overflow: visible;
   z-index: 4;
 
-  .logo{
+  .logo {
     position: absolute;
     width: 15%;
     margin-top: -100px;
   }
 
-  .nav-bar{
+  .nav-bar {
     padding-top: 90px;
     padding-bottom: 30px;
   }
@@ -431,6 +431,114 @@ footer {
   }
 }
 
+/*resources-page*/
+.overview-video-heading {
+  font-family: "filson-pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  color: #FFFFFF;
+  letter-spacing: 0em;
+  padding-bottom: 20px;
+
+}
+
+.error-analysis {
+  text-align: right;
+  justify-content: right;
+}
+
+.error-analysis-header {
+  font-family: 'filson-pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 55px;
+  text-align: right;
+  color: #FFFFFF;
+
+}
+
+.error-analysis-underline {
+  width: 704px;
+  border: 4px solid #E29B5D;
+  opacity: 1;
+  justify-content: right;
+  margin-bottom: 30px;
+}
+
+.error-analysis-description {
+  padding-left: 50px;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #FFFFFF;
+
+}
+
+.crmt-header {
+  font-family: 'filson-pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 66px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.crmt-description {
+  font-family: 'Roboto';
+  font-style: normal;
+  // font-weight: 300;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.crmt-description-bold {
+  font-family: 'Roboto';
+  font-style: italic;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  // font-weight: 700;
+  font-size: 28px;
+  color: #FFFFFF;
+}
+
+.game-show-description1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  color: #FFFFFF;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.game-show-underline {
+  width: 172px;
+  border: 1px solid #FFFFFF;
+  opacity: 1;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.game-show-description2 {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
 
 @media (max-width: 768px) {
 

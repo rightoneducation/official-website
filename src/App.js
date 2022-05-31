@@ -154,7 +154,7 @@ function App() {
             <Route path="/resources" render={() => <ResourcePage styles={styles} />} />
           </Container>
         </Switch>
-        <Footer />
+        <Footer/>
       </Box>
     </Router>
   );

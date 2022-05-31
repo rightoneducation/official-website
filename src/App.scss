@@ -118,7 +118,6 @@ footer {
   align-self: center;
   align-items: center;
   background: #FF3369;
-  ;
   height: 10px;
 }
 
@@ -164,16 +163,16 @@ footer {
 .problem-section-top-background {
 
   position: absolute;
-  width: 1146.89px;
+  // width: 1146.89px;
   height: 1123.12px;
-  top: -100px;
-  right: -80px;
+  top: -150px;
+  right: -50px;
 }
 
 .problem-section-landing-block {
   position: absolute;
-  width: 725px;
-  height: 978px;
+  width: 700px;
+  height: 850px;
   left: 0px;
   top: 1px;
   z-index: 3;
@@ -229,15 +228,16 @@ footer {
   position: absolute;
   // width: 1336px;
   // height: 506px;
-  width: 90%;
-  left: 53px;
-  top: 335px;
+  width: 80%;
+  left: 150px;
+  top: 290px;
   z-index: 2;
 }
 
 .problem-section-monster-static {
   position: absolute;
-  margin-top: 500px;
+  width: 30%;
+  margin-top: 480px;
   z-index: 4;
 }
 
@@ -246,6 +246,7 @@ footer {
   height: 628.71px;
   align-items: center;
   justify-content: center;
+
 }
 
 .why-cards-title {
@@ -274,6 +275,26 @@ footer {
   line-height: 22px;
   color: #FFFFFF;
 
+}
+
+.why-right-on-bottom-background {
+  position: absolute;
+  left: -200px;
+  top: 2120px;
+  z-index: 0;
+}
+
+.red-monster {
+  position: absolute;
+  left: 1000px;
+  top: 2100px;
+}
+
+.blue-monster {
+  position: absolute;
+  left: 60px;
+  top: 2100px;
+  z-index: 1;
 }
 
 /*about-page*/

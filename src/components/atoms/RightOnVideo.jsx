@@ -3,10 +3,10 @@ import { Grid } from "@material-ui/core";
 
 function RightOnVideo() {
   return (
-      <Grid xs={12} sm={12} md={8} style={{marginBottom: "70px"}}>
+      <Grid xs={12} sm={12} md={8} style={{marginBottom: "70px", zIndex: "2"}}>
         <iframe
           width="100%"
-          height="420"
+          height="483"
           src="https://www.youtube.com/embed/k_GEcWXJABM"
           title="RightOn! Beta overview"
           frameborder="0"

@@ -1,12 +1,11 @@
 import React from 'react'
-import { makeStyles } from "@material-ui/core/styles";
-import { Box, Card, CardContent, Typography, Grid } from "@material-ui/core";
-import bored from '../../images/student-looking-bored.jpg'
+import { Box, Grid } from "@material-ui/core";
 import chromebook from '../../images/chromebook-mockup-1.png'
 import block from '../../images/landing-block.png'
 import topBackground from '../../images/math-symbol-bg-bottom.png'
-import staticMonster from '../../images/product-features-monster-static.png'
-import ProductFeatures from '../organisms/ProductFeatures'
+import monster from '../../images/home-monster.png'
+import staticButton from '../../images/product-features-static.png'
+import hoverButton from '../../images/product-features-hover.png'
 
 
 function ProblemSection() {
@@ -24,7 +23,7 @@ function ProblemSection() {
           <hr className='problem-section-landing-block-underline' />
         </h4>
         <h4 className='problem-section-landing-block-header2'>
-          Explore how  <i>RightOn!</i>  inspires <br/> learning by embracing mistakes.
+          Explore how  <i>RightOn!</i>  inspires <br /> learning by embracing mistakes.
         </h4>
         <img
           src={block}
@@ -38,11 +37,17 @@ function ProblemSection() {
         />
         <a href="#productFeatures">
           <img
-            src={staticMonster}
-            alt="product-features-monster"
-            className='problem-section-monster-static'
+            src={staticButton}
+            className="product-features-button"
+            onMouseOver={e => e.currentTarget.src = hoverButton}
+            onMouseOut={e => e.currentTarget.src = staticButton}
           />
         </a>
+        <img
+          src={monster}
+          alt="product-features-monster"
+          className='problem-section-monster'
+        />
       </Grid>
     </Box>
   );

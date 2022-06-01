@@ -19,17 +19,14 @@ function Front (props) {
     const { photo, back, linkedIn, title } = props.profile;
     const styles = useStyles();
     return (
-      <div>
         <div container className={styles.teamCards}>
           <div>
             <img
               src={photo}
               width="100%"
-              className={styles.profilePhoto}
               alt="right-on-education-team-member"
             />
           </div>
-        {/* </Grid> */}
         <div
           container
           alignItems="center"
@@ -44,7 +41,6 @@ function Front (props) {
           </a>
         </div>
         </div>
-      </div>
     );
 }
 

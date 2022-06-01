@@ -35,6 +35,8 @@ function ProblemSection() {
           alt="right-on-education-chromebook-app"
           className='problem-section-chromebook'
         />
+        <div container style={{marginTop: "460px"}}>
+        <div>
         <a href="#productFeatures">
           <img
             src={staticButton}
@@ -43,12 +45,21 @@ function ProblemSection() {
             onMouseOut={e => e.currentTarget.src = staticButton}
           />
         </a>
+        </div>
+        <div
+          container
+          alignItems="center"
+          justify="center"
+        >
         <img
           src={monster}
           alt="product-features-monster"
           className='problem-section-monster'
         />
-      </Grid>
+        </div>
+        </div>
+        </Grid>
+      
     </Box>
   );
 }

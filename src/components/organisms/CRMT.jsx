@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Grid, Typography } from "@material-ui/core";
-import CRMTimage from '../../images/crmt.png';
+import CRMTimage from '../../images/CRMT.png';
 import triangleUp from "../../images/background-triangle-up.png"
 import triangleDown from "../../images/background-triangle.png"
 

@@ -8,7 +8,8 @@ const useStyles = makeStyles( theme => ({
     [theme.breakpoints.down('sm')]: {
       justifyContent: "center",
       textAlign: "center"
-    }
+    },
+    
   },
   logo: {
   marginTop: "20px",
@@ -34,7 +35,7 @@ const useStyles = makeStyles( theme => ({
 function Footer () {
   const styles = useStyles()
     return (
-      <Box component="footer">
+      <Box component="footer" >
         <Grid container justify="space-around"  alignItems="center" className={styles.footer}>
           <Grid item xs={12} sm={12} md={7} > 
             <Typography variant="h5" className={styles.footerMsg}>

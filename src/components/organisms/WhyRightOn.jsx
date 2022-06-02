@@ -20,7 +20,7 @@ function WhyRightOn(props) {
           <SectionHeading />
         </Grid>
         <RightOnVideo />
-        <Grid item sm={12}>
+        {/* <Grid item sm={12}>
           <img
           src={redMonster}
           alt="red-monster"
@@ -38,7 +38,7 @@ function WhyRightOn(props) {
             alt="math-background"
             className='why-right-on-bottom-background'
           />
-        </Grid>
+        </Grid> */}
         <Grid
           item
           container

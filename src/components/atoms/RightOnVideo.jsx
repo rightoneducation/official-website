@@ -1,9 +1,12 @@
 import React from "react";
-import { Grid } from "@material-ui/core";
+import { Box, Grid } from "@material-ui/core";
+import redMonster from '../../images/red-monster.png'
+import blueMonster from '../../images/blue-monster.png'
 
 function RightOnVideo() {
   return (
-      <Grid xs={12} sm={12} md={8} style={{marginBottom: "70px", zIndex: "2"}}>
+    <Grid xs={12} sm={12} md={8} style={{ marginBottom: "70px",  }}>
+      <div className="right-on-video">
         <iframe
           width="100%"
           height="483"
@@ -13,7 +16,22 @@ function RightOnVideo() {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         ></iframe>
-      </Grid>
+      </div>
+      <div>
+        <img
+          src={redMonster}
+          alt="red-monster"
+          className='red-monster'
+        />
+      </div>
+      <div>
+        <img
+          src={blueMonster}
+          alt="blue-monster"
+          className='blue-monster'
+        />
+      </div>
+    </Grid>
   );
 }
 

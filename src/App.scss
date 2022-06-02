@@ -284,17 +284,22 @@ footer {
   z-index: 0;
 }
 
+.right-on-video{
+  z-index: 2;
+}
+
 .red-monster {
   position: absolute;
   left: 1000px;
   top: 2100px;
+  z-index: 0;
 }
 
 .blue-monster {
   position: absolute;
   left: 60px;
   top: 2100px;
-  z-index: 1;
+  z-index: 0;
 }
 
 /*about-page*/

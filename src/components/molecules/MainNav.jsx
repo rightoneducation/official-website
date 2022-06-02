@@ -1,7 +1,6 @@
 import React from 'react'
 import { Box, Grid, Typography } from "@material-ui/core";
 import { NavLink} from 'react-router-dom'
-import triangle from '../../images/triangle.png'
 
 function Header () {
     return (
@@ -19,9 +18,6 @@ function Header () {
           <Grid item>
             <NavLink to='/resources' className="mainNav" activeStyle={{ color: 'white' }} activeClassName="activeRoute"><Typography variant="h6">Resources</Typography></NavLink>
           </Grid>
-          {/* <Grid item>
-          <img src={triangle} alt="right education triangle" />
-          </Grid> */}
         </Grid>
       </Box>
     )

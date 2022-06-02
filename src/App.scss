@@ -234,12 +234,24 @@ footer {
   z-index: 2;
 }
 
-.problem-section-monster-static {
+.problem-section-monster {
   position: absolute;
-  width: 30%;
-  margin-top: 480px;
+  // top: 625px;
+  // left: 150px;
   z-index: 4;
+  //width: 20%;
+  margin-left: 60px;
+  margin-top: 60px;
 }
+
+.product-features-button {
+  position: absolute;
+  // margin-top: 470px;
+  z-index: 5;
+  // width: 25%;
+  // margin-left: 30px;
+}
+
 
 .why-cards {
   width: 359px;
@@ -402,6 +414,7 @@ footer {
   justify-content: center;
 }
 
+/*team-page-profile-cards*/
 
 .flip-card-outer {
   perspective: 1000px;

@@ -296,7 +296,19 @@ footer {
   z-index: 0;
 }
 
-.right-on-video{
+.right-on-video-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-on-video {
+  position: absolute;
+  //max-width: 50vw;
+  width: 100%;
   z-index: 2;
 }
 

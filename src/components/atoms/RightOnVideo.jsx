@@ -5,8 +5,8 @@ import blueMonster from '../../images/blue-monster.png'
 
 function RightOnVideo() {
   return (
-    <Grid xs={12} sm={12} md={8} style={{ marginBottom: "70px",  }}>
-      <div className="right-on-video">
+    <Grid xs={12} sm={12} md={8} style={{ marginBottom: "70px"}}>
+      <Grid style={{zIndex: "2"}}>
         <iframe
           width="100%"
           height="483"
@@ -16,8 +16,8 @@ function RightOnVideo() {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         ></iframe>
-      </div>
-      <div>
+      </Grid>
+      <div style={{zIndex: "1"}}>
         <img
           src={redMonster}
           alt="red-monster"

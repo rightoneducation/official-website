@@ -234,12 +234,24 @@ footer {
   z-index: 2;
 }
 
-.problem-section-monster-static {
+.problem-section-monster {
   position: absolute;
-  width: 30%;
-  margin-top: 480px;
+  // top: 625px;
+  // left: 150px;
   z-index: 4;
+  //width: 20%;
+  margin-left: 60px;
+  margin-top: 60px;
 }
+
+.product-features-button {
+  position: absolute;
+  // margin-top: 470px;
+  z-index: 5;
+  // width: 25%;
+  // margin-left: 30px;
+}
+
 
 .why-cards {
   width: 359px;
@@ -407,6 +419,7 @@ footer {
   justify-content: center;
 }
 
+/*team-page-profile-cards*/
 
 .flip-card-outer {
   perspective: 1000px;
@@ -509,7 +522,7 @@ footer {
 .crmt-header {
   font-family: 'filson-pro';
   font-style: normal;
-  font-weight: 700;
+  //font-weight: 700;
   font-size: 55px;
   line-height: 66px;
   text-align: left;
@@ -519,12 +532,13 @@ footer {
 .crmt-description {
   font-family: 'Roboto';
   font-style: normal;
-  // font-weight: 300;
-  font-size: 28px;
+  //font-weight: 300;
+  font-size: 26px;
   line-height: 38px;
   letter-spacing: 0em;
   text-align: left;
   color: #FFFFFF;
+  z-index: 1;
 }
 
 .crmt-description-bold {
@@ -533,9 +547,23 @@ footer {
   line-height: 38px;
   letter-spacing: 0em;
   text-align: left;
-  // font-weight: 700;
+  font-weight: 700;
   font-size: 28px;
   color: #FFFFFF;
+}
+
+.crmt-pioneers {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 38px;
+
+  color: #FFFFFF;
+}
+
+.crmt-pioneers:hover {
+  color: rgba(232, 125, 166, 1);
 }
 
 .game-show-description1 {

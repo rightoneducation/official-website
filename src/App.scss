@@ -359,8 +359,8 @@ footer {
 }
 
 .about-cards {
-  width: 658px;
-  height: 733px;
+  width: 450px;
+  height: 501.2px;
   align-items: center;
   justify-content: center;
 }
@@ -369,21 +369,25 @@ footer {
   font-family: 'filson-pro';
   font-style: normal;
   font-weight: 700;
-  font-size: 48px;
-  line-height: 48px;
+  font-size: 36px;
+  line-height: 36px;
   text-align: center;
-  margin-bottom: 20px;
-  padding-bottom: 5px;
-  border-bottom: 7px solid #E29B5D;
+  margin-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 4px solid #E29B5D;
   color: white;
 }
 
 .about-cards-description {
-  padding: 12px;
+  padding: 5px;
+  padding-bottom: 0px;
   font-family: Roboto;
   font-weight: 400;
-  font-size: 29px;
-  line-height: 38px;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 0px;
+  border-radius: 0px;
   color: white;
 }
 

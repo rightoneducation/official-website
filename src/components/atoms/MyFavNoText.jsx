@@ -4,7 +4,7 @@ import { Grid, Typography } from "@material-ui/core";
 function MyFavNoText() {
   return (
     <Grid xs={12} sm={12} md={4} style={{ padding: "5%", color: "white" }}>
-      <Typography variant="h5" style={{ marginBottom: "10px" }}>
+      <Typography variant="h5" style={{ marginBottom: "5px" }}>
         "My Favorite No"
       </Typography>
       <Typography

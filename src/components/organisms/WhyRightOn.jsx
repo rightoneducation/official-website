@@ -19,26 +19,26 @@ function WhyRightOn(props) {
         <Grid item sm={12}>
           <SectionHeading />
         </Grid>
-        <RightOnVideo />
-        {/* <Grid item sm={12}>
-          <img
-          src={redMonster}
-          alt="red-monster"
-          className='red-monster'
-          />
-          <img
-          src={blueMonster}
-          alt="blue-monster"
-          className='blue-monster'
-          />
-        </Grid>
+            <RightOnVideo/>
+          {/* <Grid item sm={12}>
+            <img
+              src={redMonster}
+              alt="red-monster"
+              className='red-monster'
+            />
+            <img
+              src={blueMonster}
+              alt="blue-monster"
+              className='blue-monster'
+            />
+          </Grid> */}
         <Grid item>
           <img
             src={bottomBackground}
             alt="math-background"
             className='why-right-on-bottom-background'
           />
-        </Grid> */}
+        </Grid>
         <Grid
           item
           container

@@ -6,7 +6,7 @@ import placeholder from '../../images/background-triangle.png'
 function ProductFeatures (props) {
   const { productFeatures } = props
     return (
-      <Grid container justify="center" style={{marginTop: "400px"}} id="productFeatures">
+      <Grid container justify="center" style={{marginTop: "350px"}} id="productFeatures">
         {/* <Typography variant="h4" className="half-circle" style={{ textAlign: "center", color: "white", fontWeight: "bold", margin: "30px auto" }}>
               Product Features
           </Typography> */}

@@ -114,7 +114,11 @@ footer {
   padding: 3% 8%;
   background-color: rgb(50, 40, 89);
   color: white;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
 }
+
 
 .divider {
   align-self: center;
@@ -298,16 +302,34 @@ footer {
   z-index: 0;
 }
 
+.right-on-video-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-on-video {
+  position: absolute;
+  //max-width: 50vw;
+  width: 100%;
+  z-index: 2;
+}
+
 .red-monster {
   position: absolute;
-  left: 1000px;
-  top: 2100px;
+  margin-left: 950px;
+  margin-top: 50px;
+  
+  z-index: 1;
 }
 
 .blue-monster {
   position: absolute;
-  left: 60px;
-  top: 2100px;
+  left: -180px;
+  top: 30px;
   z-index: 1;
 }
 

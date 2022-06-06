@@ -4,12 +4,12 @@ import { Grid, Typography } from "@material-ui/core";
 function CultureOfErrorContent(props) {
   return (
     <Grid xs={12} sm={12} md={4} style={{ padding: "5%", color: "white" }}>
-      <Typography variant="h5" style={{ marginBottom: "10px" }}>
+      <Typography variant="h5" style={{ marginBottom: "0px" }}>
         Positive Culture of Error
       </Typography>
       <Typography
         variant="body1"
-        style={{ fontWeight: "300", lineHeight: "1.4" }}
+        style={{ fontWeight: "300", lineHeight: "1.2" }}
       >
         <b>
           <em> RightOn! </em>

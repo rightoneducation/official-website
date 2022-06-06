@@ -5,10 +5,16 @@ import blueMonster from '../../images/blue-monster.png'
 
 function RightOnVideo() {
   return (
-    <Grid xs={12} sm={12} md={8} 
-    alignItems="center"
-    justify="center" 
-    style={{ marginBottom: "70px", position:"relative" }}
+    <Grid xs={12} sm={12} md={8}
+      alignItems="center"
+      justify="center"
+      style={{
+        top: "0px",
+        left: "0px",
+        marginTop:"250px", 
+        marginBottom: "300px", 
+        position: "relative"
+      }}
     >
       <div container className="right-on-video-container">
         <iframe

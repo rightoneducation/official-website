@@ -314,15 +314,16 @@ footer {
 
 .red-monster {
   position: absolute;
-  left: 1000px;
-  top: 2100px;
+  margin-left: 950px;
+  top: 50px;
+  
   z-index: 1;
 }
 
 .blue-monster {
   position: absolute;
-  left: 60px;
-  top: 2100px;
+  left: -180px;
+  top: 30px;
   z-index: 1;
 }
 

@@ -32,13 +32,13 @@ function WhyRightOn(props) {
               className='blue-monster'
             />
           </Grid> */}
-        {/* <Grid item>
+        <Grid item>
           <img
             src={bottomBackground}
             alt="math-background"
             className='why-right-on-bottom-background'
           />
-        </Grid> */}
+        </Grid>
         <Grid
           item
           container

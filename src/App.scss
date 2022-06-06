@@ -112,7 +112,11 @@ footer {
   padding: 3% 8%;
   background-color: rgb(50, 40, 89);
   color: white;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
 }
+
 
 .divider {
   align-self: center;
@@ -315,7 +319,7 @@ footer {
 .red-monster {
   position: absolute;
   margin-left: 950px;
-  top: 50px;
+  margin-top: 50px;
   
   z-index: 1;
 }

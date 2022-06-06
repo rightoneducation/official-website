@@ -13,7 +13,8 @@ function RightOnVideo() {
         left: "0px",
         marginTop:"250px", 
         marginBottom: "300px", 
-        position: "relative"
+        position: "relative",
+        width: "100%"
       }}
     >
       <div container className="right-on-video-container">

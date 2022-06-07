@@ -14,6 +14,7 @@
     "react-flippy": "^0.1.5",
     "react-router-dom": "^5.1.2",
     "react-scripts": "^5.0.1",
+    "reactjs-video-playlist-player": "^1.1.1",
     "sass": "1.50.0",
     "velocity-react": "^1.4.3"
   },

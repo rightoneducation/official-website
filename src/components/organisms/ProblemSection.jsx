@@ -25,6 +25,16 @@ function ProblemSection() {
         <h4 className='problem-section-landing-block-header2'>
           Explore how  <i>RightOn!</i>  inspires <br /> learning by embracing mistakes.
         </h4>
+        {/* <picture>
+          <source
+            media="(max-width: 375px)"
+            srcset="/images/landing-block-mobile.png" />
+          <source
+            media="(max-width: 768px)"
+            srcset="/images/landing-block-tablet.png" />
+          <img src="/images/landing-block.png"
+            alt="landing-block" />
+        </picture> */}
         <img
           src={block}
           alt="landing-page-block"
@@ -35,31 +45,31 @@ function ProblemSection() {
           alt="right-on-education-chromebook-app"
           className='problem-section-chromebook'
         />
-        <div container style={{marginTop: "460px"}}>
-        <div>
-        <a href="#productFeatures">
-          <img
-            src={staticButton}
-            className="product-features-button"
-            onMouseOver={e => e.currentTarget.src = hoverButton}
-            onMouseOut={e => e.currentTarget.src = staticButton}
-          />
-        </a>
+        <div container style={{ marginTop: "460px" }}>
+          <div>
+            <a href="#productFeatures">
+              <img
+                src={staticButton}
+                className="product-features-button"
+                onMouseOver={e => e.currentTarget.src = hoverButton}
+                onMouseOut={e => e.currentTarget.src = staticButton}
+              />
+            </a>
+          </div>
+          <div
+            container
+            alignItems="center"
+            justify="center"
+          >
+            <img
+              src={monster}
+              alt="product-features-monster"
+              className='problem-section-monster'
+            />
+          </div>
         </div>
-        <div
-          container
-          alignItems="center"
-          justify="center"
-        >
-        <img
-          src={monster}
-          alt="product-features-monster"
-          className='problem-section-monster'
-        />
-        </div>
-        </div>
-        </Grid>
-      
+      </Grid>
+
     </Box>
   );
 }

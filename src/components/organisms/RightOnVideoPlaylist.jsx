@@ -8,7 +8,6 @@ import triangle from "../../images/background-triangle.png"
 import AboutBannerImage from "../molecules/AboutBannerImage";
 import TutorialVideos from "../molecules/TutorialVideosSection";
 
-
 export default function RightOnVideoPlaylist(props) {
     const { styles } = props;
     return (
@@ -20,7 +19,17 @@ export default function RightOnVideoPlaylist(props) {
                 </Grid>
                 <Grid>
                     <OverviewVideoHeading />
-                    <OverviewVideo />
+                    <Grid xs={12} sm={12} md={8} style={{ marginBottom: "70px" }}>
+                        <iframe
+                            width="860"
+                            height="483"
+                            src="https://www.youtube.com/embed/sUlnToE2bqQ"
+                            title="RighOn! Overview"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen
+                        ></iframe>
+                    </Grid>
                 </Grid>
             </Grid>
             {/* <GameShowDescription styles={ styles } /> */}

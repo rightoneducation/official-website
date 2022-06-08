@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { makeStyles } from "@material-ui/core/styles";
 import { Box, Container } from "@material-ui/core";
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -17,8 +17,9 @@ import PageHeader from './components/molecules/PageHeader'
 import Footer from './components/molecules/Footer'
 
 import teamData from './_localDb/teamData'
+import { tutorialVideos } from './_localDb/features';
 
-const useStyles = makeStyles( theme => ({
+const useStyles = makeStyles(theme => ({
   container: {
     padding: '0px',
   },
@@ -80,7 +81,7 @@ const useStyles = makeStyles( theme => ({
     position: 'absolute',
     top: '230vw',
     left: '-500px',
-    width:' 840px',
+    width: ' 840px',
     height: '840px',
     clipPath: 'polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0 50%)',
     opacity: '0.15',
@@ -117,8 +118,13 @@ function App() {
   const [advisors] = useState({
     advisorProfiles: teamData.advisors
   })
+  const [resourceVidLink, setResourseVidLink] = useState({
+    tutorialVideos: features.tutorialVideos
+  })
+
   const { devTeamCards } = teamProfiles
   const { advisorProfiles } = advisors
+  const { tutorialVideos } = resourceVidLink
 
   // const handleFlip = item => {
   //   const idx = devTeamCards.findIndex(i => i.id === item.id)
@@ -135,11 +141,11 @@ function App() {
   return (
     <Router>
       <Box className="App">
-        <PageHeader styles={styles}/>
+        <PageHeader styles={styles} />
         <Switch>
-          <Container maxWidth="false" className={styles.container}> 
-            <Route exact path="/" render={() => <LandingPage styles={styles}/>} />
-            <Route path="/about" render={() => <AboutPage styles={styles}/>} />
+          <Container maxWidth="false" className={styles.container}>
+            <Route exact path="/" render={() => <LandingPage styles={styles} />} />
+            <Route path="/about" render={() => <AboutPage styles={styles} />} />
             <Route
               path="/team"
               render={() => (
@@ -151,10 +157,10 @@ function App() {
                 />
               )}
             />
-            <Route path="/resources" render={() => <ResourcePage styles={styles} />} />
+            <Route path="/resources" render={() => (<ResourcePage styles={styles} videoSrc={tutorialVideos} />)} />
           </Container>
         </Switch>
-        <Footer/>
+        <Footer />
       </Box>
     </Router>
   );

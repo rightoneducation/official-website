@@ -2,7 +2,7 @@ import React from 'react'
 import { Box, Grid, Typography } from "@material-ui/core";
 
 function TutorialVideos({ videoSrc }) {
-  console.log(videoSrc)
+  console.log({videoSrc})
   return (
     <Box components="section">
       <div className="tutorial-video-panel">

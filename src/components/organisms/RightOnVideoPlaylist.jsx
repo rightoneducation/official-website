@@ -15,7 +15,7 @@ export default function RightOnVideoPlaylist(props) {
             <AboutBannerImage />
             <Grid container justify="space-evenly" alignItems="top" spacing={1}>
                 <Grid>
-                    <TutorialVideos />
+                    <TutorialVideos {...props}/>
                 </Grid>
                 <Grid>
                     <OverviewVideoHeading />

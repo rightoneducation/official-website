@@ -5,7 +5,7 @@ function TutorialVideos({ videoSrc }) {
   const videoLink = videoSrc.map((video, index) => (
     <p key={index}> {video.title} </p>
   ))
-  
+
   return (
     <Box components="section">
       <div className="tutorial-video-panel">

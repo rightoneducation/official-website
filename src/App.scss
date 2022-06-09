@@ -952,6 +952,11 @@ footer {
 }
 
 @media (max-width: 414px) {
+  html {
+    overflow-x: initial !important;
+
+  }
+
 
   /*home-page*/
   .problem-section {
@@ -1060,10 +1065,10 @@ footer {
 
   .why-right-on-bottom-background {
     position: absolute;
-    //width: 200%;
+    //width: 100%;
     // left: -200px;
-    top: 3000px;
-    // width: 858.8px;
+    //top: 3000px;
+     //width: 375px;
     // height: 841px;
     z-index: 0;
   }

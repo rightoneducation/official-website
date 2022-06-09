@@ -615,7 +615,149 @@ footer {
   color: #FFFFFF;
 }
 
+
 @media (max-width: 768px) {
+
+  /*home-page*/
+  .problem-section {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-top: -100px;
+  }
+
+  .problem-section-top-background {
+
+    position: absolute;
+    // width: 1146.89px;
+    // height: 1123.12px;
+    // top: -150px;
+    // right: -50px;
+    width: 100%;
+  }
+
+  .problem-section-landing-block {
+    position: absolute;
+    // width: 700px;
+    // height: 850px;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 1px;
+    z-index: 3;
+  }
+
+  .problem-section-landing-block-header1 {
+    position: absolute;
+    width: 375px;
+    height: 179px;
+    left: 111px;
+    top: 200px;
+    z-index: 4;
+    font-family: 'filson-pro';
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: #FEFDFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 106.3%;
+  }
+
+  .problem-section-landing-block-header2 {
+    font-family: 'roboto';
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    z-index: 4;
+    // height: 147px;
+    // width: 375px;
+    left: 111px;
+    top: 410px;
+    position: absolute;
+  }
+
+  .problem-section-landing-block-underline {
+    position: absolute;
+    width: 279px;
+    margin-top: 190px;
+    // height: 0px;
+    // left: 111px;
+    // top: 300px;
+    border: 2px solid #FFFFFF;
+    opacity: 1;
+  }
+
+  .problem-section-chromebook {
+    position: absolute;
+    // width: 1336px;
+    // height: 506px;
+    width: 80%;
+    left: 150px;
+    top: 290px;
+    z-index: 2;
+  }
+
+  .problem-section-monster {
+    position: absolute;
+    // top: 625px;
+    // left: 150px;
+    z-index: 4;
+    //width: 20%;
+    margin-left: 60px;
+    margin-top: 60px;
+  }
+
+  .product-features-button {
+    position: absolute;
+    // margin-top: 470px;
+    z-index: 5;
+    // width: 25%;
+    // margin-left: 30px;
+  }
+
+  .why-right-on-bottom-background {
+    position: absolute;
+    width: 100%;
+    // left: -200px;
+    // top: 2120px;
+    z-index: 0;
+  }
+
+  .right-on-video-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .right-on-video {
+    position: absolute;
+    //max-width: 50vw;
+    width: 100%;
+    z-index: 2;
+  }
+
+  .red-monster {
+    position: absolute;
+    left: 90%;
+    top: 50px;
+    z-index: 1;
+  }
+
+  .blue-monster {
+    position: absolute;
+    left: -180px;
+    top: 30px;
+    z-index: 1;
+  }
 
   .why-cards {
     width: 296px;
@@ -806,5 +948,192 @@ footer {
 
       }
     }
+  }
+}
+
+@media (max-width: 414px) {
+  html {
+    overflow-x: initial !important;
+
+  }
+
+
+  /*home-page*/
+  .problem-section {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-top: -100px;
+  }
+
+  .problem-section-top-background {
+
+    position: absolute;
+    // width: 1146.89px;
+    // height: 1123.12px;
+    // top: -150px;
+    // right: -50px;
+    //width: 100%;
+    width: 858.8px;
+    height: 841px;
+  }
+
+  .problem-section-landing-block {
+    position: absolute;
+    // width: 700px;
+    // height: 850px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    width: 534px;
+    height: 480px;
+    left: 0px;
+    top: 370px;
+    z-index: 3;
+  }
+
+  .problem-section-landing-block-header1 {
+    position: absolute;
+    font-family: 'filson-pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #FEFDFF;
+    left: 48px;
+    top: 380px;
+    z-index: 4;
+  }
+
+  .problem-section-landing-block-header2 {
+    font-family: 'roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    z-index: 4;
+    left: 48px;
+    top: 570px;
+    position: absolute;
+  }
+
+  .problem-section-landing-block-underline {
+    position: absolute;
+    width: 215px;
+    margin-top: 150px;
+    // height: 0px;
+    // left: 111px;
+    // top: 300px;
+    border: 2px solid #FFFFFF;
+    opacity: 1;
+  }
+
+  .problem-section-chromebook {
+    position: absolute;
+    // width: 1336px;
+    // height: 506px;
+    width: 630px;
+    height: 239px;
+    left: -280px;
+    top: 150px;
+    z-index: 2;
+  }
+
+  .problem-section-monster {
+    position: absolute;
+    // top: 625px;
+    // left: 150px;
+    z-index: 4;
+    //width: 20%;
+    margin-left: 180px;
+    margin-top: 230px;
+    width: 35%;
+  }
+
+  .product-features-button {
+    position: absolute;
+    // margin-top: 470px;
+    z-index: 5;
+    // width: 25%;
+    margin-left: 150px;
+    margin-top: 200px;
+    width: 50%;
+  }
+
+  .why-right-on-bottom-background {
+    position: absolute;
+    //width: 100%;
+    // left: -200px;
+    //top: 3000px;
+     //width: 375px;
+    // height: 841px;
+    z-index: 0;
+  }
+
+  .right-on-video-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .right-on-video {
+    position: absolute;
+    //max-width: 50vw;
+    width: 100%;
+    z-index: 2;
+  }
+
+  .red-monster {
+    position: absolute;
+    left: 90%;
+    top: 50px;
+    z-index: 1;
+  }
+
+  .blue-monster {
+    position: absolute;
+    left: -180px;
+    top: 30px;
+    z-index: 1;
+  }
+
+  .why-cards {
+    width: 296px;
+    height: 570px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .why-cards-title {
+    font-family: 'filson-pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    color: white;
+  }
+
+  .why-cards-title-underline {
+    border: 2px solid #FFFFFF;
+    width: 172px;
+    height: 0px;
+    left: 136px;
+    top: 2988px;
+  }
+
+  .why-cards-description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+
   }
 }

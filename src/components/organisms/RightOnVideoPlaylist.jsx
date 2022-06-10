@@ -21,6 +21,11 @@ const data = {
             title: "Host & Display Overview",
             src: "https://www.youtube.com/embed/IcrEa8pa0K8",
         },
+        {
+            id: 3,
+            title: "Basic vs. Advanced",
+            src: "https://www.youtube.com/embed/UK9EL6hFVbk"
+        }
     ],
 };
 
@@ -35,6 +40,9 @@ export default function RightOnVideoPlaylist(props) {
     const handleClick2 = () => {
         setCurrentVideo(data.tutorialVideos[1]);
     };
+    const handleClick3 = () => {
+        setCurrentVideo(data.tutorialVideos[2]);
+    };
 
     return (
         <Box >
@@ -48,6 +56,8 @@ export default function RightOnVideoPlaylist(props) {
                                 <button onClick={() => handleClick1()} className="tutorial-videos-text">{data.tutorialVideos[0].title}</button>
                                 <br></br>
                                 <button onClick={() => handleClick2()} className="tutorial-videos-text">{data.tutorialVideos[1].title}</button>
+                                <br></br>
+                                <button onClick={() => handleClick3()} className="tutorial-videos-text">{data.tutorialVideos[2].title}</button>
                                 <br></br>
                             </div>
                         </div>

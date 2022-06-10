@@ -507,10 +507,17 @@ footer {
   line-height: 25px;
   padding-left: 48px;
   padding-top: 45px;
-  text-decoration-line: underline;
 
   color: #FFFFFF;
 
+}
+
+.tutorial-videos-text:hover {
+  text-decoration-line: underline;
+}
+
+.tutorial-videos-text:focus {
+  text-decoration-line: underline;
 }
 
 .overview-video-heading {

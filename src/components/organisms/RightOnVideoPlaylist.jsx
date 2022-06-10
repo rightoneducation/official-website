@@ -9,15 +9,32 @@ import AboutBannerImage from "../molecules/AboutBannerImage";
 import TutorialVideos from "../molecules/TutorialVideosSection";
 
 //take id of clicked video link - set src and title based off current/clicked id
+const data = {
+    tutorialVideos: [
+        {
+            id: 1,
+            title: "RightOn! Overview",
+            src: "https://www.youtube.com/embed/sUlnToE2bqQ",
+        },
+        {
+            id: 2,
+            title: "Host & Display Overview",
+            src: "https://www.youtube.com/embed/IcrEa8pa0K8",
+        },
+    ],
+};
 
 export default function RightOnVideoPlaylist(props) {
-    const [currentVideo, setCurrentVideo] = useState()
+    const [currentVideo, setCurrentVideo] = useState(
+        data.tutorialVideos[0]
+    );
 
-    //mapping over tutorial videos objects from features.db - returning list of video titles
-    const videoLink = props.videoSrc.map((video) => (
-        <p key={video.id}> {video.title}</p>
-
-    ))
+    const handleClick1 = () => {
+        setCurrentVideo(data.tutorialVideos[0]);
+    };
+    const handleClick2 = () => {
+        setCurrentVideo(data.tutorialVideos[1]);
+    };
 
     return (
         <Box >
@@ -28,17 +45,19 @@ export default function RightOnVideoPlaylist(props) {
                         <div className="tutorial-video-panel">
                             <h4 className="tutorial-videos-header-text">Tutorial Videos</h4>
                             <div className="tutorial-videos-panel">
-                                <button onClick={() => console.log("CLICKED:", props.video.id)} className="tutorial-videos-text">{videoLink}<br></br></button>
+                                <button onClick={() => handleClick1()} className="tutorial-videos-text">{data.tutorialVideos[0].title}</button>
+                                <br></br>
+                                <button onClick={() => handleClick2()} className="tutorial-videos-text">{data.tutorialVideos[1].title}</button>
+                                <br></br>
                             </div>
                         </div>
                     </Box>
-                    {/*<TutorialVideos {...props} /> */}
                 </Grid>
                 <Grid>
-                    <Grid container justify="left">z
+                    <Grid container justify="left">
                         <Grid item>
                             <h4 className="overview-video-heading">
-                                {props.videoSrc[0].title}
+                                {currentVideo.title}
                             </h4>
                             <br />
                         </Grid>
@@ -48,8 +67,8 @@ export default function RightOnVideoPlaylist(props) {
                             <iframe
                                 width="860"
                                 height="483"
-                                src={props.videoSrc[0].src}
-                                title={props.videoSrc[0].title}
+                                src={currentVideo.src}
+                                title={currentVideo.title}
                                 frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen
@@ -58,13 +77,14 @@ export default function RightOnVideoPlaylist(props) {
                     </Grid>
                 </Grid>
             </Grid>
-            {/* <GameShowDescription styles={ styles } /> */}
+
             {/* <img
                 src={triangle}
                 width="100%"
                 alt="triangle background"
                 className="about-page-triangle"
-            /> */}
+    /> */}
         </Box>
     );
 };
+

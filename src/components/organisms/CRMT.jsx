@@ -50,11 +50,11 @@ export default function CRMT(props) {
                     <img src={CRMTimage} alt="CRMT-Diagram" />
                 </Grid>
             </Grid>
-            <img
+            {/* <img
                 src={triangleDown}
                 width="100%"
                 style={{ marginTop: "-115px" }}
-            />
+            /> */}
             {/* <img src={CRMTimage} alt="CRMT-Diagram" /> */}
         </Box >
     );

@@ -245,7 +245,7 @@ footer {
   // height: 506px;
   width: 80%;
   left: 150px;
-  top: 290px;
+  top: 220px;
   z-index: 2;
 }
 
@@ -255,7 +255,7 @@ footer {
   // left: 150px;
   z-index: 4;
   //width: 20%;
-  margin-left: 60px;
+  margin-left: 75px;
   margin-top: 60px;
 }
 
@@ -264,7 +264,7 @@ footer {
   // margin-top: 470px;
   z-index: 5;
   // width: 25%;
-  // margin-left: 30px;
+  margin-left: 15px;
 }
 
 
@@ -501,6 +501,55 @@ footer {
 }
 
 /*resources-page*/
+.tutorial-video-panel {
+  width: 401px;
+  height: 427px;
+  background: #581F59;
+  box-shadow: 3px -4px 10px #4B2671, -5px 4px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.tutorial-videos-header-text {
+  font-family: "filson-pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  color: #FFFFFF;
+  padding-top: 47px;
+  padding-bottom: 47px;
+  padding-left: 48px;
+}
+
+.tutorial-videos-panel {
+  width: 401px;
+  height: 315px;
+  background: #712773;
+  border-radius: 0px 0px 20px 20px;
+  justify-content: space-around;
+}
+
+.tutorial-videos-text {
+  font-family: 'filson-pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 25px;
+  padding-left: 48px;
+  padding-top: 45px;
+
+  color: #FFFFFF;
+
+}
+
+.tutorial-videos-text:hover {
+  text-decoration-line: underline;
+}
+
+.tutorial-videos-text:focus {
+  text-decoration-line: underline;
+}
+
 .overview-video-heading {
   font-family: "filson-pro";
   font-style: normal;
@@ -509,8 +558,6 @@ footer {
   line-height: 30px;
   color: #FFFFFF;
   letter-spacing: 0em;
-  padding-bottom: 20px;
-
 }
 
 .error-analysis {

@@ -1,22 +1,22 @@
 module.exports = {
   productFeatures: [{
-      id: 1,
-      title: 'Engage Your Students in Deeper Thinking',
-      featureIcon: '/images/value-card-1.png',
-      description: 'Turn multiple-choice questions into metacognitive challenges: student-tested, teacher-approved, and standards-aligned!'
-    },
-    {
-      id: 2,
-      title: 'Get the Rationale Behind Wrong Answers',
-      featureIcon: '/images/value-card-2.png',
-      description: 'Understand the reasoning behind different wrong answers and view tips to help your students get back on track.'
-    },
-    {
-      id: 3,
-      title: 'Share Targeted Resources',
-      featureIcon: '/images/value-card-3.png',
-      description: 'Suggest follow-up activities and videos tailored to your students’ needs.'
-    }
+    id: 1,
+    title: 'Engage Your Students in Deeper Thinking',
+    featureIcon: '/images/value-card-1.png',
+    description: 'Turn multiple-choice questions into metacognitive challenges: student-tested, teacher-approved, and standards-aligned!'
+  },
+  {
+    id: 2,
+    title: 'Get the Rationale Behind Wrong Answers',
+    featureIcon: '/images/value-card-2.png',
+    description: 'Understand the reasoning behind different wrong answers and view tips to help your students get back on track.'
+  },
+  {
+    id: 3,
+    title: 'Share Targeted Resources',
+    featureIcon: '/images/value-card-3.png',
+    description: 'Suggest follow-up activities and videos tailored to your students’ needs.'
+  }
   ],
   whyRightOn: [
     {
@@ -41,27 +41,27 @@ module.exports = {
   ourValues: [
     {
       id: 1,
-      featureImage:'/images/trust-communication-desktop.png'
+      featureImage: '/images/trust-communication-desktop.png'
     },
     {
       id: 2,
-      featureImage:'/images/positive-culture-desktop.png'
+      featureImage: '/images/positive-culture-desktop.png'
     },
     {
       id: 3,
-      featureImage:'/images/gratitude-desktop.png'
+      featureImage: '/images/gratitude-desktop.png'
     },
     {
       id: 4,
-      featureImage:'/images/perseverence-desktop.png'
+      featureImage: '/images/perseverence-desktop.png'
     },
     {
       id: 5,
-      featureImage:'/images/rising-desktop.png'
+      featureImage: '/images/rising-desktop.png'
     },
     {
       id: 6,
-      featureImage:'/images/beginner-mindset-desktop.png'
+      featureImage: '/images/beginner-mindset-desktop.png'
     },
   ],
   aboutCards: [
@@ -77,5 +77,22 @@ module.exports = {
       src: 'https://www.youtube.com/embed/srJWx7P6uLE',
       description: '“My Favorite No” and other similar math classroom activities have been both a foundation and inspiration for <i>RightOn!</i> <br/> Watch the video to learn more!'
     }
+  ],
+  tutorialVideos: [
+    {
+      id: 1,
+      title: 'RightOn! Overview',
+      src: "https://www.youtube.com/embed/sUlnToE2bqQ"
+    },
+    {
+      id: 2,
+      title: 'Host & Display Overview',
+      src: "https://www.youtube.com/embed/IcrEa8pa0K8"
+    }
+    /*{
+      id: 3,
+      title: 'Basic Vs Advanced',
+      src: 
+    }*/
   ]
 }

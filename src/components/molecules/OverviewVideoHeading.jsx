@@ -5,12 +5,12 @@ import banner from "../../images/banner-background.png"
 export default function OverviewVideoHeading(props) {
     //   const { styles } = props;
     return (
-        <Grid container justify="center">
+        <Grid container justify="left">
             <Grid item>
-                <h4 className="crmt-header">
+                <h4 className="overview-video-heading">
                     RightOn! Overview
                 </h4>
-                <br/>
+                <br />
             </Grid>
         </Grid>
     );

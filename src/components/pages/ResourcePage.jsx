@@ -7,13 +7,13 @@ import ResourcePageShapes from '../organisms/ResourcePageShapes';
 import RightOnVideoPlaylist from '../organisms/RightOnVideoPlaylist';
 import AboutBannerImage from '../molecules/AboutBannerImage';
 
-function ResourcePage(props) {
-    const { styles } = props
+function ResourcePage({videoSrc, styles}) {
+   
     return (
         <div className={styles.resourcesPageBk} style={{ position: 'relative' }}>
             <ResourcePageShapes />
             <div style={{ position: 'relative', zIndex: '1' }}>
-                <RightOnVideoPlaylist />
+                <RightOnVideoPlaylist videoSrc={videoSrc}/>
                 <ErrorAnalysisActivitiesSection styles={styles} />
                 <CRMT />
                 <PositiveCultureOfErrorSection styles={styles} />

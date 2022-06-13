@@ -1,6 +1,8 @@
-import React, { useState } from "react"
+import React, { useState } from "react";
 import { Box, Grid, Typography } from "@material-ui/core";
-import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
+import { MdClose } from "react-icons/md"
+import { FiMenu } from "react-icons/fi"
 
 function Header() {
   const [navbarOpen, setNavbarOpen] = useState(false)
@@ -14,7 +16,11 @@ function Header() {
     <Box component="nav">
       <nav className="nav-bar-mobile">
         <button onClick={handleToggle}>
-          {navbarOpen ? "Close" : "Open"}
+          {navbarOpen ? (
+            <MdClose style={{ color: "#fff", width: "40px", height: "40px" }} />
+          ) : (
+            <FiMenu style={{ color: "#FFFFFF", width: "50px", height: "40px" }} />
+          )}
         </button>
         <ul className={`menuNav ${navbarOpen ? " showMenu" : ""}`}>
           <NavLink

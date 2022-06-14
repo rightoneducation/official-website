@@ -1030,6 +1030,8 @@ footer {
     top: 40px;
     z-index: 10;
     cursor: pointer;
+    background: transparent;
+    border: none;
   }
 
   .menuNav {
@@ -1038,7 +1040,7 @@ footer {
     position: fixed;
     top: 0;
     background: #322759;
-    right: -22px;
+    right: 0px;
     bottom: 0;
     height: 100vh;
     width: 0;

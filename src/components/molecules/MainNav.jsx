@@ -17,7 +17,7 @@ function Header() {
       <nav className="nav-bar-mobile">
         <button onClick={handleToggle}>
           {navbarOpen ? (
-            <MdClose style={{ color: "#fff", width: "40px", height: "40px" }} />
+            <MdClose style={{ color: "#FFFFFF", width: "40px", height: "40px" }} />
           ) : (
             <FiMenu style={{ color: "#FFFFFF", width: "50px", height: "40px" }} />
           )}
@@ -62,7 +62,6 @@ function Header() {
         </ul>
       </nav>
       <Grid container spacing={5} wrap="nowrap">
-        {/* <div className="nav-bar-desktop"> */}
         <Grid item>
           <NavLink exact to='/' className="mainNav" activeStyle={{ color: 'white' }} activeClassName="activeRoute">
             <Typography variant="h6">
@@ -91,7 +90,6 @@ function Header() {
             </Typography>
           </NavLink>
         </Grid>
-        {/* </div> */}
       </Grid>
     </Box>
   )

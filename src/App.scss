@@ -91,20 +91,9 @@ p {
       right: 0;
       bottom: 0;
       left: -100px;
-      //left: 35%;
       z-index: 4;
     }
 
-    // #header-element-3 {
-    //   background: url(./images/header-element-3.svg);
-    //   background-repeat: no-repeat;
-    //   position: absolute;
-    //   top: 15%;
-    //   right: 0;
-    //   bottom: 0;
-    //   left: 85%;
-    //   z-index: 2;
-    // }
   }
 }
 
@@ -1019,6 +1008,26 @@ footer {
   }
 
   /*nav-bar-mobile*/
+
+  .page-header {
+    background: #322759;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    position: relative;
+    overflow: visible;
+    z-index: 4;
+
+    .logo {
+      position: absolute;
+      width: 15%;
+      margin-top: -100px;
+    }
+
+  }
+
   .nav-bar-mobile {
     position: relative;
     display: block;
@@ -1035,29 +1044,40 @@ footer {
   }
 
   .menuNav {
-    overflow-y: scroll;
+    overflow-y: none;
     list-style: none;
     position: fixed;
     top: 0;
     background: #322759;
-    right: 0px;
+    right: -30px;
     bottom: 0;
     height: 100vh;
     width: 0;
     overflow: hidden;
     max-width: 414px;
     z-index: 9;
+    text-align: center;
   }
 
   .menuNav.showMenu {
     width: 100%;
+    right: 0px;
+    height: 100vh;
+    padding-top: 100px;
+  }
+
+  // .active-link{
+  //   display: flex;
+  //   padding: 100px;
+  //   align-items: center;
+  // }
+
+  .nav-tabs{
+    padding: 10px;
+    border-bottom: none;
   }
 
 
-
-  .menuNav li:first-child {
-    margin-top: 7rem;
-  }
 
   /*home-page*/
   .problem-section {

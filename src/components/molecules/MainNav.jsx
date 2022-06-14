@@ -28,16 +28,16 @@ function Header() {
             activeClassName="active-link"
             onClick={() => closeMenu()}
           >
-            <Typography variant="h6">
+            <h3 className="nav-tabs">
               Home
-            </Typography>
+            </h3>
           </NavLink>
           <NavLink
             exact to='/about'
             activeClassName="active-link"
             onClick={() => closeMenu()}
           >
-            <Typography variant="h6">
+            <Typography variant="h6" className="nav-tabs">
               About
             </Typography>
           </NavLink>
@@ -46,7 +46,7 @@ function Header() {
             activeClassName="active-link"
             onClick={() => closeMenu()}
           >
-            <Typography variant="h6">
+            <Typography variant="h6" className="nav-tabs">
               Team
             </Typography>
           </NavLink>
@@ -55,7 +55,7 @@ function Header() {
             activeClassName="active-link"
             onClick={() => closeMenu()}
           >
-            <Typography variant="h6">
+            <Typography variant="h6" className="nav-tabs">
               Resources
             </Typography>
           </NavLink>

@@ -39,14 +39,14 @@ function InteractiveErrorAnalysisActivities() {
     setExpanded(!expanded);
   };
   return (
-    <Card className="error-analysis-activity">
-      <CardContent borderRadius="20%">
+    <Card style={{ width: "380px", marginLeft: "100px", borderRadius: "15px", overflow: "hidden" }}>
+      <CardContent>
         <h5 className="error-analysis-activity-text" >
           What did Uno get right, and what mistake has Uno made?
         </h5>
       </CardContent>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
-        <CardContent borderRadius="20%">
+        <CardContent>
           <h5 className="error-analysis-activity-answer">
             2 and 7 are factors of 14, but Uno has missed that 1 and 14 are also factors of 14.
           </h5>

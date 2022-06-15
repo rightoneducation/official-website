@@ -15,7 +15,7 @@ function ErrorAnalysisActivitiesSection(props) {
                 <Grid item style={{ marginTop: "227px" }}>
                     <img src={Uno} alt="monster-with-speech-bubble" width="250px" />
                 </Grid>
-                <Grid item style={{ marginTop: "155px" }}>
+                <Grid item style={{ marginTop: "168px" }}>
                     <div className="error-analysis-speech">
                         <h5 className='error-analysis-activity-text'>The factors of 14 are 2 and 7.</h5>
                     </div>

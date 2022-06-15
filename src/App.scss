@@ -1,4 +1,5 @@
 @import '/node_modules/bootstrap/scss/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
 
 
 .App {
@@ -552,8 +553,7 @@ footer {
 }
 
 .error-analysis {
-  text-align: right;
-  justify-content: right;
+  margin-bottom: 0px;
 }
 
 .error-analysis-header {
@@ -568,15 +568,15 @@ footer {
 }
 
 .error-analysis-underline {
-  width: 704px;
+  width: 650px;
   border: 4px solid #E29B5D;
   opacity: 1;
-  justify-content: right;
-  margin-bottom: 30px;
+  //justify-content: right;
+  //align-items: flex-end;
+  margin-bottom: 0px;
 }
 
 .error-analysis-description {
-  padding-left: 50px;
   font-family: "Roboto";
   font-size: 28px;
   font-weight: 400;
@@ -584,8 +584,74 @@ footer {
   letter-spacing: 0em;
   text-align: right;
   color: #FFFFFF;
-
+  margin-top: 0px;
+  padding: 0px;
+  margin-right: 0px;
+  margin-top: 15px;
 }
+
+.error-analysis-speech {
+  width: 282px;
+  height: 90px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background: #FFFFFF;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+.error-analysis-activity {
+  width: 380px;
+  margin-left: 100px;
+  border-radius: 20px;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.error-analysis-activity-text {
+  font-family: 'Kalam';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.15px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.error-analysis-activity-answer {
+  font-family: 'Kalam';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+
+  color: #E87DA6;
+}
+
+.error-analysis-activity-button {
+  font-family: 'filson-soft';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.15px;
+
+  color: #E87DA6;
+}
+
 
 .crmt-header {
   font-family: 'filson-pro';
@@ -1115,7 +1181,7 @@ footer {
     //width: 100%;
     // left: -200px;
     //top: 3000px;
-     //width: 375px;
+    //width: 375px;
     // height: 841px;
     z-index: 0;
   }

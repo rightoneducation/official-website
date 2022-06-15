@@ -3,10 +3,10 @@ import { makeStyles } from "@material-ui/core/styles";
 import { Card, CardContent, CardActions, Collapse, Button, Typography } from '@material-ui/core';
 
 
-const useStyles = makeStyles( theme => ({
+const useStyles = makeStyles(theme => ({
   cardContent: {
     alignSelf: 'center',
-    padding: '10%',
+
     '&:hover': {
       transform: 'rotateY(180deg)',
     }
@@ -30,26 +30,26 @@ function InteractiveErrorAnalysisActivities() {
   const hideaway = ['reveal', 'hide'];
 
   const handleExpandClick = () => {
-    if (expanded === true){
+    if (expanded === true) {
       setStat(0)
     }
-    if (expanded === false){
+    if (expanded === false) {
       setStat(1)
     }
     setExpanded(!expanded);
   };
-  return(
-    <Card>
-      <CardContent>
-          <Typography variant="h5" style={{ marginBottom: "10px", marginTop: "30px", textAlign: "center" }}>
-            What did Uno get right, and what mistake has Uno made?
-          </Typography>
+  return (
+    <Card className="error-analysis-activity">
+      <CardContent borderRadius="20%">
+        <h5 className="error-analysis-activity-text" >
+          What did Uno get right, and what mistake has Uno made?
+        </h5>
       </CardContent>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
-        <CardContent>
-          <Typography variant="h5" style={{ marginBottom: "10px", marginTop: "10px", textAlign: "center" }}>
+        <CardContent borderRadius="20%">
+          <h5 className="error-analysis-activity-answer">
             2 and 7 are factors of 14, but Uno has missed that 1 and 14 are also factors of 14.
-          </Typography>
+          </h5>
         </CardContent>
       </Collapse>
       <CardActions disableSpacing>
@@ -59,7 +59,9 @@ function InteractiveErrorAnalysisActivities() {
           aria-expanded={expanded}
           aria-label="show more"
         >
-          Click here to {hideaway[stat]} answer
+          <p className="error-analysis-activity-button">
+            {hideaway[stat]} answer
+          </p>
         </Button>
       </CardActions>
     </Card>

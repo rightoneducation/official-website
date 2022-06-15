@@ -24,40 +24,48 @@ function Header() {
         </button>
         <ul className={`menuNav ${navbarOpen ? " showMenu" : ""}`}>
           <NavLink
-            exact to='/'
+            exact to='/' 
+            className="nav-tabs"
+            activeStyle={{ color: '#E87DA6' }} 
             activeClassName="active-link"
             onClick={() => closeMenu()}
           >
-            <h3 className="nav-tabs">
+            <h2 style={{fontFamily:"roboto"}}>
               Home
-            </h3>
+            </h2>
           </NavLink>
           <NavLink
             exact to='/about'
+            className="nav-tabs"
+            activeStyle={{ color: '#E87DA6' }} 
             activeClassName="active-link"
             onClick={() => closeMenu()}
           >
-            <Typography variant="h6" className="nav-tabs">
+            <h3>
               About
-            </Typography>
+            </h3>
           </NavLink>
           <NavLink
             exact to='/team'
+            className="nav-tabs"
+            activeStyle={{ color: '#E87DA6' }} 
             activeClassName="active-link"
             onClick={() => closeMenu()}
           >
-            <Typography variant="h6" className="nav-tabs">
+            <h3 >
               Team
-            </Typography>
+            </h3>
           </NavLink>
           <NavLink
             exact to='/resources'
+            className="nav-tabs"
+            activeStyle={{ color: '#E87DA6' }} 
             activeClassName="active-link"
             onClick={() => closeMenu()}
           >
-            <Typography variant="h6" className="nav-tabs">
+            <h3 >
               Resources
-            </Typography>
+            </h3>
           </NavLink>
         </ul>
       </nav>

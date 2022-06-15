@@ -1066,17 +1066,35 @@ footer {
     padding-top: 100px;
   }
 
-  // .active-link{
-  //   display: flex;
-  //   padding: 100px;
-  //   align-items: center;
-  // }
-
-  .nav-tabs{
-    padding: 10px;
+  .nav-tabs {
+    padding: 20px;
     border-bottom: none;
+    // font-family: 'Roboto';
+    // font-style: normal;
+    // font-weight: 700;
+    // font-size: 30px;
+    // line-height: 18px;
+    // letter-spacing: 0.15px;
+    // color: #D9D8D8;
   }
 
+
+  .menuNav:link {
+    color: #D9D8D8;
+  }
+  
+  .menuNav:visited {
+    color: #D9D8D8;
+  }
+
+  .menuNav:active {
+    color: #E87DA6;
+  }
+
+  // .active-link{
+  //   color: #E87DA6;
+  // }
+  
 
 
   /*home-page*/

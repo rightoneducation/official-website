@@ -527,7 +527,10 @@ footer {
   font-size: 25px;
   line-height: 25px;
   padding-left: 48px;
-  padding-top: 45px;
+  //padding-top: 45px;
+  margin-top: 40px;
+  width: 353px;
+  height: 46px;
 
   color: #FFFFFF;
 
@@ -538,7 +541,7 @@ footer {
 }
 
 .tutorial-videos-text:focus {
-  text-decoration-line: underline;
+  background: rgba(252, 143, 255, 0.42);
 }
 
 .overview-video-heading {
@@ -1115,7 +1118,7 @@ footer {
     //width: 100%;
     // left: -200px;
     //top: 3000px;
-     //width: 375px;
+    //width: 375px;
     // height: 841px;
     z-index: 0;
   }

@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { Box, Grid, Typography } from "@material-ui/core";
 import { NavLink } from 'react-router-dom';
-import { MdClose } from "react-icons/md"
-import { FiMenu } from "react-icons/fi"
+import { MdClose } from "react-icons/md";
+import { FiMenu } from "react-icons/fi";
+import monster from "../../images/hamburger-monster.png";
 
 function Header() {
   const [navbarOpen, setNavbarOpen] = useState(false)
@@ -30,9 +31,9 @@ function Header() {
             activeClassName="active-link"
             onClick={() => closeMenu()}
           >
-            <h2 style={{fontFamily:"roboto"}}>
+            <p style={{fontFamily:"roboto", fontSize: "30px", fontWeight: "700", lineHeight: "18px", letterSpacing: "0.15px"}}>
               Home
-            </h2>
+            </p>
           </NavLink>
           <NavLink
             exact to='/about'
@@ -41,9 +42,9 @@ function Header() {
             activeClassName="active-link"
             onClick={() => closeMenu()}
           >
-            <h3>
+           <p style={{fontFamily:"roboto", fontSize: "30px", fontWeight: "700", lineHeight: "18px", letterSpacing: "0.15px"}}>
               About
-            </h3>
+            </p>
           </NavLink>
           <NavLink
             exact to='/team'
@@ -52,9 +53,9 @@ function Header() {
             activeClassName="active-link"
             onClick={() => closeMenu()}
           >
-            <h3 >
+            <p style={{fontFamily:"roboto", fontSize: "30px", fontWeight: "700", lineHeight: "18px", letterSpacing: "0.15px"}}>
               Team
-            </h3>
+            </p>
           </NavLink>
           <NavLink
             exact to='/resources'
@@ -63,10 +64,15 @@ function Header() {
             activeClassName="active-link"
             onClick={() => closeMenu()}
           >
-            <h3 >
+            <p style={{fontFamily:"roboto", fontSize: "30px", fontWeight: "700", lineHeight: "18px", letterSpacing: "0.15px"}}>
               Resources
-            </h3>
+            </p>
           </NavLink>
+          <img
+            src={monster}
+            alt="blue-monster"
+            className="mobile-nav-monster"
+            />
         </ul>
       </nav>
       <Grid container spacing={5} wrap="nowrap">

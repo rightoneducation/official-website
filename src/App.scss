@@ -1129,7 +1129,7 @@ footer {
     width: 100%;
     right: 0px;
     height: 100vh;
-    padding-top: 100px;
+    padding-top: 200px;
   }
 
   .nav-tabs {
@@ -1160,7 +1160,12 @@ footer {
   // .active-link{
   //   color: #E87DA6;
   // }
-  
+  .mobile-nav-monster{
+    left: 0;
+    bottom: 0;
+    width: 60vw;
+    justify-content: flex-start;
+  }
 
 
   /*home-page*/

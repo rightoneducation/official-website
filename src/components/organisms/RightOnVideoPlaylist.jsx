@@ -30,11 +30,17 @@ const data = {
 };
 
 export default function RightOnVideoPlaylist(props) {
+    const { tutorialVideos } = data;
+
+    const handleVideoClick = (vid) => {
+        setCurrentVideo(vid);
+    };
+
     const [currentVideo, setCurrentVideo] = useState(
         data.tutorialVideos[0]
     );
 
-    const handleClick1 = () => {
+    {/*const handleClick1 = () => {
         setCurrentVideo(data.tutorialVideos[0]);
     };
     const handleClick2 = () => {
@@ -42,7 +48,17 @@ export default function RightOnVideoPlaylist(props) {
     };
     const handleClick3 = () => {
         setCurrentVideo(data.tutorialVideos[2]);
-    };
+    };*/}
+
+    const videoLink = tutorialVideos.map((video, index) => (
+        <button
+            className="tutorial-videos-text"
+            onClick={() => handleVideoClick(video)}
+            key={index}
+        >
+            {video.title}
+        </button>
+    ));
 
     return (
         <Box >
@@ -52,13 +68,13 @@ export default function RightOnVideoPlaylist(props) {
                     <Box components="section">
                         <div className="tutorial-video-panel">
                             <h4 className="tutorial-videos-header-text">Tutorial Videos</h4>
-                            <div className="tutorial-videos-panel">
-                                <button onClick={() => handleClick1()} className="tutorial-videos-text">{data.tutorialVideos[0].title}</button>
+                            <div className="tutorial-videos-panel"> {videoLink}
+                                {/*<button onClick={() => handleClick1()} className="tutorial-videos-text">{data.tutorialVideos[0].title}</button>
                                 <br></br>
                                 <button onClick={() => handleClick2()} className="tutorial-videos-text">{data.tutorialVideos[1].title}</button>
                                 <br></br>
                                 <button onClick={() => handleClick3()} className="tutorial-videos-text">{data.tutorialVideos[2].title}</button>
-                                <br></br>
+    <br></br>*/}
                             </div>
                         </div>
                     </Box>

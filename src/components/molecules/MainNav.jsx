@@ -2,7 +2,6 @@ import React from 'react'
 import { Box, Grid, Typography } from "@material-ui/core";
 import { NavLink} from 'react-router-dom'
 
-
 function Header () {
     return (
       <Box component="nav">

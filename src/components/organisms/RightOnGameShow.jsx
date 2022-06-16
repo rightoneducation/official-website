@@ -8,11 +8,12 @@ export default function RightOnGameShow(props) {
     const { styles } = props;
     return(
         <Box component="section">
-            <Grid container style={ {justifyContent: "center"} }>
+            <Grid container >
                     <GameShowHeading styles={ styles } />
                     <GameShowVideo />
+                    <GameShowDescription styles={ styles } />
             </Grid>
-            <GameShowDescription styles={ styles } />
+            
         </Box>
     );
 };

@@ -5,7 +5,7 @@ export default function GameShowVideo() {
   return (
       <Grid xs={12} sm={12} md={8}>
         <iframe
-          width="100%"
+          width="90%"
           height="550"
           src="https://www.youtube.com/embed/_dNfmPa6CRo"
           title="RightOn! Gameshow"

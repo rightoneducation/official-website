@@ -1,26 +1,25 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Box, Container } from "@material-ui/core";
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
-
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import '../node_modules/bootstrap/scss/bootstrap.scss';
-import './App.scss';
-import './rwdgrid.css';
+import "../node_modules/bootstrap/scss/bootstrap.scss";
+import "./App.scss";
+import "./rwdgrid.css";
 
-import LandingPage from './components/pages/LandingPage.jsx'
-import AboutPage from './components/pages/AboutPage'
-import TeamPage from './components/pages/TeamPage'
-import ResourcePage from './components/pages/ResourcePage'
-import PageHeader from './components/molecules/PageHeader'
-import Footer from './components/molecules/Footer'
+import LandingPage from "./components/pages/LandingPage.jsx";
+import AboutPage from "./components/pages/AboutPage";
+import TeamPage from "./components/pages/TeamPage";
+import ResourcePage from "./components/pages/ResourcePage";
+import PageHeader from "./components/molecules/PageHeader";
+import Footer from "./components/molecules/Footer";
 
-import teamData from './_localDb/teamData'
-
-const useStyles = makeStyles( theme => ({
+import teamData from "./_localDb/teamData";
+import features from "./_localDb/features";
+const useStyles = makeStyles((theme) => ({
   container: {
-    padding: '0px',
+    padding: "0px",
   },
   bannerImage: {
     background: "#322759",
@@ -29,18 +28,18 @@ const useStyles = makeStyles( theme => ({
     overflow: "hidden",
     objectFit: "contain",
     objectPosition: "center",
-    alignItems: 'center',
-    display: 'flex'
+    alignItems: "center",
+    display: "flex",
   },
   cardIntro: {
-    justifyContent: 'center',
-    color: 'white',
-    width: '85%',
+    justifyContent: "center",
+    color: "white",
+    width: "85%",
     position: "relative",
     padding: "5%",
-    margin: 'auto',
-    mixBlendMode: 'multiply',
-    background: 'linear-gradient(201.84deg, #B443CC 0%, #662AAF 73.19%)'
+    margin: "auto",
+    mixBlendMode: "multiply",
+    background: "linear-gradient(201.84deg, #B443CC 0%, #662AAF 73.19%)",
   },
   cardContent: {
     borderLeft: "8px solid #d80053",
@@ -48,77 +47,83 @@ const useStyles = makeStyles( theme => ({
     paddingLeft: "20px",
     // fontWeight: "300",
     // lineHeight: "1.4",
-    [theme.breakpoints.down('xs')]: {
-      fontSize: '1em'
-    }
+    [theme.breakpoints.down("xs")]: {
+      fontSize: "1em",
+    },
   },
   resourcesPageBk: {
-    background: 'linear-gradient(#BD074C 10%, #4C2679, #210040)',
+    background:
+      "linear-gradient(180deg, #322759 -2.67%, #40216F 64.71%, #591796 100%)",
   },
   circle: {
-    position: 'absolute',
-    top: '115vw',
-    left: '-100px',
-    borderRadius: '50%',
-    width: '708px',
-    height: '708px',
-    background: 'rgba(255, 255, 255, 0.15)',
-    opacity: '0.5',
-    boxShadow: '0px 4px 10px 5px rgba(0, 0, 0, 0.25)'
+    position: "absolute",
+    top: "115vw",
+    left: "-100px",
+    borderRadius: "50%",
+    width: "708px",
+    height: "708px",
+    background: "rgba(255, 255, 255, 0.15)",
+    opacity: "0.5",
+    boxShadow: "0px 4px 10px 5px rgba(0, 0, 0, 0.25)",
   },
   square: {
-    position: 'absolute',
-    top: '150vw',
-    right: '-330px',
-    width: '503px',
-    height: '516px',
-    background: 'rgba(255, 255, 255, 0.15)',
-    boxShadow: '0px 4px 10px 5px rgba(0, 0, 0, 0.25)',
-    transform: 'rotate(31.35deg)'
+    position: "absolute",
+    top: "150vw",
+    right: "-330px",
+    width: "503px",
+    height: "516px",
+    background: "rgba(255, 255, 255, 0.15)",
+    boxShadow: "0px 4px 10px 5px rgba(0, 0, 0, 0.25)",
+    transform: "rotate(31.35deg)",
   },
   hexagon: {
-    position: 'absolute',
-    top: '230vw',
-    left: '-500px',
-    width:' 840px',
-    height: '840px',
-    clipPath: 'polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0 50%)',
-    opacity: '0.15',
-    background: 'white',
-    boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.25)',
-    transform: 'rotate(139.2deg)'
+    position: "absolute",
+    top: "230vw",
+    left: "-500px",
+    width: " 840px",
+    height: "840px",
+    clipPath: "polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0 50%)",
+    opacity: "0.15",
+    background: "white",
+    boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.25)",
+    transform: "rotate(139.2deg)",
   },
-  positiveCultureofErrorCardContent:{
-    marginTop: "20px",
-    fontWeight: "300",
-    lineHeight: "1.4",
-    listStyle: "inside",
-    [theme.breakpoints.down('xs')]: {
-      fontSize: '1em',
-      justifyContent: 'center',
-    }
-  },
-  positiveCultureofErrorCardIntro: {
-    justifyContent: 'center',
-    color: 'white',
-    width: '85%',
-    position: "relative",
-    padding: "5%",
-    margin: 'auto',
-    mixBlendMode: 'initial',
-  }
-}))
+  // positiveCultureofErrorCardContent:{
+  //   marginTop: "20px",
+  //   fontWeight: "300",
+  //   lineHeight: "1.4",
+  //   listStyle: "inside",
+  //   [theme.breakpoints.down('xs')]: {
+  //     fontSize: '1em',
+  //     justifyContent: 'center',
+  //   }
+  // },
+  // positiveCultureofErrorCardIntro: {
+  //   justifyContent: 'center',
+  //   color: 'white',
+  //   width: '85%',
+  //   position: "relative",
+  //   padding: "5%",
+  //   margin: 'auto',
+  //   mixBlendMode: 'initial',
+  // }
+}));
 
 function App() {
   const [teamProfiles, setProfiles] = useState({
     devTeamCards: teamData.devTeam,
-    advisorProfiles: teamData.advisors
-  })
+    advisorProfiles: teamData.advisors,
+  });
   const [advisors] = useState({
-    advisorProfiles: teamData.advisors
-  })
-  const { devTeamCards } = teamProfiles
-  const { advisorProfiles } = advisors
+    advisorProfiles: teamData.advisors,
+  });
+  const [resourceVidLink, setResourseVidLink] = useState({
+    tutorialVids: features.tutorialVideos,
+  });
+
+  const { devTeamCards } = teamProfiles;
+  const { advisorProfiles } = advisors;
+  const { tutorialVids } = resourceVidLink;
 
   // const handleFlip = item => {
   //   const idx = devTeamCards.findIndex(i => i.id === item.id)
@@ -131,15 +136,19 @@ function App() {
   //     devTeamCards: newItems
   //   })
   // }
-  const styles = useStyles()
+  const styles = useStyles();
   return (
     <Router>
       <Box className="App">
-        <PageHeader styles={styles}/>
+        <PageHeader styles={styles} />
         <Switch>
-          <Container maxWidth="false" className={styles.container}> 
-            <Route exact path="/" render={() => <LandingPage styles={styles}/>} />
-            <Route path="/about" render={() => <AboutPage styles={styles}/>} />
+          <Container maxWidth="false" className={styles.container}>
+            <Route
+              exact
+              path="/"
+              render={() => <LandingPage styles={styles} />}
+            />
+            <Route path="/about" render={() => <AboutPage styles={styles} />} />
             <Route
               path="/team"
               render={() => (
@@ -151,7 +160,12 @@ function App() {
                 />
               )}
             />
-            <Route path="/resources" render={() => <ResourcePage styles={styles} />} />
+            <Route
+              path="/resources"
+              render={() => (
+                <ResourcePage styles={styles} videoSrc={tutorialVids} />
+              )}
+            />
           </Container>
         </Switch>
         <Footer />

@@ -5,10 +5,11 @@ function SectionHeading () {
     return(
         <Box>
           <Grid container justify="space-around" alignItems="center">
-            <Grid item>
+            <Grid item style={{marginBottom: "20px"}}>
               <h4 className='team-page-banners'>
                 Why RightOn!
                 <hr className='team-page-banners-underline'/>
+                
               </h4>
             </Grid>
             {/* <Grid item md={3}>

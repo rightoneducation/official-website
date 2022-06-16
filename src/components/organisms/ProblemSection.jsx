@@ -1,38 +1,21 @@
 import React from 'react'
-import { makeStyles } from "@material-ui/core/styles";
-import { Box, Card, CardContent, Typography, Grid } from "@material-ui/core";
-import bored from '../../images/student-looking-bored.jpg'
+import { Box, Grid } from "@material-ui/core";
 import chromebook from '../../images/chromebook-mockup-1.png'
 import block from '../../images/landing-block.png'
-import topBackground from '../../images/math-symbol-bg-top.png'
-import staticMonster from '../../images/product-features-monster-static.png'
-import ProductFeatures from '../organisms/ProductFeatures'
+import topBackground from '../../images/math-symbol-bg-bottom.png'
+import monster from '../../images/home-monster.png'
+import staticButton from '../../images/product-features-static.png'
+import hoverButton from '../../images/product-features-hover.png'
 
-// const useStyles = makeStyles( theme => ({
-//   cardContent: {
-//     alignSelf: 'center',
-//     padding: '1%',
-//   },
-//   boxOverLap: {
-//     marginLeft: '-20px',
-//     [theme.breakpoints.down('sm')]: {
-//       marginTop: '-20px',
-//       marginLeft: '0px'
-//     }
-//   }
-// }))
 
 function ProblemSection() {
-  //const styles = useStyles()
   return (
     <Box component="section" className='problem-section'>
-      {/* <Grid container justify="center" alignItems="center" spacing={1}>
-        <Grid align="center" xs={12} sm={12} md={8}> */}
       <Grid container>
         <img
           src={topBackground}
           className='problem-section-top-background'
-          width="100%"
+          // width="100%"
           alt="math-background"
         />
         <h4 className='problem-section-landing-block-header1'>
@@ -40,8 +23,18 @@ function ProblemSection() {
           <hr className='problem-section-landing-block-underline' />
         </h4>
         <h4 className='problem-section-landing-block-header2'>
-          Explore how  <i>RightOn!</i>  inspires <br/> learning by embracing <br/> mistakes.
+          Explore how  <i>RightOn!</i>  inspires <br /> learning by embracing mistakes.
         </h4>
+        {/* <picture>
+          <source
+            media="(max-width: 375px)"
+            srcset="/images/landing-block-mobile.png" />
+          <source
+            media="(max-width: 768px)"
+            srcset="/images/landing-block-tablet.png" />
+          <img src="/images/landing-block.png"
+            alt="landing-block" />
+        </picture> */}
         <img
           src={block}
           alt="landing-page-block"
@@ -52,17 +45,31 @@ function ProblemSection() {
           alt="right-on-education-chromebook-app"
           className='problem-section-chromebook'
         />
-        <a href="#productFeaturesSection">
-          <img
-            src={staticMonster}
-            alt="product-features-monster"
-            className='problem-section-monster-static'
-          />
-        </a>
-        {/* </Grid>
-        
-        </Grid> */}
+        <div container style={{ marginTop: "460px" }}>
+          <div>
+            <a href="#productFeatures">
+              <img
+                src={staticButton}
+                className="product-features-button"
+                onMouseOver={e => e.currentTarget.src = hoverButton}
+                onMouseOut={e => e.currentTarget.src = staticButton}
+              />
+            </a>
+          </div>
+          <div
+            container
+            alignItems="center"
+            justify="center"
+          >
+            <img
+              src={monster}
+              alt="product-features-monster"
+              className='problem-section-monster'
+            />
+          </div>
+        </div>
       </Grid>
+
     </Box>
   );
 }

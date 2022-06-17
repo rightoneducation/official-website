@@ -8,8 +8,7 @@ function AboutErrorAnalysisActivities(props) {
             <Grid container justify="right">
                 <div>
                     <h6 className='error-analysis-description'>
-                        During classroom discussions, singling out students who’ve made a mistake can cause embarrassment.
-                        But when it’s a cartoon character who does so, students engage and open up more. &nbsp;
+                        Duringg classroom discussions, singling <br/> out students who’ve made a mistake can <br/> cause embarrassment. But when it’s a <br/> cartoon character who does so, students <br/> engage and open up more. &nbsp;
                         <br />
                         <u><a href="https://docs.google.com/document/d/17aGvKUd4NGeZBh4vjCaVU7ybj_Kd5CkAVZBIHnhGLjQ/edit?usp=sharing" target="/" style={{ color: "#E87DA6", fontStyle: "italic" }}>
                             Check out other activities from math teachers here.

@@ -1,8 +1,6 @@
 import React from 'react'
-import { makeStyles } from "@material-ui/core/styles";
 import { Box, Grid } from '@material-ui/core';
 import Uno from '../../images/uno-and-speech.png'
-import AboutErrorAnalysisActivities from '../molecules/AboutErrorAnalysisActivities';
 import InteractiveErrorAnalysisActivities from '../molecules/InteractiveErrorAnalysisActivities';
 import PinkMonster from '../../images/pink-monster.png'
 
@@ -29,24 +27,15 @@ function ErrorAnalysisActivitiesSection(props) {
                     <hr className='error-analysis-underline ' />
                     <div>
                         <h6 className='error-analysis-description'>
-                            During classroom discussions,<br></br> singling out students who’ve made<br></br> a mistake can cause<br></br> embarrassment.
-                            But when it’s a<br></br> cartoon character who does so,<br></br> students engage and open up more.<br></br> &nbsp;
-                            <u><a href="https://docs.google.com/document/d/17aGvKUd4NGeZBh4vjCaVU7ybj_Kd5CkAVZBIHnhGLjQ/edit?usp=sharing" target="/" style={{ color: "#E87DA6", fontStyle: "italic" }}>
-                                Check out other activities<br></br> from math teachers here.
+                            During classroom discussions, singling <br/> out students who’ve made a mistake can <br/> cause embarrassment.
+                            But when it’s a<br/> cartoon character who does so, students <br/> engage and open up more. Check out <br/> &nbsp;
+                            <u><a href="https://docs.google.com/document/d/17aGvKUd4NGeZBh4vjCaVU7ybj_Kd5CkAVZBIHnhGLjQ/edit?usp=sharing" target="/" style={{ color: "#FFB8D3", fontStyle: "italic" }}>
+                                 other activities 
                             </a></u>
+                            &nbsp; from math teachers.
                         </h6>
                         <img src={PinkMonster} alt="monster-with-speech-bubble" width="250px" />
                     </div>
-                    {/*<Grid container justify-content="right" margin-top="20px" margin-left="50%" spacing={1}>
-                <Grid xs={9} sm={3}>
-                    <InteractiveErrorAnalysisActivities />
-                    <img src={Uno} alt="monster-with-speech-bubble" width="140%" />
-                </Grid>
-                <Grid xs={9} sm={6}>
-                    <AboutErrorAnalysisActivities styles={styles} />
-                </Grid>
-
-    </Grid>*/}
                 </Grid >
             </Grid>
         </Box >

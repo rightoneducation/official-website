@@ -354,6 +354,71 @@ footer {
   z-index: 1;
 }
 
+.mission-and-vision-header {
+  font-family: 'filson-pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  padding-top: 35px;
+  padding-left: 35px;
+  padding-bottom: 10px;
+
+  color: #FFFFFF; 
+}
+
+.mission-and-vision-underline {
+  width: 440px;
+  height: 0px;
+  margin-left: 35px;
+
+  border: 3px solid #E29B5D;
+}
+
+.mission-and-vision-text-top {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 250;
+font-size: 28px;
+line-height: 35px;
+/* or 47px */
+
+margin-right: 23px;
+margin-top: 15px;
+
+//display: flex;
+//align-items: center;
+text-align: right;
+
+color: #FFFFFF;
+}
+
+.mission-and-vision-text-bottom {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 250;
+font-size: 28px;
+line-height: 35px;
+/* or 47px */
+
+margin-right: 23px;
+//margin-top: 15px;
+
+//display: flex;
+//align-items: center;
+text-align: right;
+
+color: #FFFFFF;
+
+}
+
+.mission-card {
+  width: 500px;
+  height: 328px;
+  border-radius: 22px;
+
+  background: #800D15;
+}
+
 .about-values-quote-bold {
   font-family: Roboto, light;
   font-style: italic;
@@ -1115,7 +1180,7 @@ footer {
     //width: 100%;
     // left: -200px;
     //top: 3000px;
-     //width: 375px;
+    //width: 375px;
     // height: 841px;
     z-index: 0;
   }

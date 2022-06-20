@@ -14,25 +14,30 @@ function AboutTopMission(props) {
         <div className="mission-and-vision-underline"></div>
 
 
-        <div className="mission-and-vision-text" >
+        <div className="mission-and-vision-text">
+
 
           Creating classroom environments<br></br>that
           <strong> embrace mistakes and</strong><br></br>
+          <strong>misconceptions </strong><br></br>by turning them into<br></br>
+          learning opportunities.
+          <img
+            src={monster}
+            className="mission-img"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              //position: "absolute"
+            }}
+
+          />
         </div>
 
-        <div>
-          <img src={monster}
-            alt="right-on-education-mission"
-            width="230px" float="left" />
-
-          <div className="mission-and-vision-text">
-
-
-            <strong>misconceptions </strong><br></br>by turning them into<br></br>
-            learning opportunities.</div>
-        </div>
 
       </div>
+
+
 
 
 

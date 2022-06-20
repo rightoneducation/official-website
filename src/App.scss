@@ -700,6 +700,39 @@ footer {
   color: rgba(232, 125, 166, 1);
 }
 
+.rough-draft-card {
+  position: absolute;
+  width: 429px;
+  height: 330px;
+  right: 250px;
+}
+
+.rough-draft-card-content {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+
+.rough-draft-card-content-bold {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+
+.rough-draft-monster {
+  position: absolute;
+  width: 252.67px;
+  height: 198px;
+  left: 75%;
+  margin-top: 350px;
+}
+
 .game-show-description1 {
   font-family: 'Roboto';
   font-style: normal;

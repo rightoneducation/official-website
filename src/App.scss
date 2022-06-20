@@ -518,7 +518,8 @@ footer {
   height: 315px;
   background: #712773;
   border-radius: 0px 0px 20px 20px;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  padding-top: 42px;
 }
 
 .tutorial-videos-text {
@@ -529,16 +530,17 @@ footer {
   line-height: 25px;
   padding-left: 48px;
   //padding-top: 45px;
-  margin-top: 40px;
+  margin-top: 5px;
+  //margin-top: 10px;
   width: 353px;
-  height: 46px;
-
+  height: 70px;
   color: #FFFFFF;
+
 
 }
 
 .tutorial-videos-text:hover {
-  text-decoration-line: underline;
+  background: rgba(252, 143, 255, 0.42);
 }
 
 .tutorial-videos-text:focus {

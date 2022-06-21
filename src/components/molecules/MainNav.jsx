@@ -72,6 +72,7 @@ function Header() {
             src={monster}
             alt="blue-monster"
             className="mobile-nav-monster"
+            
             />
         </ul>
       </nav>

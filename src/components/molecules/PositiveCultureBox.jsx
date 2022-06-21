@@ -35,7 +35,7 @@ function PositiveCultureBox(props) {
               </p>
               <br/> <br/>
               <p className='rough-draft-card-content-bold'>
-                <a href="https://www.amazon.com/Rough-Draft-Math-Revising-Learn/dp/1625312067/" style={{ color: "#FFB8D3", fontStyle: "italic" }}><u>- Rough Draft Math</u></a>,
+                -<a href="https://www.amazon.com/Rough-Draft-Math-Revising-Learn/dp/1625312067/" style={{ color: "#FFB8D3", fontStyle: "italic" }}><u> Rough Draft Math</u></a>,
               <br/>
               Dr. Amanda Jansen
               </p>

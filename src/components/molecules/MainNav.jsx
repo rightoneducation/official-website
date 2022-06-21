@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 
 function Header() {
   return (
-    <Box component="nav" marginRight={15}>
+    <Box component="nav" marginRight={20}>
       <Grid container spacing={5} wrap="nowrap" >
         <Grid item>
           <NavLink exact to='/' className="mainNav" activeStyle={{ color: 'white' }} activeClassName="activeRoute"><Typography variant="h6">Home</Typography></NavLink>

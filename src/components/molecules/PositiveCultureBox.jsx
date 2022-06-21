@@ -14,7 +14,7 @@ function PositiveCultureBox(props) {
             <hr className='error-analysis-underline' />
           </h4>
           <h6 className='crmt-description'>
-            In his book, <a href="https://www.amazon.com/Teach-Like-Champion-Doug-Lemov/dp/1119712610/" style={{ color: "#FFB8D3", fontStyle: "italic" }}><u>Teach Like a Champion</u></a>, veteran <br /> educator Doug Lemov talks about creating a <br /> classroom environment where “...students feel<br />  safe making and discussing mistakes, so you <br /> can spend less time hunting for errors and more<br />  time fixing them...” He outlines four key <br /> methods:
+            In his book, <a href="https://www.amazon.com/Teach-Like-Champion-Doug-Lemov/dp/1119712610/" className='teach-like-champ-link'><u>Teach Like a Champion</u></a>, veteran <br /> educator Doug Lemov talks about creating a <br /> classroom environment where “...students feel<br />  safe making and discussing mistakes, so you <br /> can spend less time hunting for errors and more<br />  time fixing them...” He outlines four key <br /> methods:
             <br />
             <br />
             <li>Expect error</li>
@@ -35,7 +35,7 @@ function PositiveCultureBox(props) {
               </p>
               <br/> <br/>
               <p className='rough-draft-card-content-bold'>
-                -<a href="https://www.amazon.com/Rough-Draft-Math-Revising-Learn/dp/1625312067/" style={{ color: "#FFB8D3", fontStyle: "italic" }}><u> Rough Draft Math</u></a>,
+                -<a href="https://www.amazon.com/Rough-Draft-Math-Revising-Learn/dp/1625312067/" className='rough-draft-link'><u> Rough Draft Math</u></a>,
               <br/>
               Dr. Amanda Jansen
               </p>

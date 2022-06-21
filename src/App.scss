@@ -593,6 +593,14 @@ footer {
   margin-top: 15px;
 }
 
+.error-analysis-link {
+  color: #FFB8D3;
+}
+
+.error-analysis-link:hover {
+  color: #FFFFFF;
+}
+
 .error-analysis-speech {
   width: 282px;
   height: 90px;
@@ -693,11 +701,19 @@ footer {
   font-size: 26px;
   line-height: 38px;
 
-  color: #FFFFFF;
+  color: #FFB8D3;
 }
 
 .crmt-pioneers:hover {
-  color: rgba(232, 125, 166, 1);
+  color: #FFFFFF;
+}
+
+.teach-like-champ-link {
+  color: #FFB8D3;
+}
+
+.teach-like-champ-link:hover {
+  color: #FFFFFF;
 }
 
 .rough-draft-card {
@@ -722,6 +738,14 @@ footer {
   font-weight: 700;
   font-size: 24px;
   line-height: 27px;
+  color: #FFFFFF;
+}
+
+.rough-draft-link {
+  color: #FFB8D3;
+}
+
+.rough-draft-link:hover {
   color: #FFFFFF;
 }
 
@@ -761,6 +785,13 @@ footer {
   color: #FFFFFF;
 }
 
+.game-show-link{
+  color: #FFB8D3;
+}
+
+.game-show-link:hover{
+  color: #FFFFFF;
+}
 
 @media (max-width: 768px) {
 
@@ -1165,7 +1196,8 @@ footer {
     right: 0px;
     height: 100vh;
     padding-top: 200px;
-    .mobile-nav-monster{
+
+    .mobile-nav-monster {
       position: fixed;
       left: 0;
       bottom: 0;
@@ -1190,7 +1222,7 @@ footer {
   .menuNav:link {
     color: #D9D8D8;
   }
-  
+
   .menuNav:visited {
     color: #D9D8D8;
   }
@@ -1202,7 +1234,7 @@ footer {
   // .active-link{
   //   color: #E87DA6;
   // }
-  
+
 
 
   /*home-page*/

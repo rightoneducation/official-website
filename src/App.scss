@@ -1,5 +1,15 @@
 @import '/node_modules/bootstrap/scss/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
 
+@media (min-width: 415px) {
+  .nav-bar-mobile {
+    display: none;
+  }
+
+  .nav-bar-desktop {
+    display: block;
+  }
+}
 
 .App {
   max-width: 100%;
@@ -82,20 +92,9 @@ p {
       right: 0;
       bottom: 0;
       left: -100px;
-      //left: 35%;
       z-index: 4;
     }
 
-    // #header-element-3 {
-    //   background: url(./images/header-element-3.svg);
-    //   background-repeat: no-repeat;
-    //   position: absolute;
-    //   top: 15%;
-    //   right: 0;
-    //   bottom: 0;
-    //   left: 85%;
-    //   z-index: 2;
-    // }
   }
 }
 
@@ -246,7 +245,7 @@ footer {
   // left: 150px;
   z-index: 4;
   //width: 20%;
-  margin-left: 60px;
+  margin-left: 75px;
   margin-top: 60px;
 }
 
@@ -255,7 +254,7 @@ footer {
   // margin-top: 470px;
   z-index: 5;
   // width: 25%;
-  // margin-left: 30px;
+  margin-left: 15px;
 }
 
 
@@ -352,63 +351,6 @@ footer {
   align-items: center;
   justify-content: center;
   z-index: 1;
-}
-
-.mission-and-vision-header {
-  font-family: 'filson-pro';
-  font-style: normal;
-  font-weight: 700;
-font-size: 55px;
-line-height: 55px;
-  padding-top: 50px;
-  padding-left: 48px;
-  padding-bottom: 10px;
-
-  color: #FFFFFF; 
-}
-
-.mission-and-vision-underline {
-  width: 578px;
-  height: 0px;
-  margin-left: 47px;
-
-  border: 4px solid #E29B5D;
-}
-
-.mission-and-vision-text {
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 220;
-font-size: 36px;
-line-height: 47px;
-/* or 47px */
-margin-right: 35px;
-margin-top: 10px;
-padding-top: 15px;
-text-align: right;
-
-color: #FFFFFF;
-}
-
-.mission-card {
-  width: 658px;
-//height: 432px;
-  border-radius: 22px;
-
-  background: #800D15;
-}
-
-.mission-img {
-  float: 'left'
-}
-
-.vision-card {
-  width: 658px;
-height: 266px;
-
-background: #394A99;
-box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.25);
-border-radius: 30px;
 }
 
 .about-values-quote-bold {
@@ -574,7 +516,8 @@ border-radius: 30px;
   height: 315px;
   background: #712773;
   border-radius: 0px 0px 20px 20px;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  padding-top: 42px;
 }
 
 .tutorial-videos-text {
@@ -584,18 +527,22 @@ border-radius: 30px;
   font-size: 25px;
   line-height: 25px;
   padding-left: 48px;
-  padding-top: 45px;
-
+  //padding-top: 45px;
+  margin-top: 5px;
+  //margin-top: 10px;
+  width: 353px;
+  height: 70px;
   color: #FFFFFF;
+
 
 }
 
 .tutorial-videos-text:hover {
-  text-decoration-line: underline;
+  background: rgba(252, 143, 255, 0.42);
 }
 
 .tutorial-videos-text:focus {
-  text-decoration-line: underline;
+  background: rgba(252, 143, 255, 0.42);
 }
 
 .overview-video-heading {
@@ -609,8 +556,7 @@ border-radius: 30px;
 }
 
 .error-analysis {
-  text-align: right;
-  justify-content: right;
+  margin-bottom: 0px;
 }
 
 .error-analysis-header {
@@ -625,15 +571,15 @@ border-radius: 30px;
 }
 
 .error-analysis-underline {
-  width: 704px;
+  width: 650px;
   border: 4px solid #E29B5D;
   opacity: 1;
-  justify-content: right;
-  margin-bottom: 30px;
+  //justify-content: right;
+  //align-items: flex-end;
+  margin-bottom: 0px;
 }
 
 .error-analysis-description {
-  padding-left: 50px;
   font-family: "Roboto";
   font-size: 28px;
   font-weight: 400;
@@ -641,8 +587,71 @@ border-radius: 30px;
   letter-spacing: 0em;
   text-align: right;
   color: #FFFFFF;
-
+  margin-top: 0px;
+  padding: 0px;
+  margin-right: 0px;
+  margin-top: 15px;
 }
+
+.error-analysis-speech {
+  width: 282px;
+  height: 90px;
+  border-radius: 15px;
+  background: #FFFFFF;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+.error-analysis-activity {
+  width: 380px;
+  margin-left: 100px;
+  border-radius: 20px;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.error-analysis-activity-text {
+  font-family: 'Kalam';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.15px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.error-analysis-activity-answer {
+  font-family: 'Kalam';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+
+  color: #E87DA6;
+}
+
+.error-analysis-activity-button {
+  font-family: 'filson-soft';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.15px;
+
+  color: #E87DA6;
+}
+
 
 .crmt-header {
   font-family: 'filson-pro';
@@ -684,44 +693,44 @@ border-radius: 30px;
   font-size: 26px;
   line-height: 38px;
 
-  color: rgba(255, 184, 211, 1);
+  color: #FFFFFF;
 }
 
 .crmt-pioneers:hover {
-  color: #FFFFFF;
+  color: rgba(232, 125, 166, 1);
 }
 
-.teach-like-champion-text {
+.rough-draft-card {
+  position: absolute;
+  width: 429px;
+  height: 330px;
+  right: 250px;
+}
+
+.rough-draft-card-content {
   font-family: 'Roboto';
   font-style: italic;
-  font-size: 26px;
-  line-height: 38px;
-  letter-spacing: 0em;
-  color: rgba(255, 184, 211, 1);
-}
-
-.teach-like-champion-text:hover {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 27px;
   color: #FFFFFF;
 }
 
-.rough-draft-math-text {
+.rough-draft-card-content-bold {
   font-family: 'Roboto';
   font-style: italic;
-  color: rgba(255, 184, 211, 1);
-}
-
-.rough-draft-math-text:hover {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 27px;
   color: #FFFFFF;
 }
 
-.game-show-link {
-  font-family: 'Roboto';
-  font-style: italic;
-  color: rgba(255, 184, 211, 1);
-}
-
-.game-show-link:hover {
-  color: #FFFFFF;
+.rough-draft-monster {
+  position: absolute;
+  width: 252.67px;
+  height: 198px;
+  left: 75%;
+  margin-top: 350px;
 }
 
 .game-show-description1 {
@@ -754,6 +763,7 @@ border-radius: 30px;
 
 
 @media (max-width: 768px) {
+
 
   /*home-page*/
   .problem-section {
@@ -1091,8 +1101,108 @@ border-radius: 30px;
 @media (max-width: 414px) {
   html {
     overflow-x: initial !important;
+  }
+
+  /*nav-bar-desktop*/
+  .mainNav {
+    display: none;
+  }
+
+  /*nav-bar-mobile*/
+
+  .page-header {
+    background: #322759;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    position: relative;
+    overflow: visible;
+    z-index: 4;
+
+    .logo {
+      position: absolute;
+      width: 15%;
+      margin-top: -100px;
+    }
 
   }
+
+  .nav-bar-mobile {
+    position: relative;
+    display: block;
+  }
+
+  .nav-bar-mobile button {
+    position: fixed;
+    right: 40px;
+    top: 40px;
+    z-index: 10;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+  }
+
+  .menuNav {
+    overflow-y: none;
+    list-style: none;
+    position: fixed;
+    top: 0;
+    background: #322759;
+    right: -30px;
+    bottom: 0;
+    height: 100vh;
+    width: 0;
+    overflow: hidden;
+    max-width: 414px;
+    z-index: 9;
+    text-align: center;
+  }
+
+  .menuNav.showMenu {
+    width: 100%;
+    right: 0px;
+    height: 100vh;
+    padding-top: 200px;
+    .mobile-nav-monster{
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 65vw;
+      justify-content: flex-start;
+    }
+  }
+
+  .nav-tabs {
+    padding: 20px;
+    border-bottom: none;
+    // font-family: 'Roboto';
+    // font-style: normal;
+    // font-weight: 700;
+    // font-size: 30px;
+    // line-height: 18px;
+    // letter-spacing: 0.15px;
+    // color: #D9D8D8;
+  }
+
+
+  .menuNav:link {
+    color: #D9D8D8;
+  }
+  
+  .menuNav:visited {
+    color: #D9D8D8;
+  }
+
+  .menuNav:active {
+    color: #E87DA6;
+  }
+
+  // .active-link{
+  //   color: #E87DA6;
+  // }
+  
 
 
   /*home-page*/
@@ -1101,6 +1211,7 @@ border-radius: 30px;
     top: 0px;
     left: 0px;
     margin-top: -100px;
+    z-index: 1;
   }
 
   .problem-section-top-background {

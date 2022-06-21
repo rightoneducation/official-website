@@ -1,33 +1,27 @@
 import React from "react";
-import { Grid, GridDirection } from "@material-ui/core";
-import placeholder from '../../images/vision-desktop.png';
-import vision from '../../images/vision.png';
+import { Grid, Card, CardContent } from "@material-ui/core";
+import vision from '../../images/vision.png'
 
 function AboutTopIntro(props) {
   const { styles } = props;
   return (
     <Grid>
-      <div className="vision-card">
-        <h1 className="mission-and-vision-header">Vision</h1>
-        <div className="mission-and-vision-underline"></div>
-        <p className="mission-and-vision-text">Unlocking STEM potential in all youth.</p>
-
-
-      </div>
+      <Card style={{ background: "#394A99", filter: "drop-shadow(15px 15px 10px rgba(0, 0, 0, 0.25))", borderRadius: "30px" }}
+        className='vision-card'>
+        <CardContent>
+          <h1 className="mission-and-vision-header">Vision</h1>
+          <div className="mission-and-vision-underline"></div>
+        </CardContent>
+        <CardContent style={{ padding: "0px" }}>
+          <div className="mission-and-vision-text">
+            Unlocking STEM potential in all youth.
+          </div>
+        </CardContent>
+      </Card >
       <img
         src={vision}
-        alt="right-on-education-vision"
-        textAlign="center"
-        width="380px" />
-
-
-
-      {/*<img
-    src={placeholder}
-    alt="right-on-education-vision"
-    width="85%"
-    max-width="756.4px"
-    />*/}
+        style={{ marginLeft: "140px" }}
+      />
     </Grid>
   );
 }

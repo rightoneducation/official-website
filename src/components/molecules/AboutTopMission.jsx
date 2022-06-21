@@ -23,19 +23,22 @@ function AboutTopMission(props) {
           learning opportunities.
           <img
             src={monster}
-            className="mission-img"
             style={{
               display: "flex",
               flexDirection: "column",
               justifyContent: "center",
-              //position: "absolute"
+              position: "absolute",
+              //left: "100px",
+              top: "620px"
             }}
 
           />
         </div>
 
-
       </div>
+
+
+
 
 
 

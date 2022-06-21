@@ -516,7 +516,8 @@ footer {
   height: 315px;
   background: #712773;
   border-radius: 0px 0px 20px 20px;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  padding-top: 42px;
 }
 
 .tutorial-videos-text {
@@ -527,16 +528,17 @@ footer {
   line-height: 25px;
   padding-left: 48px;
   //padding-top: 45px;
-  margin-top: 40px;
+  margin-top: 5px;
+  //margin-top: 10px;
   width: 353px;
-  height: 46px;
-
+  height: 70px;
   color: #FFFFFF;
+
 
 }
 
 .tutorial-videos-text:hover {
-  text-decoration-line: underline;
+  background: rgba(252, 143, 255, 0.42);
 }
 
 .tutorial-videos-text:focus {
@@ -696,6 +698,39 @@ footer {
 
 .crmt-pioneers:hover {
   color: rgba(232, 125, 166, 1);
+}
+
+.rough-draft-card {
+  position: absolute;
+  width: 429px;
+  height: 330px;
+  right: 250px;
+}
+
+.rough-draft-card-content {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+
+.rough-draft-card-content-bold {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+
+.rough-draft-monster {
+  position: absolute;
+  width: 252.67px;
+  height: 198px;
+  left: 75%;
+  margin-top: 350px;
 }
 
 .game-show-description1 {

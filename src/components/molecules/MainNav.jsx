@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Box, Grid, Typography } from "@material-ui/core";
+<<<<<<< HEAD
 import { NavLink } from 'react-router-dom';
 import { MdClose } from "react-icons/md";
 import { FiMenu } from "react-icons/fi";
@@ -103,6 +104,25 @@ function Header() {
               Resources
             </Typography>
           </NavLink>
+=======
+import { NavLink } from 'react-router-dom'
+
+function Header() {
+  return (
+    <Box component="nav" marginRight={15}>
+      <Grid container spacing={5} wrap="nowrap" >
+        <Grid item>
+          <NavLink exact to='/' className="mainNav" activeStyle={{ color: 'white' }} activeClassName="activeRoute"><Typography variant="h6">Home</Typography></NavLink>
+        </Grid>
+        <Grid item>
+          <NavLink to='/about' className="mainNav" activeStyle={{ color: 'white' }} activeClassName="activeRoute"><Typography variant="h6">About</Typography></NavLink>
+        </Grid>
+        <Grid item>
+          <NavLink to='/team' className="mainNav" activeStyle={{ color: 'white' }} activeClassName="activeRoute"><Typography variant="h6">Team</Typography></NavLink>
+        </Grid>
+        <Grid item>
+          <NavLink to='/resources' className="mainNav" activeStyle={{ color: 'white' }} activeClassName="activeRoute"><Typography variant="h6">Resources</Typography></NavLink>
+>>>>>>> origin/main
         </Grid>
       </Grid>
     </Box>

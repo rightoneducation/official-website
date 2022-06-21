@@ -407,6 +407,28 @@ box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.25);
 border-radius: 30px;
 }
 
+.values-header {
+  font-family: 'filson-pro';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 24px;
+color: #FFFFFF;
+}
+
+.values-text {
+  font-family: 'roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+}
+
+.value-1-img {
+  background: 'rgba(153, 42, 81, 1)'
+}
+
 .about-values-quote-bold {
   font-family: Roboto, light;
   font-style: italic;

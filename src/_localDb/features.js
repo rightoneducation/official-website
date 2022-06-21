@@ -41,27 +41,51 @@ module.exports = {
   ourValues: [
     {
       id: 1,
-      featureImage: '/images/trust-communication-desktop.png'
+      featureImage: '/images/value-1.png',
+      header: 'Trust and open communication',
+      description: 'Seeking to understand, then to be understood',
+      imgBackground: 'rgba(43, 56, 115, 1)',
+      textBackground: 'rgba(57, 74, 153, 1)'
     },
     {
       id: 2,
-      featureImage: '/images/positive-culture-desktop.png'
+      featureImage: '/images/value-2.png',
+      header: 'Positive culture of error',
+      description: 'Learning from mistakes, iterating, and improving',
+      imgBackground: 'rgba(128, 13, 21, 1)',
+      textBackground: 'rgba(153, 16, 25, 1)'
     },
     {
       id: 3,
-      featureImage: '/images/gratitude-desktop.png'
+      featureImage: '/images/value-3.png',
+      header: 'Gratitude',
+      description: 'Keeping a grateful mindset through ups and downs',
+      imgBackground: 'rgba(88, 31, 89, 1)',
+      textBackground: 'rgba(113, 39, 115, 1)'
     },
     {
       id: 4,
-      featureImage: '/images/perseverence-desktop.png'
+      featureImage: '/images/value-4.png',
+      header: 'Humble perseverance',
+      description: 'Falling down seven times, getting up eight',
+      imgBackground: 'rgba(153, 42, 81, 1)',
+      textBackground: 'rgba(178, 49, 94, 1)'
     },
     {
       id: 5,
-      featureImage: '/images/rising-desktop.png'
+      featureImage: '/images/value-5.png',
+      header: 'Rising together',
+      description: 'Lifting ourselves up by lifting others',
+      imgBackground: 'rgba(33, 79, 89, 1)',
+      textBackground: 'rgba(43, 101, 115, 1)'
     },
     {
       id: 6,
-      featureImage: '/images/beginner-mindset-desktop.png'
+      featureImage: '/images/value-6.png',
+      header: "Beginner's mindset",
+      description: 'Embarking on all journeys with an open mind',
+      imgBackground: 'rgba(44, 57, 117, 1)',
+      textBackground: 'rgba(52, 68, 140, 1)'
     },
   ],
   aboutCards: [

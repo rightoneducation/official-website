@@ -4,7 +4,7 @@ export default function GameShowDescription(props) {
 //   const { styles } = props;
   return (
     <div style={{marginLeft: "10px"}}>
-        <h3 className="game-show-description1">Check out season highlights <br/> and <u><a href="https://docs.google.com/spreadsheets/d/1HoT_r6AGKU6g7kldqFnvy47Mno3fHLXQE24cuNjY9eo/edit?usp=sharing" target="/" style={{ color: "#FFB8D3", fontStyle: "italic" }}>example questions <br/> and answers</a></u>!
+        <h3 className="game-show-description1">Check out season highlights <br/> and <u><a href="https://docs.google.com/spreadsheets/d/1HoT_r6AGKU6g7kldqFnvy47Mno3fHLXQE24cuNjY9eo/edit?usp=sharing" target="/" className="game-show-link">example questions <br/> and answers</a></u>!
         <hr className="game-show-underline"/>
         </h3>
         <p className="game-show-description2">

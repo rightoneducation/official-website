@@ -29,7 +29,7 @@ function ErrorAnalysisActivitiesSection(props) {
                         <h6 className='error-analysis-description'>
                             During classroom discussions, singling <br/> out students who’ve made a mistake can <br/> cause embarrassment.
                             But when it’s a<br/> cartoon character who does so, students <br/> engage and open up more. Check out <br/> &nbsp;
-                            <u><a href="https://docs.google.com/document/d/17aGvKUd4NGeZBh4vjCaVU7ybj_Kd5CkAVZBIHnhGLjQ/edit?usp=sharing" target="/" style={{ color: "#FFB8D3", fontStyle: "italic" }}>
+                            <u><a href="https://docs.google.com/document/d/17aGvKUd4NGeZBh4vjCaVU7ybj_Kd5CkAVZBIHnhGLjQ/edit?usp=sharing" target="/" className='error-analysis-link'>
                                  other activities 
                             </a></u>
                             &nbsp; from math teachers.

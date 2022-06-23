@@ -54,29 +54,10 @@ function PageHeader() {
           spacing={5}
           className="nav-bar"
         >
-          {/* <Grid item>
-              <h4 className="sub-title">
-                Inspiring learning by embracing mistakes
-              </h4>
-            </Grid> */}
           <Grid item>
             <MainNav />
           </Grid>
-          {/* <Grid container>
-              <Grid item>
-                <img src={triangle} alt="right education triangle" />
-              </Grid>
-            </Grid> */}
         </Grid>
-        {/* <Grid container
-        //direction="column"
-        //alignItems="end"
-        //justifyContent="right"
-        >
-          <Grid item>
-            <img src={triangle} alt="right education triangle" className='header-triangle'/>
-          </Grid>
-        </Grid> */}
       </Grid>
     </Box>
   );

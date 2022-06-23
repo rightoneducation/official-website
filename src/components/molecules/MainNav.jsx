@@ -18,9 +18,9 @@ function Header() {
       <nav className="nav-bar-mobile">
         <button onClick={handleToggle}>
           {navbarOpen ? (
-            <MdClose style={{ color: "#FFFFFF", width: "40px", height: "40px" }} />
+            <MdClose className="hamburger-close" />
           ) : (
-            <FiMenu style={{ color: "#FFFFFF", width: "50px", height: "40px" }} />
+            <FiMenu className="hamburger-open" />
           )}
         </button>
         <ul className={`menuNav ${navbarOpen ? " showMenu" : ""}`}>

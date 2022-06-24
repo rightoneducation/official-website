@@ -257,6 +257,9 @@ footer {
   margin-left: 15px;
 }
 
+.why-cards-section{
+  z-index: 1;
+}
 
 .why-cards {
   width: 359px;
@@ -1224,6 +1227,7 @@ footer {
     position: fixed;
     // overflow: visible;
     z-index: 4;
+    //padding-bottom: 20px;
 
     .logo {
       position: fixed;
@@ -1321,7 +1325,7 @@ footer {
     position: relative;
     top: 0px;
     left: 0px;
-    margin-top: -10px;
+    margin-top: 80px;
     z-index: 1;
   }
 
@@ -1438,6 +1442,8 @@ footer {
     position: absolute;
     //max-width: 50vw;
     width: 100%;
+    height: 177px;
+    margin-top: -360px;
     z-index: 2;
   }
 
@@ -1446,6 +1452,7 @@ footer {
     left: 90%;
     top: 50px;
     z-index: 1;
+    display: none;
   }
 
   .blue-monster {
@@ -1453,6 +1460,12 @@ footer {
     left: -180px;
     top: 30px;
     z-index: 1;
+    display: none;
+  }
+
+  .why-cards-section{
+    z-index: 1;
+    margin-top: -400px !important;
   }
 
   .why-cards {

@@ -5,11 +5,7 @@ import {
 } from "@material-ui/core";
 import SectionHeading from '../atoms/SectionHeading'
 import SingleWhy from '../atoms/SingleWhy'
-import chromebook from '../../images/chromebook_mockup.jpg'
 import RightOnVideo from '../atoms/RightOnVideo';
-import bottomBackground from '../../images/math-symbol-bg-bottom.png'
-import redMonster from '../../images/red-monster.png'
-import blueMonster from '../../images/blue-monster.png'
 
 function WhyRightOn(props) {
   const { whyRightOn } = props
@@ -20,31 +16,12 @@ function WhyRightOn(props) {
           <SectionHeading />
         </Grid>
             <RightOnVideo/>
-          {/* <Grid item sm={12}>
-            <img
-              src={redMonster}
-              alt="red-monster"
-              className='red-monster'
-            />
-            <img
-              src={blueMonster}
-              alt="blue-monster"
-              className='blue-monster'
-            />
-          </Grid> */}
-        {/* <Grid item>
-          <img
-            src={bottomBackground}
-            alt="math-background"
-            className='why-right-on-bottom-background'
-          />
-        </Grid> */}
         <Grid
           item
           container
           spacing={5}
           justify="center"
-          style={{ zIndex: "1" }}
+          className="why-cards-section"
         >
           {whyRightOn.map((singleWhy, key) => {
             return (

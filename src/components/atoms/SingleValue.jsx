@@ -10,27 +10,28 @@ function singleValue(props) {
 
   return (
     <Card style={{
-      width: "445px", height: "200px", borderRadius: "30px",
+      borderRadius: "30px",
       margin: "10px", boxShadow: "10px 10px 10px rgba(0, 0, 0, 0.25)", padding: "0px",
     }}>
       <CardContent style={{
-        width: "445px", height: "200px", padding: "0px",
+        width: "100%", height: "200px", padding: "0px",
         display: "flex", alignItems: "flex-end", justifyContent: "left", backgroundColor: imgBackground
       }}>
         <img
           src={featureImage}
           alt="right-on-education-our-values"
-          width="200px"
+          width="45%"
+          height="100%"
         />
         <CardContent style={{
-          width: "245px", height: "200px", padding: "0px",
-          display: "flex", alignItems: "center", justifyContent: "left",
-          paddingLeft: "22px", paddingRight: "29px", backgroundColor: textBackground
+          width: "55%", height: "200px", padding: "0px",
+          display: "flex", alignItems: "center", justifyContent: "center",
+          paddingLeft: "21px", paddingRight: "29px", backgroundColor: textBackground
         }}>
-          <div>
+          <CardContent width="50%">
             <h4 className='values-header'>{header}</h4>
             <p className='values-text'>{description}</p>
-          </div>
+          </CardContent>
         </CardContent>
       </CardContent>
 

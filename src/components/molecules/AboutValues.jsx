@@ -19,7 +19,7 @@ function AboutValues(props) {
         </p>
       </div>
       <Grid item container
-        style={{ marginLeft: "110px", alignItems: "space-evenly", justifyItems: "center", zIndex: "1" }}
+        style={{ width: "100%", alignItems: "space-evenly", justifyItems: "center", zIndex: "1", marginLeft: "100px", marginRight: "100px" }}
       >
         {ourValues.map((singleValue, key) => {
           return (

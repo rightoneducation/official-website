@@ -9,32 +9,38 @@ function singleValue(props) {
   const { textBackground } = props.singleValue
 
   return (
+
     <Card style={{
       borderRadius: "30px",
       margin: "10px", boxShadow: "10px 10px 10px rgba(0, 0, 0, 0.25)", padding: "0px",
-    }}>
+    }} className="value-card">
+
       <CardContent style={{
-        width: "100%", height: "200px", padding: "0px",
-        display: "flex", alignItems: "flex-end", justifyContent: "left", backgroundColor: imgBackground
-      }}>
-        <img
-          src={featureImage}
-          alt="right-on-education-our-values"
-          width="45%"
-          height="100%"
-        />
+        padding: "0px",
+        display: "flex", justifyContent: "center", backgroundColor: textBackground
+      }} >
         <CardContent style={{
-          width: "55%", height: "200px", padding: "0px",
-          display: "flex", alignItems: "center", justifyContent: "center",
-          paddingLeft: "21px", paddingRight: "29px", backgroundColor: textBackground
-        }}>
-          <CardContent width="50%">
+          padding: "0px",
+          width: "45%",
+          backgroundColor: imgBackground
+        }} className="value-img">
+          <img
+            src={featureImage}
+            alt="right-on-education-our-values"
+            width="100%"
+            height="100%"
+          /></CardContent>
+        <CardContent style={{
+          padding: "0px", width: "55%",
+          //display: "flex", alignItems: "center", justifyContent: "center",
+          backgroundColor: textBackground
+        }} className="value-text">
+          <CardContent width="100%">
             <h4 className='values-header'>{header}</h4>
             <p className='values-text'>{description}</p>
           </CardContent>
         </CardContent>
       </CardContent>
-
 
     </Card>
 

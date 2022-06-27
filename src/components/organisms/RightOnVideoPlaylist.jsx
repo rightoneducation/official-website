@@ -1,12 +1,6 @@
 import React, { useState } from "react";
 import { Box, Grid } from "@material-ui/core";
-import GameShowHeading from "../molecules/GameShowHeading";
-import OverviewVideo from "../atoms/OverviewVideo"
-import GameShowDescription from '../molecules/GameShowDescription';
-import OverviewVideoHeading from "../molecules/OverviewVideoHeading";
-import triangle from "../../images/background-triangle.png"
 import AboutBannerImage from "../molecules/AboutBannerImage";
-import TutorialVideos from "../molecules/TutorialVideosSection";
 
 //take id of clicked video link - set src and title based off current/clicked id
 const data = {
@@ -88,11 +82,10 @@ export default function RightOnVideoPlaylist(props) {
                             <br />
                         </Grid>
                     </Grid>
-                    <Grid xs={12} sm={12} md={8} style={{ marginBottom: "70px" }}>
+                    <Grid xs={12} sm={12} md={8} >
                         <div>
                             <iframe
-                                width="860"
-                                height="483"
+                                className="overview-video"
                                 src={currentVideo.src}
                                 title={currentVideo.title}
                                 frameborder="0"

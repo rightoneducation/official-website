@@ -1,6 +1,5 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
-import image from "../../images/students-pointing-at-screen.jpg";
 import placeholder from "../../images/banner-background.png"
 
 function AboutBannerImage(props) {
@@ -12,8 +11,9 @@ function AboutBannerImage(props) {
           src={placeholder}
           alt="banner-background"
           width="100%"
-          align="top"
-          height="200px"
+          className="page-triangle-banner"
+          // align="top"
+          // height="200px"
         />
       </Grid>
   );

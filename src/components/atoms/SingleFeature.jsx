@@ -8,10 +8,6 @@ function singleFeature (props) {
         <Grid item>
           <center><img src={featureIcon} width='90%' alt="product-features" /></center>
         </Grid>
-        {/* <Grid item style={{ textAlign: "left"}} sm={12} md={10}>
-        <h3 style={{marginBottom: '20px'}}>{title}</h3>
-        <Typography variant="body1" style={{ fontWeight:"300", lineHeight: "1.4" }}>{description}</Typography>
-        </Grid> */}
     </Grid>
   )
 }

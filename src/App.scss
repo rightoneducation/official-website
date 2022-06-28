@@ -344,6 +344,10 @@ footer {
 
   /*about-page*/
 
+  .error-analysis-mobile-break {
+    display: none;
+  }
+
   .about-values-quote {
     font-family: Roboto;
     font-style: italic;
@@ -1746,6 +1750,8 @@ footer {
     display: none !important;
   }
 
+
+
   .error-analysis-link {
     color: #FFB8D3;
   }
@@ -1944,5 +1950,34 @@ footer {
   .game-show-link:hover {
     color: #FFFFFF;
   }
+
+  /*about-page*/
+
+  .about-values-quote {
+    font-family: Roboto;
+    font-style: italic;
+    text-align: center;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 33px;
+    color: #D3BEFF;
+    letter-spacing: 0em;
+  }
+
+  .about-values-quote-bold {
+    font-family: Roboto, light;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+    color: #EFDAFF;
+    letter-spacing: 0em;
+  }
+
+  .error-analysis-mobile-break {
+    display: block;
+  }
+
 
 }

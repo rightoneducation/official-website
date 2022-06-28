@@ -10,7 +10,7 @@ function OurVision(props) {
   return (
     <Box components="section">
       <AboutBannerImage styles={styles} />
-      <Grid container justifyContent='space-evenly' style={{ marginBottom: "100px", marginTop: "20px", paddingLeft: "50px", paddingRight: "50px" }}>
+      <Grid container justifyContent='space-evenly' styles={styles}>
         <AboutTopMission />
         <AboutTopIntro />
       </Grid>

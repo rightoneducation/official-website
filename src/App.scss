@@ -1141,6 +1141,19 @@ footer {
     color: white;
   }
 
+  .mission-and-vision-header {
+    font-family: 'filson-pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 55px;
+    padding-top: 40px;
+    padding-left: 38px;
+    padding-bottom: 15px;
+  
+    color: #8f1010;
+  }
+
   .value-card {
     width: 329px;
     height: 151px;
@@ -1269,120 +1282,7 @@ footer {
   }
 }
 
-@media screen and(max-width: 414px) {
-  html {
-    overflow-x: initial !important;
-  }
-
-  /*nav-bar-desktop*/
-  .mainNav {
-    display: none;
-  }
-
-  /*nav-bar-mobile*/
-
-  .page-header {
-    background: #322759;
-    width: 100%;
-    height: 20%;
-    // display: flex;
-    position: fixed;
-    // overflow: visible;
-    z-index: 4;
-    //padding-bottom: 20px;
-
-    .logo {
-      position: fixed;
-      width: 35%;
-      margin-top: -28px;
-      margin-left: -40px;
-    }
-
-  }
-
-  .nav-bar-mobile {
-    position: relative;
-    display: block;
-  }
-
-  .nav-bar-mobile button {
-    position: fixed;
-    right: 40px;
-    top: 40px;
-    z-index: 10;
-    cursor: pointer;
-    background: transparent;
-    border: none;
-  }
-
-  .menuNav {
-    overflow-y: none;
-    list-style: none;
-    //position: fixed;
-    top: 0;
-    //background: #322759;
-    right: 0;
-    bottom: 0;
-    height: 100vh;
-    width: 0;
-    overflow: hidden;
-    max-width: 414px;
-    z-index: 9;
-    text-align: center;
-  }
-
-  .menuNav.showMenu {
-    width: 100%;
-    right: 0px;
-    height: 100vh;
-    padding-top: 200px;
-    position: fixed;
-    background: #322759;
-    
-    .mobile-nav-monster {
-      position: fixed;
-      left: 0;
-      bottom: 0;
-      width: 65vw;
-      justify-content: flex-start;
-    }
-  }
-
-  .nav-tabs {
-    padding: 20px;
-    border-bottom: none;
-  }
-
-
-  .menuNav:link {
-    color: #D9D8D8;
-  }
-
-  .menuNav:visited {
-    color: #D9D8D8;
-  }
-
-  .menuNav:active {
-    color: #E87DA6;
-  }
-
-  .hamburger-close{
-    color: #FFFFFF;
-    width: 40px;
-    height: 40px;
-    margin-top: 10px;
-    transform: scale(1.7);
-  }
-
-  .hamburger-open{
-    color: #FFFFFF;
-    width: 40px;
-    height: 40px;
-    margin-top: 10px;
-    transform: scale(1.7);
-  }
-
-  /*home-page*/
+@media screen and (max-width: 414px) {
   .problem-section {
     position: relative;
     top: 0px;
@@ -1561,7 +1461,122 @@ footer {
     font-size: 17px;
     line-height: 22px;
     color: #FFFFFF;
+}
+  
+@media screen and (max-width: 414px) {
+      /*nav-bar-desktop*/
+      .mainNav {
+        display: none;
+      }
+    
+      /*nav-bar-mobile*/
+    
+      .page-header {
+        background: #322759;
+        width: 100%;
+        height: 20%;
+        // display: flex;
+        position: fixed;
+        // overflow: visible;
+        z-index: 4;
+        //padding-bottom: 20px;
+    
+        .logo {
+          position: fixed;
+          width: 35%;
+          margin-top: -28px;
+          margin-left: -40px;
+        }
+    
+      }
+    
+      .nav-bar-mobile {
+        position: relative;
+        display: block;
+      }
+    
+      .nav-bar-mobile button {
+        position: fixed;
+        right: 40px;
+        top: 40px;
+        z-index: 10;
+        cursor: pointer;
+        background: transparent;
+        border: none;
+      }
+    
+      .menuNav {
+        overflow-y: none;
+        list-style: none;
+        //position: fixed;
+        top: 0;
+        //background: #322759;
+        right: 0;
+        bottom: 0;
+        height: 100vh;
+        width: 0;
+        overflow: hidden;
+        max-width: 414px;
+        z-index: 9;
+        text-align: center;
+      }
+    
+      .menuNav.showMenu {
+        width: 100%;
+        right: 0px;
+        height: 100vh;
+        padding-top: 200px;
+        position: fixed;
+        background: #322759;
+        
+        .mobile-nav-monster {
+          position: fixed;
+          left: 0;
+          bottom: 0;
+          width: 65vw;
+          justify-content: flex-start;
+        }
+      }
+    
+      .nav-tabs {
+        padding: 20px;
+        border-bottom: none;
+      }
+    
+    
+      .menuNav:link {
+        color: #D9D8D8;
+      }
+    
+      .menuNav:visited {
+        color: #D9D8D8;
+      }
+    
+      .menuNav:active {
+        color: #E87DA6;
+      }
+    
+      .hamburger-close{
+        color: #FFFFFF;
+        width: 40px;
+        height: 40px;
+        margin-top: 10px;
+        transform: scale(1.7);
+      }
+    
+      .hamburger-open{
+        color: #FFFFFF;
+        width: 40px;
+        height: 40px;
+        margin-top: 10px;
+        transform: scale(1.7);
+      }
+}
 
+@media screen and (max-width: 414px) {
+  html {
+    overflow-x: initial !important;
+  }
   .value-card {
     width: 329px;
     height: 151px;
@@ -1591,5 +1606,21 @@ footer {
 
     color: #FFFFFF;
   }
-  }
+
+    
+  .mission-and-vision-header {
+    font-family: 'filson-pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    padding-top: 40px;
+    padding-left: 38px;
+    padding-bottom: 15px;
+  
+    color: #d61f1f;
+  } 
+
+  } 
 }
+

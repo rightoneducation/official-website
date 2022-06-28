@@ -10,8 +10,8 @@ function ErrorAnalysisActivitiesSection(props) {
         <Box style={{ marginTop: "200px" }}>
             <Grid container style={{ justifyContent: "center" }}>
 
-                <Grid item style={{ marginTop: "227px" }}>
-                    <img src={Uno} alt="monster-with-speech-bubble" width="250px" />
+                <Grid item >
+                    <img src={Uno} alt="monster-with-speech-bubble"  className="error-analysis-desktop-green-monster" />
                 </Grid>
                 <Grid item style={{ marginTop: "168px" }}>
                     <div className="error-analysis-speech">
@@ -27,14 +27,14 @@ function ErrorAnalysisActivitiesSection(props) {
                     <hr className='error-analysis-underline ' />
                     <div>
                         <h6 className='error-analysis-description'>
-                            During classroom discussions, singling <br/> out students who’ve made a mistake can <br/> cause embarrassment.
-                            But when it’s a<br/> cartoon character who does so, students <br/> engage and open up more. Check out <br/> &nbsp;
+                            During classroom discussions, singling <br className="error-analysis-desktop-break"/> out students who’ve made a mistake can <br className="error-analysis-desktop-break"/>  cause embarrassment.
+                            But when it’s a<br className="error-analysis-desktop-break"/>  cartoon character who does so, students <br className="error-analysis-desktop-break"/>  engage and open up more. Check out <br className="error-analysis-desktop-break"/>  &nbsp;
                             <u><a href="https://docs.google.com/document/d/17aGvKUd4NGeZBh4vjCaVU7ybj_Kd5CkAVZBIHnhGLjQ/edit?usp=sharing" target="/" className='error-analysis-link'>
                                  other activities 
                             </a></u>
                             &nbsp; from math teachers.
                         </h6>
-                        <img src={PinkMonster} alt="monster-with-speech-bubble" width="250px" />
+                        <img src={PinkMonster} alt="monster-with-speech-bubble" className='error-analysis-desktop-pink-monster' />
                     </div>
                 </Grid >
             </Grid>

@@ -671,6 +671,15 @@ footer {
     margin-bottom: 0px;
   }
 
+  .error-analysis-desktop-green-monster {
+    margin-top: 227px;
+    width: 250px;
+  }
+
+  .error-analysis-desktop-pink-monster {
+    width: 250px;
+  }
+
   .error-analysis-header {
     font-family: 'filson-pro';
     font-style: normal;
@@ -1690,6 +1699,14 @@ footer {
     margin-bottom: 0px;
   }
 
+  .error-analysis-desktop-green-monster {
+    display: none;
+  }
+
+  .error-analysis-desktop-pink-monster {
+    display: none;
+  }
+
   .error-analysis-header {
     font-family: 'filson-pro';
     font-style: normal;
@@ -1720,9 +1737,13 @@ footer {
     text-align: right;
     color: #FFFFFF;
     margin-top: 0px;
-    padding: 0px;
+    padding: 20px;
     margin-right: 0px;
     margin-top: 15px;
+  }
+
+  .error-analysis-desktop-break {
+    display: none !important;
   }
 
   .error-analysis-link {
@@ -1734,8 +1755,8 @@ footer {
   }
 
   .error-analysis-speech {
-    width: 282px;
-    height: 90px;
+    width: 240px;
+    height: 80px;
     border-radius: 15px;
     background: #FFFFFF;
     margin-bottom: 30px;
@@ -1753,21 +1774,20 @@ footer {
   .error-analysis-activity-text {
     font-family: 'Kalam';
     font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 38px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
     letter-spacing: 0.15px;
     text-align: center;
-
     color: #000000;
   }
 
   .error-analysis-activity-answer {
     font-family: 'Kalam';
     font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 32px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
     letter-spacing: 0.15px;
     display: flex;
     align-items: center;

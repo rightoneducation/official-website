@@ -4,6 +4,7 @@ import { Card } from "@material-ui/core";
 import { CardContent } from "@material-ui/core";
 import placeholder from '../../images/mission-desktop.png'
 import monster from '../../images/mission.png'
+import monsterTablet from '../../images/mission-tablet.png'
 
 function AboutTopMission(props) {
 
@@ -17,13 +18,31 @@ function AboutTopMission(props) {
       <CardContent style={{ padding: "0px" }}>
 
         <div className="mission-and-vision-text">
-          Creating classroom environments<br></br>that
-          <strong> embrace mistakes and</strong><br></br> <img
-            src={monster}
-            style={{ float: "left", marginTop: "10px" }}
-          />
-          <strong>misconceptions </strong><br></br>by turning them into<br></br>
-          learning opportunities.
+          Creating classroom environments <br className="mission-desktop-br">
+          </br>that <br className="mission-tablet-br"></br><br className="mission-mobile-br"></br>
+          <strong> embrace mistakes and </strong><br className="mission-desktop-br"></br>
+          <div className="mission-monster-desktop">
+            <img
+              src={monster}
+              style={{ float: "left", marginTop: "10px" }}
+            />
+          </div>
+          <strong>misconceptions </strong><br className="mission-desktop-br"></br>
+          <div className="mission-monster-tablet">
+            <img
+              src={monsterTablet}
+              style={{ width: "220px", float: "left", marginTop: "15px" }}
+            />
+          </div>
+
+          by turning <br className="mission-mobile-br"></br>them into <br className="mission-desktop-br"></br>
+          learning<br className="mission-tablet-br"></br> opportunities.
+          <div className="mission-monster-mobile">
+            <img
+              src={monster}
+              style={{ width: "220px", marginLeft: "10px", marginTop: "15px", transform: "rotate(345deg)" }}
+            />
+          </div>
         </div>
       </CardContent>
 

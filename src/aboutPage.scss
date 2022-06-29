@@ -1,0 +1,334 @@
+@import '/node_modules/bootstrap/scss/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+
+@media screen and (max-width: 2000px) {
+    /*about-page*/
+
+    .error-analysis-mobile-break {
+        display: none;
+    }
+
+    .about-values-quote {
+        font-family: Roboto;
+        font-style: italic;
+        font-size: 45px;
+        text-align: center;
+        line-height: 56.25px;
+        color: #D3BEFF;
+        letter-spacing: 0em;
+        font-weight: 10;
+
+    }
+
+    .about-values {
+        margin-top: 55px;
+        margin-bottom: 55px;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+    }
+
+    .mission-and-vision-header {
+        font-family: 'filson-pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 55px;
+        padding-top: 40px;
+        padding-left: 38px;
+        padding-bottom: 15px;
+
+        color: #FFFFFF;
+    }
+
+    .mission-and-vision-underline {
+        width: 578px;
+        height: 0px;
+        margin-left: 38px;
+
+        border: 4px solid #E29B5D;
+    }
+
+    .mission-and-vision-text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 220;
+        font-size: 36px;
+        line-height: 47px;
+        /* or 47px */
+        margin-right: 26px;
+        margin-top: 0px;
+        //padding-top: 15px;
+        text-align: right;
+
+        color: #FFFFFF;
+    }
+
+    .mission-card {
+        width: 45%;
+        height: auto;
+        border-radius: 22px;
+
+        background: #800D15;
+    }
+
+    .vision-card {
+        width: 100%;
+        height: 55%;
+
+        background: #394A99;
+        box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+    }
+
+    .values-header {
+        font-family: 'filson-pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+
+    .values-text {
+        font-family: 'roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+    }
+
+    .value-card {
+        width: 445px;
+        height: 200px;
+        border-radius: 30px;
+        margin: 10px;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+        padding: 0px
+    }
+
+    .value-img {
+        height: 200px;
+    }
+
+    .value-text {
+        width: 245px;
+        height: 200px;
+        padding-left: 21px;
+        padding-right: 29px;
+    }
+
+    .values-display {
+        width: 50%;
+    }
+
+    .about-values-quote-bold {
+        font-family: Roboto, light;
+        font-style: italic;
+        font-size: 45px;
+        text-align: center;
+        line-height: 56.25px;
+        color: #EFDAFF;
+        letter-spacing: 0em;
+        font-weight: 600;
+    }
+
+    .about-page-banners-underline {
+        width: 550px;
+        border: 3.5px solid #E29B5D;
+        opacity: 1;
+        margin-left: 200px;
+        margin-bottom: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-page-triangle {
+        margin-top: -500px;
+        //padding-bottom: 100px;
+        z-index: 0;
+    }
+
+    .about-cards {
+        width: 450px;
+        height: 501.2px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-cards-title {
+        font-family: 'filson-pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 36px;
+        text-align: center;
+        margin-bottom: 10px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        border-bottom: 4px solid #E29B5D;
+        color: white;
+    }
+
+    .about-cards-description {
+        padding: 5px;
+        padding-bottom: 0px;
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 0px;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .about-values {
+        margin-top: 25px;
+        margin-bottom: 45px;
+        z-index: 1;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-values-quote {
+        font-family: Roboto;
+        font-style: italic;
+        font-size: 25px;
+        text-align: center;
+        line-height: 56.25px;
+        color: #D3BEFF;
+        letter-spacing: 0em;
+        font-weight: 10;
+        padding-left: 110px;
+        padding-right: 110px;
+
+    }
+
+    .about-values-quote-bold {
+        font-family: Roboto, light;
+        font-style: italic;
+        font-size: 25px;
+        text-align: center;
+        line-height: 56.25px;
+        color: #EFDAFF;
+        letter-spacing: 0em;
+        font-weight: 600;
+    }
+
+    .about-page-banners-underline {
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        border: 3px solid #E29B5D;
+        opacity: 1;
+        margin-top: -4px;
+        margin-right: 200px;
+        margin-bottom: 20px;
+    }
+
+    .about-page-triangle {
+        margin-top: -100px;
+        margin-bottom: 100px;
+        z-index: 0;
+    }
+
+    .about-cards {
+        width: 450px;
+        height: 650px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-cards-title {
+        font-family: 'filson-pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 48px;
+        text-align: center;
+        margin-bottom: 20px;
+        padding-bottom: 5px;
+        border-bottom: 7px solid #E29B5D;
+        color: white;
+    }
+
+    .value-card {
+        width: 329px;
+        height: 151px;
+        border-radius: 30px;
+        margin: 10px;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+        padding: 0px
+    }
+
+    .values-header {
+        font-family: 'filson-pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+
+        color: #FFFFFF;
+    }
+
+    .value-img {
+        height: 151px;
+    }
+
+    .value-text {
+        width: 180px;
+        height: 165px;
+        padding-left: 21px;
+        padding-right: 29px;
+    }
+
+    .values-text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+
+        color: #FFFFFF;
+    }
+
+    .about-cards-description {
+        padding: 12px;
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 38px;
+        color: white;
+        margin-bottom: -45px;
+    }
+
+}
+
+@media screen and(max-width: 414px) {
+    /*about-page*/
+
+    .about-values-quote {
+        font-family: Roboto;
+        font-style: italic;
+        text-align: center;
+        font-weight: 300;
+        font-size: 28px;
+        line-height: 33px;
+        color: #D3BEFF;
+        letter-spacing: 0em;
+    }
+
+    .about-values-quote-bold {
+        font-family: Roboto, light;
+        font-style: italic;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 33px;
+        text-align: center;
+        color: #EFDAFF;
+        letter-spacing: 0em;
+    }
+}

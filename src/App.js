@@ -6,6 +6,10 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/scss/bootstrap.scss";
 import "./App.scss";
+import "./landingPage.scss"
+import "./aboutPage.scss"
+import "./teamPage.scss"
+import "./resourcesPage.scss"
 import "./rwdgrid.css";
 
 import LandingPage from "./components/pages/LandingPage.jsx";

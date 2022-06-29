@@ -1,8 +1,9 @@
 import React from 'react'
-import { Box, Grid } from "@material-ui/core";
+import { Box, CardContent, Grid, } from "@material-ui/core";
 import AboutBannerImage from '../molecules/AboutBannerImage'
-import AboutTopIntro from '../molecules/AboutTopIntro'
+import AboutTopIntro from '../molecules/AboutTopIntro';
 import AboutTopMission from '../molecules/AboutTopMission';
+import vision from '../../images/vision.png';
 
 
 function OurVision(props) {
@@ -10,12 +11,18 @@ function OurVision(props) {
   return (
     <Box components="section">
       <AboutBannerImage styles={styles} />
-      <Grid container justifyContent='space-evenly' styles={styles}>
+      <Grid container direction="row" justifyContent="space-around" styles={styles}>
         <AboutTopMission />
+
         <AboutTopIntro />
+
       </Grid>
     </Box>
   );
 }
 
+/*<img
+            src={vision}
+            style={{}}
+          />*/
 export default OurVision;

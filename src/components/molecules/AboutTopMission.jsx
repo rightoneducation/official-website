@@ -31,7 +31,7 @@ function AboutTopMission(props) {
           <div className="mission-monster-tablet">
             <img
               src={monsterTablet}
-              style={{ width: "220px", float: "left", marginTop: "15px" }}
+              style={{ width: "200px", float: "left", marginTop: "15px" }}
             />
           </div>
 

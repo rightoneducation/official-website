@@ -4,12 +4,11 @@ import { Card } from "@material-ui/core";
 import { CardContent } from "@material-ui/core";
 import placeholder from '../../images/mission-desktop.png'
 import monster from '../../images/mission.png'
-import monsterTablet from '../../images/mission-tablet.png'
 
 function AboutTopMission(props) {
 
   return (
-    <Card style={{ backgroundColor: "#800D15", filter: "drop-shadow(15px 15px 10px rgba(0, 0, 0, 0.25))", borderRadius: "30px" }}
+    <Card style={{ backgroundColor: "#800D15", filter: "drop-shadow(15px 15px 10px rgba(0, 0, 0, 0.25))", borderRadius: "30px", marginBottom: "40px" }}
       className='mission-card'>
       <CardContent>
         <h1 className="mission-and-vision-header">Mission</h1>
@@ -30,7 +29,7 @@ function AboutTopMission(props) {
           <strong>misconceptions </strong><br className="mission-desktop-br"></br>
           <div className="mission-monster-tablet">
             <img
-              src={monsterTablet}
+              src={monster}
               style={{ width: "200px", float: "left", marginTop: "15px" }}
             />
           </div>

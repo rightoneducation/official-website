@@ -432,6 +432,18 @@ footer {
   height: 429px;
 }
 
+.vision-monsters-mobile {
+  display: none
+}
+
+.vision-monsters-tablet {
+  display: none
+}
+
+.vision-monsters-desktop {
+  display: block
+}
+
 .values-header {
   font-family: 'filson-pro';
   font-style: normal;
@@ -1236,6 +1248,18 @@ footer {
     
   }
 
+  .vision-monsters-mobile {
+    display: none
+  }
+
+  .vision-monsters-tablet {
+    display: block
+  }
+  
+  .vision-monsters-desktop {
+    display: none
+  }
+
   .value-card {
     width: 329px;
     height: 151px;
@@ -1761,7 +1785,18 @@ line-height: 31px;
     width: 327px;
     height: 400px;
   }
+
+  .vision-monsters-mobile {
+    display: block
+  }
+
+  .vision-monsters-tablet {
+    display: none
+  }
   
+  .vision-monsters-desktop {
+    display: none
+  }
   } 
 }
 

@@ -143,18 +143,22 @@ footer {
 
 .mainNav:link {
   color: #E87DA6;
+  text-decoration: none;
 }
 
 .mainNav:visited {
   color: #E87DA6;
+  text-decoration: none;
 }
 
 .mainNav:hover {
   color: white;
+  text-decoration: none;
 }
 
 .mainNav:active {
   color: white;
+  text-decoration: none;
 }
 
 .activeRoute {
@@ -162,7 +166,13 @@ footer {
 }
 
 
+.mobile-break {
+  display: none !important;
+}
 
+.desktop-break {
+  display: block;
+}
 
 
 @media screen and(max-width: 414px) {
@@ -285,7 +295,7 @@ footer {
   }
 
   .mobile-break {
-    display: block;
+    display: block !important;
   }
 
   .desktop-break {

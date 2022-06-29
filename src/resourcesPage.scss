@@ -3,9 +3,6 @@
 
 @media screen and (max-width: 2000px) {
 
-
-
-
     /*resources-page*/
     .tutorial-video-panel {
         width: 401px;
@@ -200,18 +197,24 @@
         line-height: 66px;
         text-align: left;
         color: #FFFFFF;
+        display: block;
+    }
+
+    .crmt-header-mobile{
+        display: none;
     }
 
     .crmt-description {
         font-family: 'Roboto';
         font-style: normal;
-        //font-weight: 300;
+        font-weight: 400;
         font-size: 26px;
-        line-height: 38px;
+        line-height: 28px;
         letter-spacing: 0em;
         text-align: left;
         color: #FFFFFF;
         z-index: 1;
+        margin-left: 10px;
     }
 
     .crmt-description-bold {
@@ -244,16 +247,32 @@
         margin-top: 100px;
     }
 
-    .error-analysis-description {
-        font-family: 'Roboto';
+    .teach-like-champ-header {
+        font-family: 'filson-pro';
         font-style: normal;
-        //font-weight: 300;
-        font-size: 26px;
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 55px;
+        letter-spacing: 0em;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+    .teach-like-champ-underline{
+        width: 650px;
+        border: 4px solid #E29B5D;
+        opacity: 1;
+        margin-bottom: 0px;
+    }
+
+    .teach-like-champ-description {
+        font-family: "Roboto";
+        font-size: 28px;
+        font-weight: 400;
         line-height: 38px;
         letter-spacing: 0em;
-        text-align: right;
+        text-align: left;
         color: #FFFFFF;
-        z-index: 1;
     }
 
     .teach-like-champ-link {
@@ -437,7 +456,7 @@
         font-weight: 700;
         font-size: 36px;
         line-height: 36px;
-        text-align: right;
+        text-align: center;
         color: #FFFFFF;
 
     }
@@ -447,9 +466,8 @@
         height: 0px;
         border: 4px solid #E29B5D;
         opacity: 1;
-        //justify-content: right;
-        //align-items: flex-end;
         margin-bottom: 0px;
+        margin-left: 30px;
     }
 
     .error-analysis-description {
@@ -535,6 +553,10 @@
 
 
     .crmt-header {
+        display: none;
+    }
+
+    .crmt-header-mobile{
         font-family: 'filson-pro';
         font-style: normal;
         font-weight: 700;
@@ -542,6 +564,7 @@
         line-height: 66px;
         text-align: center;
         color: #FFFFFF;
+        display: block;
     }
 
     .crmt-description {
@@ -554,6 +577,7 @@
         text-align: left;
         color: #FFFFFF;
         z-index: 1;
+        margin-left: 10px;
     }
 
     .crmt-description-bold {
@@ -597,6 +621,37 @@
         text-align: right;
         color: #FFFFFF;
         z-index: 1;
+    }
+
+    .teach-like-champ-header {
+        font-family: 'filson-pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 36px;
+        letter-spacing: 0em;
+        color: #FFFFFF;
+        margin-left: -100px;
+    }
+
+    .teach-like-champ-underline{
+        width: 316px;
+        height: 0px;
+        border: 4px solid #E29B5D;
+        opacity: 1;
+        margin-bottom: 0px;
+        margin-left: 110px;
+    }
+
+    .teach-like-champ-description {
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+        padding-right: 80px;
     }
 
     .teach-like-champ-link {

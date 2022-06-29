@@ -9,11 +9,11 @@ function PositiveCultureBox(props) {
     <Box component="section">
       <Grid container style={{ margin: "100px" }}>
         <Grid item style={{ marginLeft: "-100px" }}>
-          <h4 className='crmt-header'>
+          <h4 className='teach-like-champ-header'>
             Teach Like a <br className="mobile-break"/> Champion
-            <hr className='error-analysis-underline' />
+            <hr className='teach-like-champ-underline' />
           </h4>
-          <h6 className='error-analysis-description'>
+          <h6 className='teach-like-champ-description'>
             In his book, <a href="https://www.amazon.com/Teach-Like-Champion-Doug-Lemov/dp/1119712610/" className='teach-like-champ-link'><u>Teach Like a Champion</u></a>, veteran <br className="desktop-break"/> educator Doug Lemov talks about creating a <br className="desktop-break"/> classroom environment where “...students feel<br className="desktop-break"/>  safe making and discussing mistakes, so you <br className="desktop-break"/> can spend less time hunting for errors and more<br className="desktop-break"/>  time fixing them...” He outlines four key <br className="desktop-break"/> methods:
             <br />
             <br />

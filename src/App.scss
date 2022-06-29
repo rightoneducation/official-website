@@ -833,6 +833,23 @@ footer {
     color: #FFFFFF;
   }
 
+  .crmt-diagram{
+    margin-left: 150px;
+    margin-top: 100px;
+  }
+
+  .error-analysis-description {
+    font-family: 'Roboto';
+    font-style: normal;
+    //font-weight: 300;
+    font-size: 26px;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #FFFFFF;
+    z-index: 1;
+  }
+
   .teach-like-champ-link {
     color: #FFB8D3;
   }
@@ -1822,19 +1839,19 @@ footer {
   .crmt-header {
     font-family: 'filson-pro';
     font-style: normal;
-    //font-weight: 700;
-    font-size: 55px;
+    font-weight: 700;
+    font-size: 36px;
     line-height: 66px;
-    text-align: left;
+    text-align: center;
     color: #FFFFFF;
   }
 
   .crmt-description {
     font-family: 'Roboto';
     font-style: normal;
-    //font-weight: 300;
-    font-size: 26px;
-    line-height: 38px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
     letter-spacing: 0em;
     text-align: left;
     color: #FFFFFF;
@@ -1844,11 +1861,11 @@ footer {
   .crmt-description-bold {
     font-family: 'Roboto';
     font-style: italic;
-    line-height: 38px;
     letter-spacing: 0em;
     text-align: left;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 24px;
+    line-height: 28px;
     color: #FFFFFF;
   }
 
@@ -1858,12 +1875,30 @@ footer {
     font-weight: 300;
     font-size: 26px;
     line-height: 38px;
-
     color: #FFB8D3;
   }
 
   .crmt-pioneers:hover {
     color: #FFFFFF;
+  }
+
+  .crmt-diagram {
+    width: 325.51px;
+    height: 337px;
+    margin-left: -1px;
+    //justify-content: center;
+  }
+
+  .error-analysis-description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #FFFFFF;
+    z-index: 1;
   }
 
   .teach-like-champ-link {

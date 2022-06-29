@@ -46,16 +46,10 @@ export default function CRMT(props) {
 
                     </h4>
                 </Grid>
-                <Grid item style={{ marginLeft: "150px", marginTop: "100px" }}>
-                    <img src={CRMTimage} alt="CRMT-Diagram" />
+                <Grid item>
+                    <img src={CRMTimage} alt="CRMT-Diagram" className='crmt-diagram'/>
                 </Grid>
             </Grid>
-            {/* <img
-                src={triangleDown}
-                width="100%"
-                style={{ marginTop: "-115px" }}
-            /> */}
-            {/* <img src={CRMTimage} alt="CRMT-Diagram" /> */}
         </Box >
     );
 }

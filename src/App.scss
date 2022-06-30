@@ -141,6 +141,7 @@ footer {
 }
 
 
+
 .mobile-break {
   display: none !important;
 }
@@ -220,7 +221,9 @@ footer {
   }
   .nav-tabs {
     padding: 20px;
-    border-bottom: none;
+    border-bottom: none !important;
+    text-decoration: none;
+    color: #D9D8D8;
   }
   .menuNav:link {
     color: #D9D8D8;
@@ -250,7 +253,6 @@ footer {
     height: 200px;
     margin-top: 100px;
   }
-
   .mobile-break {
     display: block !important;
   }

@@ -14,8 +14,8 @@ function AboutValues(props) {
           <hr className='about-page-banners-underline' />
         </h1>
         <p className="about-values-quote">
-          "We're a team that sometimes <span className="about-values-quote-bold">falls down</span>, <br />
-          always <span className="about-values-quote-bold">gets back up</span>, and never stops <span className="about-values-quote-bold">having fun</span>."
+          "We're a team that <br className="mobile-break"/> sometimes <span className="about-values-quote-bold">falls down</span>,<br className="mobile-break"/> <br className="desktop-break"/>
+          always <span className="about-values-quote-bold">gets back up</span>, and <br className="mobile-break"/> never stops <span className="about-values-quote-bold">having fun</span>."
         </p>
       </div>
       <Grid item container

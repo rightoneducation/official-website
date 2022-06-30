@@ -7,7 +7,6 @@ function PositiveCultureOfErrorSection(props) {
     const { styles } = props
         return(
             <Box>
-                {/* <ResourceBannerImage styles={styles}/> */}
                 <PositiveCultureBox styles={styles}/>
             </Box>
         );

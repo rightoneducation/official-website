@@ -1,7 +1,5 @@
 import React from 'react'
 import OurVision from '../organisms/OurVision'
-import CultureOfError from '../molecules/CultureOfErrorSection'
-import MyFavNo from '../molecules/MyFavNoSection'
 import AboutCards from '../organisms/AboutCards'
 import AboutValues from '../molecules/AboutValues'
 
@@ -15,8 +13,6 @@ function AboutPage() {
       <OurVision />
       <AboutValues ourValues={ourValues} />
       <AboutCards aboutCards={aboutCards} />
-      {/* <CultureOfError />
-        <MyFavNo /> */}
     </div>
   )
 }

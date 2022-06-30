@@ -5,7 +5,6 @@ import CRMT from '../organisms/CRMT';
 import RightOnGameShow from '../organisms/RightOnGameShow';
 import ResourcePageShapes from '../organisms/ResourcePageShapes';
 import RightOnVideoPlaylist from '../organisms/RightOnVideoPlaylist';
-import AboutBannerImage from '../molecules/AboutBannerImage';
 
 function ResourcePage({videoSrc, styles}) {
    

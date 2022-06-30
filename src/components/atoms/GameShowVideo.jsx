@@ -3,10 +3,9 @@ import { Grid } from "@material-ui/core";
 
 export default function GameShowVideo() {
   return (
-      <Grid xs={12} sm={12} md={8}>
+      <Grid>
         <iframe
-          width="90%"
-          height="550"
+          className="game-show-video"
           src="https://www.youtube.com/embed/_dNfmPa6CRo"
           title="RightOn! Gameshow"
           frameborder="0"

@@ -39,7 +39,7 @@ function InteractiveErrorAnalysisActivities() {
     setExpanded(!expanded);
   };
   return (
-    <Card style={{ width: "380px", marginLeft: "100px", borderRadius: "15px", overflow: "hidden" }}>
+    <Card className='error-analysis-activity'>
       <CardContent>
         <h5 className="error-analysis-activity-text" >
           What mistake did my friend make?

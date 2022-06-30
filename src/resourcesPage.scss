@@ -141,7 +141,7 @@
     .error-analysis-activity {
         width: 380px;
         margin-left: 100px;
-        border-radius: 20px;
+        border-radius: 15px !important;
         padding: 5px;
         overflow: hidden;
     }
@@ -200,7 +200,7 @@
         display: block;
     }
 
-    .crmt-header-mobile{
+    .crmt-header-mobile {
         display: none;
     }
 
@@ -258,7 +258,7 @@
         text-align: center;
     }
 
-    .teach-like-champ-underline{
+    .teach-like-champ-underline {
         width: 650px;
         border: 4px solid #E29B5D;
         opacity: 1;
@@ -322,6 +322,29 @@
         height: 198px;
         left: 75%;
         margin-top: 350px;
+    }
+
+    .game-show-header {
+        font-family: 'filson-pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 66px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+
+    .game-show-header-underline {
+        width: 650px;
+        border: 4px solid #E29B5D;
+        opacity: 1;
+        margin-bottom: 0px;
+    }
+
+    .game-show-video {
+        margin-bottom: 70px;
+        width: 860px;
+        height: 483px;
     }
 
     .game-show-description1 {
@@ -500,13 +523,13 @@
         background: #FFFFFF;
         margin-bottom: 30px;
         padding: 10px;
-        margin-left: 150px;
+        margin-left: 100px;
     }
 
     .error-analysis-activity {
-        width: 380px;
-        margin-left: 100px;
-        border-radius: 20px;
+        width: 257px;
+        margin-left: 30px;
+        border-radius: 15px !important;
         padding: 5px;
         overflow: hidden;
     }
@@ -557,7 +580,7 @@
         display: none;
     }
 
-    .crmt-header-mobile{
+    .crmt-header-mobile {
         font-family: 'filson-pro';
         font-style: normal;
         font-weight: 700;
@@ -635,7 +658,7 @@
         margin-left: -100px;
     }
 
-    .teach-like-champ-underline{
+    .teach-like-champ-underline {
         width: 316px;
         height: 0px;
         border: 4px solid #E29B5D;
@@ -704,15 +727,43 @@
         margin-top: 350px;
     }
 
+    .game-show-header {
+        font-family: 'filson-pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 36px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .game-show-header-underline {
+        width: 316px;
+        border: 4px solid #E29B5D;
+        opacity: 1;
+        margin-bottom: 0px;
+        margin-left: 10px;
+    }
+
+    .game-show-video {
+        margin-bottom: 70px;
+        width: 328px;
+        height: 184px;
+        margin-top: 100px;
+        justify-content: center;
+    }
+
     .game-show-description1 {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
-        font-size: 28px;
-        line-height: 38px;
+        font-size: 26px;
+        line-height: 30px;
         color: #FFFFFF;
         letter-spacing: 0em;
-        text-align: left;
+        text-align: center;
+        margin-top: -390px;
+        margin-bottom: 250px;
     }
 
     .game-show-underline {
@@ -721,6 +772,7 @@
         opacity: 1;
         margin-top: 50px;
         margin-bottom: 50px;
+        display: none;
     }
 
     .game-show-description2 {

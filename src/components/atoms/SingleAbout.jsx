@@ -17,7 +17,7 @@ function SingleAbout(props) {
         {/* <Grid container alignItems="center" justify="space-around" spacing={1}> */}
 
         <Grid>
-          <CardContent>
+          <CardContent style={{ paddingBottom: "15px" }}>
             <h3 className='about-cards-title'>
               {title}
             </h3>
@@ -28,14 +28,66 @@ function SingleAbout(props) {
         </Grid>
         <Grid>
           <img
+            className="about-card-img-desktop"
             src={featureImage}
             //alt="right-on-education-about-cards"
-            width="75%"
+            width="80%"
             style={{
-              marginLeft: "50px"
+              marginLeft: "40px"
+            }}
+          />
+          <img
+            className="about-card-img-tablet"
+            src={featureImage}
+            //alt="right-on-education-about-cards"
+            width="93%"
+            style={{
+              marginLeft: "20px"
+            }}
+          />
+          <img
+            className="about-card-img-mobile"
+            src={featureImage}
+            //alt="right-on-education-about-cards"
+            width="100%"
+            style={{
+              transform: "rotate(353deg)",
+              marginLeft: "10px",
+              marginTop: "20px"
             }}
           />
           <iframe
+            className="about-card-vid-desktop"
+            width="100%"
+            height="270px"
+            src={src}
+            title="My Fav No"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            style={{
+              marginLeft: "0px",
+              borderRadius: "0px"
+            }}
+          >
+          </iframe>
+          <iframe
+            className="about-card-vid-tablet"
+            width="100%"
+            height="295px"
+            src={src}
+            title="My Fav No"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            style={{
+              marginLeft: "0px",
+              borderRadius: "0px"
+            }}
+          >
+          </iframe>
+          <iframe
+            className="about-card-vid-mobile"
             width="100%"
             height="235px"
             src={src}

@@ -7,18 +7,18 @@ import AboutValues from '../molecules/AboutValues'
 
 import featureData from '../../_localDb/features'
 
-function AboutPage () {
-  const {ourValues,aboutCards} = featureData
+function AboutPage() {
+  const { ourValues, aboutCards, styles } = featureData
   console.log(featureData)
-    return (
-      <div style={{background: "linear-gradient(180deg, #322759 -2.67%, #40216F 64.71%, #591796 100%)"}}>
-        <OurVision/>
-        <AboutValues ourValues={ourValues}/>
-        <AboutCards aboutCards={aboutCards}/>
-        {/* <CultureOfError />
+  return (
+    <div style={{ background: "linear-gradient(180deg, #322759 -2.67%, #40216F 64.71%, #591796 100%)" }}>
+      <OurVision />
+      <AboutValues ourValues={ourValues} />
+      <AboutCards aboutCards={aboutCards} />
+      {/* <CultureOfError />
         <MyFavNo /> */}
-      </div>
-    )
+    </div>
+  )
 }
 
 export default AboutPage;

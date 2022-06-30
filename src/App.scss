@@ -1,57 +1,45 @@
 @import '/node_modules/bootstrap/scss/bootstrap.scss';
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
-
 @media screen and (min-width: 414px) {
   .nav-bar-mobile {
     display: none;
   }
-
   .nav-bar-desktop {
     display: block;
   }
 }
-
 .App {
   max-width: 100%;
   overflow-x: hidden;
   text-align: left;
   font-size: 16px;
-
   h1,
   h2,
   h3,
   h4 {
     font-weight: bold;
   }
-
   section {
     padding: 5%;
   }
 }
-
 button {
   all: unset;
 }
-
 a {
   text-decoration: none;
   color: white;
 }
-
 p {
   line-height: 1.4;
   font-weight: 300;
 }
-
-
-
 #quote {
   width: 80%;
   margin: 10% auto;
   text-align: center;
   font-style: italic;
 }
-
 .page-header {
   background: #322759;
   padding-left: 50px;
@@ -65,25 +53,20 @@ p {
   position: relative;
   overflow: visible;
   z-index: 4;
-
   .logo {
     position: absolute;
     width: 15%;
     margin-top: -100px;
   }
-
   .nav-bar {
     padding-top: 90px;
     padding-bottom: 30px;
   }
-
   .header-element-4 {
     z-index: 5;
   }
-
   .header-elements {
     width: 100%;
-
     #header-element-1 {
       background: url(./images/triangle.png);
       background-repeat: no-repeat;
@@ -94,15 +77,12 @@ p {
       left: -100px;
       z-index: 4;
     }
-
   }
 }
-
 .page-triangle-banner {
   vertical-align: top;
   height: 200px;
 }
-
 .half-circle {
   padding: 2%;
   margin-top: -5.5% !important;
@@ -112,7 +92,6 @@ p {
   border: 15px solid rgb(255, 51, 218);
   border-top: 0;
 }
-
 footer {
   background: top / cover no-repeat url(./images/footer-background-short.png);
   padding: 3% 8%;
@@ -122,17 +101,13 @@ footer {
   width: 100%;
   z-index: 1;
 }
-
-
 .divider {
   align-self: center;
   align-items: center;
   background: #FF3369;
   height: 10px;
 }
-
 /*page-header*/
-
 .sub-title {
   font-family: 'filson-pro';
   font-style: normal;
@@ -179,14 +154,11 @@ footer {
   html {
     overflow-x: initial !important;
   }
-
   /*nav-bar-desktop*/
   .mainNav {
     display: none;
   }
-
   /*nav-bar-mobile*/
-
   .page-header {
     background: #322759;
     width: 100%;
@@ -196,21 +168,17 @@ footer {
     // overflow: visible;
     z-index: 4;
     //padding-bottom: 20px;
-
     .logo {
       position: fixed;
       width: 35%;
       margin-top: -28px;
       margin-left: -40px;
     }
-
   }
-
   .nav-bar-mobile {
     position: relative;
     display: block;
   }
-
   .nav-bar-mobile button {
     position: fixed;
     right: 40px;
@@ -220,7 +188,6 @@ footer {
     background: transparent;
     border: none;
   }
-
   .menuNav {
     overflow-y: none;
     list-style: none;
@@ -236,7 +203,6 @@ footer {
     z-index: 1;
     text-align: center;
   }
-
   .menuNav.showMenu {
     width: 100%;
     right: 0px;
@@ -244,7 +210,6 @@ footer {
     padding-top: 200px;
     position: fixed;
     background: #322759;
-
     .mobile-nav-monster {
       position: fixed;
       left: 0;
@@ -253,25 +218,19 @@ footer {
       justify-content: flex-start;
     }
   }
-
   .nav-tabs {
     padding: 20px;
     border-bottom: none;
   }
-
-
   .menuNav:link {
     color: #D9D8D8;
   }
-
   .menuNav:visited {
     color: #D9D8D8;
   }
-
   .menuNav:active {
     color: #E87DA6;
   }
-
   .hamburger-close {
     color: #FFFFFF;
     width: 40px;
@@ -279,7 +238,6 @@ footer {
     margin-top: 10px;
     transform: scale(1.7);
   }
-
   .hamburger-open {
     color: #FFFFFF;
     width: 40px;
@@ -287,7 +245,6 @@ footer {
     margin-top: 10px;
     transform: scale(1.7);
   }
-
   .page-triangle-banner {
     vertical-align: top;
     height: 200px;
@@ -301,5 +258,5 @@ footer {
   .desktop-break {
     display: none !important;
   }
-
-}
+} 
+ 

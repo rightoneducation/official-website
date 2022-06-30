@@ -395,21 +395,53 @@ footer {
   color: #FFFFFF;
 }
 
+.mission-desktop-br {
+  display: block;
+}
+
+.mission-tablet-br {
+  display: none;
+}
+
+.mission-mobile-br {
+  display: none;
+}
+
+.mission-monster-desktop {
+  display: block
+}
+
+.mission-monster-tablet {
+  display: none
+}
+
+.mission-monster-mobile {
+  display: none
+}
+
 .mission-card {
-  width: 45%;
-  height: auto;
+  width: 658px;
+  height: 430px;
   border-radius: 22px;
 
   background: #800D15;
 }
 
 .vision-card {
-  width: 100%;
-  height: 55%;
+  width: 658px;
+  height: 429px;
+}
 
-  background: #394A99;
-  box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.25);
-  border-radius: 30px;
+.vision-monsters-mobile {
+  display: none
+}
+
+.vision-monsters-tablet {
+  display: none
+}
+
+.vision-monsters-desktop {
+  display: block
 }
 
 .values-header {
@@ -1141,6 +1173,93 @@ footer {
     color: white;
   }
 
+  .mission-and-vision-header {
+    font-family: 'filson-pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 55px;
+    padding-top: 40px;
+    padding-left: 38px;
+    padding-bottom: 15px;
+  
+    color: #ffffff;
+  }
+
+  .mission-and-vision-underline {
+    width: 578px;
+    height: 0px;
+    margin-left: 38px;
+  
+    border: 4px solid #E29B5D;
+  }
+  
+  .mission-and-vision-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 220;
+    font-size: 32px;
+    line-height: 42px;
+    /* or 47px */
+    margin-right: 26px;
+    margin-top: 0px;
+    //padding-top: 15px;
+    text-align: right;
+  
+    color: #FFFFFF;
+  }
+
+  .mission-desktop-br {
+    display: none;
+  }
+
+
+  .mission-tablet-br {
+    display: block;
+  }
+
+  .mission-mobile-br {
+    display: none;
+  }
+
+  .mission-monster-desktop {
+    display: none
+  }
+  
+  .mission-monster-tablet {
+    display: block
+  }
+  
+  .mission-monster-mobile {
+    display: none
+  }
+  
+  .mission-card {
+    width: 658px;
+    height: auto;
+    border-radius: 22px;
+  
+    background: #800D15;
+  }
+
+  .vision-card {
+    width: 658px;
+    height: 429px;
+    
+  }
+
+  .vision-monsters-mobile {
+    display: none
+  }
+
+  .vision-monsters-tablet {
+    display: block
+  }
+  
+  .vision-monsters-desktop {
+    display: none
+  }
+
   .value-card {
     width: 329px;
     height: 151px;
@@ -1269,120 +1388,7 @@ footer {
   }
 }
 
-@media screen and(max-width: 414px) {
-  html {
-    overflow-x: initial !important;
-  }
-
-  /*nav-bar-desktop*/
-  .mainNav {
-    display: none;
-  }
-
-  /*nav-bar-mobile*/
-
-  .page-header {
-    background: #322759;
-    width: 100%;
-    height: 20%;
-    // display: flex;
-    position: fixed;
-    // overflow: visible;
-    z-index: 4;
-    //padding-bottom: 20px;
-
-    .logo {
-      position: fixed;
-      width: 35%;
-      margin-top: -28px;
-      margin-left: -40px;
-    }
-
-  }
-
-  .nav-bar-mobile {
-    position: relative;
-    display: block;
-  }
-
-  .nav-bar-mobile button {
-    position: fixed;
-    right: 40px;
-    top: 40px;
-    z-index: 10;
-    cursor: pointer;
-    background: transparent;
-    border: none;
-  }
-
-  .menuNav {
-    overflow-y: none;
-    list-style: none;
-    //position: fixed;
-    top: 0;
-    //background: #322759;
-    right: 0;
-    bottom: 0;
-    height: 100vh;
-    width: 0;
-    overflow: hidden;
-    max-width: 414px;
-    z-index: 9;
-    text-align: center;
-  }
-
-  .menuNav.showMenu {
-    width: 100%;
-    right: 0px;
-    height: 100vh;
-    padding-top: 200px;
-    position: fixed;
-    background: #322759;
-    
-    .mobile-nav-monster {
-      position: fixed;
-      left: 0;
-      bottom: 0;
-      width: 65vw;
-      justify-content: flex-start;
-    }
-  }
-
-  .nav-tabs {
-    padding: 20px;
-    border-bottom: none;
-  }
-
-
-  .menuNav:link {
-    color: #D9D8D8;
-  }
-
-  .menuNav:visited {
-    color: #D9D8D8;
-  }
-
-  .menuNav:active {
-    color: #E87DA6;
-  }
-
-  .hamburger-close{
-    color: #FFFFFF;
-    width: 40px;
-    height: 40px;
-    margin-top: 10px;
-    transform: scale(1.7);
-  }
-
-  .hamburger-open{
-    color: #FFFFFF;
-    width: 40px;
-    height: 40px;
-    margin-top: 10px;
-    transform: scale(1.7);
-  }
-
-  /*home-page*/
+@media screen and (max-width: 414px) {
   .problem-section {
     position: relative;
     top: 0px;
@@ -1561,7 +1567,122 @@ footer {
     font-size: 17px;
     line-height: 22px;
     color: #FFFFFF;
+}
+  
+@media screen and (max-width: 414px) {
+      /*nav-bar-desktop*/
+      .mainNav {
+        display: none;
+      }
+    
+      /*nav-bar-mobile*/
+    
+      .page-header {
+        background: #322759;
+        width: 100%;
+        height: 20%;
+        // display: flex;
+        position: fixed;
+        // overflow: visible;
+        z-index: 4;
+        //padding-bottom: 20px;
+    
+        .logo {
+          position: fixed;
+          width: 35%;
+          margin-top: -28px;
+          margin-left: -40px;
+        }
+    
+      }
+    
+      .nav-bar-mobile {
+        position: relative;
+        display: block;
+      }
+    
+      .nav-bar-mobile button {
+        position: fixed;
+        right: 40px;
+        top: 40px;
+        z-index: 10;
+        cursor: pointer;
+        background: transparent;
+        border: none;
+      }
+    
+      .menuNav {
+        overflow-y: none;
+        list-style: none;
+        //position: fixed;
+        top: 0;
+        //background: #322759;
+        right: 0;
+        bottom: 0;
+        height: 100vh;
+        width: 0;
+        overflow: hidden;
+        max-width: 414px;
+        z-index: 9;
+        text-align: center;
+      }
+    
+      .menuNav.showMenu {
+        width: 100%;
+        right: 0px;
+        height: 100vh;
+        padding-top: 200px;
+        position: fixed;
+        background: #322759;
+        
+        .mobile-nav-monster {
+          position: fixed;
+          left: 0;
+          bottom: 0;
+          width: 65vw;
+          justify-content: flex-start;
+        }
+      }
+    
+      .nav-tabs {
+        padding: 20px;
+        border-bottom: none;
+      }
+    
+    
+      .menuNav:link {
+        color: #D9D8D8;
+      }
+    
+      .menuNav:visited {
+        color: #D9D8D8;
+      }
+    
+      .menuNav:active {
+        color: #E87DA6;
+      }
+    
+      .hamburger-close{
+        color: #FFFFFF;
+        width: 40px;
+        height: 40px;
+        margin-top: 10px;
+        transform: scale(1.7);
+      }
+    
+      .hamburger-open{
+        color: #FFFFFF;
+        width: 40px;
+        height: 40px;
+        margin-top: 10px;
+        transform: scale(1.7);
+      }
+}
 
+@media screen and (max-width: 414px) {
+  html {
+    overflow-x: initial !important;
+  }
   .value-card {
     width: 329px;
     height: 151px;
@@ -1591,5 +1712,91 @@ footer {
 
     color: #FFFFFF;
   }
+
+  .mission-and-vision-header {
+    font-family: 'filson-pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    padding-top: 18px;
+    padding-left: 8px;
+    padding-bottom: 6px;
+  
+    color: #ffffff;
+  } 
+
+  .mission-and-vision-underline {
+    width: 285.79px;
+    height: 0px;
+    margin-left: 8px;
+  
+    border: 4px solid #E29B5D;
   }
+  
+  .mission-and-vision-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 290;
+font-size: 24px;
+line-height: 31px;
+    /* or 47px */
+    margin-left: 24px;
+    margin-top: 0px;
+    //padding-top: 15px;
+    text-align: left;
+  
+    color: #FFFFFF;
+  }
+
+  .mission-desktop-br {
+    display: none;
+  }
+
+  .mission-tablet-br {
+    display: none;
+  }
+
+  .mission-mobile-br {
+    display: block;
+  }
+
+  .mission-monster-desktop {
+    display: none
+  }
+  
+  .mission-monster-tablet {
+    display: none
+  }
+  
+  .mission-monster-mobile {
+    display: block
+  }
+  
+  .mission-card {
+    width: 340px;
+    height: 460px;
+    border-radius: 22px;
+  
+    background: #800D15;
+  }
+
+  .vision-card {
+    width: 327px;
+    height: 400px;
+  }
+
+  .vision-monsters-mobile {
+    display: block
+  }
+
+  .vision-monsters-tablet {
+    display: none
+  }
+  
+  .vision-monsters-desktop {
+    display: none
+  }
+  } 
 }
+

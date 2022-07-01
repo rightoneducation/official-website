@@ -1,6 +1,28 @@
 @import '/node_modules/bootstrap/scss/bootstrap.scss';
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
 
+
+.advisor-header {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+/* identical to box height */
+    color: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.advisor-description {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 230;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+
 @media screen and (max-width: 2000px) {
     /*team-page*/
 
@@ -78,6 +100,11 @@
                 }
             }
         }
+
+        /* advisor cards */
+
+    
+
     }
 }
 

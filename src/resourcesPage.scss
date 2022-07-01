@@ -288,6 +288,7 @@
         width: 429px;
         height: 330px;
         right: 250px;
+        margin-top: 150px;
     }
 
     .rough-draft-card-content {
@@ -688,27 +689,31 @@
 
     .rough-draft-card {
         position: absolute;
-        width: 429px;
-        height: 330px;
-        right: 250px;
+        width: 337px;
+        height: 234px;
+        left: 20px;
+        margin-top: 550px;
     }
 
     .rough-draft-card-content {
         font-family: 'Roboto';
         font-style: italic;
         font-weight: 500;
-        font-size: 24px;
-        line-height: 27px;
+        font-size: 20px;
+        line-height: 23px;
         color: #FFFFFF;
+        text-align: right;
+        margin-bottom: -40px;
     }
 
     .rough-draft-card-content-bold {
         font-family: 'Roboto';
         font-style: italic;
         font-weight: 700;
-        font-size: 24px;
-        line-height: 27px;
+        font-size: 20px;
+        line-height: 23px;
         color: #FFFFFF;
+        text-align: right;
     }
 
     .rough-draft-link {
@@ -721,10 +726,10 @@
 
     .rough-draft-monster {
         position: absolute;
-        width: 252.67px;
-        height: 198px;
-        left: 75%;
-        margin-top: 350px;
+        width: 121.54px;
+        height: 95.25px;
+        left: 20px;
+        margin-top: 700px;
     }
 
     .game-show-header {

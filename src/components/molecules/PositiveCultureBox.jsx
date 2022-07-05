@@ -23,7 +23,7 @@ function PositiveCultureBox(props) {
             <li>Praise risk-taking</li>
           </h6>
         </Grid>
-          <Card style={{ background: "#712773", borderRadius: "20px", padding: "20px" }} className='rough-draft-card'>
+          <Card style={{ background: "#712773", borderRadius: "20px"}} className='rough-draft-card'>
             <CardContent>
               <p className='rough-draft-card-content'>
               “Rough draft thinking happens <br className='desktop-break'/> when students share their <br className='desktop-break'/> unfinished, in-progress ideas <br className='desktop-break'/> and remain open to revising <br className='desktop-break'/> those ideas.”
@@ -41,7 +41,7 @@ function PositiveCultureBox(props) {
             alt='ted-the-monster'
             className='rough-draft-monster'
             />
-      </Grid>
+            </Grid>
     </Box>
   );
 }

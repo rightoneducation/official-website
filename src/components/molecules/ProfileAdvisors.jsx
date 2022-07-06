@@ -8,9 +8,9 @@ function Advisors({ advisorProfiles }) {
       {advisorProfiles.map((advisor, index) => {
         return (
           <Grid item >
-            <SingleAdvisor 
-            key={index} 
-            advisor={advisor} 
+            <SingleAdvisor
+              key={index}
+              advisor={advisor}
             />
           </Grid>
         );

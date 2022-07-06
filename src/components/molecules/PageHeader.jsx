@@ -38,7 +38,7 @@ function PageHeader() {
         justify="space-between"
         alignItems="center"
         spacing={8}
-        className="header-element-4"
+        className="page-header-links"
       >
         <Grid item sm={4} md={5}>
           <a href="/">

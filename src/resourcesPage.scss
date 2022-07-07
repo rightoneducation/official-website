@@ -426,7 +426,7 @@
         font-weight: 700;
         font-size: 20px;
         line-height: 24px;
-        padding-left: 48px;
+        //padding-left: 48px;
         //padding-top: 45px;
         margin-top: 5px;
         //margin-top: 10px;
@@ -439,10 +439,12 @@
 
     .tutorial-videos-text:hover {
         background: rgba(252, 143, 255, 0.42);
+        width: 280px;
     }
 
     .tutorial-videos-text:focus {
         background: rgba(252, 143, 255, 0.42);
+        width: 280px;
     }
 
     .overview-video-heading {

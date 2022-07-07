@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Grid } from "@material-ui/core";
 import SingleAdvisor from "../atoms/SingleAdvisor";
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
-
+import Carousel from 'react-material-ui-carousel'
 
 /*function Advisors({ advisorProfiles }) {
   const [current, setCurrent] = useState(0);
@@ -64,7 +64,8 @@ import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
       </Grid>
   );
 }*/
-var ReactCSSTransitionGroup = React.addons.CSSTransitionGroup;
+
+/*var ReactCSSTransitionGroup = React.addons.CSSTransitionGroup;
 
 class Advisors extends React.Component {
 
@@ -81,6 +82,8 @@ class Advisors extends React.Component {
     }
     this.rightClick = this.moveRight.bind(this)
     this.leftClick = this.moveLeft.bind(this)
+
+    console.log(items)
   }
 
   generateItems() {
@@ -97,6 +100,9 @@ class Advisors extends React.Component {
       level = this.state.active - i
       items.push(<Item key={index} id={this.state.items[index]} level={level} />)
     }
+    console.log(items)
+    console.log(level)
+
     return items
   }
 
@@ -159,4 +165,25 @@ class Item extends React.Component {
 
 var items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
 
+export default Advisors;*/
+
+function Advisors({ advisorProfiles }) {
+  return (
+    <Grid container justify="space-evenly" >
+      <Carousel>
+        {advisorProfiles.map((advisor, index) => {
+          return (
+            <Grid item >
+
+              <SingleAdvisor
+                key={index}
+                advisor={advisor}
+              />
+            //</Grid>
+          );
+        })}
+      </Carousel>
+    </Grid>
+  )
+}
 export default Advisors;

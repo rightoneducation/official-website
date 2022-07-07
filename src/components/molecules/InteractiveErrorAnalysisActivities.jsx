@@ -42,7 +42,7 @@ function InteractiveErrorAnalysisActivities() {
     <Card className='error-analysis-activity'>
       <CardContent>
         <h5 className="error-analysis-activity-text" >
-          What mistake did my friend make?
+          What mistake did <br className='mobile-break'/> my friend make?
         </h5>
       </CardContent>
       <Collapse in={expanded} timeout="auto" unmountOnExit>

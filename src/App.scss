@@ -203,8 +203,9 @@ footer {
     max-width: 414px;
     z-index: 1;
     text-align: center;
+    display: none;
   }
-  .menuNav.showMenu {
+  .menuNav .showMenu {
     width: 100%;
     right: 0px;
     height: 100vh;
@@ -218,6 +219,9 @@ footer {
       width: 65vw;
       justify-content: flex-start;
     }
+  }
+  .menuNav.navMenuClosed{
+    display: none;
   }
   .nav-tabs {
     padding: 20px;

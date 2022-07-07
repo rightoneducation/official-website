@@ -24,7 +24,7 @@
     "autoprefixer": "10.4.5"
  },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "DISABLE_ESLINT_PLUGIN=true react-scripts start",
     "build": "react-scripts build",
     "build-and-deploy": "npm run build && s3cmd sync build/* s3://www.rightoneducation.com && echo",
     "test": "react-scripts test --env=jsdom",

@@ -13,6 +13,8 @@ function Header() {
   const handleToggle = () => {
     setNavbarOpen(prev => !prev)
   }
+
+
   return (
     <Box component="nav">
       <nav className="nav-bar-mobile">
@@ -23,7 +25,7 @@ function Header() {
             <FiMenu className="hamburger-open" />
           )}
         </button>
-        <ul className={`menuNav ${navbarOpen ? " showMenu" : ""}`}>
+        <ul className={`menuNav ${navbarOpen ? "showMenu" : "navMenuClosed"}`}>
           <NavLink
             exact to='/' 
             className="nav-tabs"

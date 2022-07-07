@@ -46,7 +46,7 @@ function Advisor(props) {
                 width="30px"
                 src={icon}
               /></a>
-            <div style={{ fontSize: "14px", fontWeight: "400", lineHeight: "30px" }}>
+            <div style={{ fontSize: "18px", fontWeight: "400", lineHeight: "30px" }}>
               {title}
             </div>
           </div>

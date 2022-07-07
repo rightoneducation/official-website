@@ -40,7 +40,7 @@ function Advisor(props) {
         <CardContent style={{ paddingLeft: "26px", paddingRight: "26px", paddingTop: "18px" }}>
           <div className="advisor-header">
             {name}
-            <a href={linkedIn}>
+            <a href={linkedIn} target="_blank">
               <img
                 style={{ float: "right" }}
                 width="30px"

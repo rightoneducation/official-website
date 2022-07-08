@@ -15,13 +15,13 @@ function Advisor(props) {
   const { name, photo, profile, title, linkedIn, imBackground, txtBackground } = props.advisor
   const styles = useStyles();
   return (
-    <Grid container>
+    <Grid item>
       {/* <Grid container alignItems="center"> */}
 
       <Card style={{
         width: "335px", height: "635px", alignItems: "center",
         borderRadius: "30px", boxShadow: "10px 10px 10px rgba(0, 0, 0, 0.25)",
-        background: txtBackground, margin: "20px", marginTop: "30px"
+        background: txtBackground, margin: "-20px", marginTop: "30px"
       }}>
         <CardContent style={{ background: imBackground, justifyContent: "center", padding: "0px" }}>
 

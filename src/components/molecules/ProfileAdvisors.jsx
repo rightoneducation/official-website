@@ -168,26 +168,42 @@ var items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
 export default Advisors;*/
 
 function Advisors({ advisorProfiles }) {
-
+  const [autoPlay] = React.useState(false);
   return (
-    <Grid container justify="space-evenly" >
-      <Carousel>
+    <Grid container justify="center" >
+      <Carousel animation="slide" autoPlay={false} duration={1500}>
         {advisorProfiles.map((advisor, index) => {
-          console.log(index)
-          console.log(advisor)
-          var prev = ((index === 6) ? 0 : index - 1)
-          console.log(prev)
-          console.log(advisorProfiles[0])
-          var first = advisorProfiles[prev]
+          var left = ((index === 0) ? 6 : index - 1)
+          var leftmost = ((left === 0) ? 6 : left - 1)
+          var right = ((index === 6) ? 0 : index + 1)
+          var rightmost = ((right === 6) ? 0 : right + 1)
+
+          var first = advisorProfiles[leftmost]
+          var second = advisorProfiles[left]
+          var fourth = advisorProfiles[right]
+          var fifth = advisorProfiles[rightmost]
           return (
-            < Grid item >
+            < Grid container >
+              <SingleAdvisor
+                style={{ width: "10px" }}
+                key={index}
+                advisor={first}
+              />
+              <SingleAdvisor
+                key={index}
+                advisor={second}
+              />
               <SingleAdvisor
                 key={index}
                 advisor={advisor}
               />
               <SingleAdvisor
                 key={index}
-                advisor={first}
+                advisor={fourth}
+              />
+              <SingleAdvisor
+                key={index}
+                advisor={fifth}
               />
             //</Grid>
           );

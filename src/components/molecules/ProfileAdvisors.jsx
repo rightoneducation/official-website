@@ -168,16 +168,26 @@ var items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
 export default Advisors;*/
 
 function Advisors({ advisorProfiles }) {
+
   return (
     <Grid container justify="space-evenly" >
       <Carousel>
         {advisorProfiles.map((advisor, index) => {
+          console.log(index)
+          console.log(advisor)
+          var prev = ((index === 6) ? 0 : index - 1)
+          console.log(prev)
+          console.log(advisorProfiles[0])
+          var first = advisorProfiles[prev]
           return (
-            <Grid item >
-
+            < Grid item >
               <SingleAdvisor
                 key={index}
                 advisor={advisor}
+              />
+              <SingleAdvisor
+                key={index}
+                advisor={first}
               />
             //</Grid>
           );

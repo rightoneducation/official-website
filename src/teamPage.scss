@@ -1,7 +1,6 @@
 @import '/node_modules/bootstrap/scss/bootstrap.scss';
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
 
-
 .advisor-header {
     font-family: Roboto;
     font-style: normal;
@@ -21,6 +20,12 @@
     line-height: 16px;
 
     color: #FFFFFF;
+}
+
+
+//carousel
+.css-1f8sh1y {
+    width: 380px !important;
 }
 
 @media screen and (max-width: 2000px) {

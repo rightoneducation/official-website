@@ -87,6 +87,14 @@
         width: 250px;
     }
 
+    .error-analysis-mobile-green-monster{
+        display: none;
+    }
+
+    .error-analysis-mobile-pink-monster{
+        display: none;
+    }
+
     .error-analysis-header {
         font-family: 'filson-pro';
         font-style: normal;
@@ -95,6 +103,11 @@
         line-height: 55px;
         text-align: right;
         color: #FFFFFF;
+        display: block;
+    }
+
+    .error-analysis-header-mobile{
+        display: none;
     }
 
     .error-analysis-underline {
@@ -118,6 +131,10 @@
         padding: 0px;
         margin-right: 0px;
         margin-top: 15px;
+    }
+
+    .error-analysis-description-mobile{
+        display: none;
     }
 
     .error-analysis-link {
@@ -169,7 +186,6 @@
         text-align: center;
         padding: 0px;
         margin: 0px;
-
         color: #E87DA6;
     }
 
@@ -476,7 +492,24 @@
         display: none;
     }
 
+    .error-analysis-mobile-green-monster{
+        display: block;
+        margin-top: -168px;
+        margin-left: -135px;
+    }
+
+    .error-analysis-mobile-pink-monster{
+        display: block;
+        margin-top: 170px;
+        margin-left: 250px;
+    }
+
+
     .error-analysis-header {
+        display: none;
+    }
+
+    .error-analysis-header-mobile{
         font-family: 'filson-pro';
         font-style: normal;
         font-weight: 700;
@@ -484,10 +517,15 @@
         line-height: 36px;
         text-align: center;
         color: #FFFFFF;
-        margin-top: -650px;
+        display: block;
+        margin-top: -100px;
     }
 
     .error-analysis-underline {
+        display: none;
+    }
+
+    .error-analysis-underline-mobile{
         width: 316px;
         height: 0px;
         border: 4px solid #E29B5D;
@@ -497,6 +535,10 @@
     }
 
     .error-analysis-description {
+        display: none;
+    }
+
+    .error-analysis-description-mobile{
         font-family: "Roboto";
         font-weight: 400;
         font-size: 24px;
@@ -504,12 +546,9 @@
         letter-spacing: 0em;
         text-align: left;
         color: #FFFFFF;
-        margin-top: 0px;
         padding: 20px;
-        margin-right: 0px;
-        margin-top: 15px;
+        display: block;
     }
-
 
     .error-analysis-link {
         color: #FFB8D3;
@@ -520,13 +559,18 @@
     }
 
     .error-analysis-speech {
+        display: none;
+    }
+
+    .error-analysis-speech-mobile{
         width: 240px;
         height: 80px;
         border-radius: 15px;
         background: #FFFFFF;
-        margin-bottom: 30px;
         padding: 10px;
         margin-left: 100px;
+        margin-top: 100px;
+        
     }
 
     .error-analysis-activity {
@@ -546,6 +590,19 @@
         letter-spacing: 0.15px;
         text-align: center;
         color: #000000;
+        //display: block;
+    }
+
+    .error-analysis-activity-text-mobile{
+        font-family: 'Kalam';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29px;
+        letter-spacing: 0.15px;
+        text-align: center;
+        color: #000000;
+        display: block;
     }
 
     .error-analysis-activity-answer {
@@ -634,19 +691,6 @@
         width: 325.51px;
         height: 337px;
         margin-left: -1px;
-        //justify-content: center;
-    }
-
-    .error-analysis-description {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 28px;
-        letter-spacing: 0em;
-        text-align: right;
-        color: #FFFFFF;
-        z-index: 1;
     }
 
     .teach-like-champ-header {

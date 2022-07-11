@@ -28,10 +28,7 @@ function ErrorAnalysisActivitiesSection(props) {
                     <div>
                         <h6 className='error-analysis-description'>
                             During classroom discussions, singling <br className="desktop-break"/> out students who’ve made a mistake can <br className="desktop-break"/>  cause embarrassment.
-                            But when it’s a<br className="desktop-break"/>  cartoon character who does so, students <br className="desktop-break"/>  engage and open up more. Check out <br className="desktop-break"/>  &nbsp;
-                            <u><a href="https://docs.google.com/document/d/17aGvKUd4NGeZBh4vjCaVU7ybj_Kd5CkAVZBIHnhGLjQ/edit?usp=sharing" target="/" className='error-analysis-link'>
-                                 other activities 
-                            </a></u>
+                            But when it’s a<br className="desktop-break"/>  cartoon character who does so, students <br className="desktop-break"/>  engage and open up more. Check out<br className="desktop-break"/>&nbsp; <u><a href="https://docs.google.com/document/d/17aGvKUd4NGeZBh4vjCaVU7ybj_Kd5CkAVZBIHnhGLjQ/edit?usp=sharing" target="/" className='error-analysis-link'>other activities</a></u>
                             &nbsp; from math teachers.
                         </h6>
                         <img src={PinkMonster} alt="monster-with-speech-bubble" className='error-analysis-desktop-pink-monster' />

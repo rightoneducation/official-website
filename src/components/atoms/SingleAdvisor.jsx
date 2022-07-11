@@ -19,9 +19,9 @@ function Advisor(props) {
       {/* <Grid container alignItems="center"> */}
 
       <Card style={{
-        width: "335px", height: "635px", alignItems: "center",
+        width: "370px", height: "690px", alignItems: "center",
         borderRadius: "30px", boxShadow: "10px 10px 10px rgba(0, 0, 0, 0.25)",
-        background: txtBackground, margin: "20px", marginTop: "30px"
+        background: txtBackground, marginLeft: "4px", marginRight: "4px", marginTop: "50px"
       }}>
         <CardContent style={{ background: imBackground, justifyContent: "center", padding: "0px" }}>
 
@@ -46,7 +46,7 @@ function Advisor(props) {
                 width="30px"
                 src={icon}
               /></a>
-            <div style={{ fontSize: "18px", fontWeight: "400", lineHeight: "30px" }}>
+            <div style={{ fontWeight: "500", fontSize: "20px", lineHeight: "23px" }}>
               {title}
             </div>
           </div>

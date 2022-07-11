@@ -40,10 +40,9 @@ function ErrorAnalysisActivitiesSection(props) {
                         <h5 className='error-analysis-activity-text'>The factors of 14 are <br className='mobile-break' /> 2 and 7.</h5>
                     </div>
                     <InteractiveErrorAnalysisActivities />
+                    <img src={PinkMonsterMobile} alt="monster-with-speech-bubble" className='error-analysis-mobile-pink-monster' />
                 </Grid>
-                {/* <img src={GreenMonsterMobile} alt="monster-with-speech-bubble" className='error-analysis-mobile-green-monster' />
-                <img src={PinkMonsterMobile} alt="monster-with-speech-bubble" className='error-analysis-mobile-pink-monster' /> */}
-                <Grid Item>
+              <Grid Item>
                     <h1 className='error-analysis-header '>
                         Error Analysis Activities</h1>
                     <hr className='error-analysis-underline ' />

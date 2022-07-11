@@ -87,11 +87,11 @@
         width: 250px;
     }
 
-    .error-analysis-mobile-green-monster{
+    .error-analysis-mobile-green-monster {
         display: none;
     }
 
-    .error-analysis-mobile-pink-monster{
+    .error-analysis-mobile-pink-monster {
         display: none;
     }
 
@@ -106,7 +106,7 @@
         display: block;
     }
 
-    .error-analysis-header-mobile{
+    .error-analysis-header-mobile {
         display: none;
     }
 
@@ -133,7 +133,7 @@
         margin-top: 15px;
     }
 
-    .error-analysis-description-mobile{
+    .error-analysis-description-mobile {
         display: none;
     }
 
@@ -172,6 +172,10 @@
         text-align: center;
 
         color: #000000;
+    }
+
+    .error-analysis-activity-text-mobile {
+        display: none;
     }
 
     .error-analysis-activity-answer {
@@ -492,16 +496,16 @@
         display: none;
     }
 
-    .error-analysis-mobile-green-monster{
+    .error-analysis-mobile-green-monster {
         display: block;
         margin-top: -168px;
         margin-left: -135px;
     }
 
-    .error-analysis-mobile-pink-monster{
+    .error-analysis-mobile-pink-monster {
         display: block;
-        margin-top: 170px;
-        margin-left: 250px;
+        margin-top: -120px;
+        margin-left: 280px;
     }
 
 
@@ -509,7 +513,7 @@
         display: none;
     }
 
-    .error-analysis-header-mobile{
+    .error-analysis-header-mobile {
         font-family: 'filson-pro';
         font-style: normal;
         font-weight: 700;
@@ -525,7 +529,7 @@
         display: none;
     }
 
-    .error-analysis-underline-mobile{
+    .error-analysis-underline-mobile {
         width: 316px;
         height: 0px;
         border: 4px solid #E29B5D;
@@ -538,7 +542,7 @@
         display: none;
     }
 
-    .error-analysis-description-mobile{
+    .error-analysis-description-mobile {
         font-family: "Roboto";
         font-weight: 400;
         font-size: 24px;
@@ -562,7 +566,7 @@
         display: none;
     }
 
-    .error-analysis-speech-mobile{
+    .error-analysis-speech-mobile {
         width: 240px;
         height: 80px;
         border-radius: 15px;
@@ -570,15 +574,16 @@
         padding: 10px;
         margin-left: 100px;
         margin-top: 100px;
-        
+
     }
 
     .error-analysis-activity {
         width: 257px;
-        margin-left: 30px;
         border-radius: 15px !important;
         padding: 5px;
         overflow: hidden;
+        margin-left: 30px;
+        margin-top: -100px;
     }
 
     .error-analysis-activity-text {
@@ -593,7 +598,7 @@
         //display: block;
     }
 
-    .error-analysis-activity-text-mobile{
+    .error-analysis-activity-text-mobile {
         font-family: 'Kalam';
         font-style: normal;
         font-weight: 400;
@@ -778,7 +783,7 @@
         margin-top: 670px;
     }
 
-    .game-show-section{
+    .game-show-section {
         margin-top: 200px;
     }
 

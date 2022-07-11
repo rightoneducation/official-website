@@ -18,9 +18,7 @@ function Advisor(props) {
     <Grid item>
       {/* <Grid container alignItems="center"> */}
 
-      <Card style={{
-        width: "335px", height: "635px", alignItems: "center",
-        borderRadius: "30px", boxShadow: "10px 10px 10px rgba(0, 0, 0, 0.25)",
+      <Card className="advisor-card" style={{
         background: txtBackground, margin: "-20px", marginTop: "30px"
       }}>
         <CardContent style={{ background: imBackground, justifyContent: "center", padding: "0px" }}>

@@ -227,6 +227,8 @@ footer {
     width: 0;
     overflow: hidden;
     max-width: 414px;
+    margin: 0;
+    touch-action: none;
     text-align: center;
   }
 
@@ -242,7 +244,7 @@ footer {
       position: fixed;
       left: 0;
       bottom: 0;
-      width: 65vw;
+      width: 50vw;
       justify-content: flex-start;
     }
   }

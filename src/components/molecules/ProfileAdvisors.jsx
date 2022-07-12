@@ -24,61 +24,42 @@ function Advisors({ advisorProfiles }) {
               alignItems: "center", justifyContent: "center",
               width: "1500px"
             }}>
-              {/*<SingleAdvisor
-                className="advisor-card"
-                key={index}
-                advisor={first}
-              />
-              <SingleAdvisor
-
-                key={index}
-                advisor={second}
-              />
-              <SingleAdvisor
-
-                key={index}
-                advisor={advisor}
-              />
-              <SingleAdvisor
-
-                key={index}
-                advisor={fourth}
-              />
-              <SingleAdvisor
-
-                key={index}
-                advisor={fifth}
-              />*/}
               <Card className="advisor-card-edge"
                 style={{ background: "rgb(50, 39, 89)", boxShadow: "none" }} >
                 <SingleAdvisor
                   key={index}
-                  advisor={first} />
+                  advisor={first}
+                  position={"edge"} />
               </Card>
               <Card className="advisor-card-side"
                 style={{ background: "rgb(50, 39, 89)", boxShadow: "none" }}>
                 <SingleAdvisor
+
                   key={index}
-                  advisor={second} />
+                  advisor={second}
+                  position={"side"} />
               </Card>
               <Card className="advisor-card-center"
                 style={{ background: "rgb(50, 39, 89)", boxShadow: "none" }}>
                 <SingleAdvisor
                   key={index}
-                  advisor={advisor} />
+                  advisor={advisor}
+                  position={"center"} />
               </Card>
               <Card className="advisor-card-side"
                 style={{ background: "rgb(50, 39, 89)", boxShadow: "none" }}>
                 <SingleAdvisor
                   key={index}
                   advisor={fourth}
+                  position={"side"}
                 />
               </Card>
               <Card className="advisor-card-edge"
                 style={{ background: "rgb(50, 39, 89)", boxShadow: "none" }}>
                 <SingleAdvisor
                   key={index}
-                  advisor={fifth} />
+                  advisor={fifth}
+                  position={"edge"} />
               </Card>
             </Grid>
           );

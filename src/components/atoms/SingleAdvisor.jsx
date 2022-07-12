@@ -15,11 +15,13 @@ function Advisor(props) {
   const { name, photo, profile, title, linkedIn, imBackground, txtBackground } = props.advisor
   const styles = useStyles();
   return (
-    <Grid item>
-      {/* <Grid container alignItems="center"> */}
-
-      <Card className="advisor-card" style={{
-        background: txtBackground, margin: "-20px", marginTop: "30px"
+    /*<Grid item style={{ width: "335px" }} >
+      
+      < Card style={{
+        width: "335px", height: "635px",
+        alignItems: "center", borderRadius: "30px",
+        boxShadow: "10px 10px 10px rgba(0, 0, 0, 0.25)", background: txtBackground,
+        margin: "-20px", marginTop: "30px"
       }}>
         <CardContent style={{ background: imBackground, justifyContent: "center", padding: "0px" }}>
 
@@ -54,15 +56,27 @@ function Advisor(props) {
         </CardContent>
 
       </Card>
-      {/* <Grid item>
-        <h3 style={{fontWeight: '300', marginRight: '10px'}}>{name}</h3>
-          <h5 className={styles.jobTitle}>{title}</h5>
-        </Grid>
+     
+    </Grid > */
+    <Grid item style={{
+      width: "100%", height: "100%", background: txtBackground,
+      borderRadius: "30px"
+    }}>
+      <Grid container style={{
+        width: "100%", height: "40%", background: imBackground, borderRadius: "30px"
+      }}>
+        <img
+          width="250px"
+          style={{
+            clipPath: "circle()", marginTop: "24px", marginLeft: "42px",
+            marginRight: "42px", marginBottom: "0px"
+          }}
+          src={photo}
+          className={styles.advisorPhoto}
+          alt=''
+        />
       </Grid>
-      <Grid>
-        <p style={{fontSize: '.9rem'}}>{profile}</p>
-      </Grid> */}
-    </Grid >
+    </Grid>
   )
 }
 

@@ -22,10 +22,29 @@
     color: #FFFFFF;
 }
 
-.advisor-card {
+.advisor-card-center {
     width: 335px; 
     height: 635px; 
+    perspective: 1px;
     align-items: center;
+    border-radius: 30px; 
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25)
+}
+
+.advisor-card-side {
+    width: 280px; 
+    height: 530px; 
+    perspective: 1px;
+    align-items: center;
+    border-radius: 30px; 
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25)
+}
+
+.advisor-card-edge {
+    width: 224px;
+    height: 425px; 
+    align-items: center;
+    perspective: 1px;
     border-radius: 30px; 
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25)
 }

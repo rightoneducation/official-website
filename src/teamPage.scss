@@ -1,30 +1,90 @@
 @import '/node_modules/bootstrap/scss/bootstrap.scss';
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
 
-.advisor-header {
+.advisor-header-center {
     font-family: Roboto;
     font-style: normal;
+    border-bottom: 1px solid #fff;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+/* identical to box height */
+    color: #FFFFFF;
+}
+
+.advisor-title-center {
     font-weight: 500;
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.advisor-header-side {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 32px;
 /* identical to box height */
     color: #FFFFFF;
     border-bottom: 1px solid #FFFFFF;
 }
 
-.advisor-description {
+.advisor-title-side {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 19px;
+}
+
+.advisor-header-edge {
     font-family: Roboto;
     font-style: normal;
-    font-weight: 320;
-    font-size: 14px;
-    line-height: 16px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+/* identical to box height */
+    color: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.advisor-title-edge {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.advisor-description-center {
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
 
     color: #FFFFFF;
 }
 
+.advisor-description-side {
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    
+    color: #FFFFFF;
+}
+
+.advisor-description-edge {
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 390;
+    line-height: 15px;
+    
+    color: #FFFFFF;
+}
+
 .advisor-card-center {
-    width: 335px; 
-    height: 635px; 
+    width: 370px; 
+    height: 690px; 
     perspective: 1px;
     align-items: center;
     border-radius: 30px; 
@@ -32,8 +92,8 @@
 }
 
 .advisor-card-side {
-    width: 280px; 
-    height: 530px; 
+    width: 322px; 
+    height: 600px; 
     perspective: 1px;
     align-items: center;
     border-radius: 30px; 
@@ -41,8 +101,8 @@
 }
 
 .advisor-card-edge {
-    width: 224px;
-    height: 425px; 
+    width: 273px;
+    height: 510px; 
     align-items: center;
     perspective: 1px;
     border-radius: 30px; 
@@ -51,9 +111,10 @@
 
 //carousel
 .css-1f8sh1y {
-    width: 1500px !important;
+    width: 1450px !important;
     height: 700px !important;
 }
+
 
 @media screen and (max-width: 2000px) {
     /*team-page*/

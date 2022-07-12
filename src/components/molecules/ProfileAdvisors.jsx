@@ -7,8 +7,9 @@ import Carousel from 'react-material-ui-carousel'
 function Advisors({ advisorProfiles }) {
 
   return (
-    <Grid container justify="center" >
-      <Carousel animation="slide" autoPlay={false} duration={1500}>
+    <Grid container style={{ display: "flex", justifyContent: "center", alignItems: "center" }} >
+      <Carousel animation="slide" autoPlay={false} duration={1500}
+        style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
         {advisorProfiles.map((advisor, index) => {
           var left = ((index === 0) ? 6 : index - 1)
           var leftmost = ((left === 0) ? 6 : left - 1)
@@ -21,46 +22,38 @@ function Advisors({ advisorProfiles }) {
           var fifth = advisorProfiles[rightmost]
           return (
             < Grid container style={{
+              display: "flex",
               alignItems: "center", justifyContent: "center",
-              width: "1500px"
+              width: "1450px", height: "700px"
             }}>
-              <Card className="advisor-card-edge"
-                style={{ background: "rgb(50, 39, 89)", boxShadow: "none" }} >
-                <SingleAdvisor
-                  key={index}
-                  advisor={first}
-                  position={"edge"} />
-              </Card>
-              <Card className="advisor-card-side"
-                style={{ background: "rgb(50, 39, 89)", boxShadow: "none" }}>
-                <SingleAdvisor
 
-                  key={index}
-                  advisor={second}
-                  position={"side"} />
-              </Card>
-              <Card className="advisor-card-center"
-                style={{ background: "rgb(50, 39, 89)", boxShadow: "none" }}>
-                <SingleAdvisor
-                  key={index}
-                  advisor={advisor}
-                  position={"center"} />
-              </Card>
-              <Card className="advisor-card-side"
-                style={{ background: "rgb(50, 39, 89)", boxShadow: "none" }}>
-                <SingleAdvisor
-                  key={index}
-                  advisor={fourth}
-                  position={"side"}
-                />
-              </Card>
-              <Card className="advisor-card-edge"
-                style={{ background: "rgb(50, 39, 89)", boxShadow: "none" }}>
-                <SingleAdvisor
-                  key={index}
-                  advisor={fifth}
-                  position={"edge"} />
-              </Card>
+              <SingleAdvisor
+                key={index}
+                advisor={first}
+                position={"edge"} />
+
+              <SingleAdvisor
+
+                key={index}
+                advisor={second}
+                position={"side"} />
+
+              <SingleAdvisor
+                key={index}
+                advisor={advisor}
+                position={"center"} />
+
+              <SingleAdvisor
+                key={index}
+                advisor={fourth}
+                position={"side"}
+              />
+
+              <SingleAdvisor
+                key={index}
+                advisor={fifth}
+                position={"edge"} />
+
             </Grid>
           );
         })}

@@ -136,7 +136,7 @@ module.exports = {
       name: 'Bunmi Esho',
       photo: '/images/profile_bummi.jpg',
       title: 'STEM Advocacy Director',
-      profile: 'Bunmi is a Program Director at Endless OS Foundation, which works to democratize access to technology to create opportunities for underserved and under-resourced populations around the world. She has over 20 years of experience in the STEM, nonprofit, and education sectors and considers herself an eternal STEM advocate.',
+      profile: 'Bunmi is a Vice President at Endless OS Foundation, which works to democratize access to technology to create opportunities for underserved and under-resourced populations around the world. She has over 20 years of experience in the STEM, nonprofit, and education sectors and considers herself an eternal STEM advocate.',
       imBackground: 'linear-gradient(#4b65dd, #3a4b9b)',
       txtBackground: '#3a4b9b',
       linkedIn: 'https://www.linkedin.com/in/bunmiesho/'
@@ -171,7 +171,7 @@ module.exports = {
       name: 'Paul Chin',
       photo: '/images/profile_paul.jpg',
       title: 'Assistant Professor of Practice',
-      profile: "An Assistant Professor of Practice at the Relay Graduate School of Education, Paul has a demonstrated history of success teaching and leading in underserved communities across the US. Paul began his career in education as a middle school math teacher in Los Angeles and Newark before transitioning to school leadership roles in Indianapolis and Brooklyn. After 12 years of teaching and leading in schools, Paul joined the teaching faculty at Relay and recently began a doctoral program at Teachers College, Columbia University in Adult Learning and Leadership.",
+      profile: "An Assistant Professor of Practice at the Relay Graduate School of Education, Paul has a demonstrated history of success teaching and leading in underserved communities across the US. Paul began his career as a middle school math teacher in Los Angeles & Newark before transitioning to school leadership roles in Indianapolis & Brooklyn. After 12 years of teaching and leading in schools, Paul joined the faculty at Relay and recently began a doctoral program at Teachers College, Columbia University.",
       imBackground: "linear-gradient(#92cdfb, #6393b8)",
       txtBackground: '#6393b8',
       linkedIn: 'https://www.linkedin.com/in/paul-chin-04046143/'
@@ -181,7 +181,7 @@ module.exports = {
       name: 'Payton Richardson',
       photo: '/images/profile_payton.jpg',
       title: 'Data Officer',
-      profile: "Payton is a mixed-methods education researcher and policy professional with expertise in analyzing K-12 data, federal and state accountability structures, and performance frameworks. As a Data Officer at Eastside Pathways, Payton formulates data strategies and provides ongoing analysis for a collective impact partnership that mobilizes over 60 public, private, and community-based organizations to support every child on their journey from cradle to career. Prior to Eastside Pathways, Payton spent several years at the Center for Research on Education Outcomes (CREDO). With a newly growing family, Payton is especially passionate about providing equity across the education landscape.",
+      profile: "Payton is a mixed-methods education researcher and policy professional with expertise in analyzing K-12 data and performance frameworks. As a Data Officer at Eastside Pathways, Payton formulates data strategies and provides ongoing analysis for a collective impact partnership of over 60 public, private, and community-based organizations to support every child on their journey from cradle to career. With a newly growing family, Payton is especially passionate about providing equity across the education landscape.",
       imBackground: "linear-gradient(#e2618f, #b22e5d)",
       txtBackground: '#b22e5d',
       linkedIn: 'https://www.linkedin.com/in/williampaytonrichardson/'

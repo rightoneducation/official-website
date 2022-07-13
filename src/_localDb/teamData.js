@@ -135,11 +135,7 @@ module.exports = {
       id: 4,
       name: 'Bunmi Esho',
       photo: '/images/profile_bummi.jpg',
-<<<<<<< HEAD
-      title: 'STEM Advocacy Director',
-=======
       title: 'STEM Advocacy Executive',
->>>>>>> f26e07c21d88bf1737168a77c3eb30d66c46ffdb
       profile: 'Bunmi is a Vice President at Endless OS Foundation, which works to democratize access to technology to create opportunities for underserved and under-resourced populations around the world. She has over 20 years of experience in the STEM, nonprofit, and education sectors and considers herself an eternal STEM advocate.',
       imBackground: 'linear-gradient(#4b65dd, #3a4b9b)',
       txtBackground: '#3a4b9b',

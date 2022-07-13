@@ -12,59 +12,91 @@ const useStyles = makeStyles({
 
 });
 function Advisor(props) {
+  const { position } = props
   const { name, photo, profile, title, linkedIn, imBackground, txtBackground } = props.advisor
   const styles = useStyles();
+
+  const CARD_CLASSES = {
+    "edge": "advisor-card-edge",
+    "side": "advisor-card-side",
+    "center": "advisor-card-center"
+  }
+
+  const IMAGE_WIDTHS = {
+    "edge": "150px",
+    "side": "200px",
+    "center": "250px"
+  }
+
+  const CARD_Z = {
+    "edge": "-1",
+    "side": "1",
+    "center": "2"
+  }
+
+  const HEADER = {
+    "edge": "advisor-header-edge",
+    "side": "advisor-header-side",
+    "center": "advisor-header-center"
+  }
+
+  const TITLE = {
+    "edge": "advisor-title-edge",
+    "side": "advisor-title-side",
+    "center": "advisor-title-center"
+  }
+
+  const LINKEDINICON = {
+    "edge": "20px",
+    "side": "25px",
+    "center": "30px"
+  }
+
+  const DESCRIPTION = {
+    "edge": "advisor-description-edge",
+    "side": "advisor-description-side",
+    "center": "advisor-description-center",
+  }
+
   return (
-    <Grid container>
-      {/* <Grid container alignItems="center"> */}
-
-      <Card style={{
-        width: "370px", height: "690px", alignItems: "center",
-        borderRadius: "30px", boxShadow: "10px 10px 10px rgba(0, 0, 0, 0.25)",
-        background: txtBackground, marginLeft: "4px", marginRight: "4px", marginTop: "50px"
+    <Grid item style={{ zIndex: CARD_Z[position] }}>
+      <Card className={CARD_CLASSES[position]} style={{
+        borderRadius: "30px",
+        boxShadow: "10px 10px 10px rgba(0, 0, 0, 0.25)", background: txtBackground,
+        margin: "-20px"
       }}>
-        <CardContent style={{ background: imBackground, justifyContent: "center", padding: "0px" }}>
-
+        <CardContent
+          style={{ background: imBackground, display: "flex", alignItems: "center", justifyContent: "center", padding: "0px" }}>
           <img
-            width="250px"
+            width={IMAGE_WIDTHS[position]}
             style={{
-              clipPath: "circle()", marginTop: "24px", marginLeft: "42px",
-              marginRight: "42px", marginBottom: "0px"
+              clipPath: "circle()",
+              marginTop: "10%"
             }}
             src={photo}
             className={styles.advisorPhoto}
             alt=''
           />
-
         </CardContent>
-        <CardContent style={{ paddingLeft: "26px", paddingRight: "26px", paddingTop: "18px" }}>
-          <div className="advisor-header">
+        <CardContent style={{ paddingLeft: "7%", paddingRight: "7%", paddingTop: "5%" }}>
+          <div className={HEADER[position]}>
             {name}
             <a href={linkedIn} target="_blank">
               <img
                 style={{ float: "right" }}
-                width="30px"
+                width={LINKEDINICON[position]}
                 src={icon}
               /></a>
-            <div style={{ fontWeight: "500", fontSize: "20px", lineHeight: "23px" }}>
+            <div className={TITLE[position]}>
               {title}
             </div>
           </div>
-          <div className="advisor-description" style={{ marginTop: "10px" }}>
+          <div className={DESCRIPTION[position]} style={{ marginTop: "2%" }}>
             {profile}
           </div>
         </CardContent>
-
       </Card>
-      {/* <Grid item>
-        <h3 style={{fontWeight: '300', marginRight: '10px'}}>{name}</h3>
-          <h5 className={styles.jobTitle}>{title}</h5>
-        </Grid>
-      </Grid>
-      <Grid>
-        <p style={{fontSize: '.9rem'}}>{profile}</p>
-      </Grid> */}
-    </Grid >
+    </Grid>
   )
 }
 

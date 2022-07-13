@@ -87,6 +87,14 @@
         width: 250px;
     }
 
+    .error-analysis-mobile-green-monster {
+        display: none;
+    }
+
+    .error-analysis-mobile-pink-monster {
+        display: none;
+    }
+
     .error-analysis-header {
         font-family: 'filson-pro';
         font-style: normal;
@@ -95,7 +103,11 @@
         line-height: 55px;
         text-align: right;
         color: #FFFFFF;
+        display: block;
+    }
 
+    .error-analysis-header-mobile {
+        display: none;
     }
 
     .error-analysis-underline {
@@ -119,6 +131,10 @@
         padding: 0px;
         margin-right: 0px;
         margin-top: 15px;
+    }
+
+    .error-analysis-description-mobile {
+        display: none;
     }
 
     .error-analysis-link {
@@ -158,6 +174,10 @@
         color: #000000;
     }
 
+    .error-analysis-activity-text-mobile {
+        display: none;
+    }
+
     .error-analysis-activity-answer {
         font-family: 'Kalam';
         font-style: normal;
@@ -170,7 +190,6 @@
         text-align: center;
         padding: 0px;
         margin: 0px;
-
         color: #E87DA6;
     }
 
@@ -288,6 +307,8 @@
         width: 429px;
         height: 330px;
         right: 250px;
+        margin-top: 150px;
+        padding: 20px;
     }
 
     .rough-draft-card-content {
@@ -424,7 +445,7 @@
         font-weight: 700;
         font-size: 20px;
         line-height: 24px;
-        padding-left: 48px;
+        //padding-left: 48px;
         //padding-top: 45px;
         margin-top: 5px;
         //margin-top: 10px;
@@ -437,10 +458,12 @@
 
     .tutorial-videos-text:hover {
         background: rgba(252, 143, 255, 0.42);
+        width: 280px;
     }
 
     .tutorial-videos-text:focus {
         background: rgba(252, 143, 255, 0.42);
+        width: 280px;
     }
 
     .overview-video-heading {
@@ -473,7 +496,24 @@
         display: none;
     }
 
+    .error-analysis-mobile-green-monster {
+        display: block;
+        margin-top: -168px;
+        margin-left: -135px;
+    }
+
+    .error-analysis-mobile-pink-monster {
+        display: block;
+        margin-top: -120px;
+        margin-left: 280px;
+    }
+
+
     .error-analysis-header {
+        display: none;
+    }
+
+    .error-analysis-header-mobile {
         font-family: 'filson-pro';
         font-style: normal;
         font-weight: 700;
@@ -481,10 +521,15 @@
         line-height: 36px;
         text-align: center;
         color: #FFFFFF;
-
+        display: block;
+        margin-top: -100px;
     }
 
     .error-analysis-underline {
+        display: none;
+    }
+
+    .error-analysis-underline-mobile {
         width: 316px;
         height: 0px;
         border: 4px solid #E29B5D;
@@ -494,19 +539,20 @@
     }
 
     .error-analysis-description {
+        display: none;
+    }
+
+    .error-analysis-description-mobile {
         font-family: "Roboto";
         font-weight: 400;
         font-size: 24px;
         line-height: 28px;
         letter-spacing: 0em;
-        text-align: right;
+        text-align: left;
         color: #FFFFFF;
-        margin-top: 0px;
         padding: 20px;
-        margin-right: 0px;
-        margin-top: 15px;
+        display: block;
     }
-
 
     .error-analysis-link {
         color: #FFB8D3;
@@ -517,21 +563,27 @@
     }
 
     .error-analysis-speech {
+        display: none;
+    }
+
+    .error-analysis-speech-mobile {
         width: 240px;
         height: 80px;
         border-radius: 15px;
         background: #FFFFFF;
-        margin-bottom: 30px;
         padding: 10px;
         margin-left: 100px;
+        margin-top: 100px;
+
     }
 
     .error-analysis-activity {
         width: 257px;
-        margin-left: 30px;
         border-radius: 15px !important;
         padding: 5px;
         overflow: hidden;
+        margin-left: 30px;
+        margin-top: -100px;
     }
 
     .error-analysis-activity-text {
@@ -543,6 +595,19 @@
         letter-spacing: 0.15px;
         text-align: center;
         color: #000000;
+        //display: block;
+    }
+
+    .error-analysis-activity-text-mobile {
+        font-family: 'Kalam';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29px;
+        letter-spacing: 0.15px;
+        text-align: center;
+        color: #000000;
+        display: block;
     }
 
     .error-analysis-activity-answer {
@@ -571,7 +636,6 @@
         align-items: center;
         text-align: center;
         letter-spacing: 0.15px;
-
         color: #E87DA6;
     }
 
@@ -632,19 +696,6 @@
         width: 325.51px;
         height: 337px;
         margin-left: -1px;
-        //justify-content: center;
-    }
-
-    .error-analysis-description {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 28px;
-        letter-spacing: 0em;
-        text-align: right;
-        color: #FFFFFF;
-        z-index: 1;
     }
 
     .teach-like-champ-header {
@@ -688,27 +739,32 @@
 
     .rough-draft-card {
         position: absolute;
-        width: 429px;
-        height: 330px;
-        right: 250px;
+        width: 337px;
+        height: 234px;
+        left: 20px;
+        margin-top: 550px;
+        padding: 0px;
     }
 
     .rough-draft-card-content {
         font-family: 'Roboto';
         font-style: italic;
         font-weight: 500;
-        font-size: 24px;
-        line-height: 27px;
+        font-size: 20px;
+        line-height: 23px;
         color: #FFFFFF;
+        text-align: right;
+        margin-bottom: -40px;
     }
 
     .rough-draft-card-content-bold {
         font-family: 'Roboto';
         font-style: italic;
         font-weight: 700;
-        font-size: 24px;
-        line-height: 27px;
+        font-size: 20px;
+        line-height: 23px;
         color: #FFFFFF;
+        text-align: right;
     }
 
     .rough-draft-link {
@@ -721,10 +777,14 @@
 
     .rough-draft-monster {
         position: absolute;
-        width: 252.67px;
-        height: 198px;
-        left: 75%;
-        margin-top: 350px;
+        width: 121.54px;
+        height: 95.25px;
+        left: 20px;
+        margin-top: 670px;
+    }
+
+    .game-show-section {
+        margin-top: 200px;
     }
 
     .game-show-header {

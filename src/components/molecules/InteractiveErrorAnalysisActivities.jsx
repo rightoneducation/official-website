@@ -2,7 +2,6 @@ import React from 'react';
 import { makeStyles } from "@material-ui/core/styles";
 import { Card, CardContent, CardActions, Collapse, Button, Typography } from '@material-ui/core';
 
-
 const useStyles = makeStyles(theme => ({
   cardContent: {
     alignSelf: 'center',
@@ -42,9 +41,11 @@ function InteractiveErrorAnalysisActivities() {
     <Card className='error-analysis-activity'>
       <CardContent>
         <h5 className="error-analysis-activity-text" >
-          What mistake did my friend make?
+          What mistake did <br className='mobile-break'/> my friend make?
+        
         </h5>
       </CardContent>
+      
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
           <h5 className="error-analysis-activity-answer">
@@ -65,6 +66,7 @@ function InteractiveErrorAnalysisActivities() {
         </Button>
       </CardActions>
     </Card>
+    
   );
 }
 

@@ -109,15 +109,32 @@
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25)
 }
 
-//carousel
-.css-1f8sh1y {
-    width: 1450px !important;
-    height: 700px !important;
-}
-
-
 @media screen and (max-width: 2000px) {
-    /*team-page*/
+    
+    .css-1f8sh1y {
+        width: 1450px !important;
+        height: 700px !important;
+    }    
+
+    .small-advisors {
+        display: none;
+    }
+
+    .smallest-advisors {
+        display: none;
+    }
+
+    .medium-advisors {
+        display: none;
+    }
+
+    .largest-advisors {
+        display: block;
+    }
+
+    .large-advisors {
+        display: none;
+    }
 
     .team-page-intros {
         margin-top: 55px;
@@ -194,18 +211,66 @@
             }
         }
 
-        /* advisor cards */
+    }
+}
 
-    
+@media screen and (max-width: 1590px) {
 
+    .css-1f8sh1y {
+        width: 1300px !important;
+        height: 700px !important;
+    }
+
+    .largest-advisors {
+        display: none;
+    }
+
+    .large-advisors {
+        display: block;
+    }
+
+    .medium-advisors {
+        display: none;
+    }
+
+    .small-advisors {
+        display: none;
+    }
+
+    .smallest-advisors {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+
+    .css-1f8sh1y {
+        width: 1000px !important;
+        height: 700px !important;
+    }
+
+    .largest-advisors {
+        display: none;
+    }
+
+    .large-advisors {
+        display: none;
+    }
+
+    .medium-advisors {
+        display: block;
+    }
+
+    .small-advisors {
+        display: none;
+    }
+
+    .smallest-advisors {
+        display: none;
     }
 }
 
 @media screen and (max-width: 1200px) {
-
-
-
-
     .team-page-intros {
         margin-top: 35px;
         margin-bottom: 45px;
@@ -281,5 +346,60 @@
 
             }
         }
+
     }
+}
+
+@media screen and (max-width: 1080px) {
+    .css-1f8sh1y {
+        width: 750px !important;
+        height: 700px !important;
+    }
+
+    .largest-advisors {
+        display: none;
+    }
+
+    .large-advisors {
+        display: none;
+    }
+
+    .medium-advisors {
+        display: none;
+    }
+
+    .small-advisors {
+        display: block;
+    }
+
+    .smallest-advisors {
+        display: none;
+    }   
+}
+
+@media screen and (max-width: 800px) {
+    .css-1f8sh1y {
+        width: 400px !important;
+        height: 700px !important;
+    }
+
+    .largest-advisors {
+        display: none;
+    }
+
+    .large-advisors {
+        display: none;
+    }
+
+    .medium-advisors {
+        display: none;
+    }
+
+    .small-advisors {
+        display: none;
+    }
+
+    .smallest-advisors {
+        display: block;
+    }   
 }

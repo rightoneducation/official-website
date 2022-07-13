@@ -21,40 +21,117 @@ function Advisors({ advisorProfiles }) {
           var fourth = advisorProfiles[right]
           var fifth = advisorProfiles[rightmost]
           return (
-            < Grid container style={{
-              display: "flex",
-              alignItems: "center", justifyContent: "center",
-              width: "1450px", height: "700px"
-            }}>
+            <div>
+              <div className="largest-advisors">
+                < Grid container style={{
+                  display: "flex",
+                  alignItems: "center", justifyContent: "center",
+                  width: "1450px", height: "700px"
+                }}>
+                  <SingleAdvisor
+                    key={index}
+                    advisor={first}
+                    position={"edge"} />
 
-              <SingleAdvisor
-                key={index}
-                advisor={first}
-                position={"edge"} />
+                  <SingleAdvisor
 
-              <SingleAdvisor
+                    key={index}
+                    advisor={second}
+                    position={"side"} />
 
-                key={index}
-                advisor={second}
-                position={"side"} />
+                  <SingleAdvisor
+                    key={index}
+                    advisor={advisor}
+                    position={"center"} />
 
-              <SingleAdvisor
-                key={index}
-                advisor={advisor}
-                position={"center"} />
+                  <SingleAdvisor
+                    key={index}
+                    advisor={fourth}
+                    position={"side"}
+                  />
 
-              <SingleAdvisor
-                key={index}
-                advisor={fourth}
-                position={"side"}
-              />
+                  <SingleAdvisor
+                    key={index}
+                    advisor={fifth}
+                    position={"edge"} />
 
-              <SingleAdvisor
-                key={index}
-                advisor={fifth}
-                position={"edge"} />
-
-            </Grid>
+                </Grid>
+              </div>
+              <div className="large-advisors">
+                < Grid container style={{
+                  display: "flex",
+                  alignItems: "center", justifyContent: "center",
+                  width: "1300px", height: "700px"
+                }}>
+                  <SingleAdvisor
+                    key={index}
+                    advisor={first}
+                    position={"side"} />
+                  <SingleAdvisor
+                    key={index}
+                    advisor={second}
+                    position={"center"} />
+                  <SingleAdvisor
+                    key={index}
+                    advisor={advisor}
+                    position={"center"} />
+                  <SingleAdvisor
+                    key={index}
+                    advisor={fourth}
+                    position={"side"}
+                  />
+                </Grid>
+              </div>
+              <div className="medium-advisors">
+                < Grid container style={{
+                  display: "flex",
+                  alignItems: "center", justifyContent: "center",
+                  width: "1000px", height: "700px"
+                }}>
+                  <SingleAdvisor
+                    key={index}
+                    advisor={second}
+                    position={"side"} />
+                  <SingleAdvisor
+                    key={index}
+                    advisor={advisor}
+                    position={"center"} />
+                  <SingleAdvisor
+                    key={index}
+                    advisor={fourth}
+                    position={"side"}
+                  />
+                </Grid>
+              </div>
+              <div className="small-advisors">
+                < Grid container style={{
+                  display: "flex",
+                  alignItems: "center", justifyContent: "center",
+                  width: "700px", height: "700px"
+                }}>
+                  <SingleAdvisor
+                    key={index}
+                    advisor={second}
+                    position={"center"} />
+                  <SingleAdvisor
+                    key={index}
+                    advisor={advisor}
+                    position={"center"} />
+                </Grid>
+              </div>
+              <div className="smallest-advisors">
+                < Grid container style={{
+                  display: "flex",
+                  alignItems: "center", justifyContent: "center",
+                  width: "400px", height: "700px"
+                }}>
+                  <SingleAdvisor
+                    key={index}
+                    advisor={advisor}
+                    position={"center"} />
+                </Grid>
+              </div>
+            </div>
           );
         })}
       </Carousel>

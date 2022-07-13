@@ -16,7 +16,6 @@ function Advisor(props) {
   const { name, photo, profile, title, linkedIn, imBackground, txtBackground } = props.advisor
   const styles = useStyles();
 
-<<<<<<< HEAD
   const CARD_CLASSES = {
     "edge": "advisor-card-edge",
     "side": "advisor-card-side",
@@ -46,14 +45,6 @@ function Advisor(props) {
     "side": "advisor-title-side",
     "center": "advisor-title-center"
   }
-=======
-      <Card style={{
-        width: "370px", height: "690px", alignItems: "center",
-        borderRadius: "30px", boxShadow: "10px 10px 10px rgba(0, 0, 0, 0.25)",
-        background: txtBackground, marginLeft: "4px", marginRight: "4px", marginTop: "50px"
-      }}>
-        <CardContent style={{ background: imBackground, justifyContent: "center", padding: "0px" }}>
->>>>>>> f26e07c21d88bf1737168a77c3eb30d66c46ffdb
 
   const LINKEDINICON = {
     "edge": "20px",
@@ -96,11 +87,7 @@ function Advisor(props) {
                 width={LINKEDINICON[position]}
                 src={icon}
               /></a>
-<<<<<<< HEAD
             <div className={TITLE[position]}>
-=======
-            <div style={{ fontWeight: "500", fontSize: "20px", lineHeight: "23px" }}>
->>>>>>> f26e07c21d88bf1737168a77c3eb30d66c46ffdb
               {title}
             </div>
           </div>

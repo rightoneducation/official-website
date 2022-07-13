@@ -123,7 +123,7 @@ function Advisors({ advisorProfiles }) {
                 < Grid container style={{
                   display: "flex",
                   alignItems: "center", justifyContent: "center",
-                  width: "100%", height: "810px"
+                  width: "100%", height: "100%", padding: "5%"
                 }}>
                   <SingleAdvisor
                     key={index}

@@ -5,7 +5,7 @@ import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
 import Carousel from 'react-material-ui-carousel'
 
 function Advisors({ advisorProfiles }) {
-  const startingCard = [[0, 1, 2], [3, 4, 5], [6, 0, 1], [2, 3, 4], [5, 6, 0], [1, 2, 3], [4, 5, 6]]
+  const decks = [[0, 1, 2], [3, 4, 5], [6, 0, 1], [2, 3, 4], [5, 6, 0], [1, 2, 3], [4, 5, 6]]
   return (
     <Grid container style={{ display: "flex", justifyContent: "center", alignItems: "center" }} >
       <Carousel animation="slide" autoPlay={false} duration={1500}
@@ -22,7 +22,7 @@ function Advisors({ advisorProfiles }) {
         var fifth = advisorProfiles[rightmost]*/
 
           //console.log(index + 3)
-          var deck = startingCard[(index % 7)]
+          var deck = decks[(index % 7)]
           console.log(deck)
           var first = deck[0]
           var second = deck[1]
@@ -32,26 +32,35 @@ function Advisors({ advisorProfiles }) {
           var advisorThree = advisorProfiles[third]
           return (
             <div>
-              <div className="largest-advisors">
+              <div className="desktop-advisors">
                 < Grid container style={{
                   display: "flex",
                   alignItems: "center", justifyContent: "center",
-                  width: "1450px", height: "700px"
+                  width: "100%", height: "700px"
                 }}>
                   <SingleAdvisor
                     key={index}
-                    advisor={advisorOne}
-                    position={"center"} />
+                    advisor={advisorOne} />
 
                   <SingleAdvisor
                     key={index}
-                    advisor={advisorTwo}
-                    position={"center"} />
+                    advisor={advisorTwo} />
 
                   <SingleAdvisor
                     key={index}
-                    advisor={advisorThree}
-                    position={"center"} />
+                    advisor={advisorThree} />
+
+                </Grid>
+              </div>
+              <div className="mobile-advisors">
+                < Grid container style={{
+                  display: "flex",
+                  alignItems: "center", justifyContent: "center",
+                  width: "400", height: "700px"
+                }}>
+                  <SingleAdvisor
+                    key={index}
+                    advisor={advisorOne} />
 
                 </Grid>
               </div>

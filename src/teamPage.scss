@@ -1,6 +1,22 @@
 @import '/node_modules/bootstrap/scss/bootstrap.scss';
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
 
+.team-page-monsters {
+    width: 100%;
+    background: #322759;
+    margin-top: -2%;
+    margin-bottom: -7%;
+    overflow: hidden;
+    object-fit: contain;
+    object-position: center;
+    align-items: center;
+    display: flex;
+}
+
+.team-page-monsters-mobile {
+    display: none;
+}
+
 .advisor-header-center {
     font-family: Roboto;
     font-style: normal;
@@ -8,7 +24,7 @@
     font-size: 32px;
     font-weight: 700;
     line-height: 38px;
-/* identical to box height */
+    /* identical to box height */
     color: #FFFFFF;
 }
 
@@ -66,7 +82,7 @@
     font-size: 15px;
     font-weight: 400;
     line-height: 18px;
-    
+
     color: #FFFFFF;
 }
 
@@ -76,43 +92,43 @@
     font-size: 12px;
     font-weight: 390;
     line-height: 15px;
-    
+
     color: #FFFFFF;
 }
 
 .advisor-card-center {
-    width: 370px; 
-    height: 690px; 
+    width: 370px;
+    height: 690px;
     perspective: 1px;
     align-items: center;
-    border-radius: 30px; 
+    border-radius: 30px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25)
 }
 
 .advisor-card-side {
-    width: 322px; 
-    height: 600px; 
+    width: 322px;
+    height: 600px;
     perspective: 1px;
     align-items: center;
-    border-radius: 30px; 
+    border-radius: 30px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25)
 }
 
 .advisor-card-edge {
     width: 273px;
-    height: 510px; 
+    height: 510px;
     align-items: center;
     perspective: 1px;
-    border-radius: 30px; 
+    border-radius: 30px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25)
 }
 
 @media screen and (max-width: 2000px) {
-    
+
     .css-1f8sh1y {
         width: 1450px !important;
         height: 700px !important;
-    }    
+    }
 
     .small-advisors {
         display: none;
@@ -372,7 +388,7 @@
 
     .smallest-advisors {
         display: none;
-    }   
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -399,7 +415,7 @@
 
     .smallest-advisors {
         display: block;
-    }   
+    }
 }
 
 @media screen and (max-width: 430px) {
@@ -409,11 +425,23 @@
     }
 
     .advisor-card-center {
-        width: 300px; 
-        height: 810px; 
+        width: 300px;
+        height: 810px;
         perspective: 1px;
         align-items: center;
-        border-radius: 30px; 
+        border-radius: 30px;
         box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25)
+    }
+
+    .team-page-monsters {
+        display: none;
+    }
+
+    .team-page-monsters-mobile {
+        display: block;
+        margin-top: 35%;
+        width: 100%;
+        margin-bottom: -30%;
+        background: #322759;
     }
 }

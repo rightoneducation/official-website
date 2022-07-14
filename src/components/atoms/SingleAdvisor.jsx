@@ -63,7 +63,7 @@ function Advisor(props) {
       <Card className={CARD_CLASSES[position]} style={{
         borderRadius: "30px",
         boxShadow: "10px 10px 10px rgba(0, 0, 0, 0.25)", background: txtBackground,
-        margin: "-20px"
+        margin: "20px"
       }}>
         <CardContent
           style={{ background: imBackground, display: "flex", alignItems: "center", justifyContent: "center", padding: "0px" }}>

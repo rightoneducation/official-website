@@ -17,6 +17,14 @@
     display: none;
 }
 
+.team-stickers {
+    display: block
+}
+
+.team-stickers:hover {
+    display: none
+}
+
 @media screen and (max-width: 2000px) {
 
     .css-1f8sh1y {

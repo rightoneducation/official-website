@@ -17,137 +17,63 @@
     display: none;
 }
 
-.advisor-header-center {
-    font-family: Roboto;
-    font-style: normal;
-    border-bottom: 1px solid #fff;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 38px;
-    /* identical to box height */
-    color: #FFFFFF;
+.team-stickers {
+    display: block
 }
 
-.advisor-title-center {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 23px;
-}
-
-.advisor-header-side {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 27px;
-    line-height: 32px;
-    color: #FFFFFF;
-    border-bottom: 1px solid #FFFFFF;
-}
-
-.advisor-title-side {
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 19px;
-}
-
-.advisor-header-edge {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 25px;
-    color: #FFFFFF;
-    border-bottom: 1px solid #FFFFFF;
-}
-
-.advisor-title-edge {
-    font-weight: 500;
-    font-size: 13px;
-    line-height: 15px;
-}
-
-.advisor-description-center {
-    font-family: Roboto;
-    font-style: normal;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 22px;
-
-    color: #FFFFFF;
-}
-
-.advisor-description-side {
-    font-family: Roboto;
-    font-style: normal;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 18px;
-
-    color: #FFFFFF;
-}
-
-.advisor-description-edge {
-    font-family: Roboto;
-    font-style: normal;
-    font-size: 12px;
-    font-weight: 390;
-    line-height: 15px;
-
-    color: #FFFFFF;
-}
-
-.advisor-card-center {
-    width: 370px;
-    height: 690px;
-    perspective: 1px;
-    align-items: center;
-    border-radius: 30px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25)
-}
-
-.advisor-card-side {
-    width: 322px;
-    height: 600px;
-    perspective: 1px;
-    align-items: center;
-    border-radius: 30px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25)
-}
-
-.advisor-card-edge {
-    width: 273px;
-    height: 510px;
-    align-items: center;
-    perspective: 1px;
-    border-radius: 30px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25)
+.team-stickers:hover {
+    display: none
 }
 
 @media screen and (max-width: 2000px) {
 
     .css-1f8sh1y {
-        width: 1450px !important;
-        height: 700px !important;
-    }
+        width: 1350px !important;
+        height: 730px !important;
+    }    
 
-    .small-advisors {
-        display: none;
-    }
-
-    .smallest-advisors {
-        display: none;
-    }
-
-    .medium-advisors {
-        display: none;
-    }
-
-    .largest-advisors {
+    .desktop-advisors {
         display: block;
     }
 
-    .large-advisors {
+    .mobile-advisors {
         display: none;
+    }
+
+    .advisor-header {
+        font-family: Roboto;
+        font-style: normal;
+        border-bottom: 1px solid #fff;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 38px;
+    /* identical to box height */
+        color: #FFFFFF;
+    }
+    
+    .advisor-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+    }
+    
+    .advisor-description {
+        font-family: Roboto;
+        font-style: normal;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+    
+        color: #FFFFFF;
+    }
+    
+    .advisor-card {
+        width: 370px; 
+        height: 690px; 
+        perspective: 1px;
+        align-items: center;
+        border-radius: 30px; 
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25)
     }
 
     .team-page-intros {
@@ -228,63 +154,196 @@
     }
 }
 
-@media screen and (max-width: 1590px) {
-
+@media screen and (max-width: 1450px) {
     .css-1f8sh1y {
-        width: 1300px !important;
-        height: 700px !important;
-    }
+        width: 1200px !important;
+        height: 670px !important;
+    } 
 
-    .largest-advisors {
-        display: none;
+    .advisor-header {
+        font-family: Roboto;
+        font-style: normal;
+        border-bottom: 1px solid #fff;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 34px;
+    /* identical to box height */
+        color: #FFFFFF;
     }
-
-    .large-advisors {
-        display: block;
+    
+    .advisor-title {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
     }
-
-    .medium-advisors {
-        display: none;
+    
+    .advisor-description {
+        font-family: Roboto;
+        font-style: normal;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+    
+        color: #FFFFFF;
     }
-
-    .small-advisors {
-        display: none;
-    }
-
-    .smallest-advisors {
-        display: none;
+    
+    .advisor-card {
+        width: 310px; 
+        height: 630px; 
+        perspective: 1px;
+        align-items: center;
+        border-radius: 30px; 
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25)
     }
 }
 
-@media screen and (max-width: 1400px) {
-
+@media screen and (max-width: 1240px) {
     .css-1f8sh1y {
-        width: 1000px !important;
-        height: 700px !important;
-    }
+        width: 870px !important;
+        height: 750px !important;
+    } 
 
-    .largest-advisors {
+    .advisor-header {
+        font-family: Roboto;
+        font-style: normal;
+        border-bottom: 1px solid #fff;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 34px;
+    /* identical to box height */
+        color: #FFFFFF;
+    }
+    
+    .advisor-title {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    
+    .advisor-description {
+        font-family: Roboto;
+        font-style: normal;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+    
+        color: #FFFFFF;
+    }
+    
+    .advisor-card {
+        width: 250px; 
+        height: 700px; 
+        perspective: 1px;
+        align-items: center;
+        border-radius: 30px; 
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25)
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .css-1f8sh1y {
+        width: 490px !important;
+        height: 730px !important;
+    }    
+
+    .desktop-advisors {
         display: none;
     }
 
-    .large-advisors {
-        display: none;
-    }
-
-    .medium-advisors {
+    .mobile-advisors {
         display: block;
     }
 
-    .small-advisors {
+    .advisor-header {
+        font-family: Roboto;
+        font-style: normal;
+        border-bottom: 1px solid #fff;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 38px;
+    /* identical to box height */
+        color: #FFFFFF;
+    }
+
+    .advisor-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+    }
+    
+    .advisor-description {
+        font-family: Roboto;
+        font-style: normal;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+    
+        color: #FFFFFF;
+    }
+    
+    .advisor-card {
+        width: 370px; 
+        height: 690px; 
+        perspective: 1px;
+        align-items: center;
+        border-radius: 30px; 
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25)
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .css-1f8sh1y {
+        width: 500px !important;
+        height: 800px !important;
+    }    
+
+    .desktop-advisors {
         display: none;
     }
 
-    .smallest-advisors {
-        display: none;
+    .mobile-advisors {
+        display: block;
+    }
+
+    .advisor-header {
+        font-family: Roboto;
+        font-style: normal;
+        border-bottom: 1px solid #fff;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 38px;
+    /* identical to box height */
+        color: #FFFFFF;
+    }
+
+    .advisor-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+    }
+    
+    .advisor-description {
+        font-family: Roboto;
+        font-style: normal;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+    
+        color: #FFFFFF;
+    }
+    
+    .advisor-card {
+        width: 300px; 
+        height: 750px; 
+        perspective: 1px;
+        align-items: center;
+        border-radius: 30px; 
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25)
     }
 }
 
 @media screen and (max-width: 1200px) {
+        
     .team-page-intros {
         margin-top: 35px;
         margin-bottom: 45px;
@@ -364,60 +423,6 @@
     }
 }
 
-@media screen and (max-width: 1080px) {
-    .css-1f8sh1y {
-        width: 750px !important;
-        height: 700px !important;
-    }
-
-    .largest-advisors {
-        display: none;
-    }
-
-    .large-advisors {
-        display: none;
-    }
-
-    .medium-advisors {
-        display: none;
-    }
-
-    .small-advisors {
-        display: block;
-    }
-
-    .smallest-advisors {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .css-1f8sh1y {
-        width: 400px !important;
-        height: 700px !important;
-    }
-
-    .largest-advisors {
-        display: none;
-    }
-
-    .large-advisors {
-        display: none;
-    }
-
-    .medium-advisors {
-        display: none;
-    }
-
-    .small-advisors {
-        display: none;
-    }
-
-    .smallest-advisors {
-        display: block;
-    }
-}
-
 @media screen and (max-width: 430px) {
     .css-1f8sh1y {
         width: 310px !important;
@@ -433,6 +438,14 @@
         box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25)
     }
 
+    .desktop-advisors {
+        display: none;
+    }
+
+    .mobile-advisors {
+        display: block;
+    }
+    
     .team-page-monsters {
         display: none;
     }

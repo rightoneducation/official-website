@@ -6,25 +6,31 @@ import { Grid } from "@material-ui/core";
 const useStyles = makeStyles({
   teamCards: {
     justifyContent: "space-around"
-  },
-  profilePhoto: {
-    // width: "290px",
-    // height: "300px",
-    // margin: "20px 10px",
-    //marginBottom: "10px",
-
-  },
+  }
 });
 
 function Front(props) {
   const { photo, back, linkedIn, title, hover } = props.profile;
   const styles = useStyles();
+  const [profileImg, setProfileImg] = useState(photo);
+  const handleMouseOver = () => {
+    setProfileImg(hover)
+  };
+
+  const handleMouseOut = () => {
+    setProfileImg(photo)
+  };
+
+  console.log(profileImg)
+
   return (
     <div>
       <div container className={styles.teamCards}>
-        <div>
+        <div className={styles.profilePhoto}>
           <img
-            src={photo}
+            onMouseOver={handleMouseOver}
+            onMouseOut={handleMouseOut}
+            src={profileImg}
             width="100%"
             alt="right-on-education-team-member"
           />

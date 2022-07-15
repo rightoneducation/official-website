@@ -1,9 +1,24 @@
 @import '/node_modules/bootstrap/scss/bootstrap.scss';
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
 
+.team-page-monsters {
+    width: 100%;
+    background: #322759;
+    margin-top: -2%;
+    margin-bottom: -7%;
+    overflow: hidden;
+    object-fit: contain;
+    object-position: center;
+    align-items: center;
+    display: flex;
+}
+
+.team-page-monsters-mobile {
+    display: none;
+}
 
 @media screen and (max-width: 2000px) {
-    
+
     .css-1f8sh1y {
         width: 1350px !important;
         height: 730px !important;
@@ -407,11 +422,11 @@
     }
 
     .advisor-card-center {
-        width: 300px; 
-        height: 810px; 
+        width: 300px;
+        height: 810px;
         perspective: 1px;
         align-items: center;
-        border-radius: 30px; 
+        border-radius: 30px;
         box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25)
     }
 
@@ -421,5 +436,15 @@
 
     .mobile-advisors {
         display: block;
+    .team-page-monsters {
+        display: none;
+    }
+
+    .team-page-monsters-mobile {
+        display: block;
+        margin-top: 35%;
+        width: 100%;
+        margin-bottom: -30%;
+        background: #322759;
     }
 }

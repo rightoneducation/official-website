@@ -105,9 +105,9 @@ footer {
   padding: 3% 8%;
   background-color: rgb(50, 40, 89);
   color: white;
-  position: absolute;
+  // position: absolute;
   width: 100%;
-  z-index: 1;
+  // z-index: 1;
 }
 
 .divider {
@@ -163,8 +163,8 @@ footer {
 
 @media screen and(max-width: 414px) {
   html {
-    overflow-x: initial !important;
-    -webkit-overflow-scrolling: touch;
+    // overflow-x: initial !important;
+    // -webkit-overflow-scrolling: touch;
   }
 
   /*nav-bar-desktop*/

@@ -1,9 +1,8 @@
 @import '/node_modules/bootstrap/scss/bootstrap.scss';
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
 
-@media screen and (max-width: 2000px) {
 
-    /*resources-page*/
+
     .tutorial-video-panel {
         width: 401px;
         height: 427px;
@@ -403,7 +402,6 @@
     .game-show-link:hover {
         color: #FFFFFF;
     }
-}
 
 @media screen and(max-width: 414px) {
 

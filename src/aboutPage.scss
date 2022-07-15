@@ -1,8 +1,7 @@
 @import '/node_modules/bootstrap/scss/bootstrap.scss';
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
 
-@media screen and (max-width: 2000px) {
-    /*about-page*/
+
 
     .about-values-quote {
         font-family: Roboto;
@@ -219,7 +218,7 @@
     .about-card-vid-mobile {
         display: none;
     }
-}
+
 
 @media screen and (max-width: 1200px) {
 

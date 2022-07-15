@@ -17,13 +17,130 @@
     display: none;
 }
 
-.team-stickers {
-    display: block
+.team-page-intros {
+    margin-top: 55px;
+    margin-bottom: 55px;
+    text-align: center;
 }
 
-.team-stickers:hover {
-    display: none
+.team-page-banners {
+    font-family: "filson-pro";
+    font-style: normal;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 84px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+
 }
+
+.team-page-banners-underline {
+    width: 550px;
+    border: 3.5px solid #E29B5D;
+    opacity: 1;
+    justify-content: center;
+}
+
+.flip-card-outer {
+    perspective: 1000px;
+    width: 300px;
+    height: 400px;
+    margin: 25px, 0;
+    margin-right: 5px;
+    margin-left: 5px;
+
+    .flip-card-inner {
+        transform-style: preserve-3d;
+        transition: .5s linear .1s;
+        position: relative;
+        width: inherit;
+        height: inherit;
+
+        .flip-card-outer:focus {
+            outline: none !important;
+        }
+
+        .flip-card-outer:active {
+            outline: none !important;
+        }
+
+        &.showBack {
+            transform: rotateY(180deg);
+        }
+
+        .card {
+            backface-visibility: hidden;
+            position: absolute;
+
+            width: 100%;
+            height: 100%;
+            background-color: #322759;
+
+            border: none;
+
+            &.front {
+                transform: rotateY(0);
+            }
+
+            &.back {
+                transform: rotateY(180deg);
+
+            }
+        }
+    }
+
+}
+
+.css-1f8sh1y {
+    width: 1350px !important;
+    height: 730px !important;
+}    
+
+.desktop-advisors {
+    display: block;
+}
+
+.mobile-advisors {
+    display: none;
+}
+
+.advisor-header {
+    font-family: Roboto;
+    font-style: normal;
+    border-bottom: 1px solid #fff;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+/* identical to box height */
+    color: #FFFFFF;
+}
+
+.advisor-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.advisor-description {
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+
+.advisor-card {
+    width: 370px; 
+    height: 690px; 
+    perspective: 1px;
+    align-items: center;
+    border-radius: 30px; 
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25)
+}
+
 
 @media screen and (max-width: 2000px) {
 

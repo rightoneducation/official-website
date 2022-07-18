@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Box, Grid } from "@material-ui/core";
 import AboutBannerImage from "../molecules/AboutBannerImage";
+import triangle from "../../images/background-triangle.png"
 
 //take id of clicked video link - set src and title based off current/clicked id
 const data = {
@@ -63,12 +64,6 @@ export default function RightOnVideoPlaylist(props) {
                         <div className="tutorial-video-panel">
                             <h4 className="tutorial-videos-header-text">Tutorial Videos</h4>
                             <div className="tutorial-videos-panel"> {videoLink}
-                                {/*<button onClick={() => handleClick1()} className="tutorial-videos-text">{data.tutorialVideos[0].title}</button>
-                                <br></br>
-                                <button onClick={() => handleClick2()} className="tutorial-videos-text">{data.tutorialVideos[1].title}</button>
-                                <br></br>
-                                <button onClick={() => handleClick3()} className="tutorial-videos-text">{data.tutorialVideos[2].title}</button>
-    <br></br>*/}
                             </div>
                         </div>
                     </Box>
@@ -97,12 +92,12 @@ export default function RightOnVideoPlaylist(props) {
                 </Grid>
             </Grid>
 
-            {/* <img
+            <img
                 src={triangle}
                 width="100%"
                 alt="triangle background"
                 className="about-page-triangle"
-    /> */}
+    />
         </Box>
     );
 };

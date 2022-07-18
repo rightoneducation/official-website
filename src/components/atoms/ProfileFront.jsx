@@ -21,15 +21,14 @@ function Front(props) {
     setProfileImg(photo)
   };
 
-  console.log(profileImg)
+
 
   return (
-    <div>
+    <div onMouseEnter={handleMouseOver}
+      onMouseLeave={handleMouseOut}>
       <div container className={styles.teamCards}>
         <div className={styles.profilePhoto}>
           <img
-            onMouseEnter={handleMouseOver}
-            onMouseLeave={handleMouseOut}
             src={profileImg}
             width="100%"
             alt="right-on-education-team-member"

@@ -5,6 +5,8 @@ import AboutValues from '../molecules/AboutValues'
 
 import featureData from '../../_localDb/features'
 
+import GoToTop from '../../GoToTop'
+
 function AboutPage() {
   const { ourValues, aboutCards, styles } = featureData
   console.log(featureData)
@@ -13,6 +15,7 @@ function AboutPage() {
       <OurVision />
       <AboutValues ourValues={ourValues} />
       <AboutCards aboutCards={aboutCards} />
+    <GoToTop/>
     </div>
   )
 }

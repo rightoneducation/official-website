@@ -28,8 +28,8 @@ function Front(props) {
       <div container className={styles.teamCards}>
         <div className={styles.profilePhoto}>
           <img
-            onMouseOver={handleMouseOver}
-            onMouseOut={handleMouseOut}
+            onMouseEnter={handleMouseOver}
+            onMouseLeave={handleMouseOut}
             src={profileImg}
             width="100%"
             alt="right-on-education-team-member"

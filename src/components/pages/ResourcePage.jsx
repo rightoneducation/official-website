@@ -5,6 +5,7 @@ import CRMT from '../organisms/CRMT';
 import RightOnGameShow from '../organisms/RightOnGameShow';
 import ResourcePageShapes from '../organisms/ResourcePageShapes';
 import RightOnVideoPlaylist from '../organisms/RightOnVideoPlaylist';
+import GoToTop from '../../GoToTop';
 
 function ResourcePage({videoSrc, styles}) {
    
@@ -18,6 +19,7 @@ function ResourcePage({videoSrc, styles}) {
                 <PositiveCultureOfErrorSection styles={styles} />
                 <RightOnGameShow />
             </div>
+            <GoToTop/>
         </div>
     )
 }

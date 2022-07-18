@@ -92,25 +92,6 @@ const useStyles = makeStyles((theme) => ({
     boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.25)",
     transform: "rotate(139.2deg)",
   },
-  // positiveCultureofErrorCardContent:{
-  //   marginTop: "20px",
-  //   fontWeight: "300",
-  //   lineHeight: "1.4",
-  //   listStyle: "inside",
-  //   [theme.breakpoints.down('xs')]: {
-  //     fontSize: '1em',
-  //     justifyContent: 'center',
-  //   }
-  // },
-  // positiveCultureofErrorCardIntro: {
-  //   justifyContent: 'center',
-  //   color: 'white',
-  //   width: '85%',
-  //   position: "relative",
-  //   padding: "5%",
-  //   margin: 'auto',
-  //   mixBlendMode: 'initial',
-  // }
 }));
 
 function App() {
@@ -129,17 +110,6 @@ function App() {
   const { advisorProfiles } = advisors;
   const { tutorialVids } = resourceVidLink;
 
-  // const handleFlip = item => {
-  //   const idx = devTeamCards.findIndex(i => i.id === item.id)
-  //   const newItems = [...devTeamCards]
-  //   newItems[idx] = {
-  //     ...item,
-  //     isFlipped: !item.isFlipped
-  //   }
-  //   setProfiles({
-  //     devTeamCards: newItems
-  //   })
-  // }
   const styles = useStyles();
   return (
     <Router>
@@ -158,7 +128,6 @@ function App() {
               render={() => (
                 <TeamPage
                   styles={styles}
-                  //handleFlip={handleFlip}
                   profileCards={devTeamCards}
                   advisorData={advisorProfiles}
                 />

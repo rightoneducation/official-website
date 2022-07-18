@@ -42,6 +42,22 @@
     justify-content: center;
 }
 
+.sticker-hover {
+    display: none;
+}
+
+.sticker-hover:hover {
+    display: block;
+}
+
+.sticker-default {
+    display: block;
+}
+
+.sticker-default:hover {
+    display: none
+}
+
 .flip-card-outer {
     perspective: 1000px;
     width: 300px;

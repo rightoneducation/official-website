@@ -1,6 +1,7 @@
 @import '/node_modules/bootstrap/scss/bootstrap.scss';
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
 
+
 .team-page-monsters {
     width: 100%;
     background: #322759;
@@ -42,21 +43,6 @@
     justify-content: center;
 }
 
-.sticker-hover {
-    display: none;
-}
-
-.sticker-hover:hover {
-    display: block;
-}
-
-.sticker-default {
-    display: block;
-}
-
-.sticker-default:hover {
-    display: none
-}
 
 .flip-card-outer {
     perspective: 1000px;
@@ -109,7 +95,7 @@
 }
 
 .css-1f8sh1y {
-    width: 1350px !important;
+    width: 1500px !important;
     height: 730px !important;
 }    
 
@@ -119,6 +105,14 @@
 
 .mobile-advisors {
     display: none;
+}
+
+.no-arrows {
+    display: none;
+}
+
+.arrows {
+    display: block;
 }
 
 .advisor-header {
@@ -161,9 +155,17 @@
 @media screen and (max-width: 2000px) {
 
     .css-1f8sh1y {
-        width: 1350px !important;
+        width: 1450px !important;
         height: 730px !important;
-    }    
+    }   
+    
+    .no-arrows {
+        display: none;
+    }
+    
+    .arrows {
+        display: block;
+    }
 
     .desktop-advisors {
         display: block;
@@ -287,11 +289,19 @@
     }
 }
 
-@media screen and (max-width: 1450px) {
+@media screen and (max-width: 1600px) {
     .css-1f8sh1y {
-        width: 1200px !important;
+        width: 1270px !important;
         height: 670px !important;
     } 
+
+    .no-arrows {
+        display: none;
+    }
+    
+    .arrows {
+        display: block;
+    }
 
     .advisor-header {
         font-family: Roboto;
@@ -330,11 +340,19 @@
     }
 }
 
-@media screen and (max-width: 1240px) {
+@media screen and (max-width: 1400px) {
     .css-1f8sh1y {
-        width: 870px !important;
+        width: 1100px !important;
         height: 750px !important;
     } 
+
+    .no-arrows {
+        display: none;
+    }
+    
+    .arrows {
+        display: block;
+    }
 
     .advisor-header {
         font-family: Roboto;
@@ -366,108 +384,6 @@
     .advisor-card {
         width: 250px; 
         height: 700px; 
-        perspective: 1px;
-        align-items: center;
-        border-radius: 30px; 
-        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25)
-    }
-}
-
-@media screen and (max-width: 960px) {
-    .css-1f8sh1y {
-        width: 490px !important;
-        height: 730px !important;
-    }    
-
-    .desktop-advisors {
-        display: none;
-    }
-
-    .mobile-advisors {
-        display: block;
-    }
-
-    .advisor-header {
-        font-family: Roboto;
-        font-style: normal;
-        border-bottom: 1px solid #fff;
-        font-size: 32px;
-        font-weight: 700;
-        line-height: 38px;
-    /* identical to box height */
-        color: #FFFFFF;
-    }
-
-    .advisor-title {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 23px;
-    }
-    
-    .advisor-description {
-        font-family: Roboto;
-        font-style: normal;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 22px;
-    
-        color: #FFFFFF;
-    }
-    
-    .advisor-card {
-        width: 370px; 
-        height: 690px; 
-        perspective: 1px;
-        align-items: center;
-        border-radius: 30px; 
-        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25)
-    }
-}
-
-@media screen and (max-width: 550px) {
-    .css-1f8sh1y {
-        width: 500px !important;
-        height: 800px !important;
-    }    
-
-    .desktop-advisors {
-        display: none;
-    }
-
-    .mobile-advisors {
-        display: block;
-    }
-
-    .advisor-header {
-        font-family: Roboto;
-        font-style: normal;
-        border-bottom: 1px solid #fff;
-        font-size: 32px;
-        font-weight: 700;
-        line-height: 38px;
-    /* identical to box height */
-        color: #FFFFFF;
-    }
-
-    .advisor-title {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 23px;
-    }
-    
-    .advisor-description {
-        font-family: Roboto;
-        font-style: normal;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 22px;
-    
-        color: #FFFFFF;
-    }
-    
-    .advisor-card {
-        width: 300px; 
-        height: 750px; 
         perspective: 1px;
         align-items: center;
         border-radius: 30px; 
@@ -554,21 +470,17 @@
         }
 
     }
-}
-
-@media screen and (max-width: 430px) {
     .css-1f8sh1y {
-        width: 310px !important;
-        height: 810px !important;
-    }
+        width: 670px !important;
+        height: 730px !important;
+    }    
 
-    .advisor-card-center {
-        width: 300px;
-        height: 810px;
-        perspective: 1px;
-        align-items: center;
-        border-radius: 30px;
-        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25)
+    .no-arrows {
+        display: none;
+    }
+    
+    .arrows {
+        display: block;
     }
 
     .desktop-advisors {
@@ -577,6 +489,192 @@
 
     .mobile-advisors {
         display: block;
+    }
+
+    .advisor-header {
+        font-family: Roboto;
+        font-style: normal;
+        border-bottom: 1px solid #fff;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 38px;
+    /* identical to box height */
+        color: #FFFFFF;
+    }
+    
+    .advisor-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+    }
+    
+    .advisor-description {
+        font-family: Roboto;
+        font-style: normal;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+    
+        color: #FFFFFF;
+    }
+    
+    .advisor-card {
+        width: 370px; 
+        height: 690px; 
+        perspective: 1px;
+        align-items: center;
+        border-radius: 30px; 
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25)
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .css-1f8sh1y {
+        width: 610px !important;
+        height: 700px !important;
+    }    
+
+    .no-arrows {
+        display: none;
+    }
+    
+    .arrows {
+        display: block;
+    }
+
+    .desktop-advisors {
+        display: none;
+    }
+
+    .mobile-advisors {
+        display: block;
+    }
+
+    .advisor-header {
+        font-family: Roboto;
+        font-style: normal;
+        border-bottom: 1px solid #fff;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 34px;
+    /* identical to box height */
+        color: #FFFFFF;
+    }
+    
+    .advisor-title {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    
+    .advisor-description {
+        font-family: Roboto;
+        font-style: normal;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+    
+        color: #FFFFFF;
+    }
+    
+    .advisor-card {
+        width: 350px; 
+        height: 640px; 
+        perspective: 1px;
+        align-items: center;
+        border-radius: 30px; 
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25)
+    }
+} 
+
+@media screen and (max-width: 690px) {
+    .css-1f8sh1y {
+        width: 380px !important;
+        height: 700px !important;
+    }    
+
+    .no-arrows {
+        display: block;
+    }
+    
+    .arrows {
+        display: none;
+    }
+
+    .desktop-advisors {
+        display: none;
+    }
+
+    .mobile-advisors {
+        display: block;
+    }
+
+    .advisor-header {
+        font-family: Roboto;
+        font-style: normal;
+        border-bottom: 1px solid #fff;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 34px;
+    /* identical to box height */
+        color: #FFFFFF;
+    }
+    
+    .advisor-title {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    
+    .advisor-description {
+        font-family: Roboto;
+        font-style: normal;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+    
+        color: #FFFFFF;
+    }
+    
+    .advisor-card {
+        width: 350px; 
+        height: 640px; 
+        perspective: 1px;
+        align-items: center;
+        border-radius: 30px; 
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25)
+    }
+} 
+
+@media screen and (max-width: 420px) {
+    .css-1f8sh1y {
+        width: 310px !important;
+        height: 740px !important;
+    }
+
+    .no-arrows {
+        display: block;
+    }
+    
+    .arrows {
+        display: none;
+    }
+
+    .desktop-advisors {
+        display: none;
+    }
+
+    .mobile-advisors {
+        display: block;
+    }
+
+    .advisor-card {
+        width: 250px; 
+        height: 700px; 
+        perspective: 1px;
+        align-items: center;
+        border-radius: 30px; 
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25)
     }
     
     .team-page-monsters {

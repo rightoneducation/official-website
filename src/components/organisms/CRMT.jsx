@@ -30,7 +30,7 @@ export default function CRMT(props) {
                         CRMT
                         <hr className='error-analysis-underline' />
                     </h1>
-                    <h4 className='crmt-description'>
+                    <p className='crmt-description'>
                         <span className='crmt-description-bold'>CRMT is about </span>
                         <li className='crmt-description'>Inviting all students into mathematics as participants</li>
                         <li className='crmt-description'>Sharing thinking and reasoning</li>
@@ -48,7 +48,7 @@ export default function CRMT(props) {
                         <li><a className='crmt-pioneers' href='https://scholar.google.com/scholar?hl=en&as_sdt=0%2C39&q=Zaretta+Hammond&btnG='>
                             <u>Zaretta Hammond</u></a></li>
 
-                    </h4>
+                    </p>
                 </Grid>
                 <Grid item>
                     <img src={CRMTimage} alt="CRMT-Diagram" className='crmt-diagram'/>

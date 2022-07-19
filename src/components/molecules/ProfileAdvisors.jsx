@@ -15,7 +15,7 @@ function Advisors({ advisorProfiles }) {
             width: "110px",
             height: "110px"
           }
-        }} >
+        }}>
         {advisorProfiles.map((advisor, index) => {
 
           var deck = decks[(index % 7)]
@@ -65,13 +65,7 @@ function Advisors({ advisorProfiles }) {
         })}
       </Carousel>
       <Carousel className="no-arrows" animation="slide" autoPlay={false} duration={1500} navButtonsAlwaysInvisible={true}
-        style={{ display: "flex", justifyContent: "center", alignItems: "center" }}
-        navButtonsProps={{
-          style: {
-            width: "110px",
-            height: "110px"
-          }
-        }} >
+        style={{ display: "flex", justifyContent: "center", alignItems: "center" }} >
         {advisorProfiles.map((advisor, index) => {
 
           var deck = decks[(index % 7)]

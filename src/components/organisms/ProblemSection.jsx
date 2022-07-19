@@ -22,19 +22,9 @@ function ProblemSection() {
           Everyone can be <br /> a math person!
           <hr className='problem-section-landing-block-underline' />
         </h4>
-        <h4 className='problem-section-landing-block-header2'>
+        <p className='problem-section-landing-block-header2'>
           Explore how  <i>RightOn!</i>  inspires <br /> learning by embracing mistakes.
-        </h4>
-        {/* <picture>
-          <source
-            media="(max-width: 375px)"
-            srcset="/images/landing-block-mobile.png" />
-          <source
-            media="(max-width: 768px)"
-            srcset="/images/landing-block-tablet.png" />
-          <img src="/images/landing-block.png"
-            alt="landing-block" />
-        </picture> */}
+        </p>
         <img
           src={block}
           alt="landing-page-block"

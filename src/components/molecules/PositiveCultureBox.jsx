@@ -23,7 +23,6 @@ function PositiveCultureBox(props) {
             <li>Praise risk-taking</li>
           </h6>
         </Grid>
-        <Grid>
           <Card style={{ background: "#712773", borderRadius: "20px"}} className='rough-draft-card'>
             <CardContent>
               <p className='rough-draft-card-content'>
@@ -42,7 +41,6 @@ function PositiveCultureBox(props) {
             alt='ted-the-monster'
             className='rough-draft-monster'
             />
-            </Grid>
             </Grid>
     </Box>
   );

@@ -13,7 +13,6 @@ function LandingPage (props) {
     const { whyRightOn, productFeatures } = featureData
     return (
         <div style={{background: "linear-gradient(180deg, #322759 -2.67%, #40216F 64.71%, #591796 100%)"}}>
-        {/* <OurMission styles={styles}/> */}
         <ProblemSection /> 
         <ProductFeatures productFeatures={productFeatures}/>          
         <WhyRightOn whyRightOn={whyRightOn}/>

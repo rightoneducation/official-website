@@ -31,7 +31,7 @@ function Header() {
             activeClassName="active-link"
             onClick={() => closeMenu()}
           >
-            <p style={{fontFamily:"roboto", fontSize: "30px", fontWeight: "700", lineHeight: "18px", letterSpacing: "0.15px"}}>
+            <p style={{fontFamily:"roboto", fontSize: "30px", fontWeight: "700", lineHeight: "18px", letterSpacing: "0.15px", padding: "17px"}}>
               Home
             </p>
           </NavLink>
@@ -42,7 +42,7 @@ function Header() {
             activeClassName="active-link"
             onClick={() => closeMenu()}
           >
-           <p style={{fontFamily:"roboto", fontSize: "30px", fontWeight: "700", lineHeight: "18px", letterSpacing: "0.15px"}}>
+           <p style={{fontFamily:"roboto", fontSize: "30px", fontWeight: "700", lineHeight: "18px", letterSpacing: "0.15px", padding: "17px"}}>
               About
             </p>
           </NavLink>
@@ -53,7 +53,7 @@ function Header() {
             activeClassName="active-link"
             onClick={() => closeMenu()}
           >
-            <p style={{fontFamily:"roboto", fontSize: "30px", fontWeight: "700", lineHeight: "18px", letterSpacing: "0.15px"}}>
+            <p style={{fontFamily:"roboto", fontSize: "30px", fontWeight: "700", lineHeight: "18px", letterSpacing: "0.15px", padding: "17px"}}>
               Team
             </p>
           </NavLink>
@@ -64,7 +64,7 @@ function Header() {
             activeClassName="active-link"
             onClick={() => closeMenu()}
           >
-            <p style={{fontFamily:"roboto", fontSize: "30px", fontWeight: "700", lineHeight: "18px", letterSpacing: "0.15px"}}>
+            <p style={{fontFamily:"roboto", fontSize: "30px", fontWeight: "700", lineHeight: "18px", letterSpacing: "0.15px", padding: "17px"}}>
               Resources
             </p>
           </NavLink>

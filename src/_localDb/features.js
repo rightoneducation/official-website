@@ -97,7 +97,7 @@ module.exports = {
     },
     {
       id: 2,
-      title: '"My Favorite No"',
+      title: '"My Favorite No" Video',
       src: 'https://www.youtube.com/embed/srJWx7P6uLE',
       description: '“My Favorite No” and other similar math classroom activities have been both a foundation and inspiration for <i>RightOn!</i> <br/> Watch the video to learn more!'
     }

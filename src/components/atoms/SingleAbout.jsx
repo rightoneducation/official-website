@@ -59,7 +59,7 @@ function SingleAbout(props) {
           <iframe
             className="about-card-vid-desktop"
             width="100%"
-            height="270px"
+            height="230px"
             src={src}
             title="My Fav No"
             frameborder="0"

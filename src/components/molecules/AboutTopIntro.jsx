@@ -5,7 +5,7 @@ import vision from '../../images/vision.png'
 function AboutTopIntro(props) {
   const { styles } = props;
   return (
-    <Card className='vision-card' style={{ background: "rgba(84, 38, 120, 0)", boxShadow: "none", filter: "drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.25))", justifyItems: "center" }} >
+    <Card className='vision-card' style={{ background: "rgba(84, 38, 120, 0)", boxShadow: "none", filter: "drop-shadow(0px 20px 10px rgba(0, 0, 0, 0.25))", justifyItems: "center" }} >
 
 
       <CardContent style={{

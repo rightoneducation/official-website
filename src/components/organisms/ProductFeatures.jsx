@@ -6,10 +6,8 @@ import placeholder from '../../images/background-triangle.png'
 function ProductFeatures (props) {
   const { productFeatures } = props
     return (
-      <Grid container justify="center" style={{marginTop: "350px"}} id="productFeatures">
-        {/* <Typography variant="h4" className="half-circle" style={{ textAlign: "center", color: "white", fontWeight: "bold", margin: "30px auto" }}>
-              Product Features
-          </Typography> */}
+      <div id="productFeatures">
+      <Grid container justify="center" style={{marginTop: "350px"}}>
         <Grid container justify="space-around" style={{zIndex: "1"}}>
           {productFeatures.map((feature, key) => {
             return (
@@ -26,6 +24,7 @@ function ProductFeatures (props) {
         className="about-page-triangle"
       />
       </Grid>
+      </div>
     );
 }
 

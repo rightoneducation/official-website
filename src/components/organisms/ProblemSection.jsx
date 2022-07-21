@@ -36,8 +36,8 @@ function ProblemSection() {
           className='problem-section-chromebook'
         />
         <div container style={{ marginTop: "460px" }}>
-          <div>
-            <a href="#productFeatures">
+          <div >
+            <a href="#productFeatures" >
               <img
                 src={staticButton}
                 className="product-features-button"

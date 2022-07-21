@@ -32,7 +32,7 @@ function singleValue(props) {
           /></CardContent>
         <CardContent style={{
           padding: "0px", width: "55%",
-          //display: "flex", alignItems: "center", justifyContent: "center",
+          display: "flex", alignItems: "center", justifyContent: "center",
           backgroundColor: textBackground
         }} className="value-text">
           <CardContent width="100%">

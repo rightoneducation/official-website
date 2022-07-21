@@ -11,8 +11,8 @@ function OurVision(props) {
   return (
     <Box components="section">
       <AboutBannerImage styles={styles} />
-      <Grid container style={{ padding: "40px", justifyContent: "space-around" }} styles={styles}>
-        <AboutTopMission />
+      <Grid container style={{ padding: "0px", justifyContent: "space-around", width: "100%" }} styles={styles}>
+        <AboutTopMission style={{ width: "100%" }} />
         <AboutTopIntro />
 
       </Grid>

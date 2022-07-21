@@ -8,7 +8,7 @@ import monster from '../../images/mission.png'
 function AboutTopMission(props) {
 
   return (
-    <Card style={{ backgroundColor: "#800D15", filter: "drop-shadow(15px 15px 10px rgba(0, 0, 0, 0.25))", borderRadius: "30px", marginBottom: "40px" }}
+    <Card style={{ backgroundColor: "#800D15", boxShadow: "10px 10px 10px rgba(0, 0, 0, 0.25)", borderRadius: "30px", marginBottom: "40px" }}
       className='mission-card'>
       <CardContent>
         <h1 className="mission-and-vision-header">Mission</h1>

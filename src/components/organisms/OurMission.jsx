@@ -7,7 +7,7 @@ import AboutTopMission from "../molecules/AboutTopMission"
 function OurMission(props) {
   const { styles } = props
   return (
-    <Box>
+    <Box width="100%">
       {/* <LandingBannerImage styles={styles} />
         <LandingTopIntro styles={styles} /> */}
       <AboutTopMission styles={styles} />

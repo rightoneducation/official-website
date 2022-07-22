@@ -15,6 +15,7 @@ function Advisor(props) {
   const { position } = props
   const { name, photo, profile, title, linkedIn, imBackground, txtBackground } = props.advisor
   const styles = useStyles();
+  var linkedInVisible = (name === 'Andrea Ruby' ? 'none' : 'block');
 
   return (
     <Grid item>
@@ -42,7 +43,7 @@ function Advisor(props) {
             {name}
             <a href={linkedIn} target="_blank">
               <img
-                style={{ float: "right" }}
+                style={{ float: "right", display: linkedInVisible }}
                 width="9%"
                 src={icon}
               /></a>

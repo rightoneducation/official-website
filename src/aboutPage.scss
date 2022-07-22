@@ -6,13 +6,12 @@
     .about-values-quote {
         font-family: Roboto;
         font-style: italic;
-        font-size: 45px;
+        font-size: 36px;
         text-align: center;
-        line-height: 56.25px;
+        line-height: 42px;
         color: #D3BEFF;
         letter-spacing: 0em;
         font-weight: 300;
-
     }
 
     .about-values {
@@ -43,9 +42,9 @@
       .mission-and-vision-text {
         font-family: 'Roboto';
         font-style: normal;
-        font-weight: 220;
-        font-size: 36px;
-        line-height: 47px;
+        font-weight: 200;
+        font-size: 30px;
+        line-height: 39px;
         /* or 47px */
         margin-right: 26px;
         margin-top: 0px;
@@ -73,13 +72,13 @@
       }
       .mission-card {
         width: 658px;
-        height: 430px;
+        height: 418px;
         border-radius: 22px;
         background: #800D15;
       }
       .vision-card {
         width: 658px;
-        height: 429px;
+        height: 427px;
       }
       
       .vision-monsters-mobile {
@@ -139,9 +138,9 @@
     .about-values-quote-bold {
         font-family: Roboto, light;
         font-style: italic;
-        font-size: 45px;
+        font-size: 36px;
         text-align: center;
-        line-height: 56.25px;
+        line-height: 42px;
         color: #EFDAFF;
         letter-spacing: 0em;
         font-weight: 600;
@@ -180,8 +179,8 @@
         margin-bottom: 10px;
         padding-top: 20px;
         padding-bottom: 10px;
-        padding-left: 2px;
-        padding-right: 2px;
+        padding-left: 50px;
+        padding-right: 50px;
         border-bottom: 4px solid #E29B5D;
         color: white;
     }
@@ -291,8 +290,8 @@
         margin-bottom: 10px;
         padding-top: 20px;
         padding-bottom: 10px;
-        padding-left: 2px;
-        padding-right: 2px;
+        padding-left: 50px;
+        padding-right: 50px;
         border-bottom: 4px solid #E29B5D;
         color: white;
     }
@@ -395,9 +394,9 @@
       .mission-and-vision-text {
         font-family: 'Roboto';
         font-style: normal;
-        font-weight: 220;
-        font-size: 32px;
-        line-height: 42px;
+        font-weight: 200;
+        font-size: 30px;
+        line-height: 39px;
         /* or 47px */
         margin-right: 26px;
         margin-top: 0px;
@@ -569,11 +568,13 @@
         font-family: 'filson-pro';
         font-style: normal;
         font-weight: 700;
-        font-size: 34px;
-        line-height: 42px;
+font-size: 36px;
+line-height: 42px;
         text-align: center;
         margin-bottom: 10px;
         padding-top: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
         padding-bottom: 10px;
         border-bottom: 4px solid #E29B5D;
         color: white;

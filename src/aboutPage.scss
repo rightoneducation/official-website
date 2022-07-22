@@ -163,7 +163,7 @@
     }
 
     .about-page-banners-underline {
-        width: 550px;
+        width: 390px;
         border: 3.5px solid #E29B5D;
         opacity: 1;
         margin-left: 200px;
@@ -275,7 +275,7 @@
     .about-page-banners-underline {
         justify-content: center;
         align-items: center;
-        width: 300px;
+        width: 390px;
         border: 3px solid #E29B5D;
         opacity: 1;
         margin-top: -4px;
@@ -646,4 +646,15 @@ line-height: 42px;
     .about-card-vid-mobile {
         display: block;
     }
+
+    .about-page-banners-underline {
+      justify-content: center;
+      align-items: center;
+      width: 220px;
+      border: 3px solid #E29B5D;
+      opacity: 1;
+      margin-top: -4px;
+      margin-right: 200px;
+      margin-bottom: 20px;
+  }
 }

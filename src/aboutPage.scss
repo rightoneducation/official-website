@@ -52,6 +52,22 @@
         text-align: right;
         color: #FFFFFF;
       }
+
+      .vision-text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 30px;
+        line-height: 39px;
+        /* or 47px */
+        margin-right: 26px;
+        padding-left: 50px;
+        margin-top: 0px;
+        //padding-top: 15px;
+        text-align: left;
+        color: #FFFFFF;
+      }
+
       .mission-desktop-br {
         display: block;
       }
@@ -512,6 +528,22 @@
       
         color: #FFFFFF;
       }
+
+      .vision-text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 30px;
+        line-height: 39px;
+        /* or 47px */
+        margin-right: 26px;
+        padding-left: 20px;
+        margin-top: 0px;
+        //padding-top: 15px;
+        text-align: left;
+        color: #FFFFFF;
+      }
+
       .mission-desktop-br {
         display: none;
       }

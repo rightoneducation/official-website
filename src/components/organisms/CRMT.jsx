@@ -28,7 +28,7 @@ export default function CRMT(props) {
                     </h1>
                     <h1 className='crmt-header-mobile'>
                         CRMT
-                        <hr className='error-analysis-underline' />
+                        <hr className='error-analysis-underline-mobile' />
                     </h1>
                     <p className='crmt-description'>
                         <span className='crmt-description-bold'>CRMT is about </span>

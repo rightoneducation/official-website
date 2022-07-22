@@ -41,11 +41,11 @@ export default function CRMT(props) {
                         <span className='crmt-description-bold'>Pioneers in CRMT: </span>
                         <br />
                         <span>
-                            <li><a href='https://scholar.google.com/scholar?hl=en&as_sdt=0%2C39&q=Dr.+Geneva+Gay&btnG='>
+                            <li><a href='https://scholar.google.com/scholar?hl=en&as_sdt=0%2C39&q=Dr.+Geneva+Gay&btnG=' target="/">
                                 <u className='crmt-pioneers'>Dr. Geneva Gay</u></a></li></span>
-                        <li><a className='crmt-pioneers' href='https://scholar.google.com/scholar?hl=en&as_sdt=0%2C39&q=Dr.+Gloria+Ladson-Billings&btnG='>
+                        <li><a className='crmt-pioneers' href='https://scholar.google.com/scholar?hl=en&as_sdt=0%2C39&q=Dr.+Gloria+Ladson-Billings&btnG=' target="/">
                             <u>Dr. Gloria Ladson-Billings</u></a></li>
-                        <li><a className='crmt-pioneers' href='https://scholar.google.com/scholar?hl=en&as_sdt=0%2C39&q=Zaretta+Hammond&btnG='>
+                        <li><a className='crmt-pioneers' href='https://scholar.google.com/scholar?hl=en&as_sdt=0%2C39&q=Zaretta+Hammond&btnG=' target="/">
                             <u>Zaretta Hammond</u></a></li>
 
                     </p>

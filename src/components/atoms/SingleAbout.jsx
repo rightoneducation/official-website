@@ -10,7 +10,7 @@ function SingleAbout(props) {
   const { title, featureImage, src, description } = props.aboutCards
   return (
     <Card
-      style={{ backgroundColor: "#3E226C", filter: "drop-shadow(15px 15px 10px rgba(0, 0, 0, 0.25))", borderRadius: "15px" }}
+      style={{ backgroundColor: "#3E226C", boxShadow: "15px 15px 10px rgba(0, 0, 0, 0.25)", borderRadius: "15px" }}
       className='about-cards'
     >
       <Grid>

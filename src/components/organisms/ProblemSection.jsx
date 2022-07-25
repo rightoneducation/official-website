@@ -4,11 +4,10 @@ import chromebook from '../../images/chromebook-mockup-1.png'
 import block from '../../images/landing-block.png'
 import topBackground from '../../images/math-symbol-bg-bottom.png'
 import monster from '../../images/home-monster.png'
-import staticButton from '../../images/product-features-static.png'
-import hoverButton from '../../images/product-features-hover.png'
 
 
 function ProblemSection() {
+  
   return (
     <Box component="section" className='problem-section'>
       <Grid container>
@@ -35,16 +34,24 @@ function ProblemSection() {
           alt="right-on-education-chromebook-app"
           className='problem-section-chromebook'
         />
-        <div container style={{ marginTop: "460px" }}>
+        {/* <div container style={{ marginTop: "460px" }}>
           <div >
-            <a href="#productFeatures" >
+            {/* <a href="#productFeatures" >
               <img
                 src={staticButton}
                 className="product-features-button"
                 onMouseOver={e => e.currentTarget.src = hoverButton}
                 onMouseOut={e => e.currentTarget.src = staticButton}
               />
-            </a>
+            </a> */}
+            {/* <button onClick={scrollToElement}>
+              <img
+                src={staticButton}
+                className="product-features-button"
+                onMouseOver={e => e.currentTarget.src = hoverButton}
+                onMouseOut={e => e.currentTarget.src = staticButton}
+              />
+            </button>
           </div>
           <div
             container
@@ -57,7 +64,7 @@ function ProblemSection() {
               className='problem-section-monster'
             />
           </div>
-        </div>
+        </div>  */}
       </Grid>
 
     </Box>

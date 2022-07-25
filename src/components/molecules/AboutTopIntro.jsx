@@ -17,7 +17,7 @@ function AboutTopIntro(props) {
           <div className="mission-and-vision-underline"></div>
         </CardContent>
         <div style={{ padding: "0px", marginBottom: "28px" }}>
-          <div className="mission-and-vision-text">
+          <div className="vision-text">
             Unlocking STEM potential in all youth.
           </div>
         </div>

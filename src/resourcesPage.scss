@@ -405,6 +405,55 @@
         color: #FFFFFF;
     }
 
+@media screen and (max-width: 1480px) {
+    .error-analysis-desktop-green-monster {
+        margin-top: 227px;
+        width: 205px;
+    }
+
+    .error-analysis-desktop-pink-monster {
+        width: 205px;
+    }
+
+    .error-analysis-mobile-green-monster {
+        display: none;
+    }
+
+    .error-analysis-mobile-pink-monster {
+        display: none;
+    }
+
+    .error-analysis-header-mobile {
+        display: none;
+    }
+
+    .error-analysis-description-mobile {
+        display: none;
+    }
+
+    .error-analysis-speech {
+        width: 260px;
+        height: 90px;
+        border-radius: 15px;
+        background: #FFFFFF;
+        margin-bottom: 30px;
+        padding: 10px;
+    }
+
+    .error-analysis-activity {
+        width: 324px;
+        margin-left: 55px;
+        border-radius: 15px !important;
+        padding: 5px;
+        overflow: hidden;
+    }
+
+    .error-analysis-activity-text-mobile {
+        display: none;
+    }
+
+}   
+
 @media screen and(max-width: 414px) {
 
     /*resources-page*/

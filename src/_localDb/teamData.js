@@ -78,7 +78,7 @@ module.exports = {
       hover: '/images/marizza-sticker.png',
       back: '/images/marizza-back.png',
       title: '/images/marizza-name.png',
-      linkedIn: 'https://www.linkedin.com/in/marizza-bailey-5b981143',
+      linkedIn: 'https://www.linkedin.com/in/l-marizza-bailey-5b981143/',
     },
     {
       id: 9,
@@ -88,7 +88,7 @@ module.exports = {
       hover: '/images/mozzie-sticker.png',
       back: '/images/mozzie-back.png',
       title: '/images/mozzie-name.png',
-      linkedIn: 'https://www.linkedin.com/in/angela-dos-almas-506b7719/',
+      linkedIn: 'https://www.linkedin.com/in/drmozz/',
     },
     {
       id: 10,

@@ -345,6 +345,16 @@
         margin-top: 350px;
     }
 
+    .game-show-section {
+        margin-top: 200px;
+        display: flex;
+        justify-content: left;
+    }
+
+    .game-show-align {
+        display: flex;
+        justify-content: left;
+    }
     
     .game-show-header {
         font-family: 'filson-pro';
@@ -367,6 +377,14 @@
         margin-bottom: 70px;
         width: 860px;
         height: 483px;
+    }
+
+    .first-description-above {
+        display: none;
+    }
+
+    .first-description-below {
+        display: block;
     }
 
     .game-show-description1 {
@@ -453,6 +471,159 @@
     }
 
 }   
+
+@media screen and (max-width: 1470px) {
+
+
+    .game-show-section {
+        margin-top: 200px;
+        display: flex;
+        justify-content: left;
+    }
+
+    .game-show-align {
+        display: flex;
+        justify-content: left;
+    }
+    
+    .game-show-header {
+        font-family: 'filson-pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 66px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+
+    .game-show-header-underline {
+        width: 650px;
+        border: 4px solid #E29B5D;
+        opacity: 1;
+        margin-bottom: 0px;
+    }
+
+    .game-show-video {
+        margin-bottom: 70px;
+        width: 700px;
+        height: 393px;
+    }
+
+    .first-description-above {
+        display: none;
+    }
+
+    .first-description-below {
+        display: block;
+    }
+
+    .game-show-description1 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 38px;
+        color: #FFFFFF;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .game-show-underline {
+        width: 172px;
+        border: 1px solid #FFFFFF;
+        opacity: 1;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .game-show-description2 {
+        font-family: 'Roboto';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+
+}
+
+@media screen and (max-width: 1290px) {
+
+    .desktop-break {
+        display: none;
+    }
+
+    .game-show-section {
+        margin-top: 200px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .game-show-align {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .game-show-header {
+        font-family: 'filson-pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 55px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+
+    .game-show-header-underline {
+        width: 580px;
+        border: 4px solid #E29B5D;
+        opacity: 1;
+        margin-bottom: 0px;
+    }
+
+    .game-show-video {
+        margin-bottom: 30px;
+        width: 607px;
+        height: 389px;
+    }
+
+    .first-description-above {
+        display: block;
+    }
+
+    .first-description-below {
+        display: none;
+    }
+
+    .game-show-description1 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;
+        color: #FFFFFF;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 602px;
+    }
+
+    .game-show-underline {
+        width: 172px;
+        border: 1px solid #FFFFFF;
+        opacity: 1;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .game-show-description2 {
+        font-family: 'Roboto';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+}
 
 @media screen and(max-width: 414px) {
 
@@ -861,6 +1032,14 @@
         height: 184px;
         margin-top: 100px;
         justify-content: center;
+    }
+
+    .first-description-above {
+        display: block;
+    }
+
+    .first-description-below {
+        display: none;
     }
 
     .game-show-description1 {

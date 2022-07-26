@@ -6,7 +6,7 @@ export default function GameShowHeading(props) {
     <Grid container className="game-show-align">
       <Grid item>
         <h4 className="game-show-header">
-          RightOn! Game Show
+          RightOn! <br className="mobile-break"></br>Game Show
           <hr className="game-show-header-underline" />
         </h4>
       </Grid>

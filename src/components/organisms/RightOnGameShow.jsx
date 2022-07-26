@@ -12,13 +12,13 @@ export default function RightOnGameShow(props) {
                 <GameShowHeading styles={styles} />
                 <div >
                     <div className="first-description-above" style={{ marginBottom: "40px" }}>
-                        <h3 className="game-show-description1">Check out season highlights above and<br></br><u><a href="https://docs.google.com/spreadsheets/d/1HoT_r6AGKU6g7kldqFnvy47Mno3fHLXQE24cuNjY9eo/edit?usp=sharing" target="/" className="game-show-link">example questions <br className="desktop-break" /> and answers here</a></u>!
+                        <h3 className="game-show-description1">Check out season highlights <br className="mobile-break"></br>above and <br className="tablet-br"></br><u><a href="https://docs.google.com/spreadsheets/d/1HoT_r6AGKU6g7kldqFnvy47Mno3fHLXQE24cuNjY9eo/edit?usp=sharing" target="/" className="game-show-link">example <br className="mobile-break"></br>questions and answers <br className="mobile-break"></br>here</a></u>!
                         </h3>
                     </div>
                     <GameShowVideo />
                     <div className="first-description-above" style={{ marginBottom: "40px" }}>
                         <p className="game-show-description2">
-                            Students across the country met online and adapted the<br></br> <i>RightOn!</i> beta app to a livestream game show for youth<br></br> where the best wrong answers win.
+                            Students across the country <br className="small-desk-break"></br>met online and adapted the<br className="small-desk-break"></br><br className="tablet-br"></br> <i>RightOn!</i> beta app to a <br className="small-desk-break"></br>livestream game show for youth<br className="small-desk-break"></br><br className="tablet-br"></br> where the best wrong answers <br className="small-desk-break"></br>win.
                         </p>
                     </div>
                 </div>

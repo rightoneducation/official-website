@@ -3,7 +3,7 @@ import { Grid, Typography } from "@material-ui/core"; //Card, CardContent
 
 export default function GameShowHeading(props) {
   return (
-    <Grid container className="game-show-align" style={{ marginBottom: '30px', marginTop: '20px' }}>
+    <Grid container className="game-show-align">
       <Grid item>
         <h4 className="game-show-header">
           RightOn! Game Show

@@ -12,7 +12,7 @@ function TeamPage ({ advisorData, profileCards, handleFlip, styles }) {
         <TeamPageImage styles={styles}/>
         <TeamMembers profileCards={profileCards} handleFlip={handleFlip}/>
         <Advisors advisorProfiles={advisorData} />
-        <GoToTop/>
+        {/* <GoToTop/> */}
       </div>
     )
 }

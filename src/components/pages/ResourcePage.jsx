@@ -19,7 +19,7 @@ function ResourcePage({videoSrc, styles}) {
                 <PositiveCultureOfErrorSection styles={styles} />
                 <RightOnGameShow />
             </div>
-            <GoToTop/>
+            {/* <GoToTop/> */}
         </div>
     )
 }

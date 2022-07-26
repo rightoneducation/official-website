@@ -13,6 +13,11 @@ function Header() {
   const handleToggle = () => {
     setNavbarOpen(prev => !prev)
   }
+  //go to top of page when nav link is clicked
+  const handleNavLinkClick = () => {
+    window.scrollTo(0, 0)
+    closeMenu()
+  }
   return (
     <Box component="nav">
       <nav className="nav-bar-mobile">
@@ -29,7 +34,7 @@ function Header() {
             className="nav-tabs"
             activeStyle={{ color: '#E87DA6' }} 
             activeClassName="active-link"
-            onClick={() => closeMenu()}
+            onClick={() =>  handleNavLinkClick()}
           >
             <p style={{fontFamily:"roboto", fontSize: "30px", fontWeight: "700", lineHeight: "18px", letterSpacing: "0.15px", padding: "17px"}}>
               Home
@@ -40,7 +45,7 @@ function Header() {
             className="nav-tabs"
             activeStyle={{ color: '#E87DA6' }} 
             activeClassName="active-link"
-            onClick={() => closeMenu()}
+            onClick={() =>  handleNavLinkClick()}
           >
            <p style={{fontFamily:"roboto", fontSize: "30px", fontWeight: "700", lineHeight: "18px", letterSpacing: "0.15px", padding: "17px"}}>
               About
@@ -51,7 +56,7 @@ function Header() {
             className="nav-tabs"
             activeStyle={{ color: '#E87DA6' }} 
             activeClassName="active-link"
-            onClick={() => closeMenu()}
+            onClick={() =>  handleNavLinkClick()}
           >
             <p style={{fontFamily:"roboto", fontSize: "30px", fontWeight: "700", lineHeight: "18px", letterSpacing: "0.15px", padding: "17px"}}>
               Team
@@ -62,7 +67,7 @@ function Header() {
             className="nav-tabs"
             activeStyle={{ color: '#E87DA6' }} 
             activeClassName="active-link"
-            onClick={() => closeMenu()}
+            onClick={() =>  handleNavLinkClick()}
           >
             <p style={{fontFamily:"roboto", fontSize: "30px", fontWeight: "700", lineHeight: "18px", letterSpacing: "0.15px", padding: "17px"}}>
               Resources

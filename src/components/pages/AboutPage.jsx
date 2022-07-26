@@ -18,7 +18,7 @@ function AboutPage() {
       <OurVision />
       <AboutValues ourValues={ourValues} />
       <AboutCards aboutCards={aboutCards} />
-    <GoToTop/>
+    {/* <GoToTop/> */}
     </div>
     </div>
   )

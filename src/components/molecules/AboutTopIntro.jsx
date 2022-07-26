@@ -18,7 +18,7 @@ function AboutTopIntro(props) {
         </CardContent>
         <div style={{ padding: "0px", marginBottom: "28px" }}>
           <div className="vision-text">
-            Unlocking STEM potential in all youth.
+            Unlocking STEM potential in all youth
           </div>
         </div>
       </CardContent>

@@ -34,8 +34,8 @@ function AboutTopMission(props) {
             />
           </div>
 
-          by turning <br className="mission-mobile-br"></br>them into <br className="mission-desktop-br"></br>
-          learning<br className="mission-tablet-br"></br> opportunities.
+          by turning them into <br className="mission-desktop-br"></br>
+          <br className="mission-mobile-br"></br>learning<br className="mission-tablet-br"></br> opportunities
           <div className="mission-monster-mobile">
             <img
               src={monster}

@@ -10,7 +10,7 @@ function PositiveCultureBox(props) {
       <Grid container className="teach-like-a-champ-section">
         <Grid item >
           <h4 className='teach-like-champ-header'>
-            Teach Like a <br className="mobile-break" /> Champion
+            Teach Like a <br className='small-desk-break'></br> Champion
             <hr className='teach-like-champ-underline' />
           </h4>
           <h6 className='teach-like-champ-description' style={{ marginLeft: "30px", marginTop: "30px" }}>
@@ -22,17 +22,16 @@ function PositiveCultureBox(props) {
               <li>Withhold answers</li>
               <li>Manage your tell</li>
               <li>Praise risk-taking</li>
-
             </div>
           </h6>
 
         </Grid>
         <Card style={{ background: "#712773", borderRadius: "20px" }} className='rough-draft-card'>
-          <CardContent>
+          <CardContent style={{ paddingLeft: "3px" }}>
             <p className='rough-draft-card-content'>
               “Rough draft thinking happens <br className='desktop-break' /> when students share their <br className='desktop-break' /> unfinished, in-progress ideas <br className='desktop-break' /> and remain open to revising <br className='desktop-break' /> those ideas.”
             </p>
-            <br /> <br />
+            <br className="desktop-break" /> <br />
             <p className='rough-draft-card-content-bold'>
               -<a href="https://www.amazon.com/Rough-Draft-Math-Revising-Learn/dp/1625312067/" target="/" className='rough-draft-link'><u> Rough Draft Math</u></a>,
               <br />

@@ -788,7 +788,7 @@
     .rough-draft-card {
         position: absolute;
         width: 530px;
-        height: 300px;
+        height: 270px;
         right: 150px;
         margin-top: 590px;
         padding: 20px;
@@ -834,6 +834,83 @@
 
     .small-desk-break {
         display: block;
+    }
+
+    .teach-like-a-champ-section {
+        display: flex;
+        justify-content: center;
+    }
+
+    .teach-like-champ-header {
+        font-family: 'filson-pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 36px;
+        letter-spacing: 0em;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+    .teach-like-champ-underline {
+        width: 380px;
+        border: 4px solid #E29B5D;
+        opacity: 1;
+        margin-bottom: 0px;
+    }
+
+    .teach-like-champ-description {
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0em;
+        margin-left: 10px!important;
+        text-align: left;
+        color: #FFFFFF;
+        width: 370px;
+    }
+
+    .rough-draft-card {
+        //position: absolute;
+        width: 345px;
+        height: 210px;
+        left: 150px;
+        
+        margin-top: 535px;
+        padding-top: 10px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .rough-draft-card-content {
+        font-family: 'Roboto';
+        font-style: italic;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        color: #FFFFFF;
+        text-align: right;
+        padding-left: 0px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .rough-draft-card-content-bold {
+        font-family: 'Roboto';
+        font-style: italic;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        color: #FFFFFF;
+        text-align: right;
+    }
+
+    .rough-draft-monster {
+        position: absolute;
+        width: 180px;
+        height: 140px;
+        left: 120px;
+        margin-top: 650px;
     }
 
     .game-show-section {
@@ -907,6 +984,94 @@
         font-size: 24px;
         line-height: 28px;
         color: #FFFFFF;
+    }
+}
+
+@media screen and (max-width: 625px) {
+    .rough-draft-card {
+        //position: absolute;
+        width: 345px;
+        height: 210px;
+        left: 120px;
+        
+        margin-top: 535px;
+        padding-top: 10px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .rough-draft-monster {
+        position: absolute;
+        width: 180px;
+        height: 140px;
+        left: 90px;
+        margin-top: 650px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .rough-draft-card {
+        //position: absolute;
+        width: 345px;
+        height: 210px;
+        left: 90px;
+        
+        margin-top: 535px;
+        padding-top: 10px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .rough-draft-monster {
+        position: absolute;
+        width: 180px;
+        height: 140px;
+        left: 50px;
+        margin-top: 650px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .rough-draft-card {
+        //position: absolute;
+        width: 345px;
+        height: 210px;
+        left: 65px;
+        
+        margin-top: 535px;
+        padding-top: 10px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .rough-draft-monster {
+        position: absolute;
+        width: 180px;
+        height: 140px;
+        left: 30px;
+        margin-top: 650px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .rough-draft-card {
+        //position: absolute;
+        width: 345px;
+        height: 210px;
+        left: 40px;
+        
+        margin-top: 535px;
+        padding-top: 10px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .rough-draft-monster {
+        position: absolute;
+        width: 150px;
+        height: 117px;
+        left: 30px;
+        margin-top: 650px;
     }
 }
 
@@ -1205,6 +1370,12 @@
         margin-left: -1px;
     }
 
+    .teach-like-a-champ-section {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+
     .teach-like-champ-header {
         font-family: 'filson-pro';
         font-style: normal;
@@ -1213,17 +1384,14 @@
         line-height: 36px;
         letter-spacing: 0em;
         color: #FFFFFF;
-        margin-left: -100px;
-        margin-bottom: 20px;
+        text-align: center;
     }
 
     .teach-like-champ-underline {
-        width: 316px;
-        height: 0px;
+        width: 311px;
         border: 4px solid #E29B5D;
         opacity: 1;
         margin-bottom: 0px;
-        margin-left: 110px;
     }
 
     .teach-like-champ-description {
@@ -1234,25 +1402,15 @@
         letter-spacing: 0em;
         text-align: left;
         color: #FFFFFF;
-        padding-right: 80px;
-    }
-
-    .teach-like-champ-link {
-        color: #FFB8D3;
-        font-style: italic;
-    }
-
-    .teach-like-champ-link:hover {
-        color: #FFFFFF;
+        width: 297px;
     }
 
     .rough-draft-card {
         position: absolute;
         width: 337px;
-        height: 234px;
-        left: 20px;
-        margin-top: 550px;
-        padding: 0px;
+        height: 224px;
+        margin-top: 625px;
+        padding: 20px;
     }
 
     .rough-draft-card-content {
@@ -1263,33 +1421,24 @@
         line-height: 23px;
         color: #FFFFFF;
         text-align: right;
-        margin-bottom: -40px;
     }
 
     .rough-draft-card-content-bold {
         font-family: 'Roboto';
         font-style: italic;
-        font-weight: 700;
+        font-weight: 500;
         font-size: 20px;
         line-height: 23px;
         color: #FFFFFF;
         text-align: right;
     }
 
-    .rough-draft-link {
-        color: #FFB8D3;
-    }
-
-    .rough-draft-link:hover {
-        color: #FFFFFF;
-    }
-
     .rough-draft-monster {
         position: absolute;
-        width: 121.54px;
-        height: 95.25px;
-        left: 20px;
-        margin-top: 670px;
+        width: 120px;
+        height: 94px;
+        left: 50px;
+        margin-top: 740px;
     }
 
     .game-show-section {
@@ -1391,5 +1540,43 @@
 
     .small-desk-break {
         display: block;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .rough-draft-card {
+        position: absolute;
+        width: 337px;
+        height: 224px;
+        left: 25px;
+        margin-top: 625px;
+        padding: 20px;
+    }
+
+    .rough-draft-monster {
+        position: absolute;
+        width: 120px;
+        height: 94px;
+        left: 30px;
+        margin-top: 740px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .rough-draft-card {
+        position: absolute;
+        width: 337px;
+        height: 224px;
+        left: 18px;
+        margin-top: 625px;
+        padding: 20px;
+    }
+
+    .rough-draft-monster {
+        position: absolute;
+        width: 120px;
+        height: 94px;
+        left: 23px;
+        margin-top: 740px;
     }
 }

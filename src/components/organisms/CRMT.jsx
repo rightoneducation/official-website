@@ -24,7 +24,7 @@ export default function CRMT(props) {
                 <Grid item>
                     <h1 className='crmt-header'>
                         Culturally Responsive <br /> Mathematics Teaching
-                        <hr className='error-analysis-underline' />
+                        <hr className='crmt-underline' />
                     </h1>
                     <h1 className='crmt-header-mobile'>
                         CRMT
@@ -32,12 +32,28 @@ export default function CRMT(props) {
                     </h1>
                     <p className='crmt-description'>
                         <span className='crmt-description-bold'>CRMT is about </span>
-                        <li className='crmt-description'>Inviting all students into mathematics as participants</li>
-                        <li className='crmt-description'>Sharing thinking and reasoning</li>
-                        <li className='crmt-description'>“Ensuring each and every learner not only has success <div style={{ marginLeft: "35px" }}>
-                            with mathematics, but also comes to see mathematics
-                            <br></br>as a tool to examine the world” <br className='mobile-break' /> - Dr. Mark Ellis</div></li>
-                        <br />
+                        <div className="desktop-break">
+                            <li className='crmt-description'>Inviting all students into mathematics as participants</li>
+                            <li className='crmt-description'>Sharing thinking and reasoning</li>
+                            <li className='crmt-description'>“Ensuring each and every learner not only has success <div style={{ marginLeft: "35px" }}>
+                                with mathematics, but also comes to see mathematics
+                                <br></br>as a tool to examine the world” <br className='mobile-break' /> - Dr. Mark Ellis</div></li>
+                            <br /></div>
+                        <div className="tablet-br">
+                            <li className='crmt-description'>Inviting all students into mathematics as participants</li>
+                            <li className='crmt-description'>Sharing thinking and reasoning</li>
+                            <li className='crmt-description'>“Ensuring each and every learner not only has success <div style={{ marginLeft: "35px" }}>
+                                with mathematics, but also comes to see mathematics
+                                <br></br>as a tool to examine the world” <br className='mobile-break' /> - Dr. Mark Ellis</div></li>
+                            <br /></div>
+
+                        <div className="small-desk-break">
+                            <li className='crmt-description'>Inviting all students into <div style={{ marginLeft: "35px" }}>mathematics as participants</div></li>
+                            <li className='crmt-description'>Sharing thinking and reasoning</li>
+                            <li className='crmt-description'>“Ensuring each and every learner <div style={{ marginLeft: "35px" }}>not only has success
+                                with </div><div style={{ marginLeft: "35px" }}>mathematics, but also comes to see mathematics
+                                    as a tool to <br></br>examine the world” <br className='mobile-break' /> <br></br>- Dr. Mark Ellis</div></li>
+                            <br /></div>
                         <span className='crmt-description-bold'>Pioneers in CRMT: </span>
                         <br />
                         <span>
@@ -49,8 +65,11 @@ export default function CRMT(props) {
                             <u>Zaretta Hammond</u></a></li>
 
                     </p>
+                    <div className='tablet-br'>
+                        <img src={CRMTimage} alt="CRMT-Diagram" className='crmt-diagram' />
+                    </div>
                 </Grid>
-                <Grid item>
+                <Grid item className="desktop-break">
                     <img src={CRMTimage} alt="CRMT-Diagram" className='crmt-diagram' />
                 </Grid>
             </Grid>

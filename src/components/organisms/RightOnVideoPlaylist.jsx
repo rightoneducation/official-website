@@ -8,12 +8,12 @@ const data = {
         {
             id: 1,
             title: "RightOn! Overview",
-            src: "https://www.youtube.com/embed/sUlnToE2bqQ",
+            src: "https://www.youtube.com/embed/VUS0sEPWhOM",
         },
         {
             id: 2,
             title: "Host & Display Overview",
-            src: "https://www.youtube.com/embed/IcrEa8pa0K8",
+            src: "https://www.youtube.com/embed/InYO4PECgqk",
         },
         {
             id: 3,

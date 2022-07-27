@@ -50,14 +50,17 @@ function ProblemSection() {
             container
             alignItems="center"
             justify="center"
+            id="productFeatures"
           >
             <img
               src={monster}
               alt="product-features-monster"
               className='problem-section-monster'
+
             />
-          </div>
+          </div >
         </div>
+       
       </Grid>
 
     </Box>

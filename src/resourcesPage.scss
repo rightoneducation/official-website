@@ -206,6 +206,12 @@
         color: #E87DA6;
     }
 
+    .crmt-section {
+        display: flex;
+        justify-content: left;
+        padding-left: 76px;
+        padding-bottom: 280px;
+    }
 
     .crmt-header {
         font-family: 'filson-pro';
@@ -496,6 +502,11 @@
 }   
 
 @media screen and (max-width: 1470px) {
+
+    .crmt-diagram {
+        margin-left: 75px;
+        margin-top: 100px;
+    }
 
     .rough-draft-card {
         position: absolute;

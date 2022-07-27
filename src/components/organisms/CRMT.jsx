@@ -13,7 +13,7 @@ export default function CRMT(props) {
                 width="100%"
                 style={{ marginBottom: "-250px" }}
             />
-            <Grid container style={{ margin: "100px", justifyContent: "center", marginLeft: "-2px" }}>
+            <Grid container className="crmt-section">
                 {/* <Grid item>
                     <img
                         src={triangleUp}
@@ -34,9 +34,9 @@ export default function CRMT(props) {
                         <span className='crmt-description-bold'>CRMT is about </span>
                         <li className='crmt-description'>Inviting all students into mathematics as participants</li>
                         <li className='crmt-description'>Sharing thinking and reasoning</li>
-                        <li className='crmt-description'>“Ensuring each and every learner not only has success
-                            <br></br>with mathematics, but also comes to see mathematics
-                            <br></br>as a tool to examine the world” <br className='mobile-break'/> - Dr. Mark Ellis</li>
+                        <li className='crmt-description'>“Ensuring each and every learner not only has success <div style={{ marginLeft: "35px" }}>
+                            with mathematics, but also comes to see mathematics
+                            <br></br>as a tool to examine the world” <br className='mobile-break' /> - Dr. Mark Ellis</div></li>
                         <br />
                         <span className='crmt-description-bold'>Pioneers in CRMT: </span>
                         <br />
@@ -51,7 +51,7 @@ export default function CRMT(props) {
                     </p>
                 </Grid>
                 <Grid item>
-                    <img src={CRMTimage} alt="CRMT-Diagram" className='crmt-diagram'/>
+                    <img src={CRMTimage} alt="CRMT-Diagram" className='crmt-diagram' />
                 </Grid>
             </Grid>
         </Box >

@@ -28,7 +28,7 @@ export default function CRMT(props) {
                     </h1>
                     <h1 className='crmt-header-mobile'>
                         CRMT
-                        <hr className='error-analysis-underline-mobile' />
+                        <hr className='crmt-underline' />
                     </h1>
                     <p className='crmt-description'>
                         <span className='crmt-description-bold'>CRMT is about </span>
@@ -47,12 +47,19 @@ export default function CRMT(props) {
                                 <br></br>as a tool to examine the world” <br className='mobile-break' /> - Dr. Mark Ellis</div></li>
                             <br /></div>
 
-                        <div className="small-desk-break">
+                        <div className="small-desk-breaks">
                             <li className='crmt-description'>Inviting all students into <div style={{ marginLeft: "35px" }}>mathematics as participants</div></li>
                             <li className='crmt-description'>Sharing thinking and reasoning</li>
                             <li className='crmt-description'>“Ensuring each and every learner <div style={{ marginLeft: "35px" }}>not only has success
                                 with </div><div style={{ marginLeft: "35px" }}>mathematics, but also comes to see mathematics
                                     as a tool to <br></br>examine the world” <br className='mobile-break' /> <br></br>- Dr. Mark Ellis</div></li>
+                            <br /></div>
+                        <div className="mobile-break">
+                            <li className='crmt-description'>Inviting all students into <div style={{ marginLeft: "35px" }}>mathematics as participants</div></li>
+                            <li className='crmt-description'>Sharing thinking and <div style={{ marginLeft: "35px" }}>reasoning</div></li>
+                            <li className='crmt-description'>“Ensuring each and <div style={{ marginLeft: "35px" }}>every learner not only <br></br>has success
+                                with <br></br>mathematics, but also <br></br>comes to see <br></br>mathematics
+                                as a tool <br></br>to examine the world” <br /> - Dr. Mark Ellis</div></li>
                             <br /></div>
                         <span className='crmt-description-bold'>Pioneers in CRMT: </span>
                         <br />

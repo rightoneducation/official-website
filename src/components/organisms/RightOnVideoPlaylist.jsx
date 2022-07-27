@@ -18,7 +18,7 @@ const data = {
         {
             id: 3,
             title: "Basic vs. Advanced",
-            src: "https://www.youtube.com/embed/UK9EL6hFVbk"
+            src: "https://www.youtube.com/embed/l8eyVQ1GYHM"
         }
     ],
 };

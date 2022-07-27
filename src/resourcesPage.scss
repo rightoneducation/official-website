@@ -206,6 +206,12 @@
         color: #E87DA6;
     }
 
+    .crmt-section {
+        display: flex;
+        justify-content: left;
+        padding-left: 76px;
+        padding-bottom: 280px;
+    }
 
     .crmt-header {
         font-family: 'filson-pro';
@@ -216,6 +222,13 @@
         text-align: left;
         color: #FFFFFF;
         display: block;
+    }
+
+    .crmt-underline {
+        width: 640px;
+        border: 4px solid #E29B5D;
+        opacity: 1;
+        margin-bottom: 0px;
     }
 
     .crmt-header-mobile {
@@ -438,6 +451,10 @@
         display: none;
     }
 
+    .small-desk-breaks {
+        display: none;
+    }
+
 @media screen and (max-width: 1480px) {
     .error-analysis-desktop-green-monster {
         margin-top: 227px;
@@ -496,6 +513,18 @@
 }   
 
 @media screen and (max-width: 1470px) {
+
+    .crmt-section {
+        display: flex;
+        justify-content: left;
+        padding-left: 76px;
+        padding-bottom: 280px;
+    }
+
+    .crmt-diagram {
+        margin-left: 80px;
+        margin-top: 100px;
+    }
 
     .rough-draft-card {
         position: absolute;
@@ -626,6 +655,19 @@
 
     .small-desk-break {
         display: none;
+    }
+
+    .crmt-section {
+        display: flex;
+        justify-content: center;
+        //padding-left: 76px;
+        padding-bottom: 150px;
+    }
+
+    .crmt-diagram {
+        margin-top: 30px !important;
+        margin-left: 80px !important;
+        width: 500px;
     }
 
     .teach-like-a-champ-section {
@@ -832,8 +874,86 @@
         display: none;
     }
 
+    .small-desk-breaks {
+        display: block;
+    }
+
     .small-desk-break {
         display: block;
+    }
+
+    .crmt-section {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 150px;
+        padding-left: 0px;
+    }
+
+    .crmt-header {
+        font-family: 'filson-pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 36px;
+        text-align: left;
+        color: #FFFFFF;
+        display: block;
+    }
+
+    .crmt-header-mobile {
+        display: none;
+    }
+
+    .crmt-underline {
+        width: 410px;
+        border: 4px solid #E29B5D;
+        opacity: 1;
+        margin-bottom: 0px;
+    }
+
+    .crmt-description {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+        z-index: 1;
+        margin-left: 10px;
+        width: 390px;
+    }
+
+    .crmt-description-bold {
+        font-family: 'Roboto';
+        font-style: italic;
+        line-height: 38px;
+        letter-spacing: 0em;
+        text-align: left;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+
+    .crmt-pioneers {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
+
+        color: #FFB8D3;
+    }
+
+    .crmt-pioneers:hover {
+        color: #FFFFFF;
+    }
+
+    .crmt-diagram {
+        //margin-left: 150px;
+        margin-top: 100px;
     }
 
     .teach-like-a-champ-section {
@@ -1311,6 +1431,20 @@
         color: #E87DA6;
     }
 
+    .crmt-section {
+        display: flex;
+        justify-content: center;
+        //padding-left: 76px;
+        padding-bottom: 100px;
+    }
+
+    .crmt-underline {
+        width: 315px;
+        border: 4px solid #E29B5D;
+        opacity: 1;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
 
     .crmt-header {
         display: none;
@@ -1319,9 +1453,12 @@
     .crmt-header-mobile {
         font-family: 'filson-pro';
         font-style: normal;
+        //font-weight: 700;
         font-weight: 700;
         font-size: 36px;
-        line-height: 30px;
+        line-height: 36px;
+        width: 100% !important;
+        margin-right: 0px !important;
         text-align: center;
         color: #FFFFFF;
         display: block;
@@ -1338,6 +1475,7 @@
         color: #FFFFFF;
         z-index: 1;
         margin-left: 10px;
+        width: 297px;
     }
 
     .crmt-description-bold {
@@ -1354,9 +1492,9 @@
     .crmt-pioneers {
         font-family: 'Roboto';
         font-style: normal;
-        font-weight: 300;
-        font-size: 26px;
-        line-height: 38px;
+        font-weight: 380;
+        font-size: 24px;
+        line-height: 28px;
         color: #FFB8D3;
     }
 
@@ -1541,7 +1679,13 @@
     .small-desk-break {
         display: block;
     }
+
+    .small-desk-breaks {
+        display: none
+    }
+
 }
+
 
 @media screen and (max-width: 390px) {
     .rough-draft-card {

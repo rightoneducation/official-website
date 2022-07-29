@@ -62,9 +62,10 @@ function ErrorAnalysisActivitiesSection(props) {
             <div className="error-analysis-tablet">
                 <Grid container style={{ display: "flex", justifyContent: "center" }}>
                     <Grid item>
-                        <h1 className='error-analysis-header '>
-                            Error Analysis Activities</h1>
-                        <hr className='error-analysis-underline ' />
+
+                        <h1 className='error-analysis-header'>
+                            Error Analysis Activities
+                            <hr className='error-analysis-underline ' /></h1>
                     </Grid>
                     <Grid item>
                         <h6 className='error-analysis-description' >
@@ -74,7 +75,7 @@ function ErrorAnalysisActivitiesSection(props) {
                         </h6>
                     </Grid>
 
-                    <Grid item style={{ width: "700px", marginBottom: "200px" }}>
+                    <Grid item className="monsters" style={{ marginBottom: "200px" }}>
 
                         <Grid container> <img src={GreenMonster} alt="monster-with-speech-bubble" className="error-analysis-desktop-green-monster" />
                             <div className="error-analysis-speech">
@@ -84,8 +85,8 @@ function ErrorAnalysisActivitiesSection(props) {
                             </div><img src={PinkMonster} alt="monster-with-speech-bubble" className='error-analysis-desktop-pink-monster' /></Grid>
 
                     </Grid>
-                </Grid>
-            </div>
+                </Grid >
+            </div >
         </Box >
 
 

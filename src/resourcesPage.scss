@@ -88,10 +88,12 @@
     .error-analysis-desktop-green-monster {
         margin-top: 227px;
         width: 250px;
+        margin-bottom: 200px;
     }
 
     .error-analysis-desktop-pink-monster {
         width: 250px;
+        margin-bottom: 200px;
     }
 
     .error-analysis-mobile-green-monster {
@@ -669,6 +671,23 @@
         display: none
     }
 
+    .overview-video-heading {
+        font-family: "filson-pro";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        color: #FFFFFF;
+        letter-spacing: 0em;
+        margin-top: 70px;
+    }
+
+    .overview-video {
+        margin-bottom: 70px;
+        width: 640px;
+        height: 360px;
+    }
+
     .desktop-break {
         display: none;
     }
@@ -679,6 +698,10 @@
 
     .small-desk-break {
         display: none;
+    }
+
+    .monsters {
+        width: 700px;
     }
 
     .error-analysis-activity {
@@ -780,6 +803,7 @@
     .error-analysis-desktop-green-monster {
         margin-top: 65px;
         width: 180px;
+        margin-bottom: 10px;
     }
 
     .error-analysis-desktop-pink-monster {
@@ -787,6 +811,7 @@
         height: 140px;
         margin-top: 175px;
         margin-left: 120px;
+        margin-bottom: 10px;
     }
 
     .crmt-section {
@@ -1012,6 +1037,183 @@
 
     .small-desk-break {
         display: block;
+    }
+
+    .tutorial-video-panel {
+        width: 328px;
+        height: 285px;
+        background: #581F59;
+        box-shadow: 3px -4px 10px #4B2671, -5px 4px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        margin: 28px;
+    }
+
+    .tutorial-videos-header-text {
+        font-family: "filson-pro";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+        color: #FFFFFF;
+        padding-top: 30px;
+        padding-bottom: 25px;
+        padding-left: 48px;
+    }
+
+    .tutorial-videos-panel {
+        width: 328px;
+        height: 210px;
+        background: #712773;
+        border-radius: 0px 0px 20px 20px;
+        justify-content: space-evenly;
+        padding-top: 20px;
+    }
+
+    .tutorial-videos-text {
+        font-family: 'filson-pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        padding-left: 48px;
+        //padding-top: 45px;
+        margin-top: 5px;
+        //margin-top: 10px;
+        width: 280px;
+        height: 50px;
+        color: #FFFFFF;
+    }
+
+    .overview-video-heading {
+        font-family: "filson-pro";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #FFFFFF;
+        letter-spacing: 0em;
+        margin-top: 70px;
+    }
+
+    .overview-video {
+        margin-top: -20px;
+        margin-bottom: 30px;
+        width: 328px;
+        height: 184px;
+    }
+
+    .monsters {
+        width: 400px;
+    }
+
+    .error-analysis-activity {
+        width: 260px;
+        margin-left: -135px;
+        border-radius: 15px !important;
+        padding: 0px;
+        margin-top: 125px;
+        overflow: hidden;
+    }
+
+    .error-analysis-header {
+        font-family: 'filson-pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 36px;
+        text-align: center;
+        color: #FFFFFF;
+        display: block;
+        width: 360px;
+    }
+
+    .error-analysis-underline {
+        width: 360px;
+        border: 4px solid #E29B5D;
+        opacity: 1;
+        margin-bottom: 0px;
+    }
+
+    .error-analysis-speech {
+        width: 180px;
+        height: 80px;
+        border-radius: 15px;
+        background: #FFFFFF;
+        margin-bottom: 30px;
+        padding: 10px;
+    }
+
+    .error-analysis-activity-button {
+        font-family: 'filson-soft';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 14px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.15px;
+        margin-bottom: 0px !important;
+        color: #E87DA6;
+    }
+
+    .error-analysis-activity-answer {
+        font-family: 'Kalam';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29px;
+        letter-spacing: 0.15px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+        color: #E87DA6;
+    }
+
+    .error-analysis-description {
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+        margin-top: 0px;
+        padding: 0px;
+        margin-right: 0px;
+        margin-top: 15px;
+        width: 345px;
+    }
+
+    .error-analysis-activity-text {
+        font-family: 'Kalam';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29px;
+        letter-spacing: 0.15px;
+        text-align: center;
+        margin-bottom: 0px !important;
+        padding-bottom: 0px !important;
+
+        color: #000000;
+    }
+
+    .error-analysis-desktop-green-monster {
+        margin-top: 15px;
+        width: 130px;
+        height: 180px;
+        margin-bottom: 10px;
+    }
+
+    .error-analysis-desktop-pink-monster {
+        width: 130px;
+        height: 100px;
+        margin-top: 70px;
+        margin-left: 265px;
+        margin-bottom: 10px;
     }
 
     .crmt-section {
@@ -1337,7 +1539,7 @@
         background: #581F59;
         box-shadow: 3px -4px 10px #4B2671, -5px 4px 15px rgba(0, 0, 0, 0.25);
         border-radius: 20px;
-        margin-bottom: 250px;
+        margin-bottom: 100px;
     }
 
     .tutorial-videos-header-text {

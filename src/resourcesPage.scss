@@ -88,10 +88,12 @@
     .error-analysis-desktop-green-monster {
         margin-top: 227px;
         width: 250px;
+        margin-bottom: 200px;
     }
 
     .error-analysis-desktop-pink-monster {
         width: 250px;
+        margin-bottom: 200px;
     }
 
     .error-analysis-mobile-green-monster {
@@ -681,6 +683,10 @@
         display: none;
     }
 
+    .monsters {
+        width: 700px;
+    }
+
     .error-analysis-activity {
         width: 270px;
         margin-left: 40px;
@@ -780,6 +786,7 @@
     .error-analysis-desktop-green-monster {
         margin-top: 65px;
         width: 180px;
+        margin-bottom: 10px;
     }
 
     .error-analysis-desktop-pink-monster {
@@ -787,6 +794,7 @@
         height: 140px;
         margin-top: 175px;
         margin-left: 120px;
+        margin-bottom: 10px;
     }
 
     .crmt-section {
@@ -1012,6 +1020,120 @@
 
     .small-desk-break {
         display: block;
+    }
+
+    .monsters {
+        width: 400px;
+    }
+
+    .error-analysis-activity {
+        width: 260px;
+        margin-left: -135px;
+        border-radius: 15px !important;
+        padding: 0px;
+        margin-top: 125px;
+        overflow: hidden;
+    }
+
+    .error-analysis-header {
+        font-family: 'filson-pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 36px;
+        text-align: center;
+        color: #FFFFFF;
+        display: block;
+        width: 360px;
+    }
+
+    .error-analysis-underline {
+        width: 360px;
+        border: 4px solid #E29B5D;
+        opacity: 1;
+        margin-bottom: 0px;
+    }
+
+    .error-analysis-speech {
+        width: 180px;
+        height: 80px;
+        border-radius: 15px;
+        background: #FFFFFF;
+        margin-bottom: 30px;
+        padding: 10px;
+    }
+
+    .error-analysis-activity-button {
+        font-family: 'filson-soft';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 14px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.15px;
+        margin-bottom: 0px !important;
+        color: #E87DA6;
+    }
+
+    .error-analysis-activity-answer {
+        font-family: 'Kalam';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29px;
+        letter-spacing: 0.15px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+        color: #E87DA6;
+    }
+
+    .error-analysis-description {
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+        margin-top: 0px;
+        padding: 0px;
+        margin-right: 0px;
+        margin-top: 15px;
+        width: 345px;
+    }
+
+    .error-analysis-activity-text {
+        font-family: 'Kalam';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29px;
+        letter-spacing: 0.15px;
+        text-align: center;
+        margin-bottom: 0px !important;
+        padding-bottom: 0px !important;
+
+        color: #000000;
+    }
+
+    .error-analysis-desktop-green-monster {
+        margin-top: 15px;
+        width: 130px;
+        height: 180px;
+        margin-bottom: 10px;
+    }
+
+    .error-analysis-desktop-pink-monster {
+        width: 130px;
+        height: 100px;
+        margin-top: 70px;
+        margin-left: 265px;
+        margin-bottom: 10px;
     }
 
     .crmt-section {

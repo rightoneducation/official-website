@@ -1,7 +1,7 @@
 import React from "react";
 import { Paper } from "@material-ui/core";
-import placeholder from "../../images/team-monster-banner.png";
-import mobileMonsters from "../../images/team-banner-mobile.png"
+import placeholder from "../../images/Banner.png";
+import mobileMonsters from "../../images/Banner-Mobile.png"
 
 function LandingBannerImage(props) {
   const { styles } = props;

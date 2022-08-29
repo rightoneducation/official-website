@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Grid } from "@material-ui/core";
-import chromebook from '../../images/chromebook-mockup-1.png'
+import chromebook from '../../images/HomeBanner.png'
 import block from '../../images/landing-block.png'
 import topBackground from '../../images/math-symbol-bg-bottom.png'
 import monster from '../../images/home-monster.png'

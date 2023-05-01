@@ -1,13 +1,14 @@
 import React from 'react'
 import { Box, Grid } from "@material-ui/core";
+import zIndex from '@material-ui/core/styles/zIndex';
 
 function SectionHeading () {
     return(
         <Box>
           <Grid container justify="space-around" alignItems="center">
-            <Grid item style={{marginBottom: "20px"}}>
+            <Grid item style={{marginBottom: "20px", zIndex:"2"}}>
               <h4 className='team-page-banners'>
-              Check Out How Teachers Are Using RightOn!
+              Supporters
                 <hr className='team-page-banners-underline'/>
                 
               </h4>

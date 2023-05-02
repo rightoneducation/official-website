@@ -143,7 +143,7 @@ module.exports = {
   ],
   advisors: [
     {
-      id: 1,
+      id: 0,
       name: 'Andrea Ruby',
       photo: '/images/profile_andrea.jpg',
       title: 'Math Educator',
@@ -153,7 +153,7 @@ module.exports = {
       linkedIn: null
     },
     {
-      id: 2,
+      id: 1,
       name: 'Ay-Nur Najm',
       photo: '/images/profile_ay-nur.jpg',
       title: 'Math Instructional Coach',
@@ -163,7 +163,7 @@ module.exports = {
       linkedIn: 'https://www.linkedin.com/in/ay-nur-najm/'
     },
     {
-      id: 3,
+      id: 2,
       name: 'Ben Woodford',
       photo: '/images/profile_ben.jpg',
       title: 'Math Education Researcher',
@@ -173,7 +173,7 @@ module.exports = {
       linkedIn: 'https://www.linkedin.com/in/ben-woodford-32153952/'
     },
     {
-      id: 4,
+      id: 3,
       name: 'Bunmi Esho',
       photo: '/images/profile_bummi.jpg',
       title: 'STEM Advocacy Executive',
@@ -190,7 +190,7 @@ module.exports = {
     //   profile: "Edward is a tech guy with over 20 years of experience building web and mobile apps. Having worked at various tech startups as well as large corporations, Edward strikes a balance between the nimbleness of the former with the structure of the latter. In his spare time, Edward enjoys playing softball, discovering new spicy food restaurants, and spending time with his kids."
     // },
     {
-      id: 5,
+      id: 4,
       name: 'Esmeralda Ortiz',
       photo: '/images/profile_Esme.jpg',
       title: 'Youth Development Leader',
@@ -208,7 +208,7 @@ module.exports = {
     //   linkedIn: 'https://www.linkedin.com/in/imanhoward/'
     // },
     {
-      id: 7,
+      id: 5,
       name: 'Paul Chin',
       photo: '/images/profile_paul.jpg',
       title: 'Assistant Professor of Practice',
@@ -218,7 +218,7 @@ module.exports = {
       linkedIn: 'https://www.linkedin.com/in/paul-chin-04046143/'
     },
     {
-      id: 8,
+      id: 6,
       name: 'Payton Richardson',
       photo: '/images/profile_payton.jpg',
       title: 'Data Officer',
@@ -228,13 +228,13 @@ module.exports = {
       linkedIn: 'https://www.linkedin.com/in/williampaytonrichardson/'
     }, 
     {
-      id: 9,
+      id: 7,
       name: 'Yong Lin',
-      photo: '/images/profile_yonglin.jpg',
+      photo: '/images/profile_yonglin.png',
       title: 'UX Designer',
       profile: "Yong Lin, a seasoned UX designer with over a decade of experience, brings his expertise in creating products at the intersection of design and technology. Drawing from his diverse background, he has successfully led a team to develop a nation-wide education platform for the Singapore government. Combining an empathetic approach to design and teamwork, he is passionate about making a positive impact in the future of education. ",
-      imBackground: "linear-gradient(#e2618f, #b22e5d)",
-      txtBackground: '#b22e5d',
+      imBackground: "linear-gradient(#ADD6E7, #7EB2C8)",
+      txtBackground: '#7EB2C8',
       linkedIn: 'https://www.linkedin.com/in/yonglinui/'
     }
   ]

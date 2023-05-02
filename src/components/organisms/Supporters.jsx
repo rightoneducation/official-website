@@ -5,7 +5,7 @@ import {
 } from "@material-ui/core";
 
 import Logos from '../atoms/Logos' ;
-import SectionHeading3 from '../atoms/SectionHeading3';
+import SectionHeading from '../atoms/SectionHeading';
 
 
 function Supporters(props) {
@@ -15,7 +15,7 @@ function Supporters(props) {
       <Grid container justify="center" alignItems="center" spacing={5}>
         
         <Grid item sm={12}>
-          <SectionHeading3 />
+          <SectionHeading title="With support from"/>
         </Grid>
         <Grid container justify="center" alignItems="center" spacing={5}>
         <Grid

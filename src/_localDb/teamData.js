@@ -22,6 +22,16 @@ module.exports = {
     },
     {
       id: 3,
+      name: 'Cindy Quach',
+      variant: 'click',
+      photo: '/images/cindy-circle.png',
+      hover: '/images/cindy-sticker.png',
+      back: '/images/cindy-back.png',
+      title: '/images/cindy-name.png',
+      linkedIn: 'https://www.linkedin.com/in/cindyq255/'
+    },
+    {
+      id: 4,
       name: 'Daz C. Yang',
       variant: 'click',
       photo: '/images/daz-circle.png',
@@ -31,7 +41,17 @@ module.exports = {
       linkedIn: 'https://www.linkedin.com/in/dazyang'
     },
     {
-      id: 4,
+      id: 5,
+      name: 'Drew Hart',
+      variant: 'click',
+      photo: '/images/drew-circle.png',
+      hover: '/images/drew-sticker.png',
+      back: '/images/drew-back.png',
+      title: '/images/drew-name.png',
+      linkedIn: 'https://www.linkedin.com/in/drewjhart/'
+    },
+    {
+      id: 6,
       name: 'Edward Tan',
       variant: 'click',
       photo: '/images/edward-circle.png',
@@ -41,7 +61,7 @@ module.exports = {
       linkedIn: 'https://www.linkedin.com/in/edwardtan/'
     },
     {
-      id: 5,
+      id: 7,
       name: 'Eric Nguyen',
       variant: 'click',
       photo: '/images/eric-circle.png',
@@ -51,7 +71,7 @@ module.exports = {
       linkedIn: 'https://www.linkedin.com/in/eric-nguyen-a77977196/'
     },
     {
-      id: 6,
+      id: 8,
       name: 'Iman Howard',
       variant: 'click',
       photo: '../images/iman-circle.png',
@@ -61,7 +81,17 @@ module.exports = {
       linkedIn: 'https://www.linkedin.com/in/imanhoward/',
     },
     {
-      id: 7,
+      id: 9,
+      name: 'Jason Mosley',
+      variant: 'click',
+      photo: '../images/jason-circle.png',
+      hover: '/images/jason-sticker.png',
+      back: '/images/jason-back.png',
+      title: '/images/jason-name.png',
+      linkedIn: 'https://www.linkedin.com/in/jasonmosley21/',
+    },
+    {
+      id: 10,
       name: 'Katerina Schenke, PhD',
       variant: 'click',
       photo: '/images/katerina-circle.png',
@@ -71,7 +101,7 @@ module.exports = {
       linkedIn: 'https://www.linkedin.com/in/katerina-schenke-phd-37b827b7/',
     },
     {
-      id: 8,
+      id: 11,
       name: 'Marizza Bailey',
       variant: 'click',
       photo: '/images/marizza-circle.png',
@@ -81,7 +111,7 @@ module.exports = {
       linkedIn: 'https://www.linkedin.com/in/l-marizza-bailey-5b981143/',
     },
     {
-      id: 9,
+      id: 12,
       name: 'Mozzie Dosalmas, PhD',
       variant: 'click',
       photo: '/images/mozzie-circle.png',
@@ -91,7 +121,7 @@ module.exports = {
       linkedIn: 'https://www.linkedin.com/in/drmozz/',
     },
     {
-      id: 10,
+      id: 13,
       name: 'Ronald Towns',
       variant: 'click',
       photo: '/images/ronald-circle.png',
@@ -101,7 +131,7 @@ module.exports = {
       linkedIn: 'https://www.linkedin.com/in/ronaldtowns/',
     },
     {
-      id: 11,
+      id: 14,
       name: 'Sinclair Wu',
       variant: 'click',
       photo: '/images/sinclair-circle.png',
@@ -196,6 +226,16 @@ module.exports = {
       imBackground: "linear-gradient(#e2618f, #b22e5d)",
       txtBackground: '#b22e5d',
       linkedIn: 'https://www.linkedin.com/in/williampaytonrichardson/'
+    }, 
+    {
+      id: 9,
+      name: 'Yong Lin',
+      photo: '/images/profile_yonglin.jpg',
+      title: 'UX Designer',
+      profile: "Yong Lin, a seasoned UX designer with over a decade of experience, brings his expertise in creating products at the intersection of design and technology. Drawing from his diverse background, he has successfully led a team to develop a nation-wide education platform for the Singapore government. Combining an empathetic approach to design and teamwork, he is passionate about making a positive impact in the future of education. ",
+      imBackground: "linear-gradient(#e2618f, #b22e5d)",
+      txtBackground: '#b22e5d',
+      linkedIn: 'https://www.linkedin.com/in/yonglinui/'
     }
   ]
 }

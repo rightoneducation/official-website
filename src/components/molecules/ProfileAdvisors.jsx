@@ -5,7 +5,7 @@ import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
 import Carousel from 'react-material-ui-carousel'
 
 function Advisors({ advisorProfiles }) {
-  const decks = [[0, 1, 2], [3, 4, 5], [6, 7, 8], [0, 1, 2], [3, 4, 5], [6, 7, 8]]
+  const decks = [[0, 1, 2], [3, 4, 5], [6, 7, 0], [1, 2, 3], [4, 5, 6], [7, 0, 1], [2, 3, 4]]
   return (
     <Grid container style={{ display: "flex", justifyContent: "center", alignItems: "center" }} >
       <Carousel className="arrows" animation="slide" autoPlay={false} duration={1500} navButtonsAlwaysVisible={true}

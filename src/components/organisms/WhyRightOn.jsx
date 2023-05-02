@@ -10,11 +10,12 @@ import SectionHeading2 from '../atoms/SectionHeading2'
 
 function WhyRightOn(props) {
   const { whyRightOn } = props
+
   return (
     <Box component="section">
       <Grid container justify="center" alignItems="center" spacing={5}>
         <Grid item sm={12} style={{ zIndex:2 }}>
-          <SectionHeading />
+          <SectionHeading title="Check out how teachers are using RightOn!" />
         </Grid>
             <RightOnVideo/>
         <Grid item sm={12} style={{ zIndex:2 }}>

@@ -18,7 +18,7 @@ function Advisors({ advisorProfiles }) {
         }}>
         {advisorProfiles.map((advisor, index) => {
 
-          var deck = decks[(index % 7)]
+          var deck = decks[(index % 8)]
           console.log(deck)
           var first = deck[0]
           var second = deck[1]

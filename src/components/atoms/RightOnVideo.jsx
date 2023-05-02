@@ -47,8 +47,9 @@ function RightOnVideo() {
   <Grid container alignItems="center" justify="center" spacing={1}>
     <Grid>
       <CardContent>
-        <h3 className='video-cards-title'>
-          We’re featured on NBC “Nightly News: Kids Edition” 
+        <h3 className='video-comment' style={{ marginTop: "20px" }}>
+          We’re featured on 
+          <br /> NBC Nightly News!
         </h3>
       </CardContent>
     </Grid>

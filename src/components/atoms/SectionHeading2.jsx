@@ -6,7 +6,7 @@ function SectionHeading () {
         <Box>
           <Grid container justify="space-around" alignItems="center">
             <Grid item style={{marginBottom: "20px"}}>
-              <h4 className='team-page-banners'>
+              <h4 className='landing-page-banners'>
               Why RightOn
                 <hr className='team-page-banners-underline'/>
                 

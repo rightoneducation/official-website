@@ -7,8 +7,8 @@ function SectionHeading () {
         <Box>
           <Grid container justify="space-around" alignItems="center">
             <Grid item style={{marginBottom: "20px", zIndex:"2"}}>
-              <h4 className='team-page-banners'>
-              Supporters
+              <h4 className='landing-page-banners'>
+              With support from
                 <hr className='team-page-banners-underline'/>
                 
               </h4>

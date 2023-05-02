@@ -6,8 +6,8 @@ function SectionHeading () {
         <Box>
           <Grid container justify="space-around" alignItems="center">
             <Grid item style={{marginBottom: "20px"}}>
-              <h4 className='team-page-banners'>
-              Check Out How Teachers Are Using RightOn!
+              <h4 className='landing-page-banners'>
+              Check out how teachers are using RightOn!
                 <hr className='team-page-banners-underline'/>
                 
               </h4>

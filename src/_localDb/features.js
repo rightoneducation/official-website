@@ -1,4 +1,29 @@
 module.exports = {
+  supporters: [{
+        id: 1,
+        featureImage: '/images/4.0.svg'
+  },
+  {
+    id: 2,
+    featureImage: '/images/Tools Competition.svg'
+},
+{
+  id: 3,
+  featureImage: '/images/NSF.svg'
+},{
+  id: 4,
+  featureImage: '/images/Schmidt Futures.svg'
+},{
+  id: 5,
+  featureImage: '/images/Vela.svg'
+},{
+  id: 6,
+  featureImage: '/images/WFF.svg'
+},
+
+
+
+],
   productFeatures: [{
     id: 1,
     title: 'Engage Your Students in Deeper Thinking',

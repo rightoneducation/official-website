@@ -6,7 +6,7 @@ import {
 
 import Logos from '../atoms/Logos' ;
 import SectionHeading3 from '../atoms/SectionHeading3';
-//import Supporters from '../../_localDb/features';
+
 
 function Supporters(props) {
   const { supporters } = props

@@ -3,6 +3,21 @@
 
 
     /*landing-page*/
+    .landing-page-banners {
+        font-family: "filson-pro";
+        font-style: normal;
+        font-size: 55px;
+        font-weight: 700;
+        line-height: 84px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: white;
+        justify-items: center;
+        display: grid;
+        
+    
+    }
+    
 
     .problem-section {
         position: relative;
@@ -135,9 +150,9 @@
     .video-cards {
         position: absolute;
         left: 90%;
-        top: 240px;
-        height: 129px;
-        width: 346px;
+        top: 280px;
+        height: 90px;
+        width: 260px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -145,6 +160,17 @@
         border-radius: 20px;
 
     }
+    .video-comment {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 130.2%;
+        color: white;
+        text-align: center;
+        
+    }
+
 
     .video-cards-title {
         font-family: 'Roboto';

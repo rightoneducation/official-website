@@ -233,8 +233,8 @@ module.exports = {
       photo: '/images/profile_yonglin.png',
       title: 'UX Designer',
       profile: "A seasoned UX designer with over a decade of experience, Yong Lin brings expertise in creating products at the intersection of design and technology. Drawing from a diverse background, he has successfully led a team to develop a nation-wide education platform for the Singapore government. Combining an empathetic approach to design and teamwork, he is passionate about making a positive impact in the future of education. ",
-      imBackground: "linear-gradient(#e2618f, #b22e5d)",
-      txtBackground: '#b22e5d',
+      imBackground: 'linear-gradient(#4b65dd, #3a4b9b)',
+      txtBackground: '#3a4b9b',
       linkedIn: 'https://www.linkedin.com/in/yonglinui/'
     }
   ]

@@ -34,12 +34,13 @@ function singleWhy(props) {
         </Grid>
        
       </Grid>
-      <img
+      <Grid ><img
       src={topBackground}
       className='why-section-top-background'
       // width="100%"
       alt="math-background"
     />
+    </Grid>
     </Card>
   );
 }

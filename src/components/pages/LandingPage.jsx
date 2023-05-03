@@ -17,7 +17,7 @@ function LandingPage (props) {
         <ProblemSection /> 
         <ProductFeatures productFeatures={productFeatures}/>          
         <WhyRightOn whyRightOn={whyRightOn}/>
-        <Supporters supporters={supporters}/>
+        <Supporters supporters={supporters} />
         {/* <GoToTop/> */}
         </div>
     )

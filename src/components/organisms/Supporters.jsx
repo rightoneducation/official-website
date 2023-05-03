@@ -14,10 +14,10 @@ function Supporters(props) {
     <Box component="section">
       <Grid container justify="center" alignItems="center" spacing={5}>
         
-        <Grid item sm={12}>
-          <SectionHeading title="With support from"/>
+        <Grid item sm={12} style={{ zIndex:2 }}>
+          <SectionHeading title="With support from" />
         </Grid>
-        <Grid container justify="center" alignItems="center" spacing={5}>
+        <Grid container justify="center" alignItems="center" spacing={5} >
         <Grid
           item
           container

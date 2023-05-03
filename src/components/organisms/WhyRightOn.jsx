@@ -5,6 +5,7 @@ import {
 } from "@material-ui/core";
 import SectionHeading from '../atoms/SectionHeading'
 import SingleWhy from '../atoms/SingleWhy'
+import topBackground from '../../images/background-symbols.svg'
 import RightOnVideo from '../atoms/RightOnVideo';
 
 function WhyRightOn(props) {
@@ -18,9 +19,9 @@ function WhyRightOn(props) {
         </Grid>
             <RightOnVideo/>
         <Grid item sm={12} style={{ zIndex:2 }}>
-          <SectionHeading title="Why RightOn"style={{ zIndex:2 }}/>
+          <SectionHeading title="Why RightOn!" />
         </Grid>
-        <Grid container justify="center" alignItems="center" spacing={5}>
+        <Grid container justify="center" alignItems="center" spacing={5} style={{ zIndex:2 }}>
         <Grid
           item
           container
@@ -37,8 +38,22 @@ function WhyRightOn(props) {
           })}
         </Grid>
         </Grid>
+        <Grid ><img
+      src={topBackground}
+      className='why-section-top-background'
+      // width="100%"
+      alt="math-background"
+    />
+    </Grid>
 
       </Grid>
+      <Grid ><img
+      src={topBackground}
+      className='why-section-top-background'
+      // width="100%"
+      alt="math-background"
+    />
+    </Grid>
     </Box>
   );
 }

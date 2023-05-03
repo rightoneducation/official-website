@@ -40,9 +40,9 @@
         position: absolute;
         // width: 1146.89px;
         height: 1123.12px;
-        top: 2240px;
+        top: 2140px;
         z-index: -21;
-        right: 450px;
+        right: 485px;
     }
 
     .problem-section-landing-block {
@@ -150,7 +150,7 @@
     .video-cards {
         position: absolute;
         left: 90%;
-        top: 280px;
+        bottom: 135px;
         height: 90px;
         width: 260px;
         display: flex;
@@ -243,22 +243,37 @@
 
     .red-monster {
         position: absolute;
-        left: 90%;
-        top: 310px;
+        right: -189px;
+        bottom: -55px;
         z-index: 2;
     }
 
     .blue-monster {
         position: absolute;
         left: -180px;
-        top: 295px;
+        bottom: -55px;
         z-index: 2;
     }
+
 
 
 @media screen and (max-width: 1200px) {
 
     /*home-page*/
+    .landing-page-banners {
+        font-family: "filson-pro";
+        font-style: normal;
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 84px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: white;
+        justify-items: center;
+        display: grid;
+        
+    
+    }
     .problem-section {
         position: relative;
         top: 0px;
@@ -390,15 +405,15 @@
 
     .red-monster {
         position: absolute;
-        left: 90%;
-        top: 310px;
+        right: -189px;
+        bottom: -55px;
         z-index: 2;
     }
 
     .blue-monster {
         position: absolute;
         left: -180px;
-        top: 295px;
+        bottom: -55px;
         z-index: 2;
     }
 
@@ -438,9 +453,71 @@
 
 }
 
+@media screen and(max-width: 960px) {
+    .red-monster {
+        position: absolute;
+        left: 70%;
+        top: -130px;
+        z-index: 2;
+        rotate: -20deg;
+        scale: .8;
+    }
+    .blue-monster {
+        position: absolute;
+        right: 65%;
+        top: -111px;
+        z-index: 2;
+        rotate: 20deg;
+        scale: .9;
+        left: auto;
+    }
+    .video-cards {
+        position: absolute;
+        left: 70%;
+        top: -130px;
+        height: 90px;
+        width: 260px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 4;
+        border-radius: 20px;
+
+    }
+}
+@media screen and(max-width: 836px) {
+    .video-cards {
+        position: absolute;
+        left: 70%;
+        top: -130px;
+        height: 90px;
+        width: 260px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 4;
+        border-radius: 20px;
+        display: none;
+
+    }
+}
 @media screen and(max-width: 414px) {
 
     /*home-page*/
+    .landing-page-banners {
+        font-family: "filson-pro";
+        font-style: normal;
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 45px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: white;
+        justify-items: center;
+        display: grid;
+        
+    
+    }
     .problem-section {
         position: relative;
         top: 0px;
@@ -571,7 +648,7 @@
     .red-monster {
         position: absolute;
         left: 90%;
-        top: 310px;
+        bottom: -11%;
         z-index: 2;
         display: none;
     }
@@ -579,14 +656,14 @@
     .blue-monster {
         position: absolute;
         left: -180px;
-        top: 295px;
+        bottom: -11%;
         z-index: 2;
         display: none;
     }
 
     .why-cards-section {
         z-index: 1;
-        margin-top: -400px !important;
+       
     }
 
     .why-cards {

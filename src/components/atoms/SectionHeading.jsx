@@ -8,7 +8,7 @@ function SectionHeading (props) {
             <Grid item style={{marginBottom: "20px"}}>
               <h4 className='landing-page-banners'>
                 {props.title}
-                <hr className='team-page-banners-underline'/>
+                <hr className='landing-page-banners-underline'/>
               </h4>
             </Grid>
           </Grid>

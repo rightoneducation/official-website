@@ -21,7 +21,7 @@ function WhyRightOn(props) {
         <Grid item sm={12} style={{ zIndex:3 }}>
           <SectionHeading title="Why RightOn!" />
         </Grid>
-        <Grid container justify="center" alignItems="center" spacing={5} style={{ zIndex:2 }}>
+        <Grid container justify="center" alignItems="center" spacing={5} style={{ zIndex:'2', marginBottom: '40px'}}>
         <Grid
           item
           container

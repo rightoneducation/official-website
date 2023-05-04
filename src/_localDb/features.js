@@ -1,27 +1,27 @@
 module.exports = {
   supporters: [{
     id: 1,
-    featureImage: '/images/4.0.svg'
+    featureImage: '/images/4pt0.svg'
   },
   {
     id: 2,
-    featureImage: '/images/Tools Competition.svg'
+    featureImage: '/images/tools-competition.svg'
   },
   {
     id: 3,
-    featureImage: '/images/NSF.svg'
+    featureImage: '/images/nsf.svg'
   },
   {
     id: 4,
-    featureImage: '/images/Schmidt Futures.svg'
+    featureImage: '/images/schmidt-futures.svg'
   },
   {
     id: 5,
-    featureImage: '/images/Vela.svg'
+    featureImage: '/images/vela.svg'
   },
   {
     id: 6,
-    featureImage: '/images/WFF.svg'
+    featureImage: '/images/wff.svg'
   },
   ],
   productFeatures: [{

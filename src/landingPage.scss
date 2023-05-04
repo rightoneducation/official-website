@@ -1,7 +1,6 @@
 @import '/node_modules/bootstrap/scss/bootstrap.scss';
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
 
-
     /*landing-page*/
     .landing-page-banners {
         font-family: "filson-pro";
@@ -14,37 +13,26 @@
         color: white;
         justify-items: center;
         display: grid;
-        
-    
     }
-    
-
     .problem-section {
         position: relative;
         top: 0px;
         left: 0px;
         margin-top: -100px;
     }
-
     .problem-section-top-background {
-
         position: absolute;
-        // width: 1146.89px;
         height: 1123.12px;
         top: -150px;
         right: -50px;
     }
-
     .why-section-top-background {
-
         position: absolute;
-        // width: 1146.89px;
         height: 1123.12px;
         top: 2140px;
         z-index: -21;
         right: 485px;
     }
-
     .problem-section-landing-block {
         position: absolute;
         width: 700px;
@@ -53,7 +41,6 @@
         top: 1px;
         z-index: 3;
     }
-
     .problem-section-landing-block-header1 {
         position: absolute;
         width: 375px;
@@ -71,7 +58,6 @@
         font-size: 45px;
         line-height: 106.3%;
     }
-
     .problem-section-landing-block-header2 {
         font-family: 'roboto';
         font-style: normal;
@@ -82,71 +68,50 @@
         text-align: left;
         color: #FFFFFF;
         z-index: 4;
-        // height: 147px;
-        // width: 375px;
         left: 111px;
         top: 410px;
         position: absolute;
     }
-
     .problem-section-landing-block-underline {
         position: absolute;
         width: 279px;
         margin-top: 190px;
-        // height: 0px;
-        // left: 111px;
-        // top: 300px;
         border: 2px solid #FFFFFF;
         opacity: 1;
     }
-
     .problem-section-chromebook {
         position: absolute;
-        // width: 1336px;
-        // height: 506px;
         width: 80%;
         left: 150px;
         top: 220px;
         z-index: 2;
     }
-
     .problem-section-monster {
         position: absolute;
-        // top: 625px;
-        // left: 150px;
         z-index: 4;
-        //width: 20%;
         margin-left: 75px;
         margin-top: 60px;
     }
-
     .product-features-button {
         position: absolute;
-        // margin-top: 470px;
         z-index: 5;
-        // width: 25%;
         margin-left: 15px;
     }
-
     .supporters{
         display: flex;
-       
         justify-content: center;
         align-items: center;
     }
     .why-cards-section {
         z-index: 1;
     }
-
     .why-cards {
         width: 359px;
         height: 628.71px;
         align-items: center;
         justify-content: center;
         z-index: -2;
-
     }
-
     .video-cards {
         position: absolute;
         left: 90%;
@@ -158,7 +123,6 @@
         justify-content: center;
         z-index: 4;
         border-radius: 20px;
-
     }
     .video-comment {
         font-family: 'Roboto';
@@ -168,10 +132,7 @@
         line-height: 130.2%;
         color: white;
         text-align: center;
-        
     }
-
-
     .video-cards-title {
         font-family: 'Roboto';
         font-style: normal;
@@ -179,10 +140,8 @@
         font-size: 24px;
         line-height: 130.2%;
         color: white;
-        text-align: center;
-        
+        text-align: center; 
     }
-
     .why-cards-title {
         font-family: 'filson-pro';
         font-style: normal;
@@ -191,7 +150,6 @@
         line-height: 29px;
         color: white;
     }
-
     .why-cards-title-underline {
         border: 2px solid #FFFFFF;
         width: 172px;
@@ -200,7 +158,6 @@
         top: 2988px;
         opacity: 1;
     }
-
     .why-cards-description {
         font-family: 'Roboto';
         font-style: normal;
@@ -208,16 +165,13 @@
         font-size: 19px;
         line-height: 22px;
         color: #FFFFFF;
-
     }
-
     .why-right-on-bottom-background {
         position: absolute;
         left: -200px;
         top: 2120px;
         z-index: 0;
     }
-
     .right-on-video-container {
         position: relative;
         padding-bottom: 56.25%; /* 16:9 aspect ratio */
@@ -226,39 +180,28 @@
         display: flex;
         justify-content: center;
         align-items: center;
-     
     }
-
-  
-
     .right-on-video {
         position: absolute;
-        //max-width: 50vw;
         width: 100%;
         height: 100%;
         z-index: 3;
-  top: 0;
-  left: 0;
+        top: 0;
+        left: 0;
     }
-
     .red-monster {
         position: absolute;
         right: -189px;
         bottom: -55px;
         z-index: 2;
     }
-
     .blue-monster {
         position: absolute;
         left: -180px;
         bottom: -55px;
         z-index: 2;
     }
-
-
-
 @media screen and (max-width: 1200px) {
-
     /*home-page*/
     .landing-page-banners {
         font-family: "filson-pro";
@@ -271,8 +214,6 @@
         color: white;
         justify-items: center;
         display: grid;
-        
-    
     }
     .problem-section {
         position: relative;
@@ -280,28 +221,18 @@
         left: 0px;
         margin-top: -100px;
     }
-
     .problem-section-top-background {
-
         position: absolute;
-        // width: 1146.89px;
-        // height: 1123.12px;
-        // top: -150px;
-        // right: -50px;
         width: 100%;
     }
-
     .problem-section-landing-block {
         position: absolute;
-        // width: 700px;
-        // height: 850px;
         width: 100%;
         height: 100%;
         left: 0px;
         top: 1px;
         z-index: 3;
     }
-
     .problem-section-landing-block-header1 {
         position: absolute;
         width: 375px;
@@ -319,7 +250,6 @@
         font-size: 45px;
         line-height: 106.3%;
     }
-
     .problem-section-landing-block-header2 {
         font-family: 'roboto';
         font-style: normal;
@@ -330,60 +260,39 @@
         text-align: left;
         color: #FFFFFF;
         z-index: 4;
-        // height: 147px;
-        // width: 375px;
         left: 111px;
         top: 410px;
         position: absolute;
     }
-
     .problem-section-landing-block-underline {
         position: absolute;
         width: 279px;
         margin-top: 190px;
-        // height: 0px;
-        // left: 111px;
-        // top: 300px;
         border: 2px solid #FFFFFF;
         opacity: 1;
     }
-
     .problem-section-chromebook {
         position: absolute;
-        // width: 1336px;
-        // height: 506px;
         width: 80%;
         left: 150px;
         top: 290px;
         z-index: 2;
     }
-
     .problem-section-monster {
         position: absolute;
-        // top: 625px;
-        // left: 150px;
         z-index: 4;
-        //width: 20%;
         margin-left: 60px;
         margin-top: 60px;
     }
-
     .product-features-button {
         position: absolute;
-        // margin-top: 470px;
         z-index: 5;
-        // width: 25%;
-        // margin-left: 30px;
     }
-
     .why-right-on-bottom-background {
         position: absolute;
         width: 100%;
-        // left: -200px;
-        // top: 2120px;
         z-index: 0;
     }
-
     .right-on-video-container {
         position: relative;
         padding-bottom: 56.25%; /* 16:9 aspect ratio */
@@ -392,38 +301,32 @@
         display: flex;
         justify-content: center;
         align-items: center;
-     
     }
-
     .right-on-video {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-      }
-
+    }
     .red-monster {
         position: absolute;
         right: -189px;
         bottom: -55px;
         z-index: 2;
     }
-
     .blue-monster {
         position: absolute;
         left: -180px;
         bottom: -55px;
         z-index: 2;
     }
-
     .why-cards {
         width: 296px;
         height: 570px;
         align-items: center;
         justify-content: center;
     }
-
     .why-cards-title {
         font-family: 'filson-pro';
         font-style: normal;
@@ -432,7 +335,6 @@
         line-height: 29px;
         color: white;
     }
-
     .why-cards-title-underline {
         border: 2px solid #FFFFFF;
         width: 172px;
@@ -440,7 +342,6 @@
         left: 136px;
         top: 2988px;
     }
-
     .why-cards-description {
         font-family: 'Roboto';
         font-style: normal;
@@ -448,11 +349,8 @@
         font-size: 17px;
         line-height: 22px;
         color: #FFFFFF;
-
     }
-
 }
-
 @media screen and(max-width: 960px) {
     .red-monster {
         position: absolute;
@@ -482,7 +380,6 @@
         justify-content: center;
         z-index: 4;
         border-radius: 20px;
-
     }
 }
 @media screen and(max-width: 836px) {
@@ -498,11 +395,9 @@
         z-index: 4;
         border-radius: 20px;
         display: none;
-
     }
 }
 @media screen and(max-width: 414px) {
-
     /*home-page*/
     .landing-page-banners {
         font-family: "filson-pro";
@@ -515,8 +410,6 @@
         color: white;
         justify-items: center;
         display: grid;
-        
-    
     }
     .problem-section {
         position: relative;
@@ -525,14 +418,11 @@
         margin-top: 80px;
         z-index: 1;
     }
-
     .problem-section-top-background {
-
         position: absolute;
         width: 858.8px;
         height: 841px;
     }
-
     .problem-section-landing-block {
         position: absolute;
         transform: matrix(1, 0, 0, -1, 0, 0);
@@ -542,7 +432,6 @@
         top: 370px;
         z-index: 3;
     }
-
     .problem-section-landing-block-header1 {
         position: absolute;
         font-family: 'filson-pro';
@@ -557,7 +446,6 @@
         top: 380px;
         z-index: 4;
     }
-
     .problem-section-landing-block-header2 {
         font-family: 'roboto';
         font-style: normal;
@@ -572,60 +460,39 @@
         top: 570px;
         position: absolute;
     }
-
     .problem-section-landing-block-underline {
         position: absolute;
         width: 215px;
         margin-top: 150px;
-        // height: 0px;
-        // left: 111px;
-        // top: 300px;
         border: 2px solid #FFFFFF;
         opacity: 1;
     }
-
     .problem-section-chromebook {
         position: absolute;
-        // width: 1336px;
-        // height: 506px;
         width: 630px;
         height: 239px;
         left: -280px;
         top: 150px;
         z-index: 2;
     }
-
     .problem-section-monster {
         position: absolute;
-        // top: 625px;
-        // left: 150px;
         z-index: 4;
-        //width: 20%;
         margin-left: 180px;
         margin-top: 230px;
         width: 35%;
     }
-
     .product-features-button {
         position: absolute;
-        // margin-top: 470px;
         z-index: 5;
-        // width: 25%;
         margin-left: 150px;
         margin-top: 200px;
         width: 50%;
     }
-
     .why-right-on-bottom-background {
         position: absolute;
-        //width: 100%;
-        // left: -200px;
-        //top: 3000px;
-        //width: 375px;
-        // height: 841px;
         z-index: 0;
     }
-
     .right-on-video-container {
         position: relative;
         padding-bottom: 56.25%; /* 16:9 aspect ratio */
@@ -634,9 +501,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-     
     }
-
     .right-on-video {
         position: absolute;
         top: 0;
@@ -644,7 +509,6 @@
         width: 100%;
         height: 100%;
       }
-
     .red-monster {
         position: absolute;
         left: 90%;
@@ -652,7 +516,6 @@
         z-index: 2;
         display: none;
     }
-
     .blue-monster {
         position: absolute;
         left: -180px;
@@ -660,19 +523,15 @@
         z-index: 2;
         display: none;
     }
-
     .why-cards-section {
         z-index: 1;
-       
     }
-
     .why-cards {
         width: 296px;
         height: 570px;
         align-items: center;
         justify-content: center;
     }
-
     .why-cards-title {
         font-family: 'filson-pro';
         font-style: normal;
@@ -681,7 +540,6 @@
         line-height: 29px;
         color: white;
     }
-
     .why-cards-title-underline {
         border: 2px solid #FFFFFF;
         width: 172px;
@@ -689,7 +547,6 @@
         left: 136px;
         top: 2988px;
     }
-
     .why-cards-description {
         font-family: 'Roboto';
         font-style: normal;
@@ -697,7 +554,6 @@
         font-size: 17px;
         line-height: 22px;
         color: #FFFFFF;
-
         .value-card {
             width: 329px;
             height: 151px;
@@ -706,25 +562,21 @@
             box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
             padding: 0px
         }
-
         .value-img {
             height: 151px;
         }
-
         .value-text {
             width: 180px;
             height: 165px;
             padding-left: 21px;
             padding-right: 29px;
         }
-
         .values-text {
             font-family: 'Roboto';
             font-style: normal;
             font-weight: 400;
             font-size: 16px;
             line-height: 19px;
-
             color: #FFFFFF;
         }
     }

@@ -10,7 +10,7 @@ function logos(props) {
     const { featureImage} = props.logos
     return (
       <Grid container justifyContent="center" alignItems="center" spacing={1}>
-          <Grid item style={{ height: '130px' }}>
+          <Grid item style={{ height: '130px', width: '350px'}}>
             <div style={{height: '130px'}} className='supporters'>
               <img
                 src={featureImage}

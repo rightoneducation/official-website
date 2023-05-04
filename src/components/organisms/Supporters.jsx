@@ -23,6 +23,7 @@ function Supporters(props) {
           spacing={5}
           justify="center"
           className="why-cards-section"
+          style={{ marginBottom: "20px" }}
           >
             {supporters.map((logos, key) => { 
               return (

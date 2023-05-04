@@ -14,7 +14,6 @@
         justify-items: center;
         display: grid;
     }
-
     .problem-section {
         position: relative;
         top: 0px;
@@ -99,11 +98,12 @@
         margin-left: 15px;
     }
     .supporters{
-        display: flex;
+        // display: flex;
+        // display: grid;
+        // grid-template-rows:30% 30% 30%;
         justify-content: center;
         align-items: center;
     }
-
     .why-cards-section {
         z-index: 1;
     }
@@ -126,7 +126,6 @@
         z-index: 5;
         border-radius: 20px;
     }
-
     .video-comment {
         font-family: 'Roboto';
         font-style: normal;
@@ -136,8 +135,6 @@
         color: white;
         text-align: center; 
     }
-
-
     .video-cards-title {
         font-family: 'Roboto';
         font-style: normal;
@@ -186,9 +183,6 @@
         justify-content: center;
         align-items: center;
     }
-
-  
-
     .right-on-video {
         position: absolute;
         width: 100%;
@@ -209,9 +203,6 @@
         bottom: -55px;
         z-index: 3;
     }
-
-
-
 @media screen and (max-width: 1200px) {
     /*home-page*/
     .landing-page-banners {
@@ -226,7 +217,6 @@
         justify-items: center;
         display: grid;
     }
-
     .problem-section {
         position: relative;
         top: 0px;

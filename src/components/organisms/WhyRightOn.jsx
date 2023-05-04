@@ -14,11 +14,11 @@ function WhyRightOn(props) {
   return (
     <Box component="section">
       <Grid container justify="center" alignItems="center" spacing={5}>
-        <Grid item sm={12} style={{ zIndex:2 }}>
+        <Grid item sm={12} style={{ zIndex:3 }}>
           <SectionHeading title="Check out how teachers are using RightOn!" />
         </Grid>
-            <RightOnVideo/>
-        <Grid item sm={12} style={{ zIndex:2 }}>
+            <RightOnVideo />
+        <Grid item sm={12} style={{ zIndex:3 }}>
           <SectionHeading title="Why RightOn!" />
         </Grid>
         <Grid container justify="center" alignItems="center" spacing={5} style={{ zIndex:2 }}>
@@ -38,22 +38,10 @@ function WhyRightOn(props) {
           })}
         </Grid>
         </Grid>
-        <Grid ><img
-      src={topBackground}
-      className='why-section-top-background'
-      // width="100%"
-      alt="math-background"
-    />
-    </Grid>
+        
 
       </Grid>
-      <Grid ><img
-      src={topBackground}
-      className='why-section-top-background'
-      // width="100%"
-      alt="math-background"
-    />
-    </Grid>
+      
     </Box>
   );
 }

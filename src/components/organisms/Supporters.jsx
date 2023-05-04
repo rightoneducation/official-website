@@ -13,28 +13,26 @@ function Supporters(props) {
   return (
     <Box component="section">
       <Grid container justify="center" alignItems="center" spacing={5}>
-        
-        <Grid item sm={12} style={{ zIndex:2 }}>
+        <Grid item sm={12} style={{ zIndex:3 }}>
           <SectionHeading title="With support from" />
         </Grid>
         <Grid container justify="center" alignItems="center" spacing={5} >
-        <Grid
+          <Grid
           item
           container
           spacing={5}
           justify="center"
           className="why-cards-section"
-        >
-          {supporters.map((logos, key) => {
-            return (
+          >
+            {supporters.map((logos, key) => { 
+              return (
               <Grid item>
                 <Logos key={key} logos={logos} />
               </Grid>
-            );
-          })}
+              );
+            })}
+          </Grid>
         </Grid>
-        </Grid>
-
       </Grid>
     </Box>
   );

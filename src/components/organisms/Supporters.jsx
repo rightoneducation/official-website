@@ -8,33 +8,29 @@ import Logos from '../atoms/Logos' ;
 import SectionHeading from '../atoms/SectionHeading';
 
 
+
+
 function Supporters(props) {
   const { supporters } = props
   return (
     <Box component="section">
-      <Grid container justify="center" alignItems="center" spacing={5}>
-        <Grid item sm={12} style={{ zIndex:3 }}>
+        <Box justifyContent="center" alignItems="center" >
           <SectionHeading title="With support from" />
+        </Box>
+        <Grid container justifyContent="center" alignItems="center" spacing={5} >
+          {supporters.map((logo) => (
+            <Grid item>
+              <img
+                src={logo.featureImage}
+                alt="right-on-education-product-features"
+                style={{  
+                  height: '130px', 
+                  width: '320px',
+                }}
+              />
+            </Grid>
+          ))}
         </Grid>
-        <Grid container justify="center" alignItems="center" spacing={5} >
-          <Grid
-          item
-          container
-          spacing={5}
-          justify="center"
-          className="why-cards-section"
-          style={{ marginBottom: "20px" }}
-          >
-            {supporters.map((logos, key) => { 
-              return (
-              <Grid item>
-                <Logos key={key} logos={logos} />
-              </Grid>
-              );
-            })}
-          </Grid>
-        </Grid>
-      </Grid>
     </Box>
   );
 }

@@ -5,6 +5,10 @@ import {
 } from "@material-ui/core";
 import Logos from '../atoms/Logos' ;
 import SectionHeading from '../atoms/SectionHeading';
+
+
+
+
 function Supporters(props) {
   const { supporters } = props
   return (

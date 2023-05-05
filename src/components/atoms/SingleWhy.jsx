@@ -17,7 +17,6 @@ function singleWhy(props) {
           <img
             src={featureImage}
             alt="right-on-education-product-features"
-            // width="100%"
             width="359px"
             height="238px"
           />

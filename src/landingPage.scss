@@ -1,6 +1,8 @@
 @import '/node_modules/bootstrap/scss/bootstrap.scss';
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
 
+$video-aspect-ratio: 56.25%;
+
     /*landing-page*/
     .landing-page-banners {
         font-family: "filson-pro";
@@ -14,17 +16,14 @@
         justify-items: center;
         display: grid;
     }
-
     .landing-page-banners-underline {
         width: 550px;
         border: 3.5px solid #E29B5D;
         opacity: 1;
         justify-content: center;
         align-items: center;
-        margin-top: 5px;
-        
+        margin-top: 5px;  
     }
-
     .problem-section {
         position: relative;
         top: 0px;
@@ -113,7 +112,6 @@
         justify-content: center;
         align-items: center;
     }
-
     .why-cards-section {
         z-index: 1;
     }
@@ -136,7 +134,6 @@
         z-index: 5;
         border-radius: 20px;
     }
-
     .video-comment {
         font-family: 'Roboto';
         font-style: normal;
@@ -146,8 +143,6 @@
         color: white;
         text-align: center; 
     }
-
-
     .video-cards-title {
         font-family: 'Roboto';
         font-style: normal;
@@ -189,16 +184,13 @@
     }
     .right-on-video-container {
         position: relative;
-        padding-bottom: 56.25%; /* 16:9 aspect ratio */
+        padding-bottom: $video-aspect-ratio; /* http://alistapart.com/article/creating-intrinsic-ratios-for-video/  */
         height: 0;
         overflow: hidden;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-
-  
-
     .right-on-video {
         position: absolute;
         width: 100%;
@@ -220,8 +212,6 @@
         z-index: 3;
     }
 
-
-
 @media screen and (max-width: 1200px) {
     /*home-page*/
     .landing-page-banners {
@@ -236,7 +226,6 @@
         justify-items: center;
         display: grid;
     }
-
     .landing-page-banners-underline {
         width: 550px;
         border: 3.5px solid #E29B5D;
@@ -244,7 +233,6 @@
         justify-content: center;
         margin-top: 15px;
     }
-
     .problem-section {
         position: relative;
         top: 0px;
@@ -325,7 +313,7 @@
     }
     .right-on-video-container {
         position: relative;
-        padding-bottom: 56.25%; /* 16:9 aspect ratio */
+        padding-bottom: $video-aspect-ratio; /* http://alistapart.com/article/creating-intrinsic-ratios-for-video/  */
         height: 0;
         overflow: hidden;
         display: flex;
@@ -381,8 +369,8 @@
         color: #FFFFFF;
     }
 }
-@media screen and(max-width: 960px) {
 
+@media screen and(max-width: 960px) {
     .red-monster {
         position: absolute;
         left: 70%;
@@ -391,7 +379,6 @@
         rotate: -20deg;
         scale: .8;
     }
-
     .blue-monster {
         position: absolute;
         right: 65%;
@@ -401,7 +388,6 @@
         scale: .9;
         left: auto;
     }
-    
     .video-cards {
         position: absolute;
         left: 70%;
@@ -417,7 +403,6 @@
 }
 
 @media screen and(max-width: 836px) {
-    
     .video-cards {
         position: absolute;
         left: 70%;
@@ -447,15 +432,12 @@
         justify-items: center;
         display: grid;
     }
-
     .landing-page-banners-underline {
         justify-content: center;
         width: 300px;
         border: 3px solid #E29B5D;
-        opacity: 1;
-        
+        opacity: 1;   
     }
-
     .problem-section {
         position: relative;
         top: 0px;
@@ -540,7 +522,7 @@
     }
     .right-on-video-container {
         position: relative;
-        padding-bottom: 56.25%; /* 16:9 aspect ratio */
+        padding-bottom: $video-aspect-ratio; /* http://alistapart.com/article/creating-intrinsic-ratios-for-video/  */
         height: 0;
         overflow: hidden;
         display: flex;
@@ -571,7 +553,6 @@
     }
     .why-cards-section {
         z-index: 1;
-       
     }
     .why-cards {
         width: 296px;

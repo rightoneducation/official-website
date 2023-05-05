@@ -203,6 +203,7 @@
         bottom: -55px;
         z-index: 3;
     }
+
 @media screen and (max-width: 1200px) {
     /*home-page*/
     .landing-page-banners {
@@ -229,8 +230,9 @@
     }
     .problem-section-landing-block {
         position: absolute;
-        width: 100%;
-        height: 100%;
+        // width: 100%;
+        // height: 100%;
+        width: 60%;
         left: 0px;
         top: 1px;
         z-index: 3;
@@ -386,6 +388,10 @@
         z-index: 5;
         border-radius: 20px;
     }
+    footer .MuiGrid-root img {
+        width: 40%; 
+        height: auto; 
+      }
 }
 
 @media screen and(max-width: 836px) {
@@ -403,7 +409,144 @@
         border-radius: 20px;
         display: none;
     }
+    .landing-page-banners {
+        font-family: "filson-pro";
+        font-style: normal;
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 45px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: white;
+        justify-items: center;
+        display: grid;
+    }
+    .problem-section {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        margin-top: 80px;
+        z-index: 1;
+    }
+    .problem-section-top-background {
+        position: absolute;
+        width: 858.8px;
+        height: 841px;
+    }
+    .problem-section-landing-block {
+        position: absolute;
+        transform: matrix(1, 0, 0, -1, 0, 0);
+        width: 540px;
+        height: 480px;
+        left: 0px;
+        top: 250px;
+        z-index: 3;
+    }
+    .problem-section-landing-block-header1 {
+        position: absolute;
+        font-family: 'filson-pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 36px;
+        display: flex;
+        align-items: center;
+        color: #FEFDFF;
+        left: 48px;
+        top: 280px;
+        z-index: 4;
+    }
+    .problem-section-landing-block-header2 {
+        font-family: 'roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+        z-index: 4;
+        left: 48px;
+        top: 470px;
+        position: absolute;
+    }
+    .problem-section-landing-block-underline {
+        position: absolute;
+        width: 215px;
+        margin-top: 150px;
+        border: 2px solid #FFFFFF;
+        opacity: 1;
+    }
+    .problem-section-chromebook {
+        position: absolute;
+        width: 100%; 
+        height: auto; 
+        left: -8px;
+        top: 35px;
+        z-index: 2;
+        padding: 0 25px; 
+    }
+    .problem-section-monster {
+        position: absolute;
+        z-index: 4;
+        margin-left: 350px;
+        margin-top: 80px;
+        width: 35%;
+    }
+    .product-features-button {
+        position: absolute;
+        z-index: 5;
+        margin-left: 300px;
+        margin-top: 25px;
+        width: 50%;
+    }
+    footer .MuiGrid-root img {
+        width: 40%; 
+        height: auto; 
+      }
+
 }
+@media screen and(max-width: 650px) {
+.problem-section-landing-block {
+    position: absolute;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    width: 450px;
+    height: 450px;
+    left: 0px;
+    top: 370px;
+    z-index: 3;
+}
+.problem-section-landing-block-header1 {
+    left: 48px;
+    top: 380px;
+}
+.problem-section-landing-block-header2 {
+    left: 48px;
+    top: 570px;
+}
+.problem-section-landing-block {
+        position: absolute;
+        transform: matrix(1, 0, 0, -1, 0, 0);
+        width: 450px;
+        height: 480px;
+        left: 0px;
+        top: 370px;
+        z-index: 3;
+    }.problem-section-monster {
+    margin-left: 245px;
+    margin-top: 200px;
+}
+.product-features-button {
+    margin-left: 210px;
+    margin-top: 160px;
+    width: 50%;
+}
+.problem-section-chromebook {
+    left: -282px;
+    top: 95px;
+    width: 756px;
+    height: auto; 
+}}
 
 @media screen and(max-width: 414px) {
     /*home-page*/
@@ -419,7 +562,6 @@
         justify-items: center;
         display: grid;
     }
-
     .problem-section {
         position: relative;
         top: 0px;

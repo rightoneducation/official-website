@@ -1,218 +1,219 @@
 @import '/node_modules/bootstrap/scss/bootstrap.scss';
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
 
-$video-aspect-ratio: 56.25%;
+// video aspect ration used in padding-bottom per: http://alistapart.com/article/creating-intrinsic-ratios-for-video/ 
+$video-aspect-ratio: 56.25%; 
 
-    /*landing-page*/
-    .landing-page-banners {
-        font-family: "filson-pro";
-        font-style: normal;
-        font-size: 55px;
-        font-weight: 700;
-        line-height: 84px;
-        letter-spacing: 0em;
-        text-align: center;
-        color: white;
-        justify-items: center;
-        display: grid;
-    }
-    .landing-page-banners-underline {
-        width: 550px;
-        border: 3.5px solid #E29B5D;
-        opacity: 1;
-        justify-content: center;
-        align-items: center;
-        margin-top: 5px;  
-    }
-    .problem-section {
-        position: relative;
-        top: 0px;
-        left: 0px;
-        margin-top: -100px;
-    }
-    .problem-section-top-background {
-        position: absolute;
-        height: 1123.12px;
-        top: -150px;
-        right: -50px;
-    }
-    .why-section-top-background {
-        position: absolute;
-        height: 1123.12px;
-        bottom: -1960px;
-        z-index: -21;
-        right: 56%;
-    }
-    .problem-section-landing-block {
-        position: absolute;
-        width: 700px;
-        height: 850px;
-        left: 0px;
-        top: 1px;
-        z-index: 3;
-    }
-    .problem-section-landing-block-header1 {
-        position: absolute;
-        width: 375px;
-        height: 179px;
-        left: 111px;
-        top: 200px;
-        z-index: 4;
-        font-family: 'filson-pro';
-        display: flex;
-        align-items: center;
-        text-align: left;
-        color: #FEFDFF;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 45px;
-        line-height: 106.3%;
-    }
-    .problem-section-landing-block-header2 {
-        font-family: 'roboto';
-        font-style: normal;
-        font-size: 24px;
-        font-weight: 400;
-        line-height: 33px;
-        letter-spacing: 0em;
-        text-align: left;
-        color: #FFFFFF;
-        z-index: 4;
-        left: 111px;
-        top: 410px;
-        position: absolute;
-    }
-    .problem-section-landing-block-underline {
-        position: absolute;
-        width: 279px;
-        margin-top: 190px;
-        border: 2px solid #FFFFFF;
-        opacity: 1;
-    }
-    .problem-section-chromebook {
-        position: absolute;
-        width: 80%;
-        left: 150px;
-        top: 220px;
-        z-index: 2;
-    }
-    .problem-section-monster {
-        position: absolute;
-        z-index: 4;
-        margin-left: 75px;
-        margin-top: 60px;
-    }
-    .product-features-button {
-        position: absolute;
-        z-index: 5;
-        margin-left: 15px;
-    }
-    .supporters{
-        // display: flex;
-        // display: grid;
-        // grid-template-rows:30% 30% 30%;
-        justify-content: center;
-        align-items: center;
-    }
-    .why-cards-section {
-        z-index: 1;
-    }
-    .why-cards {
-        width: 359px;
-        height: 628.71px;
-        align-items: center;
-        justify-content: center;
-        z-index: -2;
-    }
-    .video-cards {
-        position: absolute;
-        left: 90%;
-        bottom: 135px;
-        height: 90px;
-        width: 260px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        z-index: 5;
-        border-radius: 20px;
-    }
-    .video-comment {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 20px;
-        line-height: 130.2%;
-        color: white;
-        text-align: center; 
-    }
-    .video-cards-title {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 130.2%;
-        color: white;
-        text-align: center;   
-    }
-    .why-cards-title {
-        font-family: 'filson-pro';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 25px;
-        line-height: 29px;
-        color: white;
-    }
-    .why-cards-title-underline {
-        border: 2px solid #FFFFFF;
-        width: 172px;
-        height: 0px;
-        left: 136px;
-        top: 2988px;
-        opacity: 1;
-    }
-    .why-cards-description {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 19px;
-        line-height: 22px;
-        color: #FFFFFF;
-    }
-    .why-right-on-bottom-background {
-        position: absolute;
-        left: -200px;
-        top: 2120px;
-        z-index: 0;
-    }
-    .right-on-video-container {
-        position: relative;
-        padding-bottom: $video-aspect-ratio; /* http://alistapart.com/article/creating-intrinsic-ratios-for-video/  */
-        height: 0;
-        overflow: hidden;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .right-on-video {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        z-index: 4;
-        top: 0;
-        left: 0;
-    }
-    .red-monster {
-        position: absolute;
-        right: -189px;
-        bottom: -55px;
-        z-index: 3;
-    }
-    .blue-monster {
-        position: absolute;
-        left: -180px;
-        bottom: -55px;
-        z-index: 3;
-    }
+/*landing-page*/
+.landing-page-banners {
+    font-family: "filson-pro";
+    font-style: normal;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 84px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    justify-items: center;
+    display: grid;
+}
+.landing-page-banners-underline {
+    width: 550px;
+    border: 3.5px solid #E29B5D;
+    opacity: 1;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;  
+}
+.problem-section {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-top: -100px;
+}
+.problem-section-top-background {
+    position: absolute;
+    height: 1123.12px;
+    top: -150px;
+    right: -50px;
+}
+.why-section-top-background {
+    position: absolute;
+    height: 1123.12px;
+    bottom: -1960px;
+    z-index: -21;
+    right: 56%;
+}
+.problem-section-landing-block {
+    position: absolute;
+    width: 700px;
+    height: 850px;
+    left: 0px;
+    top: 1px;
+    z-index: 3;
+}
+.problem-section-landing-block-header1 {
+    position: absolute;
+    width: 375px;
+    height: 179px;
+    left: 111px;
+    top: 200px;
+    z-index: 4;
+    font-family: 'filson-pro';
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: #FEFDFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 106.3%;
+}
+.problem-section-landing-block-header2 {
+    font-family: 'roboto';
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    z-index: 4;
+    left: 111px;
+    top: 410px;
+    position: absolute;
+}
+.problem-section-landing-block-underline {
+    position: absolute;
+    width: 279px;
+    margin-top: 190px;
+    border: 2px solid #FFFFFF;
+    opacity: 1;
+}
+.problem-section-chromebook {
+    position: absolute;
+    width: 80%;
+    left: 150px;
+    top: 220px;
+    z-index: 2;
+}
+.problem-section-monster {
+    position: absolute;
+    z-index: 4;
+    margin-left: 75px;
+    margin-top: 60px;
+}
+.product-features-button {
+    position: absolute;
+    z-index: 5;
+    margin-left: 15px;
+}
+.supporters{
+    // display: flex;
+    // display: grid;
+    // grid-template-rows:30% 30% 30%;
+    justify-content: center;
+    align-items: center;
+}
+.why-cards-section {
+    z-index: 1;
+}
+.why-cards {
+    width: 359px;
+    height: 628.71px;
+    align-items: center;
+    justify-content: center;
+    z-index: -2;
+}
+.video-cards {
+    position: absolute;
+    left: 90%;
+    bottom: 135px;
+    height: 90px;
+    width: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+    border-radius: 20px;
+}
+.video-comment {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130.2%;
+    color: white;
+    text-align: center; 
+}
+.video-cards-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130.2%;
+    color: white;
+    text-align: center;   
+}
+.why-cards-title {
+    font-family: 'filson-pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    color: white;
+}
+.why-cards-title-underline {
+    border: 2px solid #FFFFFF;
+    width: 172px;
+    height: 0px;
+    left: 136px;
+    top: 2988px;
+    opacity: 1;
+}
+.why-cards-description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.why-right-on-bottom-background {
+    position: absolute;
+    left: -200px;
+    top: 2120px;
+    z-index: 0;
+}
+.right-on-video-container {
+    position: relative;
+    padding-bottom: $video-aspect-ratio; 
+    height: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-on-video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    top: 0;
+    left: 0;
+}
+.red-monster {
+    position: absolute;
+    right: -189px;
+    bottom: -55px;
+    z-index: 3;
+}
+.blue-monster {
+    position: absolute;
+    left: -180px;
+    bottom: -55px;
+    z-index: 3;
+}
 
 @media screen and (max-width: 1200px) {
     /*home-page*/
@@ -316,7 +317,7 @@ $video-aspect-ratio: 56.25%;
     }
     .right-on-video-container {
         position: relative;
-        padding-bottom: $video-aspect-ratio; /* http://alistapart.com/article/creating-intrinsic-ratios-for-video/  */
+        padding-bottom: $video-aspect-ratio; 
         height: 0;
         overflow: hidden;
         display: flex;
@@ -517,50 +518,51 @@ $video-aspect-ratio: 56.25%;
     footer .MuiGrid-root img {
         width: 40%; 
         height: auto; 
-      }
+    }
+}
 
-}
 @media screen and(max-width: 650px) {
-.problem-section-landing-block {
-    position: absolute;
-    transform: matrix(1, 0, 0, -1, 0, 0);
-    width: 450px;
-    height: 450px;
-    left: 0px;
-    top: 370px;
-    z-index: 3;
-}
-.problem-section-landing-block-header1 {
-    left: 48px;
-    top: 380px;
-}
-.problem-section-landing-block-header2 {
-    left: 48px;
-    top: 570px;
-}
-.problem-section-landing-block {
+    .problem-section-landing-block {
         position: absolute;
         transform: matrix(1, 0, 0, -1, 0, 0);
         width: 450px;
-        height: 480px;
+        height: 450px;
         left: 0px;
         top: 370px;
         z-index: 3;
-    }.problem-section-monster {
-    margin-left: 245px;
-    margin-top: 200px;
+    }
+    .problem-section-landing-block-header1 {
+        left: 48px;
+        top: 380px;
+    }
+    .problem-section-landing-block-header2 {
+        left: 48px;
+        top: 570px;
+    }
+    .problem-section-landing-block {
+            position: absolute;
+            transform: matrix(1, 0, 0, -1, 0, 0);
+            width: 450px;
+            height: 480px;
+            left: 0px;
+            top: 370px;
+            z-index: 3;
+        }.problem-section-monster {
+        margin-left: 245px;
+        margin-top: 200px;
+    }
+    .product-features-button {
+        margin-left: 210px;
+        margin-top: 160px;
+        width: 50%;
+    }
+    .problem-section-chromebook {
+        left: -282px;
+        top: 95px;
+        width: 756px;
+        height: auto; 
+    }
 }
-.product-features-button {
-    margin-left: 210px;
-    margin-top: 160px;
-    width: 50%;
-}
-.problem-section-chromebook {
-    left: -282px;
-    top: 95px;
-    width: 756px;
-    height: auto; 
-}}
 
 @media screen and(max-width: 414px) {
     /*home-page*/
@@ -666,7 +668,7 @@ $video-aspect-ratio: 56.25%;
     }
     .right-on-video-container {
         position: relative;
-        padding-bottom: $video-aspect-ratio; /* http://alistapart.com/article/creating-intrinsic-ratios-for-video/  */
+        padding-bottom: $video-aspect-ratio;
         height: 0;
         overflow: hidden;
         display: flex;

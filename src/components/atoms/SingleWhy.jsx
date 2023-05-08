@@ -35,9 +35,9 @@ function singleWhy(props) {
       </Grid>
       <Grid >
         <img
-        src={topBackground}
-        className='why-section-top-background'
-        alt="math-background"
+          src={topBackground}
+          className='why-section-top-background'
+          alt="math-background"
         />
       </Grid>
     </Card>

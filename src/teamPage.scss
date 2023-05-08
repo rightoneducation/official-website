@@ -1,7 +1,6 @@
 @import '/node_modules/bootstrap/scss/bootstrap.scss';
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
 
-
 .team-page-monsters {
     width: 100%;
     background: #322759;
@@ -13,17 +12,14 @@
     align-items: center;
     display: flex;
 }
-
 .team-page-monsters-mobile {
     display: none;
 }
-
 .team-page-intros {
     margin-top: 55px;
     margin-bottom: 55px;
     text-align: center;
 }
-
 .team-page-banners {
     font-family: "filson-pro";
     font-style: normal;
@@ -36,7 +32,6 @@
     justify-items: center;
     display: grid;
 }
-
 .team-page-banners-underline {
     width: 550px;
     border: 3.5px solid #E29B5D;
@@ -44,8 +39,6 @@
     justify-content: center;
     align-items: center;  
 }
-
-
 .flip-card-outer {
     perspective: 1000px;
     width: 300px;
@@ -96,28 +89,22 @@
     }
 
 }
-
 .css-1f8sh1y {
     width: 1500px !important;
     height: 730px !important;  
 }    
-
 .desktop-advisors {
     display: block; 
 }
-
 .mobile-advisors {
     display: none;
 }
-
 .no-arrows {
     display: none;
 }
-
 .arrows {
     display: block;
 }
-
 .advisor-header {
     font-family: Roboto;
     font-style: normal;
@@ -125,16 +112,14 @@
     font-size: 32px;
     font-weight: 700;
     line-height: 38px;
-/* identical to box height */
+    // identical to box height
     color: #FFFFFF;
 }
-
 .advisor-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 23px;
 }
-
 .advisor-description {
     font-family: Roboto;
     font-style: normal;
@@ -143,7 +128,6 @@
     line-height: 22px;
     color: #FFFFFF;
 }
-
 .advisor-card {
     width: 370px; 
     height: 690px; 
@@ -153,30 +137,23 @@
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25); 
 }
 
-
 @media screen and (max-width: 2000px) {
-
     .css-1f8sh1y {
         width: 1450px !important;
         height: 730px !important;
     }   
-    
     .no-arrows {
         display: none;
     }
-    
     .arrows {
         display: block;
     }
-
     .desktop-advisors {
         display: block;
     }
-
     .mobile-advisors {
         display: none;
     }
-
     .advisor-header {
         font-family: Roboto;
         font-style: normal;
@@ -184,16 +161,14 @@
         font-size: 32px;
         font-weight: 700;
         line-height: 38px;
-    /* identical to box height */
+        // identical to box height
         color: #FFFFFF;
     }
-    
     .advisor-title {
         font-weight: 500;
         font-size: 20px;
         line-height: 23px;
     }
-    
     .advisor-description {
         font-family: Roboto;
         font-style: normal;
@@ -202,7 +177,6 @@
         line-height: 22px;
         color: #FFFFFF;
     }
-    
     .advisor-card {
         width: 370px; 
         height: 690px; 
@@ -211,13 +185,11 @@
         border-radius: 30px; 
         box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25); 
     }
-
     .team-page-intros {
         margin-top: 55px;
         margin-bottom: 55px;
         text-align: center;
     }
-
     .team-page-banners {
         font-family: "filson-pro";
         font-style: normal;
@@ -228,16 +200,13 @@
         text-align: center;
         color: white;
     }
-
     .team-page-banners-underline {
         width: 550px;
         border: 3.5px solid #E29B5D;
         opacity: 1;
         justify-content: center;
     }
-
-    /*team-page-profile-cards*/
-
+    /* team-page-profile-cards */
     .flip-card-outer {
         perspective: 1000px;
         width: 300px;
@@ -245,26 +214,21 @@
         margin: 25px, 0;
         margin-right: 5px;
         margin-left: 5px;
-
         .flip-card-inner {
             transform-style: preserve-3d;
             transition: .3s linear .1s;
             position: relative;
             width: inherit;
             height: inherit;
-
             .flip-card-outer:focus {
                 outline: none !important;
             }
-
             .flip-card-outer:active {
                 outline: none !important;
             }
-
             &.showBack {
                 transform: rotateY(180deg);
             }
-
             .card {
                 backface-visibility: hidden;
                 position: absolute;
@@ -294,15 +258,12 @@
         width: 1270px !important;
         height: 670px !important;
     } 
-
     .no-arrows {
         display: none;
     }
-    
     .arrows {
         display: block;
     }
-
     .advisor-header {
         font-family: Roboto;
         font-style: normal;
@@ -310,16 +271,14 @@
         font-size: 28px;
         font-weight: 700;
         line-height: 34px;
-    /* identical to box height */
+        // identical to box height
         color: #FFFFFF;
     }
-    
     .advisor-title {
         font-weight: 500;
         font-size: 18px;
         line-height: 21px;
     }
-    
     .advisor-description {
         font-family: Roboto;
         font-style: normal;
@@ -328,7 +287,6 @@
         line-height: 20px;
         color: #FFFFFF;
     }
-    
     .advisor-card {
         width: 310px; 
         height: 630px; 
@@ -344,15 +302,12 @@
         width: 1100px !important;
         height: 750px !important;
     } 
-
     .no-arrows {
         display: none;
     }
-    
     .arrows {
         display: block;
     }
-
     .advisor-header {
         font-family: Roboto;
         font-style: normal;
@@ -360,16 +315,14 @@
         font-size: 28px;
         font-weight: 700;
         line-height: 34px;
-    /* identical to box height */
+        // identical to box height
         color: #FFFFFF;
     }
-    
     .advisor-title {
         font-weight: 500;
         font-size: 18px;
         line-height: 21px;
     }
-    
     .advisor-description {
         font-family: Roboto;
         font-style: normal;
@@ -378,7 +331,6 @@
         line-height: 20px;
         color: #FFFFFF;
     }
-    
     .advisor-card {
         width: 250px; 
         height: 700px; 
@@ -395,7 +347,6 @@
         margin-top: 35px;
         margin-bottom: 45px;
     }
-
     .team-page-banners {
         font-family: "filson-pro";
         font-size: 34px;
@@ -405,7 +356,6 @@
         text-align: center;
         color: white;
     }
-
     .team-page-banners-underline {
         justify-content: center;
         width: 300px;
@@ -413,7 +363,6 @@
         opacity: 1;
         margin-top: -4px;
     }
-
     .flip-card-outer {
         perspective: 1000px;
         width: 300px;
@@ -421,29 +370,21 @@
         margin: 10px, 0;
         margin-right: 1px;
         margin-left: 1px;
-
-
         .flip-card-outer:focus {
             outline: none !important;
         }
-
         .flip-card-outer:active {
             outline: none !important;
         }
-
-
         .flip-card-inner {
             transform-style: preserve-3d;
             transition: .3s linear .1s;
             position: relative;
             width: inherit;
             height: inherit;
-
-
             &.showBack {
                 transform: rotateY(180deg);
             }
-
             .card {
                 backface-visibility: hidden;
                 position: absolute;
@@ -453,17 +394,13 @@
                 height: 100%;
                 background-color: #322759;
                 border: none;
-
-
                 &.front {
                     transform: rotateY(0);
                 }
-
                 &.back {
                     transform: rotateY(180deg);
 
                 }
-
             }
         }
 
@@ -472,23 +409,18 @@
         width: 670px !important;
         height: 730px !important;
     }    
-
     .no-arrows {
         display: none;
     }
-    
     .arrows {
         display: block;
     }
-
     .desktop-advisors {
         display: none;
     }
-
     .mobile-advisors {
         display: block;
     }
-
     .advisor-header {
         font-family: Roboto;
         font-style: normal;
@@ -496,16 +428,14 @@
         font-size: 32px;
         font-weight: 700;
         line-height: 38px;
-    /* identical to box height */
+        // identical to box height
         color: #FFFFFF;
     }
-    
     .advisor-title {
         font-weight: 500;
         font-size: 20px;
         line-height: 23px;
     }
-    
     .advisor-description {
         font-family: Roboto;
         font-style: normal;
@@ -514,7 +444,6 @@
         line-height: 22px;
         color: #FFFFFF;
     }
-    
     .advisor-card {
         width: 370px; 
         height: 690px; 
@@ -530,23 +459,18 @@
         width: 610px !important;
         height: 700px !important;
     }    
-
     .no-arrows {
         display: none;
     }
-    
     .arrows {
         display: block;
     }
-
     .desktop-advisors {
         display: none;
     }
-
     .mobile-advisors {
         display: block;
     }
-
     .advisor-header {
         font-family: Roboto;
         font-style: normal;
@@ -554,16 +478,14 @@
         font-size: 28px;
         font-weight: 700;
         line-height: 34px;
-    /* identical to box height */
+        // identical to box height
         color: #FFFFFF;
     }
-    
     .advisor-title {
         font-weight: 500;
         font-size: 18px;
         line-height: 21px;
     }
-    
     .advisor-description {
         font-family: Roboto;
         font-style: normal;
@@ -572,7 +494,6 @@
         line-height: 20px;
         color: #FFFFFF;
     }
-    
     .advisor-card {
         width: 350px; 
         height: 640px; 
@@ -588,23 +509,18 @@
         width: 380px !important;
         height: 700px !important;
     }    
-
     .no-arrows {
         display: block;
     }
-    
     .arrows {
         display: none;
     }
-
     .desktop-advisors {
         display: none;
     }
-
     .mobile-advisors {
         display: block;
     }
-
     .advisor-header {
         font-family: Roboto;
         font-style: normal;
@@ -612,16 +528,14 @@
         font-size: 28px;
         font-weight: 700;
         line-height: 34px;
-    /* identical to box height */
+        // identical to box height
         color: #FFFFFF;
     }
-    
     .advisor-title {
         font-weight: 500;
         font-size: 18px;
         line-height: 21px;
     }
-    
     .advisor-description {
         font-family: Roboto;
         font-style: normal;
@@ -630,7 +544,6 @@
         line-height: 20px;
         color: #FFFFFF;
     }
-    
     .advisor-card {
         width: 350px; 
         height: 640px; 
@@ -646,23 +559,18 @@
         width: 310px !important;
         height: 740px !important;
     }
-
     .no-arrows {
         display: block;
     }
-    
     .arrows {
         display: none;
     }
-
     .desktop-advisors {
         display: none;
     }
-
     .mobile-advisors {
         display: block;
     }
-
     .advisor-card {
         width: 250px; 
         height: 700px; 
@@ -671,11 +579,9 @@
         border-radius: 30px; 
         box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25)
     }
-    
     .team-page-monsters {
         display: none;
     }
-
     .team-page-monsters-mobile {
         display: block;
         margin-top: 30%;

@@ -1,8 +1,10 @@
 import React from 'react'
+import topBackground from '../../images/background-symbols.svg'
 import {
   Grid,
   Card,
   CardContent,
+  Box,
 } from "@material-ui/core";
 
 function singleWhy(props) {
@@ -15,7 +17,6 @@ function singleWhy(props) {
           <img
             src={featureImage}
             alt="right-on-education-product-features"
-            // width="100%"
             width="359px"
             height="238px"
           />
@@ -30,6 +31,14 @@ function singleWhy(props) {
               dangerouslySetInnerHTML={{ __html: description }} />
           </CardContent>
         </Grid>
+       
+      </Grid>
+      <Grid >
+        <img
+          src={topBackground}
+          className='why-section-top-background'
+          alt="math-background"
+        />
       </Grid>
     </Card>
   );

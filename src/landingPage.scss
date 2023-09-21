@@ -4,6 +4,75 @@
 // video aspect ration used in padding-bottom per: http://alistapart.com/article/creating-intrinsic-ratios-for-video/ 
 $video-aspect-ratio: 56.25%; 
 
+.block{
+    width: 102%;
+}
+.block-container{
+    margin-left: -11%;
+    margin-top: -85%;
+    position: relative;
+    z-index: 3;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.problem-section-landing-block-underline {
+    width: 279px;
+    border: 2px solid #FFFFFF;
+    opacity: 1;
+    margin: 32px 0;
+}
+.subtitle-style{
+    font-family: 'roboto';
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+}
+.top-container {
+    display: flex;
+    justify-content: space-between;
+}
+.title-container{
+    position: relative;
+    z-index: 4;
+    display: flex;
+    margin-top: 16%;
+    flex-direction: column; 
+    //align-items: center;
+}
+.title-style{
+    font-family: 'filson-pro';
+    color: #FEFDFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 106.3%;
+}
+.problem-section-top-background {
+}
+.problem-section-preview{
+    width: 128%;
+}
+.numbers-container{
+    position: relative;
+    display: flex;
+    justify-content: flex-end; 
+    margin-top: -104%;
+    margin-right: -11%;
+    z-index: 1;
+}
+.preview-container{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    z-index: 2;
+    margin-right: -8%;
+}
+
 /*landing-page*/
 .landing-page-banners {
     font-family: "filson-pro";
@@ -25,18 +94,7 @@ $video-aspect-ratio: 56.25%;
     align-items: center;
     margin-top: 5px;  
 }
-.problem-section {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    margin-top: -100px;
-}
-.problem-section-top-background {
-    position: absolute;
-    height: 1123.12px;
-    top: -150px;
-    right: -50px;
-}
+
 .why-section-top-background {
     position: absolute;
     height: 1123.12px;
@@ -83,13 +141,7 @@ $video-aspect-ratio: 56.25%;
     top: 410px;
     position: absolute;
 }
-.problem-section-landing-block-underline {
-    position: absolute;
-    width: 279px;
-    margin-top: 190px;
-    border: 2px solid #FFFFFF;
-    opacity: 1;
-}
+
 .problem-section-chromebook {
     position: absolute;
     width: 80%;

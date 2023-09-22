@@ -1,7 +1,8 @@
 import React from 'react'
 import { Box, Grid, Typography } from "@material-ui/core";
 import preview from '../../images/landingPagePreview.svg'
-import block from '../../images/landing-block.png'
+import block from '../../images/Banner.svg'
+import tabletBlock from '../../images/tablet-banner.svg'
 import numbers from '../../images/background-numbers.svg'
 import monster from '../../images/home-monster.png'
 import staticButton from '../../images/product-features-static.png'
@@ -12,18 +13,17 @@ function ProblemSection() {
   return (
     <Box component="section" className='problem-section'>
       <Grid className='top-container'>
-        <Grid item sm={6}>
+        <Grid item sm={6} >
           <div>
-            <Grid className='title-container'>
+            {/* <Grid className='title-container'>
               <div className='title-style'>
                 Everyone can be<br />a math person!
-
               </div>
               <hr className='problem-section-landing-block-underline' />
               <div className='subtitle-style'>
                 Explore how  <i>RightOn!</i>  inspires <br /> learning by embracing <br />  mistakes.
               </div>
-            </Grid>
+            </Grid> */}
             <Grid className='block-container'>
               <img
                 src={block}
@@ -50,30 +50,44 @@ function ProblemSection() {
           </Grid>
         </Grid>
       </Grid>
-      <div container >
-          <div>
-            <a href="#productFeatures">
-              <img
-                src={staticButton}
-                className="product-features-button"
-                onMouseOver={e => e.currentTarget.src = hoverButton}
-                onMouseOut={e => e.currentTarget.src = staticButton}
-              />
-            </a>
-          </div>
-          <div
-            container
-            alignItems="center"
-            justify="center"
-            id="productFeatures"
-          >
+      <Grid className='tablet-preview-container'>
+        <img
+          src={preview}
+          className='tablet-problem-section-preview'
+          alt='game-preview'
+        />
+      </Grid>
+      <Grid className='tablet-block-container'>
+        <img
+          src={tabletBlock}
+          className='tablet-block'
+          alt='landing-block'
+        />
+      </Grid>
+      <div container className='product-features-container'>
+        <div>
+          <a href="#productFeatures">
             <img
-              src={monster}
-              alt="product-features-monster"
-              className='problem-section-monster'
+              src={staticButton}
+              className="product-features-button"
+              onMouseOver={e => e.currentTarget.src = hoverButton}
+              onMouseOut={e => e.currentTarget.src = staticButton}
             />
-          </div >
+          </a>
         </div>
+        <div
+          container
+          alignItems="center"
+          justify="center"
+          id="productFeatures"
+        >
+          <img
+            src={monster}
+            alt="product-features-monster"
+            className='problem-section-monster'
+          />
+        </div >
+      </div>
     </Box>
   );
 }

@@ -38,10 +38,7 @@ function WhyRightOn(props) {
           })}
         </Grid>
         </Grid>
-        
-
       </Grid>
-      
     </Box>
   );
 }

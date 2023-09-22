@@ -2,28 +2,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
 
 // video aspect ration used in padding-bottom per: http://alistapart.com/article/creating-intrinsic-ratios-for-video/ 
-$video-aspect-ratio: 56.25%; 
+$video-aspect-ratio: 56.25%;
 
-.block{
+.block {
     width: 102%;
 }
-.block-container{
+
+.block-container {
     margin-left: -11%;
-    margin-top: -85%;
+    margin-top: -16%;
     position: relative;
     z-index: 3;
     display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
 .problem-section-landing-block-underline {
     width: 279px;
     border: 2px solid #FFFFFF;
     opacity: 1;
     margin: 32px 0;
 }
-.subtitle-style{
+
+.subtitle-style {
     font-family: 'roboto';
     font-style: normal;
     font-size: 24px;
@@ -32,19 +35,21 @@ $video-aspect-ratio: 56.25%;
     letter-spacing: 0em;
     color: #FFFFFF;
 }
+
 .top-container {
     display: flex;
     justify-content: space-between;
 }
-.title-container{
+
+.title-container {
     position: relative;
     z-index: 4;
     display: flex;
     margin-top: 16%;
-    flex-direction: column; 
-    //align-items: center;
+    flex-direction: column;
 }
-.title-style{
+
+.title-style {
     font-family: 'filson-pro';
     color: #FEFDFF;
     font-style: normal;
@@ -52,25 +57,38 @@ $video-aspect-ratio: 56.25%;
     font-size: 45px;
     line-height: 106.3%;
 }
-.problem-section-top-background {
-}
-.problem-section-preview{
+
+.problem-section-top-background {}
+
+.problem-section-preview {
     width: 128%;
 }
-.numbers-container{
+
+.numbers-container {
     position: relative;
     display: flex;
-    justify-content: flex-end; 
+    justify-content: flex-end;
     margin-top: -104%;
     margin-right: -11%;
     z-index: 1;
 }
-.preview-container{
+
+.preview-container {
     display: flex;
     justify-content: flex-end;
     position: relative;
     z-index: 2;
     margin-right: -8%;
+}
+.tablet-problem-section-preview{
+    display: none;
+}
+.tablet-block{
+    display: none;
+}
+
+.product-features-container{
+    margin-top: -24%;
 }
 
 /*landing-page*/
@@ -86,90 +104,96 @@ $video-aspect-ratio: 56.25%;
     justify-items: center;
     display: grid;
 }
+
 .landing-page-banners-underline {
     width: 550px;
     border: 3.5px solid #E29B5D;
     opacity: 1;
     justify-content: center;
     align-items: center;
-    margin-top: 5px;  
+    margin-top: 5px;
 }
 
 .why-section-top-background {
     position: absolute;
     height: 1123.12px;
-    bottom: -1960px;
+    bottom: -3000px;
     z-index: -21;
     right: 56%;
 }
-.problem-section-landing-block {
-    position: absolute;
-    width: 700px;
-    height: 850px;
-    left: 0px;
-    top: 1px;
-    z-index: 3;
-}
-.problem-section-landing-block-header1 {
-    position: absolute;
-    width: 375px;
-    height: 179px;
-    left: 111px;
-    top: 200px;
-    z-index: 4;
-    font-family: 'filson-pro';
-    display: flex;
-    align-items: center;
-    text-align: left;
-    color: #FEFDFF;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 45px;
-    line-height: 106.3%;
-}
-.problem-section-landing-block-header2 {
-    font-family: 'roboto';
-    font-style: normal;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 33px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #FFFFFF;
-    z-index: 4;
-    left: 111px;
-    top: 410px;
-    position: absolute;
-}
 
-.problem-section-chromebook {
-    position: absolute;
-    width: 80%;
-    left: 150px;
-    top: 220px;
-    z-index: 2;
-}
+// .problem-section-landing-block {
+//     position: absolute;
+//     width: 700px;
+//     height: 850px;
+//     left: 0px;
+//     top: 1px;
+//     z-index: 3;
+// }
+// .problem-section-landing-block-header1 {
+//     position: absolute;
+//     width: 375px;
+//     height: 179px;
+//     left: 111px;
+//     top: 200px;
+//     z-index: 4;
+//     font-family: 'filson-pro';
+//     display: flex;
+//     align-items: center;
+//     text-align: left;
+//     color: #FEFDFF;
+//     font-style: normal;
+//     font-weight: 700;
+//     font-size: 45px;
+//     line-height: 106.3%;
+// }
+// .problem-section-landing-block-header2 {
+//     font-family: 'roboto';
+//     font-style: normal;
+//     font-size: 24px;
+//     font-weight: 400;
+//     line-height: 33px;
+//     letter-spacing: 0em;
+//     text-align: left;
+//     color: #FFFFFF;
+//     z-index: 4;
+//     left: 111px;
+//     top: 410px;
+//     position: absolute;
+// }
+
+// .problem-section-chromebook {
+//     position: absolute;
+//     width: 80%;
+//     left: 150px;
+//     top: 220px;
+//     z-index: 2;
+// }
 .problem-section-monster {
     position: absolute;
     z-index: 4;
     margin-left: 75px;
     margin-top: 60px;
 }
+
 .product-features-button {
     position: absolute;
     z-index: 5;
     margin-left: 15px;
 }
-.supporters{
+
+.supporters {
     // display: flex;
     // display: grid;
     // grid-template-rows:30% 30% 30%;
     justify-content: center;
     align-items: center;
 }
+
 .why-cards-section {
     z-index: 1;
 }
+
 .why-cards {
     width: 359px;
     height: 628.71px;
@@ -177,6 +201,7 @@ $video-aspect-ratio: 56.25%;
     justify-content: center;
     z-index: -2;
 }
+
 .video-cards {
     position: absolute;
     left: 90%;
@@ -189,6 +214,7 @@ $video-aspect-ratio: 56.25%;
     z-index: 5;
     border-radius: 20px;
 }
+
 .video-comment {
     font-family: 'Roboto';
     font-style: normal;
@@ -196,8 +222,9 @@ $video-aspect-ratio: 56.25%;
     font-size: 20px;
     line-height: 130.2%;
     color: white;
-    text-align: center; 
+    text-align: center;
 }
+
 .video-cards-title {
     font-family: 'Roboto';
     font-style: normal;
@@ -205,8 +232,9 @@ $video-aspect-ratio: 56.25%;
     font-size: 24px;
     line-height: 130.2%;
     color: white;
-    text-align: center;   
+    text-align: center;
 }
+
 .why-cards-title {
     font-family: 'filson-pro';
     font-style: normal;
@@ -215,6 +243,7 @@ $video-aspect-ratio: 56.25%;
     line-height: 29px;
     color: white;
 }
+
 .why-cards-title-underline {
     border: 2px solid #FFFFFF;
     width: 172px;
@@ -223,6 +252,7 @@ $video-aspect-ratio: 56.25%;
     top: 2988px;
     opacity: 1;
 }
+
 .why-cards-description {
     font-family: 'Roboto';
     font-style: normal;
@@ -231,21 +261,24 @@ $video-aspect-ratio: 56.25%;
     line-height: 22px;
     color: #FFFFFF;
 }
+
 .why-right-on-bottom-background {
     position: absolute;
     left: -200px;
     top: 2120px;
     z-index: 0;
 }
+
 .right-on-video-container {
     position: relative;
-    padding-bottom: $video-aspect-ratio; 
+    padding-bottom: $video-aspect-ratio;
     height: 0;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .right-on-video {
     position: absolute;
     width: 100%;
@@ -254,12 +287,14 @@ $video-aspect-ratio: 56.25%;
     top: 0;
     left: 0;
 }
+
 .red-monster {
     position: absolute;
     right: -189px;
     bottom: -55px;
     z-index: 3;
 }
+
 .blue-monster {
     position: absolute;
     left: -180px;
@@ -268,6 +303,7 @@ $video-aspect-ratio: 56.25%;
 }
 
 @media screen and (max-width: 1200px) {
+
     /*home-page*/
     .landing-page-banners {
         font-family: "filson-pro";
@@ -281,6 +317,7 @@ $video-aspect-ratio: 56.25%;
         justify-items: center;
         display: grid;
     }
+
     .landing-page-banners-underline {
         width: 550px;
         border: 3.5px solid #E29B5D;
@@ -288,16 +325,19 @@ $video-aspect-ratio: 56.25%;
         justify-content: center;
         margin-top: 15px;
     }
+
     .problem-section {
         position: relative;
         top: 0px;
         left: 0px;
         margin-top: -100px;
     }
+
     .problem-section-top-background {
         position: absolute;
         width: 100%;
     }
+
     .problem-section-landing-block {
         position: absolute;
         // width: 100%;
@@ -307,6 +347,7 @@ $video-aspect-ratio: 56.25%;
         top: 1px;
         z-index: 3;
     }
+
     .problem-section-landing-block-header1 {
         position: absolute;
         width: 375px;
@@ -324,6 +365,7 @@ $video-aspect-ratio: 56.25%;
         font-size: 45px;
         line-height: 106.3%;
     }
+
     .problem-section-landing-block-header2 {
         font-family: 'roboto';
         font-style: normal;
@@ -338,6 +380,7 @@ $video-aspect-ratio: 56.25%;
         top: 410px;
         position: absolute;
     }
+
     .problem-section-landing-block-underline {
         position: absolute;
         width: 279px;
@@ -345,6 +388,7 @@ $video-aspect-ratio: 56.25%;
         border: 2px solid #FFFFFF;
         opacity: 1;
     }
+
     .problem-section-chromebook {
         position: absolute;
         width: 80%;
@@ -352,30 +396,35 @@ $video-aspect-ratio: 56.25%;
         top: 290px;
         z-index: 2;
     }
+
     .problem-section-monster {
         position: absolute;
         z-index: 4;
         margin-left: 60px;
         margin-top: 60px;
     }
+
     .product-features-button {
         position: absolute;
         z-index: 5;
     }
+
     .why-right-on-bottom-background {
         position: absolute;
         width: 100%;
         z-index: 0;
     }
+
     .right-on-video-container {
         position: relative;
-        padding-bottom: $video-aspect-ratio; 
+        padding-bottom: $video-aspect-ratio;
         height: 0;
         overflow: hidden;
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
     .right-on-video {
         position: absolute;
         top: 0;
@@ -383,24 +432,28 @@ $video-aspect-ratio: 56.25%;
         width: 100%;
         height: 100%;
     }
+
     .red-monster {
         position: absolute;
         right: -189px;
         bottom: -55px;
         z-index: 3;
     }
+
     .blue-monster {
         position: absolute;
         left: -180px;
         bottom: -55px;
         z-index: 3;
     }
+
     .why-cards {
         width: 296px;
         height: 570px;
         align-items: center;
         justify-content: center;
     }
+
     .why-cards-title {
         font-family: 'filson-pro';
         font-style: normal;
@@ -409,6 +462,7 @@ $video-aspect-ratio: 56.25%;
         line-height: 29px;
         color: white;
     }
+
     .why-cards-title-underline {
         border: 2px solid #FFFFFF;
         width: 172px;
@@ -416,6 +470,7 @@ $video-aspect-ratio: 56.25%;
         left: 136px;
         top: 2988px;
     }
+
     .why-cards-description {
         font-family: 'Roboto';
         font-style: normal;
@@ -435,6 +490,7 @@ $video-aspect-ratio: 56.25%;
         rotate: -20deg;
         scale: .8;
     }
+
     .blue-monster {
         position: absolute;
         right: 65%;
@@ -444,6 +500,7 @@ $video-aspect-ratio: 56.25%;
         scale: .9;
         left: auto;
     }
+
     .video-cards {
         position: absolute;
         left: 70%;
@@ -456,10 +513,11 @@ $video-aspect-ratio: 56.25%;
         z-index: 5;
         border-radius: 20px;
     }
+
     footer .MuiGrid-root img {
-        width: 40%; 
-        height: auto; 
-      }
+        width: 40%;
+        height: auto;
+    }
 }
 
 @media screen and(max-width: 836px) {
@@ -476,6 +534,7 @@ $video-aspect-ratio: 56.25%;
         border-radius: 20px;
         display: none;
     }
+
     .landing-page-banners {
         font-family: "filson-pro";
         font-style: normal;
@@ -488,6 +547,7 @@ $video-aspect-ratio: 56.25%;
         justify-items: center;
         display: grid;
     }
+
     .problem-section {
         position: relative;
         top: 0px;
@@ -495,11 +555,13 @@ $video-aspect-ratio: 56.25%;
         margin-top: 80px;
         z-index: 1;
     }
+
     .problem-section-top-background {
         position: absolute;
         width: 858.8px;
         height: 841px;
     }
+
     .problem-section-landing-block {
         position: absolute;
         transform: matrix(1, 0, 0, -1, 0, 0);
@@ -509,6 +571,7 @@ $video-aspect-ratio: 56.25%;
         top: 250px;
         z-index: 3;
     }
+
     .problem-section-landing-block-header1 {
         position: absolute;
         font-family: 'filson-pro';
@@ -523,6 +586,7 @@ $video-aspect-ratio: 56.25%;
         top: 280px;
         z-index: 4;
     }
+
     .problem-section-landing-block-header2 {
         font-family: 'roboto';
         font-style: normal;
@@ -537,6 +601,7 @@ $video-aspect-ratio: 56.25%;
         top: 470px;
         position: absolute;
     }
+
     .problem-section-landing-block-underline {
         position: absolute;
         width: 215px;
@@ -544,15 +609,17 @@ $video-aspect-ratio: 56.25%;
         border: 2px solid #FFFFFF;
         opacity: 1;
     }
+
     .problem-section-chromebook {
         position: absolute;
-        width: 100%; 
-        height: auto; 
+        width: 100%;
+        height: auto;
         left: -8px;
         top: 35px;
         z-index: 2;
-        padding: 0 25px; 
+        padding: 0 25px;
     }
+
     .problem-section-monster {
         position: absolute;
         z-index: 4;
@@ -560,6 +627,7 @@ $video-aspect-ratio: 56.25%;
         margin-top: 80px;
         width: 35%;
     }
+
     .product-features-button {
         position: absolute;
         z-index: 5;
@@ -567,9 +635,48 @@ $video-aspect-ratio: 56.25%;
         margin-top: 25px;
         width: 50%;
     }
+
     footer .MuiGrid-root img {
-        width: 40%; 
-        height: auto; 
+        width: 40%;
+        height: auto;
+    }
+}
+
+@media screen and(max-width: 740px) {
+    .block {
+        display: none;
+    }
+    .block-container {
+        display: none;
+    }
+    .tablet-block-container{
+        position: relative;
+        z-index: 3;
+        margin-left: -11%;
+    }
+    .tablet-block{
+        display: block;
+    }
+    .problem-section-preview{
+        display: none;
+    }
+    .tablet-preview-container{
+        display: flex;
+        justify-content: center;
+    }
+    .tablet-problem-section-preview{
+        position: relative;
+        z-index: 2;
+        width: 100%;
+        display: block;
+    }
+    .numbers-container {
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 0;
+        margin-right: -11%;
+        z-index: 1;
     }
 }
 
@@ -583,40 +690,66 @@ $video-aspect-ratio: 56.25%;
         top: 370px;
         z-index: 3;
     }
+
     .problem-section-landing-block-header1 {
         left: 48px;
         top: 380px;
     }
+
     .problem-section-landing-block-header2 {
         left: 48px;
         top: 570px;
     }
+
     .problem-section-landing-block {
-            position: absolute;
-            transform: matrix(1, 0, 0, -1, 0, 0);
-            width: 450px;
-            height: 480px;
-            left: 0px;
-            top: 370px;
-            z-index: 3;
-        }.problem-section-monster {
+        position: absolute;
+        transform: matrix(1, 0, 0, -1, 0, 0);
+        width: 450px;
+        height: 480px;
+        left: 0px;
+        top: 370px;
+        z-index: 3;
+    }
+
+    .problem-section-monster {
         margin-left: 245px;
         margin-top: 200px;
     }
+
     .product-features-button {
         margin-left: 210px;
         margin-top: 160px;
         width: 50%;
     }
+
     .problem-section-chromebook {
         left: -282px;
         top: 95px;
         width: 756px;
-        height: auto; 
+        height: auto;
     }
 }
 
 @media screen and(max-width: 414px) {
+
+    .preview-container {
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        z-index: 2;
+        margin-right: -8%;
+        margin-top: 150px;
+    }
+
+    .tablet-block{
+        display: block;
+        width: 112vh;
+    }
+
+    .product-features-container{
+        margin-top: -112%;
+    }
+
     /*home-page*/
     .landing-page-banners {
         font-family: "filson-pro";
@@ -630,12 +763,14 @@ $video-aspect-ratio: 56.25%;
         justify-items: center;
         display: grid;
     }
+
     .landing-page-banners-underline {
         justify-content: center;
         width: 300px;
         border: 3px solid #E29B5D;
-        opacity: 1;   
+        opacity: 1;
     }
+
     .problem-section {
         position: relative;
         top: 0px;
@@ -643,11 +778,13 @@ $video-aspect-ratio: 56.25%;
         margin-top: 80px;
         z-index: 1;
     }
+
     .problem-section-top-background {
         position: absolute;
         width: 858.8px;
         height: 841px;
     }
+
     .problem-section-landing-block {
         position: absolute;
         transform: matrix(1, 0, 0, -1, 0, 0);
@@ -657,6 +794,7 @@ $video-aspect-ratio: 56.25%;
         top: 370px;
         z-index: 3;
     }
+
     .problem-section-landing-block-header1 {
         position: absolute;
         font-family: 'filson-pro';
@@ -671,6 +809,7 @@ $video-aspect-ratio: 56.25%;
         top: 380px;
         z-index: 4;
     }
+
     .problem-section-landing-block-header2 {
         font-family: 'roboto';
         font-style: normal;
@@ -685,6 +824,7 @@ $video-aspect-ratio: 56.25%;
         top: 570px;
         position: absolute;
     }
+
     .problem-section-landing-block-underline {
         position: absolute;
         width: 215px;
@@ -692,6 +832,7 @@ $video-aspect-ratio: 56.25%;
         border: 2px solid #FFFFFF;
         opacity: 1;
     }
+
     .problem-section-chromebook {
         position: absolute;
         width: 630px;
@@ -700,6 +841,7 @@ $video-aspect-ratio: 56.25%;
         top: 150px;
         z-index: 2;
     }
+
     .problem-section-monster {
         position: absolute;
         z-index: 4;
@@ -707,6 +849,7 @@ $video-aspect-ratio: 56.25%;
         margin-top: 230px;
         width: 35%;
     }
+
     .product-features-button {
         position: absolute;
         z-index: 5;
@@ -714,10 +857,12 @@ $video-aspect-ratio: 56.25%;
         margin-top: 200px;
         width: 50%;
     }
+
     .why-right-on-bottom-background {
         position: absolute;
         z-index: 0;
     }
+
     .right-on-video-container {
         position: relative;
         padding-bottom: $video-aspect-ratio;
@@ -727,6 +872,7 @@ $video-aspect-ratio: 56.25%;
         justify-content: center;
         align-items: center;
     }
+
     .right-on-video {
         position: absolute;
         top: 0;
@@ -742,6 +888,7 @@ $video-aspect-ratio: 56.25%;
         z-index: 2;
         display: none;
     }
+
     .blue-monster {
         position: absolute;
         left: -180px;
@@ -749,15 +896,18 @@ $video-aspect-ratio: 56.25%;
         z-index: 2;
         display: none;
     }
+
     .why-cards-section {
         z-index: 1;
     }
+
     .why-cards {
         width: 296px;
         height: 570px;
         align-items: center;
         justify-content: center;
     }
+
     .why-cards-title {
         font-family: 'filson-pro';
         font-style: normal;
@@ -766,6 +916,7 @@ $video-aspect-ratio: 56.25%;
         line-height: 29px;
         color: white;
     }
+
     .why-cards-title-underline {
         border: 2px solid #FFFFFF;
         width: 172px;
@@ -773,6 +924,7 @@ $video-aspect-ratio: 56.25%;
         left: 136px;
         top: 2988px;
     }
+
     .why-cards-description {
         font-family: 'Roboto';
         font-style: normal;
@@ -780,6 +932,7 @@ $video-aspect-ratio: 56.25%;
         font-size: 17px;
         line-height: 22px;
         color: #FFFFFF;
+
         .value-card {
             width: 329px;
             height: 151px;
@@ -788,15 +941,18 @@ $video-aspect-ratio: 56.25%;
             box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
             padding: 0px
         }
+
         .value-img {
             height: 151px;
         }
+
         .value-text {
             width: 180px;
             height: 165px;
             padding-left: 21px;
             padding-right: 29px;
         }
+
         .values-text {
             font-family: 'Roboto';
             font-style: normal;

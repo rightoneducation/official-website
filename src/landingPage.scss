@@ -4,6 +4,7 @@
 // video aspect ration used in padding-bottom per: http://alistapart.com/article/creating-intrinsic-ratios-for-video/ 
 $video-aspect-ratio: 56.25%;
 
+//new styling
 .block {
     width: 102%;
 }
@@ -90,6 +91,7 @@ $video-aspect-ratio: 56.25%;
 .product-features-container{
     margin-top: -24%;
 }
+//new styling
 
 /*landing-page*/
 .landing-page-banners {
@@ -642,6 +644,7 @@ $video-aspect-ratio: 56.25%;
     }
 }
 
+//new styling
 @media screen and(max-width: 740px) {
     .block {
         display: none;
@@ -732,6 +735,7 @@ $video-aspect-ratio: 56.25%;
 
 @media screen and(max-width: 414px) {
 
+    //new styling
     .preview-container {
         display: flex;
         justify-content: flex-end;
@@ -749,6 +753,7 @@ $video-aspect-ratio: 56.25%;
     .product-features-container{
         margin-top: -112%;
     }
+    //new stying
 
     /*home-page*/
     .landing-page-banners {

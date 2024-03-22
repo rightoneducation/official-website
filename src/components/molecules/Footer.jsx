@@ -47,7 +47,7 @@ function Footer () {
             <img src={righton} width='100%' alt='RightOn-Logo' />
             </Grid>
             <Grid item>
-            <p className={styles.copyRight}>RightOn Education &copy; 2022 All Rights Reserved</p>
+            <p className={styles.copyRight}>RightOn Education &copy; {new Date().getFullYear()} All Rights Reserved</p>
             </Grid>
           </Grid>
         </Grid>

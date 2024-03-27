@@ -23,7 +23,7 @@ function ProblemSection() {
           <hr className='problem-section-landing-block-underline' />
         </h4>
         <p className='problem-section-landing-block-header2'>
-          Explore how  <i>RightOn!</i>  inspires <br /> learning by embracing mistakes.
+          Explore how  <i>RightOn!</i> <sup style={{fontSize: '10px', position: 'relative', top: '-1em', marginLeft: '-4px', marginRight: '4px'}}> TM </sup> inspires <br /> learning by embracing mistakes.
         </p>
         <img
           src={block}

@@ -48,6 +48,7 @@ function Footer () {
             </Grid>
             <Grid item>
             <p className={styles.copyRight}>RightOn Education &copy; {new Date().getFullYear()} All Rights Reserved</p>
+            <p className={styles.copyRight}> <a href="http://www.rightoneducation.com/docs/privacypolicy.pdf">Privacy Policy</a> </p>
             </Grid>
           </Grid>
         </Grid>

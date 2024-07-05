@@ -1,8 +1,8 @@
 import React from 'react'
 import { makeStyles } from "@material-ui/core/styles";
 import { Box, Grid, Typography } from "@material-ui/core";
-import logo from '../../images/right-on-logo-circle.png'
-import mobileLogo from '../../images/mobile-logo.png'
+import logo from '../../images/logos/RightOn-WithSlogan-512x500.png'
+import mobileLogo from '../../images/logos/RightOn-Circle-128x128.png'
 
 import MainNav from './MainNav'
 
@@ -30,8 +30,8 @@ function PageHeader() {
       >
         <Grid item sm={4} md={5}>
           <a href="/">
-            <img src={logo} alt="right on education logo" className='logo' />
-            <img src={mobileLogo} alt="right on education logo" className='mobile-logo'/>
+            <img src={logo} alt="right on education logo" className='logo' style={{filter: 'drop-shadow(5px 5px 10px rgba(0,0,0,0.3))'}}/>
+            <img src={mobileLogo} alt="right on education logo" className='mobile-logo' style={{transform: 'scale(0.9)', filter: 'drop-shadow(5px 5px 10px rgba(0,0,0,0.3))'}}/>
           </a>
         </Grid>
         <Grid

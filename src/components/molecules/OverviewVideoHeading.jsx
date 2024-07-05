@@ -8,7 +8,7 @@ export default function OverviewVideoHeading(props) {
         <Grid container justify="left">
             <Grid item>
                 <h4 className="overview-video-heading">
-                    RightOn! Overview
+                    Intro
                 </h4>
                 <br />
             </Grid>

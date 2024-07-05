@@ -1,6 +1,7 @@
 import React from 'react'
 import { Box, Grid } from "@material-ui/core";
 import chromebook from '../../images/HomeBanner.png'
+import mainImage from '../../images/mainimage/RightOn-MainImage.png'
 import block from '../../images/landing-block.png'
 import topBackground from '../../images/math-symbol-bg-bottom.png'
 import monster from '../../images/home-monster.png'
@@ -31,8 +32,8 @@ function ProblemSection() {
           className='problem-section-landing-block'
         />
         <img
-          src={chromebook}
-          alt="right-on-education-chromebook-app"
+          src={mainImage}
+          alt="right-on-education"
           className='problem-section-chromebook'
         />
         <div container style={{ marginTop: "460px" }}>

@@ -15,7 +15,7 @@ function Advisor(props) {
   const { position } = props
   const { name, photo, profile, title, linkedIn, imBackground, txtBackground } = props.advisor
   const styles = useStyles();
-  var linkedInVisible = (name === 'Andrea Ruby' ? 'none' : 'block');
+  var linkedInVisible = ('block');
 
   return (
     <Grid item>

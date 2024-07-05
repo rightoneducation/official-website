@@ -7,18 +7,18 @@ const data = {
     tutorialVideos: [
         {
             id: 1,
-            title: "RightOn! Overview",
-            src: "https://www.youtube.com/embed/VUS0sEPWhOM",
+            title: "Intro",
+            src: "https://www.youtube.com/embed/k_GEcWXJABM",
         },
         {
             id: 2,
-            title: "Host & Display Overview",
-            src: "https://www.youtube.com/embed/InYO4PECgqk",
+            title: "Basic Mode",
+            src: "https://www.youtube.com/embed/lpc9gZ8Wa7o",
         },
         {
             id: 3,
-            title: "Basic vs. Advanced",
-            src: "https://www.youtube.com/embed/FBojXBjPs0g"
+            title: "Advanced Mode",
+            src: "https://www.youtube.com/embed/VUS0sEPWhOM"
         }
     ],
 };

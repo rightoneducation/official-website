@@ -147,37 +147,37 @@ module.exports = {
       name: 'Andrea Ruby',
       photo: '/images/profile_andrea.jpg',
       title: 'Math Educator',
-      profile: 'Andrea has shared her love for teaching math as a secondary math teacher in the Philadelphia Public Schools for the last 14 years. She has designed curriculum, facilitated professional development, and managed partnerships to advance underserved youth in STEM. A former Fulbright Scholar, Andrea has an MS degree in Urban Education, with a focus in secondary mathematics.',
+      profile: 'Andrea has shared her love for teaching math as a secondary math teacher in the Philadelphia Public Schools for the last 15 years. She has designed curriculum, facilitated professional development, and managed partnerships to advance underserved youth in STEM. A former Fulbright Scholar, Andrea has an MS degree in Urban Education, with a focus in secondary mathematics.',
       imBackground: 'linear-gradient(#fe4a61, #be3647)',
       txtBackground: '#be3647',
-      linkedIn: null
+      linkedIn: 'https://www.linkedin.com/in/andrea-ruby-b66280279/'
     },
     {
       id: 1,
       name: 'Ay-Nur Najm',
       photo: '/images/profile_ay-nur.jpg',
       title: 'Math Instructional Coach',
-      profile: 'Ay-Nur is an independent math consultant and software developer. She was previously a math instructional coach and computer science teacher in Brooklyn, where she helped establish a charter school with Uncommon Schools. She has taught in NYC public and charter schools for a decade and is passionate about providing access to high quality instruction to all kids.',
+      profile: 'Ay-Nur is an independent math consultant and software developer. She was previously a math instructional coach and computer science teacher in Brooklyn, where she helped establish a charter school with Uncommon Schools. She taught in New York City public and charter schools for a decade and is passionate about providing access to high quality instruction to all kids.',
       imBackground: 'linear-gradient(#95d0fe, #6393b8)',
       txtBackground: '#6393b8',
       linkedIn: 'https://www.linkedin.com/in/ay-nur-najm/'
     },
     {
       id: 2,
-      name: 'Ben Woodford',
+      name: 'Ben Woodford, PhD',
       photo: '/images/profile_ben.jpg',
       title: 'Math Education Researcher',
-      profile: 'Ben is a doctoral scholar at Stanford University studying mathematics education. Before transitioning to research, he was a high school math teacher and a project-based learning facilitator. He has developed innovative curricula and is knowledgeable about best practices for learning in and out of the classroom.',
+      profile: 'A classroom teacher and tutor of many years, Ben completed a doctorate in mathematics education at Stanford University. He has developed innovative curricula and next-generation survey instruments, and is knowledgeable about best practices for learning both in and outside the classroom.',
       imBackground: 'linear-gradient(#e2618f, #b22e5d)',
       txtBackground: '#b22e5d',
-      linkedIn: 'https://www.linkedin.com/in/ben-woodford-32153952/'
+      linkedIn: 'https://www.linkedin.com/in/benjamin-s-woodford-ph-d-32153952/ '
     },
     {
       id: 3,
       name: 'Bunmi Esho',
       photo: '/images/profile_bummi.jpg',
       title: 'STEM Advocacy Executive',
-      profile: 'Bunmi is a Vice President at Endless OS Foundation, which works to democratize access to technology to create opportunities for underserved and under-resourced populations around the world. She has over 20 years of experience in the STEM, nonprofit, and education sectors and considers herself an eternal STEM advocate.',
+      profile: 'Founder of Ori Consultancy, Bunmi has held several STEM leadership roles, including Vice President of Programs at Endless OS Foundation and California Executive Director of Techbridge Girls. She has over 20 years of experience in education and the nonprofit sector, and considers herself an eternal STEM advocate.',
       imBackground: 'linear-gradient(#4b65dd, #3a4b9b)',
       txtBackground: '#3a4b9b',
       linkedIn: 'https://www.linkedin.com/in/bunmiesho/'
@@ -191,7 +191,7 @@ module.exports = {
     // },
     {
       id: 4,
-      name: 'Esmeralda Ortiz',
+      name: 'Esmeralda Ortiz, EdD',
       photo: '/images/profile_Esme.jpg',
       title: 'Youth Development Leader',
       profile: "A Vice President at the Boys & Girls Clubs of the Peninsula, Esme leads high school and post-secondary success programs across all BGCP sites. Over the past ten years, she has developed and led partnerships with public high schools to engage more students, helping them achieve both academic and leadership goals. A first-generation college graduate, Esme seeks to increase the representation and success of first-generation students in higher education.",
@@ -209,20 +209,20 @@ module.exports = {
     // },
     {
       id: 5,
-      name: 'Paul Chin',
+      name: 'Paul Chin, EdD',
       photo: '/images/profile_paul.jpg',
-      title: 'Assistant Professor of Practice',
-      profile: "An Assistant Professor of Practice at the Relay Graduate School of Education, Paul has a demonstrated history of success teaching and leading in underserved communities across the US. Paul began his career as a middle school math teacher in Los Angeles & Newark before transitioning to school leadership roles in Indianapolis & Brooklyn. After 12 years of teaching and leading in schools, Paul joined the faculty at Relay and recently began a doctoral program at Teachers College, Columbia University.",
+      title: 'Professor of Clinical Practice',
+      profile: "A Professor of Clinical Practice at the Relay Graduate School of Education, Paul is a staunch advocate of educational equity who has dedicated his career to teaching and leading in underserved communities. Paul began his work in education as a middle school math teacher in Los Angeles & Newark before transitioning to school leadership roles in Indianapolis & Brooklyn. After 12 years of teaching and leading in schools, Paul joined the faculty at Relay and recently completed a doctoral program at Teachers College, Columbia University.",
       imBackground: "linear-gradient(#92cdfb, #6393b8)",
       txtBackground: '#6393b8',
-      linkedIn: 'https://www.linkedin.com/in/paul-chin-04046143/'
+      linkedIn: 'https://www.linkedin.com/in/prof-paul-chin/'
     },
     {
       id: 6,
       name: 'Payton Richardson',
       photo: '/images/profile_payton.jpg',
-      title: 'Data Officer',
-      profile: "Payton is a mixed-methods education researcher and policy professional with expertise in analyzing K-12 data and performance frameworks. As a Data Officer at Eastside Pathways, Payton formulates data strategies and provides ongoing analysis for a collective impact partnership of over 60 public, private, and community-based organizations to support every child on their journey from cradle to career. With a newly growing family, Payton is especially passionate about providing equity across the education landscape.",
+      title: 'Data, Research & Policy Director',
+      profile: "Payton is a mixed-methods education researcher and policy professional with expertise in analyzing K-12 data and performance frameworks. At Eastside Pathways, Payton formulates data strategies and provides ongoing analysis for a collective impact partnership of over 60 public, private, and community-based organizations to support every child on their journey from cradle to career. With a newly growing family, Payton is especially passionate about providing equity across the education landscape.",
       imBackground: "linear-gradient(#e2618f, #b22e5d)",
       txtBackground: '#b22e5d',
       linkedIn: 'https://www.linkedin.com/in/williampaytonrichardson/'

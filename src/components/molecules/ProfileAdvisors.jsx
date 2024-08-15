@@ -67,15 +67,6 @@ function Advisors({ advisorProfiles }) {
       <Carousel className="no-arrows" animation="slide" autoPlay={false} duration={900} navButtonsAlwaysInvisible={true}
         style={{ display: "flex", justifyContent: "center", alignItems: "center" }} >
         {advisorProfiles.map((advisor, index) => {
-
-          var deck = decks[(index % 7)]
-          console.log(deck)
-          var first = deck[0]
-          var second = deck[1]
-          var third = deck[2]
-          var advisorOne = advisorProfiles[first]
-          var advisorTwo = advisorProfiles[second]
-          var advisorThree = advisorProfiles[third]
           return (
             <div className="mobile-advisors">
               < Grid container style={{
@@ -85,7 +76,7 @@ function Advisors({ advisorProfiles }) {
               }}>
                 <SingleAdvisor
                   key={index}
-                  advisor={advisorOne} />
+                  advisor={advisor} />
 
               </Grid>
             </div>

@@ -77,7 +77,6 @@ function Advisors({ advisorProfiles }) {
                 <SingleAdvisor
                   key={index}
                   advisor={advisor} />
-
               </Grid>
             </div>
           );

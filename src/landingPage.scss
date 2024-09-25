@@ -242,6 +242,7 @@ $video-aspect-ratio: 56.25%;
     .problem-section-top-background {
         position: absolute;
         width: 100%;
+        height: auto;
     }
     .problem-section-landing-block {
         position: absolute;
@@ -441,7 +442,7 @@ $video-aspect-ratio: 56.25%;
     }
     .problem-section-top-background {
         position: absolute;
-        width: 858.8px;
+        width: auto;
         height: 841px;
     }
     .problem-section-landing-block {
@@ -588,7 +589,7 @@ $video-aspect-ratio: 56.25%;
     }
     .problem-section-top-background {
         position: absolute;
-        width: 858.8px;
+        width: auto;
         height: 841px;
     }
     .problem-section-landing-block {

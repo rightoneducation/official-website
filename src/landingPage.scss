@@ -490,9 +490,10 @@ $video-aspect-ratio: 56.25%;
     }
     .problem-section-chromebook {
         position: absolute;
+        left: 0;
+        top: 80px;
         width: 100%; 
         height: auto; 
-   
         z-index: 2;
         padding: 0 25px; 
     }
@@ -635,11 +636,14 @@ $video-aspect-ratio: 56.25%;
         opacity: 1;
     }
     .problem-section-chromebook {
-        width: '100%';
+        position: absolute;
+        top: 200px;
+        left: -80px;
+        width: 100%; 
         height: auto; 
-        margin: auto;
-        transform: translateY(175px);
         z-index: 2;
+        padding: 0 25px; 
+        scale: 1.1;
     }
     .problem-section-monster {
         position: absolute;

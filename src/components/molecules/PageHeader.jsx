@@ -54,7 +54,7 @@ function PageHeader() {
       >
         <Grid item sm={4} md={5}>
           <a href="/">
-            <img src={logo} alt="right on education logo" className='logo' style={{filter: 'drop-shadow(5px 5px 10px rgba(0,0,0,0.3))'}}/>
+            <img src={logo} alt="right on education logo" className='logo' style={{filter: 'drop-shadow(5px 5px 10px rgba(0,0,0,0.3))', top: '40px'}}/>
             <img src={logo} alt="right on education logo" className='mobile-logo' style={{transform: 'scale(0.9)', filter: 'drop-shadow(5px 5px 10px rgba(0,0,0,0.3))'}}/>
           </a>
         </Grid>

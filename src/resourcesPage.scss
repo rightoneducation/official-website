@@ -68,7 +68,6 @@
     }
 
     .overview-video {
-        margin-bottom: 70px;
         width: 860px;
         height: 483px;
     }
@@ -88,12 +87,11 @@
     .error-analysis-desktop-green-monster {
         margin-top: 227px;
         width: 250px;
-        margin-bottom: 200px;
     }
 
     .error-analysis-desktop-pink-monster {
         width: 250px;
-        margin-bottom: 200px;
+     
     }
 
     .error-analysis-mobile-green-monster {
@@ -219,8 +217,6 @@
     .crmt-section {
         display: flex;
         justify-content: left;
-        padding-left: 76px;
-        padding-bottom: 280px;
     }
 
     .crmt-header {
@@ -284,7 +280,6 @@
     }
 
     .crmt-diagram {
-        margin-left: 150px;
         margin-top: 100px;
     }
 
@@ -331,11 +326,8 @@
     }
 
     .rough-draft-card {
-        position: absolute;
-        width: 429px;
+        width: 100%;
         height: 330px;
-        right: 320px;
-        margin-top: 150px;
         padding: 20px;
     }
 
@@ -366,15 +358,11 @@
     }
 
     .rough-draft-monster {
-        position: absolute;
         width: 252.67px;
         height: 198px;
-        right: 230px;
-        margin-top: 350px;
     }
 
     .game-show-section {
-        margin-top: 200px;
         display: flex;
         justify-content: left;
     }
@@ -535,21 +523,15 @@
     .crmt-section {
         display: flex;
         justify-content: left;
-        padding-left: 76px;
-        padding-bottom: 280px;
     }
 
     .crmt-diagram {
-        margin-left: 80px;
         margin-top: 100px;
     }
 
     .rough-draft-card {
-        position: absolute;
-        width: 395px;
+        width: 100%;
         height: 330px;
-        right: 200px;
-        margin-top: 150px;
         padding: 20px;
     }
 
@@ -572,15 +554,11 @@
     }
 
     .rough-draft-monster {
-        position: absolute;
         width: 252.67px;
         height: 198px;
-        right: 50px;
-        margin-top: 350px;
     }
 
     .game-show-section {
-        margin-top: 200px;
         display: flex;
         justify-content: left;
     }
@@ -589,7 +567,6 @@
         display: flex;
         justify-content: left;
         margin-bottom: 30px; 
-        margin-top: 20px;
     }
     
     .game-show-header {
@@ -683,7 +660,6 @@
     }
 
     .overview-video {
-        margin-bottom: 70px;
         width: 640px;
         height: 360px;
     }
@@ -817,13 +793,10 @@
     .crmt-section {
         display: flex;
         justify-content: center;
-        //padding-left: 76px;
-        padding-bottom: 150px;
     }
 
     .crmt-diagram {
         margin-top: 30px !important;
-        margin-left: 80px !important;
         width: 500px;
     }
 
@@ -862,11 +835,8 @@
     }
 
     .rough-draft-card {
-        position: absolute;
-        width: 355px;
-        height: 350px;
-        right: 200px;
-        margin-top: 415px;
+        width: 100%;
+        height: 330px;
         padding: 20px;
     }
 
@@ -891,16 +861,12 @@
     }
 
     .rough-draft-monster {
-        position: absolute;
         width: 252.67px;
         height: 198px;
-        right: 450px;
-        margin-top: 600px;
     }
 
 
     .game-show-section {
-        margin-top: 200px;
         display: flex;
         justify-content: center;
     }
@@ -909,7 +875,6 @@
         display: flex;
         justify-content: center;
         margin-bottom: 30px; 
-        margin-top: 20px;
     }
     
     .game-show-header {
@@ -952,7 +917,6 @@
         color: #FFFFFF;
         letter-spacing: 0em;
         text-align: center;
-        width: 602px;
     }
 
     .game-show-underline {
@@ -981,15 +945,11 @@
     .teach-like-a-champ-section {
         display: flex;
         justify-content: center;
-        margin-bottom: 200px;
     }
 
     .rough-draft-card {
-        position: absolute;
-        width: 530px;
-        height: 270px;
-        right: 150px;
-        margin-top: 590px;
+        width: 100%;
+        height: 330px;
         padding: 20px;
     }
 
@@ -1014,11 +974,8 @@
     }
 
     .rough-draft-monster {
-        position: absolute;
-        width: 250px;
-        height: 196px;
-        right: 450px;
-        margin-top: 720px;
+        width: 252.67px;
+        height: 198px;
     }
 }
 
@@ -1097,7 +1054,6 @@
 
     .overview-video {
         margin-top: -20px;
-        margin-bottom: 30px;
         width: 328px;
         height: 184px;
     }
@@ -1219,8 +1175,6 @@
     .crmt-section {
         display: flex;
         justify-content: center;
-        padding-bottom: 150px;
-        padding-left: 0px;
     }
 
     .crmt-header {
@@ -1286,7 +1240,6 @@
     }
 
     .crmt-diagram {
-        //margin-left: 150px;
         margin-top: 100px;
     }
 
@@ -1326,15 +1279,9 @@
     }
 
     .rough-draft-card {
-        //position: absolute;
-        width: 345px;
-        height: 210px;
-        left: 150px;
-        
-        margin-top: 535px;
-        padding-top: 10px !important;
-        padding-left: 0px !important;
-        padding-right: 0px !important;
+        width: 100%;
+        height: 330px;
+        padding: 20px;
     }
 
     .rough-draft-card-content {
@@ -1360,15 +1307,11 @@
     }
 
     .rough-draft-monster {
-        position: absolute;
-        width: 180px;
-        height: 140px;
-        left: 120px;
-        margin-top: 650px;
+        width: 252.67px;
+        height: 198px;
     }
 
     .game-show-section {
-        margin-top: 200px;
         display: flex;
         justify-content: center;
     }
@@ -1377,7 +1320,6 @@
         display: flex;
         justify-content: center;
         margin-bottom: 10px; 
-        margin-top: 20px;
     }
     
     .game-show-header {
@@ -1420,7 +1362,6 @@
         color: #FFFFFF;
         letter-spacing: 0em;
         text-align: center;
-        width: 335px;
     }
 
     .game-show-underline {
@@ -1443,89 +1384,53 @@
 
 @media screen and (max-width: 625px) {
     .rough-draft-card {
-        //position: absolute;
-        width: 345px;
-        height: 210px;
-        left: 120px;
-        
-        margin-top: 535px;
-        padding-top: 10px !important;
-        padding-left: 0px !important;
-        padding-right: 0px !important;
+        width: 100%;
+        height: 330px;
+        padding: 20px;
     }
 
     .rough-draft-monster {
-        position: absolute;
-        width: 180px;
-        height: 140px;
-        left: 90px;
-        margin-top: 650px;
+        width: 252.67px;
+        height: 198px;
     }
 }
 
 @media screen and (max-width: 550px) {
     .rough-draft-card {
-        //position: absolute;
-        width: 345px;
-        height: 210px;
-        left: 90px;
-        
-        margin-top: 535px;
-        padding-top: 10px !important;
-        padding-left: 0px !important;
-        padding-right: 0px !important;
+        width: 100%;
+        height: 330px;
+        padding: 20px;
     }
 
     .rough-draft-monster {
-        position: absolute;
-        width: 180px;
-        height: 140px;
-        left: 50px;
-        margin-top: 650px;
+        width: 252.67px;
+        height: 198px;
     }
 }
 
 @media screen and (max-width: 500px) {
     .rough-draft-card {
-        //position: absolute;
-        width: 345px;
-        height: 210px;
-        left: 65px;
-        
-        margin-top: 535px;
-        padding-top: 10px !important;
-        padding-left: 0px !important;
-        padding-right: 0px !important;
+        width: 100%;
+        height: 330px;
+        padding: 20px;
     }
 
     .rough-draft-monster {
-        position: absolute;
-        width: 180px;
-        height: 140px;
-        left: 30px;
-        margin-top: 650px;
+        width: 252.67px;
+        height: 198px;
     }
 }
 
 @media screen and (max-width: 450px) {
     .rough-draft-card {
-        //position: absolute;
-        width: 345px;
-        height: 210px;
-        left: 40px;
-        
-        margin-top: 535px;
-        padding-top: 10px !important;
-        padding-left: 0px !important;
-        padding-right: 0px !important;
+        width: 100%;
+        height: 330px;
+        padding: 20px;
     }
 
     .rough-draft-monster {
-        position: absolute;
-        width: 150px;
-        height: 117px;
-        left: 30px;
-        margin-top: 650px;
+        width: 252.67px;
+        height: 198px;
     }
 }
 
@@ -1602,7 +1507,6 @@
     }
 
     .overview-video {
-        margin-bottom: 70px;
         width: 328px;
         height: 184px;
         //margin-left: 5px;
@@ -1776,8 +1680,6 @@
     .crmt-section {
         display: flex;
         justify-content: center;
-        //padding-left: 76px;
-        padding-bottom: 100px;
     }
 
     .crmt-underline {
@@ -1847,13 +1749,11 @@
     .crmt-diagram {
         width: 325.51px;
         height: 337px;
-        margin-left: -1px;
     }
 
     .teach-like-a-champ-section {
         display: flex;
         justify-content: center;
-        margin-bottom: 100px;
     }
 
     .teach-like-champ-header {
@@ -1886,10 +1786,8 @@
     }
 
     .rough-draft-card {
-        position: absolute;
-        width: 337px;
-        height: 224px;
-        margin-top: 625px;
+        width: 100%;
+        height: 330px;
         padding: 20px;
     }
 
@@ -1914,15 +1812,8 @@
     }
 
     .rough-draft-monster {
-        position: absolute;
         width: 120px;
         height: 94px;
-        left: 50px;
-        margin-top: 740px;
-    }
-
-    .game-show-section {
-        margin-top: 200px;
     }
 
     .game-show-header {
@@ -2003,7 +1894,6 @@
         display: flex;
         justify-content: center;
         margin-bottom: 5px; 
-        margin-top: 20px;
     }
 
     .first-description-above {
@@ -2031,38 +1921,25 @@
 
 @media screen and (max-width: 390px) {
     .rough-draft-card {
-        position: absolute;
-        width: 337px;
-        height: 224px;
-        left: 25px;
-        margin-top: 625px;
+        width: 100%;
+        height: 330px;
         padding: 20px;
     }
 
     .rough-draft-monster {
-        position: absolute;
         width: 120px;
         height: 94px;
-        left: 30px;
-        margin-top: 740px;
     }
 }
 
 @media screen and (max-width: 375px) {
     .rough-draft-card {
-        position: absolute;
-        width: 337px;
-        height: 224px;
-        left: 18px;
-        margin-top: 625px;
-        padding: 20px;
+        width: 100%;
+        height: 300px;
     }
 
     .rough-draft-monster {
-        position: absolute;
         width: 120px;
         height: 94px;
-        left: 23px;
-        margin-top: 740px;
     }
 }

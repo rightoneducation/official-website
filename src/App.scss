@@ -35,11 +35,10 @@ p {
   font-style: italic;
 }
 .page-header {
-  background: #322759;
   padding-left: 50px;
   padding-right: 50px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 45px;
+  padding-bottom: 40px;
   color: white;
   display: flex;
   flex-flow: row wrap;
@@ -54,10 +53,6 @@ p {
   }
   .mobile-logo {
     display: none;
-  }
-  .nav-bar {
-    padding-top: 90px;
-    padding-bottom: 30px;
   }
   .page-header-links {
     z-index: 5;
@@ -100,11 +95,11 @@ footer {
   line-height: 34px;
 }
 .mainNav:link {
-  color: #E87DA6;
+  color: #FFF;
   text-decoration: none;
 }
 .mainNav:visited {
-  color: #E87DA6;
+  color: #FFF;
   text-decoration: none;
 }
 .mainNav:hover {
@@ -124,12 +119,39 @@ footer {
 .desktop-break {
   display: block;
 }
-@media screen and (min-width: 414px) {
+.nav-bar-mobile {
+  display: none;
+}
+.nav-bar-desktop {
+  display: block;
+}
+@media screen and (min-width: 414px) and (max-width: 900px) {
   .nav-bar-mobile {
     display: none;
   }
   .nav-bar-desktop {
     display: block;
+  }
+  .page-header {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 45px;
+    padding-bottom: 40px;
+    color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    position: relative;
+    overflow: visible;
+    z-index: 4;
+    .logo {
+      position: absolute;
+      width: 25%;
+      display: block;
+    }
+    .page-header-links {
+      z-index: 5;
+    }
   }
 }
 @media screen and(max-width: 414px) {
@@ -149,7 +171,7 @@ footer {
   .mobile-logo {
       display: block;
       position: fixed;
-      width: 35%;
+      width: 30%;
       margin-top: -65px;
       margin-left: -40px;
     }
@@ -246,9 +268,3 @@ footer {
     display: none !important;
   }
 }
-@media screen and(max-width: 836px) {
-.page-header { 
-  .nav-bar{ 
-    padding-top: 50px;
-  }
-}}

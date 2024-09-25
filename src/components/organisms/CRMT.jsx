@@ -7,24 +7,12 @@ import triangleDown from "../../images/background-triangle.png"
 export default function CRMT(props) {
     const { styles } = props;
     return (
-        <Box >
-            <img
-                src={triangleUp}
-                width="100%"
-                style={{ marginBottom: "-250px" }}
-            />
-            <Grid container className="crmt-section">
-                {/* <Grid item>
-                    <img
-                        src={triangleUp}
-                        width="100%"
-                        
-                    />
-                </Grid> */}
-                <Grid item>
-                    <h1 className='crmt-header'>
+        <Box style={{backgroundImg: triangleUp, width: '100%', marginTop: '50px'}}>
+            <Box className="crmt-section" style={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingLeft: '10%', paddingRight: '10%'}}>
+                <Box>
+                    <h1 className='crmt-header' style={{textAlign: 'center'}}>
                         Culturally Responsive <br /> Mathematics Teaching
-                        <hr className='crmt-underline' />
+                        <hr className='crmt-underline' style={{width: '100%'}}/>
                     </h1>
                     <h1 className='crmt-header-mobile'>
                         CRMT
@@ -75,11 +63,11 @@ export default function CRMT(props) {
                     <div className='tablet-br'>
                         <img src={CRMTimage} alt="CRMT-Diagram" className='crmt-diagram' />
                     </div>
-                </Grid>
-                <Grid item className="desktop-break">
+                </Box>
+                <Box className="desktop-break">
                     <img src={CRMTimage} alt="CRMT-Diagram" className='crmt-diagram' />
-                </Grid>
-            </Grid>
+                </Box>
+            </Box>
         </Box >
     );
 }

@@ -6,9 +6,8 @@ import monster from "../../images/Ted.png"
 function PositiveCultureBox(props) {
   const { styles } = props
   return (
-    <Box component="section">
-      <Grid container className="teach-like-a-champ-section">
-        <Grid item >
+      <Box className="teach-like-a-champ-section" style={{display: 'flex', flexWrap: 'wrap', width: '100%', justifyContent: 'space-between', alignItems: 'center',  paddingLeft: '10%', paddingRight: '10%'}}>
+        <Box >
           <h4 className='teach-like-champ-header'>
             Teach Like a <br className='small-desk-break'></br> Champion
             <hr className='teach-like-champ-underline' />
@@ -25,27 +24,31 @@ function PositiveCultureBox(props) {
             </div>
           </h6>
 
-        </Grid>
-        <Card style={{ background: "#712773", borderRadius: "20px" }} className='rough-draft-card'>
-          <CardContent style={{ paddingLeft: "3px" }}>
-            <p className='rough-draft-card-content'>
-              “Rough draft thinking happens <br className='desktop-break' /> when students share their <br className='desktop-break' /> unfinished, in-progress ideas <br className='desktop-break' /> and remain open to revising <br className='desktop-break' /> those ideas.”
-            </p>
-            <br className="desktop-break" /> <br />
-            <p className='rough-draft-card-content-bold'>
-              -<a href="https://www.amazon.com/Rough-Draft-Math-Revising-Learn/dp/1625312067/" target="/" className='rough-draft-link'><u> Rough Draft Math</u></a>,
-              <br />
-              Dr. Amanda Jansen
-            </p>
-          </CardContent>
-        </Card>
-        <img
-          src={monster}
-          alt='ted-the-monster'
-          className='rough-draft-monster'
-        />
-      </Grid>
-    </Box >
+        </Box>
+        <Box style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', paddingTop: '10%'}}>
+          <Card style={{ background: "#712773", borderRadius: "20px" }} className='rough-draft-card'>
+            <CardContent style={{ paddingLeft: "3px" }}>
+              <p className='rough-draft-card-content'>
+                “Rough draft thinking happens <br className='desktop-break' /> when students share their <br className='desktop-break' /> unfinished, in-progress ideas <br className='desktop-break' /> and remain open to revising <br className='desktop-break' /> those ideas.”
+              </p>
+              <br className="desktop-break" /> <br />
+              <p className='rough-draft-card-content-bold'>
+                -<a href="https://www.amazon.com/Rough-Draft-Math-Revising-Learn/dp/1625312067/" target="/" className='rough-draft-link'><u> Rough Draft Math</u></a>,
+                <br />
+                Dr. Amanda Jansen
+              </p>
+            </CardContent>
+          </Card>
+          <Box style={{width: '100%', display: 'flex', justifyContent: 'flex-end'}}>
+            <img
+              src={monster}
+              alt='ted-the-monster'
+              className='rough-draft-monster'
+              style={{position: 'relative', bottom: '50px'}}
+            />
+          </Box>
+        </Box>
+      </Box>
   );
 }
 

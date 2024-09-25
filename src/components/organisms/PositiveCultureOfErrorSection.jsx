@@ -6,7 +6,7 @@ import PositiveCultureBox from '../molecules/PositiveCultureBox'
 function PositiveCultureOfErrorSection(props) {
     const { styles } = props
         return(
-            <Box>
+            <Box style={{width: '100%',}}>
                 <PositiveCultureBox styles={styles}/>
             </Box>
         );

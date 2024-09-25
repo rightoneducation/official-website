@@ -91,7 +91,7 @@ $video-aspect-ratio: 56.25%;
     position: absolute;
     width: 80%;
     left: 150px;
-    top: 220px;
+    top: 132px;
     z-index: 2;
 }
 .problem-section-monster {
@@ -293,8 +293,7 @@ $video-aspect-ratio: 56.25%;
     .problem-section-chromebook {
         position: absolute;
         width: 80%;
-        left: 150px;
-        top: 290px;
+     
         z-index: 2;
     }
     .problem-section-monster {
@@ -491,10 +490,10 @@ $video-aspect-ratio: 56.25%;
     }
     .problem-section-chromebook {
         position: absolute;
+        left: 0;
+        top: 80px;
         width: 100%; 
         height: auto; 
-        left: -8px;
-        top: 35px;
         z-index: 2;
         padding: 0 25px; 
     }
@@ -637,11 +636,14 @@ $video-aspect-ratio: 56.25%;
         opacity: 1;
     }
     .problem-section-chromebook {
-        width: '100%';
+        position: absolute;
+        top: 200px;
+        left: -80px;
+        width: 100%; 
         height: auto; 
-        margin: auto;
-        transform: translateY(175px);
         z-index: 2;
+        padding: 0 25px; 
+        scale: 1.1;
     }
     .problem-section-monster {
         position: absolute;

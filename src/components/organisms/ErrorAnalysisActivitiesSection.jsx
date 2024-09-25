@@ -10,7 +10,7 @@ function ErrorAnalysisActivitiesSection(props) {
     const { styles } = props
     return (
         <Box
-            style={{ marginTop: "200px" }}
+            style={{ marginTop: "50px" }}
         >
             <div className="error-analysis-not-tablet">
                 <Grid container style={{ justifyContent: "center" }}>
@@ -75,7 +75,7 @@ function ErrorAnalysisActivitiesSection(props) {
                         </h6>
                     </Grid>
 
-                    <Grid item className="monsters" style={{ marginBottom: "200px" }}>
+                    <Grid item className="monsters">
 
                         <Grid container> <img src={GreenMonster} alt="monster-with-speech-bubble" className="error-analysis-desktop-green-monster" />
                             <div className="error-analysis-speech">

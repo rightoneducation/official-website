@@ -16,7 +16,6 @@ function ProblemSection() {
         <img
           src={topBackground}
           className='problem-section-top-background'
-          // width="100%"
           alt="math-background"
         />
         <h4 className='problem-section-landing-block-header1'>

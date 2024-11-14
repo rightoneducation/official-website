@@ -1,50 +1,59 @@
 import React from "react";
-import { Grid, Typography } from "@material-ui/core";
+import { Box, Grid, Typography, styled, useMediaQuery } from "@material-ui/core";
 import { Card } from "@material-ui/core";
 import { CardContent } from "@material-ui/core";
 import placeholder from '../../images/mission-desktop.png'
 import monster from '../../images/mission.png'
 
-function AboutTopMission(props) {
+const MissionText = styled(Typography)({
+  fontFamily: 'Roboto',
+  fontStyle: 'normal',
+  fontWeight: 200,
+  fontSize: '30px',
+  lineHeight: '39px',
+  color: '#FFF',
+  overflowWrap: 'break-word',
+  overflow: 'auto',
+});
 
+function AboutTopMission(props) {
+  // sizes taken from css files
+  const isSmallDevice = useMediaQuery('(max-width:414px)');
+  const isMedDevice = useMediaQuery('(max-width:900px)');
+  console.log(isSmallDevice, isMedDevice)
   return (
-    <Card style={{ backgroundColor: "#800D15", boxShadow: "10px 10px 10px rgba(0, 0, 0, 0.25)", borderRadius: "30px", marginBottom: "40px" }}
+    <Card style={{ backgroundColor: "#800D15", boxShadow: "10px 10px 10px rgba(0, 0, 0, 0.25)", borderRadius: "30px", marginBottom: "40px",position: 'relative', height: 'fit-content' }}
       className='mission-card'>
       <CardContent>
         <h1 className="mission-and-vision-header">Mission</h1>
         <div className="mission-and-vision-underline"></div>
       </CardContent>
-      <CardContent style={{ padding: "0px" }}>
-
-        <div className="mission-and-vision-text">
-          Creating classroom environments <br className="mission-desktop-br">
-          </br>that <br className="mission-tablet-br"></br><br className="mission-mobile-br"></br>
-          <strong> embrace mistakes and </strong><br className="mission-desktop-br"></br>
-          <div className="mission-monster-desktop">
-            <img
-              src={monster}
-              style={{ float: "left", marginTop: "10px" }}
-            />
-          </div>
-          <strong>misconceptions </strong><br className="mission-desktop-br"></br>
-          <div className="mission-monster-tablet">
-            <img
-              src={monster}
-              style={{ width: "200px", float: "left", marginTop: "15px" }}
-            />
-          </div>
-
-          by turning them into <br className="mission-desktop-br"></br>
-          <br className="mission-mobile-br"></br>learning<br className="mission-tablet-br"></br> opportunities
-          <div className="mission-monster-mobile">
-            <img
-              src={monster}
-              style={{ width: "220px", marginLeft: "10px", marginTop: "15px", transform: "rotate(345deg)" }}
-            />
-          </div>
-        </div>
+      <CardContent
+        style={{
+          padding: "0px",
+          position: 'relative',
+          width: '100%',
+          display: 'flex',
+          flexDirection: 'column'
+        }}
+      >
+        <Box style={{ width: '100%', textAlign: isSmallDevice ? 'left' : 'right', display: 'flex', justifyContent: isSmallDevice ? 'flex-start' : 'flex-end' }}>
+          <MissionText style={{
+              paddingLeft:  !isSmallDevice ? '40px' : '24px',
+              paddingRight: !isSmallDevice ? '40px' : '24px',
+              paddingBottom: !isSmallDevice ? '40px' : '24px',
+              width: isSmallDevice ? '100%' : '80%'
+          }}>
+            Transforming how students think and feel about math, helping them 
+            <span style={{ fontWeight: 400 }}> see mistakes as learning opportunities</span>
+          </MissionText>
+        </Box>
+        <img
+          src={monster}
+          style={{ position: isSmallDevice ? 'static' : 'relative', width: "220px", marginLeft: "10px", marginTop: isSmallDevice ?  "15px" : "-120px", transform: isSmallDevice ? "translateX(20%)" : ''}}
+        />
       </CardContent>
-
+      
     </Card >
   );
 }

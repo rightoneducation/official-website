@@ -1,7 +1,7 @@
 import React from 'react';
 import PositiveCultureOfErrorSection from '../organisms/PositiveCultureOfErrorSection';
 import ErrorAnalysisActivitiesSection from '../organisms/ErrorAnalysisActivitiesSection';
-import CRMT from '../organisms/CRMT';
+import AI from '../organisms/AI';
 import RightOnGameShow from '../organisms/RightOnGameShow';
 import ResourcePageShapes from '../organisms/ResourcePageShapes';
 import RightOnVideoPlaylist from '../organisms/RightOnVideoPlaylist';
@@ -15,7 +15,7 @@ function ResourcePage({videoSrc, styles}) {
             <div style={{ position: 'relative', zIndex: '1' }}>
                 <RightOnVideoPlaylist videoSrc={videoSrc}/>
                 <ErrorAnalysisActivitiesSection styles={styles} />
-                <CRMT />
+                <AI />
                 <PositiveCultureOfErrorSection styles={styles} />
                 <RightOnGameShow />
             </div>

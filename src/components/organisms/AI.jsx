@@ -1,9 +1,9 @@
 import React from 'react';
 import { makeStyles } from "@material-ui/core/styles";
 import { Box, Button, Grid, Typography, useMediaQuery } from "@material-ui/core";
-import CRMTimage from '../../images/CRMT.png';
 import triangleUp from "../../images/background-triangle-up.png"
-import triangleDown from "../../images/background-triangle.png"
+import thumbnail from '../../images/aithumbnail.png'
+
 
 const useStyles = makeStyles((theme) => ({
     centralButton: {
@@ -36,7 +36,7 @@ export default function AI(props) {
                         <br/>
                         <li className='crmt-description-bold'>Surfacing Student Thinking</li>
                         <br/>
-                        <span className='crmt-description' style={{marginLeft: 0}}>Uses AI to provide teachers with themes and categories of student-submitted hints in the classroom. Check out the video!</span>
+                        <span className='crmt-description' style={{marginLeft: 0}}>Uses AI to identify patterns in student responses, providing teachers with deeper insights to further personalize instruction. Check out the video!</span>
                         <br/>
                         <br/>
                         <li className='crmt-description-bold'>Wrong Answer Explanation Prototype</li>
@@ -61,7 +61,7 @@ export default function AI(props) {
                         </Box>
                     </p>            
                     {isLargeScreen && 
-                        <video style={{minWidth: '512px', maxWidth: '512px', minHeight: '288px', maxHeight: '288px'}} controls >
+                        <video style={{minWidth: '512px', maxWidth: '512px', minHeight: '288px', maxHeight: '288px'}} controls poster={thumbnail}>
                             <source src='https://www.rightoneducation.com/video/RightOn_SurfacingStudentThinking.mp4'/>
                         </video>
                     }

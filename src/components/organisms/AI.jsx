@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
 export default function AI(props) {
     const { styles } = props;
     const classes = useStyles();
-    const isLargeScreen =  useMediaQuery('(min-width:2000px)');
+    const isLargeScreen =  useMediaQuery('(min-width:1500px)');
     return (
         <Box style={{backgroundImg: triangleUp, width: '100%', marginTop: '50px'}}>
             <Box className="crmt-section" style={{ width: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', paddingLeft: '10%', paddingRight: '10%'}}>
@@ -29,7 +29,7 @@ export default function AI(props) {
                         <hr className='crmt-underline'/>
                     </h1>
                 </Box>
-                <Box style={{width:  '100%', display: 'flex', gap: '20%'}}>
+                <Box style={{width:  '100%', display: 'flex', alignItems: 'center', gap: '10%'}}>
                     <p className='crmt-description'>
                         <span className='crmt-description-bold'>RightOn! offers a range of AI-powered features designed to help students and teachers in and out of the classroom.</span>
                         <br/>
@@ -61,7 +61,7 @@ export default function AI(props) {
                         </Box>
                     </p>            
                     {isLargeScreen && 
-                        <video style={{minWidth: '640px', maxWidth: '640px', minHeight: '360px', maxHeight: '360px'}} controls >
+                        <video style={{minWidth: '512px', maxWidth: '512px', minHeight: '288px', maxHeight: '288px'}} controls >
                             <source src='https://www.rightoneducation.com/video/RightOn_SurfacingStudentThinking.mp4'/>
                         </video>
                     }

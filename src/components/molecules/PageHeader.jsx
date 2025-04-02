@@ -1,7 +1,7 @@
 import React from 'react'
 import { makeStyles } from "@material-ui/core/styles";
 import { Box, Grid, Button, Typography, useMediaQuery } from "@material-ui/core";
-import logo from '../../images/logos/RightOn-WithSlogan-512x500.png'
+import logo from '../../images/logos/RightOn-WithSlogan.svg'
 import mobileLogo from '../../images/logos/RightOn-Circle-128x128.png'
 import MainNav from './MainNav'
 

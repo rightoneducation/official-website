@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import {
   Grid,
   Card,
@@ -9,6 +9,20 @@ import redMonster from '../../images/red-monster.png'
 import blueMonster from '../../images/blue-monster.png'
 
 function RightOnVideo() {
+  // locking scroll so that the cookie consent banner in the nbc video does not scroll
+  useEffect(() => {
+    const handleScroll = () => {
+      window.scrollTo(0, 0);
+    };
+    window.addEventListener('scroll', handleScroll);
+    const timer = setTimeout(() => {
+      window.removeEventListener('scroll', handleScroll);
+    }, 1000);
+    return () => {
+      clearTimeout(timer);
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   return (
     <Grid xs={12} sm={12} md={8}
       alignItems="center"
@@ -22,7 +36,7 @@ function RightOnVideo() {
         width: "100%"
       }}
       ><div >
-        <div container className="right-on-video-container">
+        <div container className="right-on-video-container" style={{overscrollBehavior: "none"}}>
           <iframe
             width="100%"
             height="315"

@@ -1,5 +1,5 @@
 import React from 'react'
-import righton from '../../images/logos/RightOn-Transparent-512x264.png';
+import righton from '../../images/logos/RightOnFooterLogo.svg';
 import { makeStyles } from "@material-ui/core/styles";
 import { Box,Typography, Grid } from "@material-ui/core";
 
